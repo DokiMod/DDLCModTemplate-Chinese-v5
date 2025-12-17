@@ -1,10 +1,4 @@
-> DDLC 中文 Mod 模板 v5 目前处于早期开发阶段（可视为刚刚新建文件夹），请暂时不要使用本版本模板！我们还在决定 v5 版本的翻译、开发方向。  
-> 如果您有简体中文 DDLC 同人模组创作需求，请您暂时先使用 DDLC 中文 Mod 模板 [2.0](https://github.com/imgradeone/DDLCModTemplate-Chinese-next) 或 [4.0](https://github.com/DokiMod/DDLCModTemplate-Chinese-future)，或者暂时直接使用 [DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 修改字体等配置。
-
-# 文思泉涌**新**出发 - DDLC 中文 Mod 模板 v5
-基于 "Bronya Rand" 的 [DDLC Mod Template (5.0)](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 开发，由 DokiMod 翻译、修改
-
-中文模组开发社的各位，欢迎回来！
+# Welcome to the **New** Modification Club!
 
 <p align="center">
   <img src=".github/IMAGES/ddlcmt-open-graph.png"/>
@@ -20,7 +14,7 @@
    </a>
 </p>
 
-## 目录
+## Table of Contents
 - [📖 Overview](#-overview) 
 - [📋 Credit Requirements (Important)](#-credit-requirements) 
 - [✨ Features](#-features) 
@@ -32,20 +26,20 @@
 
 ## 📖 Overview
 
-DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC Mod Template (5.0)](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 的中文翻译版本，由 DokiMod 修改、翻译，旨在为 DDLC 中文同人创作者提供现代化、简易化、遵循 [Team Salvato's IP 准则](https://teamsalvato.com/ip-guidelines/) 的中文同人模组开发环境。
+The DDLC Mod Template 2.0 is a comprehensive mod template for **Doki Doki Literature Club** that fully adheres to [Team Salvato's IP Guidelines](http://teamsalvato.com/ip-guidelines/). 
 
-该模板专为 Ren'Py 8 构建，提供了制作 DDLC 同人模组所需的一切资源，兼具现代功能、跨平台支持与代码优化。
+Built for Ren'Py 8.X.X by Azariel Del Carmen (bronya_rand), this template provides everything you need to create fan-made, cross-platform DDLC mods with modern features and optimized code.
 
-该模板**十分适合：**
-- 初次接触同人模组创作且正在寻求坚实基础的同人创作者
-- 想将引擎升级到 Ren'Py 8 的、经验丰富的同人创作者
-- 寻求跨平台支持的开发者 (Windows x64, macOS, Linux)
+**Perfect for:**
+- First-time mod creators looking for a solid foundation.
+- Experienced modders wanting to upgrade to Ren'Py 8.
+- Developers seeking cross-platform compatibility (Windows x64, macOS, Linux, Android).
 
 > [!NOTE]
-> **DDLC Mod Template 与 DDLC 中文 Mod 模板与 Team Salvato 完全无关，且并非为 DDLC 续作《Doki Doki Literature Club Plus!》设计。请勿将该模板（含上游模板）及其代码用于非官方 DDLC 补丁等其他用途。**
+> **The DDLC Mod Template is not affiliated in any way with Team Salvato nor is it designed for the sequel "Doki Doki Literature Club Plus". Do not use the template nor its code for unofficial DDLC patches, fixes, etc.**
 
 > [!NOTE] 
-> 由于 Python 2 已于 2020 年 1 月 1 日停止支持，Ren'Py 7 已在 Ren'Py 8.4 发布后终止支持，[DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 已暂停 Python 2 分支开发，因此 DDLC 中文 Mod 模板 v5 将不会继续兼容 Python 2 / Ren'Py 7。由此带来不便，烦请谅解。
+> For legacy Ren'Py support (Ren'Py 6.99.12 - 7.8.7), see the deprecated [Python 2](https://github.com/Bronya-Rand/DDLCModTemplate2.0/tree/python-2) branch of the mod template.
 
 ---
 
@@ -53,7 +47,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 
 ### Core Features
 
-- ✅ **顺应 Team Salvato 的准则要求** - Includes required splashscreen (disclaimer) and follows all IP guidelines for fan mods.
+- ✅ **Team Salvato Compliant** - Includes required splashscreen (disclaimer) and follows all IP guidelines for fan mods.
 - 🐍 **Python 3 & Ren'Py 8 Optimized** - Clean, modern code optimized for the latest Ren'Py.
 - 📚 **Original DDLC Scripts Included** - Reference the original game scripts for learning purposes.
 - 🌐 **Cross-Platform Support** - Build for Windows, macOS, Linux, and Android.
@@ -224,5 +218,5 @@ Thanks to the following people for their contributions to the DDLC Mod Template:
 ---
 
 <p align="center">
-   <b>Copyright © 2019-2025 Azariel "Bronya Rand" Del Carmen (bronya_rand). All rights reserved. Doki Doki Literature Club, the Doki Doki Literature Club code, is the property of Team Salvato. Copyright © 2017 Team Salvato. All rights reserved.</b>
+   <b>Copyright © 2019-2025 Azariel "Bronya Rand" Del Carmen (bronya_rand). All rights reserved. Translated & modified by DokiMod. Doki Doki Literature Club!, the Doki Doki Literature Club code, is the property of Team Salvato. Copyright © 2017 Team Salvato. All rights reserved.</b>
 </p>
