@@ -15,3 +15,4 @@
   - `monika.ttf` 更新至悠哉字体 v0.868
   - `natsuki.otf` 更新至 Acy 手写体 v1.6
   - `sourcehanserif.otf` 更新至思源宋体 SC v2.003
+- 诗歌展示界面字体样式调整

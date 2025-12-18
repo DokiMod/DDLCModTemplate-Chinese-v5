@@ -71,22 +71,22 @@ style yuri_text_3:
 
 style natsuki_text:
     font "mod_assets/font/natsuki.otf"
-    size 28
+    size 32
     color "#000"
     outlines []
-    line_leading 1
-    line_spacing 6
+    line_spacing 9
     kerning 1.5
 
 style sayori_text:
     font "mod_assets/font/sayori.ttf"
-    size 34
+    size 32
     color "#000"
     outlines []
+    line_spacing 6
 
 style monika_text:
     font "mod_assets/font/monika.ttf"
-    size 46
+    size 32
     color "#000"
     outlines []
 

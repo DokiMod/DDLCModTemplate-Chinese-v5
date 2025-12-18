@@ -502,7 +502,7 @@ label credits:
     pause 41
     scene black
     pause 0.5
-    $ run_input(__("renpy.music.play(\"ddlc.ogg\")"), __("Playing audio \"ddlc.ogg\"..."))
+    $ run_input(__("renpy.music.play(\"ddlc.ogg\")"), __("正在播放 \"ddlc.ogg\"..."))
     pause 1.0
     hide screen console_screen
     # This play statement starts Your Reality to 50 seconds in the credits.
@@ -569,7 +569,7 @@ label credits2:
     $ imagenum += 1
     $ pause(16.95 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg1.png\")", __("n_cg1.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/n_cg1.png\")", __("n_cg1.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg2" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -582,7 +582,7 @@ label credits2:
     $ imagenum += 1
     $ pause(26.05 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg2.png\")", __("n_cg2.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/n_cg2.png\")", __("n_cg2.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg3" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -595,7 +595,7 @@ label credits2:
     $ imagenum += 1
     $ pause(35.15 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg1.png\")", __("y_cg1.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/y_cg1.png\")", __("y_cg1.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg4" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -608,7 +608,7 @@ label credits2:
     $ imagenum += 1
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg5" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -621,7 +621,7 @@ label credits2:
     $ imagenum += 1
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg3.png\")", __("n_cg3.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/n_cg3.png\")", __("n_cg3.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg3.png\")") / 30.0 + 0.5)
     show expression ("credits_cg6" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -634,7 +634,7 @@ label credits2:
     $ imagenum += 1
     $ pause(62.45 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg7" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -647,7 +647,7 @@ label credits2:
     $ imagenum += 1
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg1.png\")", __("s_cg1.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/s_cg1.png\")", __("s_cg1.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg8" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -664,7 +664,7 @@ label credits2:
     $ if persistent.clearall: lockedtext = "_clearall"
     $ imagenum += 1
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg2.png\")", __("s_cg2.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/s_cg2.png\")", __("s_cg2.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg2.png\")") / 30.0 + 0.5)
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
@@ -677,7 +677,7 @@ label credits2:
     $ if persistent.clearall: lockedtext = "_clearall"
     $ pause(95.00 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg3.png\")", __("s_cg3.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/s_cg3.png\")", __("s_cg3.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg3.png\")") / 30.0 + 0.5)
     show expression ("credits_cg10" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -687,14 +687,14 @@ label credits2:
     
     $ pause(104.10 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/m_cg1.png\")", __("m_cg1.png deleted successfully."))
+        $ run_input("os.remove(\"images/cg/m_cg1.png\")", __("m_cg1.png 删除完成。"))
     else:
         $ pause(len("os.remove(\"images/cg/m_cg1.png\")") / 30.0 + 0.5)
 
-    $ run_input("os.remove(\"game/screens.rpy\")", __("screens.rpy deleted successfully."))
-    $ run_input("os.remove(\"game/gui.rpy\")", __("gui.rpy deleted successfully."))
-    $ run_input("os.remove(\"game/menu.rpy\")", __("menu.rpy deleted successfully."))
-    $ run_input("os.remove(\"game/script.rpy\")", __("script.rpy deleted successfully."))
+    $ run_input("os.remove(\"game/screens.rpy\")", __("screens.rpy 删除完成。"))
+    $ run_input("os.remove(\"game/gui.rpy\")", __("gui.rpy 删除完成。"))
+    $ run_input("os.remove(\"game/menu.rpy\")", __("menu.rpy 删除完成。"))
+    $ run_input("os.remove(\"game/script.rpy\")", __("script.rpy 删除完成。"))
     $ pause(115.72 - (datetime.datetime.now() - starttime).total_seconds())
     
     hide screen console_screen
@@ -729,5 +729,5 @@ label credits2:
         
         # This call screen statement shows a fake error corruption message that
         # makes the player quit the game.
-        call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=Quit(confirm=False))
+        call screen dialog(message="错误：脚本文件缺失或损坏。\n请重新安装游戏。", ok_action=Quit(confirm=False))
         return
