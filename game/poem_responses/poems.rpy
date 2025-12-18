@@ -56,7 +56,7 @@ style poem_hbox:
     xfill True
 
 style yuri_text:
-    font "gui/font/y1.ttf"
+    font "mod_assets/font/yuri.ttf"
     size 32
     color "#000"
     outlines []
@@ -70,19 +70,54 @@ style yuri_text_3:
     justify True
 
 style natsuki_text:
+    font "mod_assets/font/natsuki.otf"
+    size 28
+    color "#000"
+    outlines []
+    line_leading 1
+    line_spacing 6
+    kerning 1.5
+
+style sayori_text:
+    font "mod_assets/font/sayori.ttf"
+    size 34
+    color "#000"
+    outlines []
+
+style monika_text:
+    font "mod_assets/font/monika.ttf"
+    size 46
+    color "#000"
+    outlines []
+
+style yuri_text_en:
+    font "gui/font/y1.ttf"
+    size 32
+    color "#000"
+    outlines []
+
+style yuri_text_3_en:
+    font "gui/font/y3.ttf"
+    size 18
+    color "#000"
+    outlines []
+    kerning -8
+    justify True
+
+style natsuki_text_en:
     font "gui/font/n1.ttf"
     size 28
     color "#000"
     outlines []
     line_leading 1
 
-style sayori_text:
+style sayori_text_en:
     font "gui/font/s1.ttf"
     size 34
     color "#000"
     outlines []
 
-style monika_text:
+style monika_text_en:
     font "gui/font/m1.ttf"
     size 46
     color "#000"

@@ -56,7 +56,7 @@ style default_monika is normal:
     slow_cps 30
 
 style edited is default:
-    font "gui/font/VerilySerifMono.otf"
+    font "mod_assets/font/sourcehanserif.otf"
     kerning 8
     outlines [(10, "#000", 0, 0)]
     xpos gui.text_xpos
@@ -87,7 +87,7 @@ style splash_text:
 
 style poemgame_text:
     yalign 0.5
-    font "gui/font/Halogen.ttf"
+    font "mod_assets/font/zhushi.ttf"
     size 30
     color "#000"
     outlines []
@@ -419,14 +419,14 @@ screen quick_menu():
             yalign 0.995
 
             #textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Load") action ShowMenu('load')
-            #textbutton _("Q.Save") action QuickSave()
-            #textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Settings") action ShowMenu('preferences')
+            textbutton _("历史") action ShowMenu('history')
+            textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("自动") action Preference("auto-forward", "toggle")
+            textbutton _("存档") action ShowMenu('save')
+            textbutton _("读档") action ShowMenu('load')
+            # textbutton _("快存") action QuickSave()
+            # textbutton _("快读") action QuickLoad()
+            textbutton _("设置") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -481,43 +481,43 @@ screen navigation():
             if main_menu:
 
                 if persistent.playthrough == 1:
-                    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
                 else:
-                    textbutton _("New Game") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                    textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
 
             else:
 
-                textbutton _("History") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
+                textbutton _("历史") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
 
-                textbutton _("Save Game") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
+                textbutton _("存档") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("Load Game") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("读取游戏") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if enable_extras_menu:
-                textbutton _("Extras") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]
+                textbutton _("额外内容") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]
 
             if _in_replay:
 
-                textbutton _("End Replay") action EndReplay(confirm=True)
+                textbutton _("结束回放") action EndReplay(confirm=True)
 
             elif not main_menu:
                 if persistent.playthrough != 3:
-                    textbutton _("Main Menu") action MainMenu()
+                    textbutton _("标题界面") action MainMenu()
                 else:
-                    textbutton _("Main Menu") action NullAction()
+                    textbutton _("标题界面") action NullAction()
 
-            textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
+            textbutton _("设置") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
             if not enable_extras_menu:
-                textbutton _("Credits") action ShowMenu("about")
+                textbutton _("关于") action ShowMenu("about")
 
             if renpy.variant("pc"):
 
                 ## Help isn't necessary or relevant to mobile devices.
-                textbutton _("Help") action [Help("README.html"), Show(screen="dialog", message="The help file has been opened in your browser.", ok_action=Hide("dialog"))]
+                textbutton _("帮助") action [Help("README.html"), Show(screen="dialog", message="帮助文档已在浏览器中打开。", ok_action=Hide("dialog"))]
 
                 ## The quit button is banned on iOS and unnecessary on Android.
-                textbutton _("Quit") action Quit(confirm=not main_menu)
+                textbutton _("退出游戏") action Quit(confirm=not main_menu)
         else:
             timer 1.75 action Start("autoload_yurikill")
 
@@ -533,7 +533,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
-    font "gui/font/RifficFree-Bold.ttf"
+    font "mod_assets/font/zcoolkuaile.ttf"
     color "#fff"
     outlines [(4, text_outline_color, 0, 0), (2, text_outline_color, 2, 2)]
     #outlines [(4, "#b59", 0, 0), (2, "#b59", 2, 2)]
@@ -703,7 +703,7 @@ screen game_menu(title, scroll=None):
     if not main_menu and persistent.playthrough == 2 and not persistent.menu_bg_m and renpy.random.randint(0, 49) == 0:
         on "show" action Show("game_menu_m")
 
-    textbutton _("Return"):
+    textbutton _("返回"):
         style "return_button"
 
         action Return()
@@ -757,7 +757,7 @@ style game_menu_label:
     ysize 120
 
 style game_menu_label_text:
-    font "gui/font/RifficFree-Bold.ttf"
+    font "mod_assets/font/zcoolkuaile.ttf"
     size gui.title_text_size
     color "#fff"
     outlines [(6, text_outline_color, 0, 0), (3, text_outline_color, 2, 2)]
@@ -784,7 +784,7 @@ screen about():
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
-    use game_menu(_("Credits"), scroll="viewport"):
+    use game_menu(_("关于"), scroll="viewport"):
 
         style_prefix "about"
 
@@ -794,12 +794,12 @@ screen about():
                 yfit True
 
             vbox:
-                add Transform("mod_assets/DDLCModTemplateLogo.png", size=(200,200)) xalign .5
+                add Transform("mod_assets/DDLCModTemplateLogo.png", size=(200,200)) # xalign .5
 
                 null height 5
                 
-                label "[config.name!t]" xalign .5
-                text _("Version [config.version!t]\n") xalign .5
+                label "[config.name!t]" # xalign .5
+                text _("Version [config.version!t]\n") # xalign .5
 
                 ## gui.about is usually set in options.rpy.
                 if gui.about:
@@ -808,9 +808,9 @@ screen about():
                 ## Do not touch/remove these unless the © or – symbol isn't available in your font.
                 ## You may add things above or below it.
                 ## If you are not going with a splashscreen option, this first line MUST stay in the mod.
-                text "Made with bronya_rand's {a=https://github.com/Bronya-Rand/DDLCModTemplate2.0}DDLC Mod Template 2.0{/a}\nCopyright © 2019-" + str(datetime.date.today().year) + " Azariel Del Carmen (bronya_rand). All rights reserved.\n"
-                text "Doki Doki Literature Club. Copyright © 2017 Team Salvato. All rights reserved.\n"
-                text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n[renpy.license!t]")
+                text "此同人模组使用由 bronya_rand 开发，DokiMod 修改、翻译的 {a=https://github.com/DokiMod/DDLCModTemplate-Chinese-v5}DDLC 中文 Mod 模板 5.0{/a} 开发。\nCopyright © 2019-" + str(datetime.date.today().year) + " Azariel Del Carmen (bronya_rand). All rights reserved.\nTranslated & modified by DokiMod.\n"
+                text "Doki Doki Literature Club! 是 Team Salvato 的游戏作品与 IP。\nCopyright © 2017 Team Salvato. All rights reserved.\n"
+                text _("引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t]")
 
 
 ## This is redefined in options.rpy to add text to the about screen.
@@ -824,14 +824,14 @@ style about_text is gui_text
 style about_label_text:
     color "#000"
     outlines []
-    text_align 0.5
+    # text_align 0.5
     size gui.label_text_size
 
 style about_text:
     color "#000"
     outlines []
     size gui.text_size
-    text_align 0.5
+    # text_align 0.5
     layout "subtitle"
 
 style hyperlink_text:
@@ -853,22 +853,22 @@ screen save():
 
     tag menu
 
-    use file_slots(_("Save"))
+    use file_slots(_("存档"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("读档"))
 
 init python:
     def FileActionMod(name, page=None, **kwargs):
         if persistent.playthrough == 1 and not persistent.deleted_saves and renpy.current_screen().screen_name[0] == "load" and FileLoadable(name):
-            return Show(screen="dialog", message="File error: \"characters/sayori.chr\"\n\nThe file is missing or corrupt.",
-                ok_action=Show(screen="dialog", message="The save file is corrupt. Starting a new game.", ok_action=Function(renpy.full_restart, label="start")))
+            return Show(screen="dialog", message="文件错误：\"characters/sayori.chr\"\n\n文件已丢失或损坏。",
+                ok_action=Show(screen="dialog", message="存档已经损坏，即将开始新游戏。", ok_action=Function(renpy.full_restart, label="start")))
         elif persistent.playthrough == 3 and renpy.current_screen().screen_name[0] == "save":
-            return Show(screen="dialog", message="There's no point in saving anymore.\nDon't worry, I'm not going anywhere.", ok_action=Hide("dialog"))
+            return Show(screen="dialog", message="没有存档的必要了。\n别担心，我哪都不会去的。", ok_action=Hide("dialog"))
         else:
             return FileAction(name)
 
@@ -918,7 +918,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=_("{#file_time}%Y-%m-%d %H:%M"), empty=_("空存档位")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -1117,25 +1117,25 @@ screen ddlc_preferences():
 
             vbox:
                 style_prefix "radio"
-                label _("Display")
-                textbutton _("Windowed") action Preference("display", "window")
-                textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                label _("显示")
+                textbutton _("窗口") action Preference("display", "window")
+                textbutton _("全屏") action Preference("display", "fullscreen")
                 # textbutton _("More") action Show("display_options")
 
         if config.developer:
             vbox:
                 style_prefix "radio"
-                label _("Rollback Side")
-                textbutton _("Disable") action Preference("rollback side", "disable")
-                textbutton _("Left") action Preference("rollback side", "left")
-                textbutton _("Right") action Preference("rollback side", "right")
+                label _("回滚触发区域")
+                textbutton _("禁用") action Preference("rollback side", "disable")
+                textbutton _("左侧") action Preference("rollback side", "left")
+                textbutton _("右侧") action Preference("rollback side", "right")
 
         vbox:
             style_prefix "check"
-            label _("Skip")
-            textbutton _("Unseen Text") action Preference("skip", "toggle")
-            textbutton _("After Choices") action Preference("after choices", "toggle")
-            # textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+            label _("快进")
+            textbutton _("未读文本") action Preference("skip", "toggle")
+            textbutton _("选项后继续") action Preference("after choices", "toggle")
+            # textbutton _("忽略转场") action InvertSelected(Preference("transitions", "toggle"))
     
     null height (4 * gui.pref_spacing)
 
@@ -1146,7 +1146,7 @@ screen ddlc_preferences():
         vbox:
             
             hbox:
-                label _("Text Speed")
+                label _("文字速度")
                 
                 null width 5
 
@@ -1156,7 +1156,7 @@ screen ddlc_preferences():
             bar value FieldValue(_preferences, "text_cps", range=180, max_is_zero=False, style="slider", offset=20)
 
             hbox:
-                label _("Auto-Forward Time")
+                label _("自动前进时间")
                 
                 null width 5
                 
@@ -1168,7 +1168,7 @@ screen ddlc_preferences():
             
             if config.has_music:
                 hbox:
-                    label _("Music Volume")
+                    label _("音乐音量")
                     
                     null width 5
                 
@@ -1180,7 +1180,7 @@ screen ddlc_preferences():
             if config.has_sound:
 
                 hbox:
-                    label _("Sound Volume")
+                    label _("音效音量")
                     
                     null width 5
                 
@@ -1190,11 +1190,11 @@ screen ddlc_preferences():
                     bar value Preference("sound volume")
 
                     if config.sample_sound:
-                        textbutton _("Test") action Play("sound", config.sample_sound)
+                        textbutton _("测试") action Play("sound", config.sample_sound)
 
             if config.has_voice:
                 hbox:
-                    label _("Voice Volume")
+                    label _("语音音量")
                     
                     null width 5
                 
@@ -1204,12 +1204,12 @@ screen ddlc_preferences():
                     bar value Preference("voice volume")
 
                     if config.sample_voice:
-                        textbutton _("Test") action Play("voice", config.sample_voice)
+                        textbutton _("测试") action Play("voice", config.sample_voice)
 
             if config.has_music or config.has_sound or config.has_voice:
                 null height gui.pref_spacing
 
-                textbutton _("Mute All"):
+                textbutton _("全部静音"):
                     action Preference("all mute", "toggle")
                     style "mute_all_button"
 
@@ -1220,26 +1220,26 @@ screen template_preferences():
         if extra_settings:
             vbox:
                 style_prefix "check"
-                label _("Game Modes")
-                textbutton _("Uncensored Mode") action If(persistent.uncensored_mode, 
+                label _("游戏模式")
+                textbutton _("无屏蔽模式") action If(persistent.uncensored_mode, 
                     ToggleField(persistent, "uncensored_mode"), 
-                    Show("confirm", message="Are you sure you want to turn on Uncensored Mode?\nDoing so will enable more adult/sensitive\ncontent in your playthrough.\n\nThis setting will be dependent on the modder if\nthey programmed these checks in their story.", 
+                    Show("confirm", message="您确定要启用无屏蔽模式吗？\n启用该模式后，游戏过程中将会出现更多“成人向”内容及敏感内容。\n\n该设置的可用性取决于模组开发者是否在故事线中编写了相关配置代码。", 
                         yes_action=[Hide("confirm"), ToggleField(persistent, "uncensored_mode")],
                         no_action=Hide("confirm")
                     ))
         
         vbox:
             style_prefix "name"
-            label _("Player Name")
+            label _("玩家名称")
             
             null height 3
             
             if player == "":
-                text _("No Name Set") xalign 0.5
+                text _("未命名") xalign 0.5
             else:
                 text "[player]" xalign 0.5
             
-            textbutton _("Change Name") action Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName, launchGame=False)):
+            textbutton _("修改名称") action Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName, launchGame=False)):
                 text_style "navigation_button_text"
         
         python:
@@ -1255,26 +1255,26 @@ screen template_preferences():
                 label _("Discord RPC")
 
                 python:
-                    connect_status = _("Disconnected")
+                    connect_status = _("未连接")
                     if not persistent.enable_discord:
-                        connect_status = _("Disabled")
+                        connect_status = _("已禁用")
                     if RPC.rpc_connected:
-                        connect_status = _("Connected")
+                        connect_status = _("已连接")
                 
                 null height 3
 
                 text "[connect_status]" xalign 0.5
 
                 python:
-                    enable_text = _("Enable")
+                    enable_text = _("启用")
                     if persistent.enable_discord:
-                        enable_text = _("Disable")
+                        enable_text = _("禁用")
 
                 textbutton enable_text action [ToggleField(persistent, "enable_discord"), 
                     If(persistent.enable_discord, Function(RPC.disconnect), Function(RPC.connect))]:
                         text_style "navigation_button_text"
                 if persistent.enable_discord and not RPC.rpc_connected:
-                    textbutton _("Reconnect") action Function(RPC.connect):
+                    textbutton _("重新连接") action Function(RPC.connect):
                         text_style "navigation_button_text"
 
     null height (4 * gui.pref_spacing)
@@ -1285,7 +1285,7 @@ screen template_preferences():
         if enable_languages and translations:
             vbox:
                 style_prefix "radio"
-                label _("Language")
+                label _("语言")
                 hbox:
                     viewport:
                         mousewheel True
@@ -1317,7 +1317,7 @@ screen preferences():
 
     default ddlc_settings = True
 
-    use game_menu(_("Settings"), scroll="viewport"):
+    use game_menu(_("设置"), scroll="viewport"):
 
         vbox:
             xoffset 50
@@ -1326,8 +1326,8 @@ screen preferences():
                 style_prefix "navigation"
                 xoffset 150
                 spacing 5
-                textbutton _("DDLC Settings") action [SetScreenVariable("ddlc_settings", True), SensitiveIf(not ddlc_settings)]
-                textbutton _("Template Settings") action [SetScreenVariable("ddlc_settings", False), SensitiveIf(ddlc_settings)]
+                textbutton _("DDLC 设置") action [SetScreenVariable("ddlc_settings", True), SensitiveIf(not ddlc_settings)]
+                textbutton _("模板设置") action [SetScreenVariable("ddlc_settings", False), SensitiveIf(ddlc_settings)]
             
             null height 10
 
@@ -1372,7 +1372,7 @@ style pref_label:
     bottom_margin 2
 
 style pref_label_text:
-    font "gui/font/RifficFree-Bold.ttf"
+    font "mod_assets/font/zcoolkuaile.ttf"
     size 24
     color "#fff"
     outlines [(3, "#b59", 0, 0), (1, "#b59", 1, 1)]
@@ -1390,7 +1390,7 @@ style radio_button:
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
-    font "gui/font/Halogen.ttf"
+    font "mod_assets/font/zhushi.ttf"
     outlines []
 
 style check_vbox:
@@ -1402,7 +1402,7 @@ style check_button:
 
 style check_button_text:
     properties gui.button_text_properties("check_button")
-    font "gui/font/Halogen.ttf"
+    font "mod_assets/font/zhushi.ttf"
     outlines []
 
 style slider_slider:
@@ -1423,7 +1423,7 @@ style name_label is pref_label
 style name_label_text is pref_label_text
 
 style name_text:
-    font "gui/font/Halogen.ttf"
+    font "mod_assets/font/zhushi.ttf"
     size 24
     color gui.idle_color
     outlines []
@@ -1448,7 +1448,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport")):
+    use game_menu(_("历史"), scroll=("vpgrid" if gui.history_height else "viewport")):
         
         style_prefix "history"
        
@@ -1476,7 +1476,7 @@ screen history():
                     substitute False
 
         if not _history_list:
-            label _("The dialogue history is empty.")
+            label _("尚无对话历史记录。")
 
 define gui.history_allow_tags = set()
 
@@ -1713,7 +1713,7 @@ screen name_input(message, ok_action):
                 xalign 0.5
                 spacing 100
 
-                textbutton _("OK") action ok_action
+                textbutton _("好的") action ok_action
 
 screen dialog(message, ok_action):
 
@@ -1741,7 +1741,7 @@ screen dialog(message, ok_action):
                 xalign 0.5
                 spacing 100
 
-                textbutton _("OK") action ok_action
+                textbutton _("好的") action ok_action
 
 image confirm_glitch:
     "gui/overlay/confirm_glitch.png"
@@ -1791,11 +1791,11 @@ screen confirm(message, yes_action, no_action):
                 ## This if-else statement disables quitting from the quit box
                 ## if you are in Sayori's Death Scene, else normal box.
                 # if in_sayori_kill and message == layout.QUIT:
-                #     textbutton _("Yes") action NullAction()
-                #     textbutton _("No") action Hide("confirm")
+                #     textbutton _("确定") action yes_action
+                #     textbutton _("取消") action no_action
                 # else:
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("确定") action yes_action
+                textbutton _("取消") action no_action
 
     ## Right-click and escape answer "no".
     #key "game_menu" action no_action
