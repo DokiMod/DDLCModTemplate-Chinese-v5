@@ -7,6 +7,8 @@ define config.developer = True
 # Whether to allow underfilled grids in the game.
 define config.allow_underfull_grids = True
 
+define gui.system_font = 'mod_assets/font/sarasagothic.ttf'
+
 ## Android Gestures (provided by Tulkas)
 ## These gestures allow players to access different settings using the touch screen.
 # Swipe Up - Saves

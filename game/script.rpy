@@ -5,51 +5,51 @@
 
 label start:
 
-    # This label configures the anticheat number for the game after Act 1.
-    # It is recommended to leave this as-is and use the following in your script:
+    # 该变量控制一周目之后的反作弊 ID。
+    # 不建议变更本行代码。请考虑在你的游戏剧情脚本里使用下方代码：
     #   $ persistent.anticheat = renpy.random.randint(X, Y) 
-    #   X - The minimum number | Y - The maximum number
+    #   X - 最小值 | Y - 最大值
     $ anticheat = persistent.anticheat
 
-    # This variable sets the chapter number to 0 to use in the mod.
+    # 该变量将章节数字设置为 0，以供模组使用。
     $ chapter = 0
 
-    # This variable controls whether the player can dismiss a pause in-game.
+    # 该变量控制玩家是否能在游戏期间跳过暂停时刻。
     $ _dismiss_pause = config.developer
 
-    ## Names of the Characters
-    # These variables set up the names of the characters in the game.
-    # To add a character, use the following example below: 
-    #   $ mi_name = "Mike". 
-    # Don't forget to add the character to 'definitions.rpy'!
+    ## 角色命名
+    # 这些变量用于设置游戏内角色的命名。
+    # 如需添加新角色，请参考下方代码示例：
+    #   $ mi_name = "Mike"
+    # 不要忘记在 definitions.rpy 添加相应角色！
     $ s_name = "???"
-    $ m_name = "Girl 3"
-    $ n_name = "Girl 2"
-    $ y_name = "Girl 1"
+    $ m_name = "女孩 3"
+    $ n_name = "女孩 2"
+    $ y_name = "女孩 1"
 
-    # This variable controls whether the quick menu in the textbox is enabled.
+    # 该变量控制文本框展示时是否显示底部文字菜单，以及是否允许使用 Esc 显示菜单。
     $ quick_menu = True
 
-    # This variable c ontrols whether we want normal or glitched dialogue
-    # For glitched dialogue, use 'style.edited'.
+    # 该变量控制文本框内的对话文字样式风格，可定义为常规（style.normal）或干扰（style.edited）风格。
+    # 如需干扰风格，您可以使用 style.edited
     $ style.say_dialogue = style.normal
 
-    # This variable controls whether Sayori is dead. It is recommended to leave
-    # this as-is.
+    # 控制纱世里是否去世的变量。
+    # 一般不建议修改此项。
     $ in_sayori_kill = None
     
-    # These variables controls whether the player can skip dialogue or transitions.
+    # 这些变量控制是否允许玩家跳过 / 快进对话或转场。
     $ allow_skipping = True
     $ config.allow_skipping = True
 
-    ## The Main Part of the Script
+    ## 脚本文件主要部分
     # This is where your script code is called!
     # 'persistent.playthrough' controls the playthrough number the player is on i.e (Act 1, 2, 3, 4)
     
-    # REMOVE THIS LINE WHEN YOU HAVE MADE A STORY SCRIPT FILE AND CALLED IT HERE
-    call screen dialog(message="It seems that you are trying to run the mod template as a new game with no story.\nThis is a template, not an actual mod. Please code a story for your mod, call it in \'script.rpy\', and try again.", ok_action=MainMenu(confirm=False))
+    # 当你写好故事脚本文件后，再删除下面这一行，然后在此调用（call）您的脚本
+    call screen dialog(message="您似乎在尝试直接将 Mod 模板作为不含任何故事剧情的新游戏运行。\n这是一个模组模板，而不是一个实际的同人模组。\n请为您的模组编写故事，并在“script.rpy”中调用（call）脚本后重试。", ok_action=MainMenu(confirm=False))
 
-    ## Example on calling scripts from DDLC.
+    ## 下方是原版 DDLC 游戏的 call 语句示例。
     # if persistent.playthrough == 0:
 
     #     # This variable sets the chapter number to X depending on the chapter
@@ -187,7 +187,7 @@ label start:
     #     call ch40_main
     #     jump credits
 
-# This label is where the game 'ends' during Act 1.
+# 该 label 定义了一周目的“END”画面。
 label endgame(pause_length=4.0):
     $ quick_menu = False
     stop music fadeout 2.0

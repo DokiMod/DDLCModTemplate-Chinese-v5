@@ -346,7 +346,7 @@ style bsod_macos_text:
 
 style bsod_linux_text is gui_text
 style bsod_linux_text:
-    font "gui/font/F25_Bank_Printer.ttf"
+    font "mod_assets/font/sarasamono.ttf"
     size 15
     outlines []
     line_leading 5

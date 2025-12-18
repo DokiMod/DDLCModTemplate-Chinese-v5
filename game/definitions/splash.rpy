@@ -234,13 +234,13 @@ label splashscreen:
         scene black
 
         menu:
-            "A previous save file has been found. Would you like to delete your save data and start over?"
-            "Yes, delete my existing data.":
-                "Deleting save data...{nw}"
+            "检测到先前的存档文件，请问您希望删除存档数据并重新开始游玩吗？"
+            "是，删除现有存档数据。":
+                "正在删除存档数据...{nw}"
                 python:
                     delete_all_saves()
                     renpy.utter_restart()
-            "No, continue where I left off.":
+            "不，请从我上次游玩的地方继续。":
                 python:
                     restore_characters()
                     persistent.first_run = True
@@ -255,9 +255,9 @@ label splashscreen:
 
         # Switch to the language selector before showing the disclaimer if translations
         # are available and the player hasn't chosen a language yet.
-        if not persistent.has_chosen_language and translations:
-            if _preferences.language is None:
-                call screen language_selector
+        # if not persistent.has_chosen_language and translations:
+        #     if _preferences.language is None:
+        #         call screen language_selector
 
         # You can edit this message but you MUST declare that your mod is 
         # unaffiliated with Team Salvato, requires that the player must 
@@ -265,13 +265,13 @@ label splashscreen:
         # get DDLC (preferably https://ddlc.moe).
         #
         # ...Yes this even applies if your mod has no spoilers whatsoever.
-        "[config.name] is a Doki Doki Literature Club fan mod that is not affiliated in anyway with Team Salvato."
-        "It is designed to be played only after the official game has been completed, and contains spoilers for the official game."
-        "Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: https://ddlc.moe or on Steam."
+        "[config.name] 是 Doki Doki Literature Club 的同人模组作品，该作品与 Team Salvato 完全无关。"
+        "本模组仅适合通关官方原版游戏的玩家游玩，且本模组包含原版游戏的剧透。"
+        "游玩本模组需要 Doki Doki Literature Club 原版游戏本体文件。您可以在 {a=https://ddlc.moe}https://ddlc.moe{/a} 或者 Steam 免费获取。"
 
         menu:
-            "By playing [config.name] you agree that you have completed Doki Doki Literature Club and accept any spoilers contained within."
-            "I agree.":
+            "继续游玩 [config.name] 将视为你已经通关 DDLC 原版游戏，并接受本同人模组包含的任何剧透内容。"
+            "我同意。":
                 $ persistent.first_run = True
 
         scene tos2
@@ -280,7 +280,7 @@ label splashscreen:
 
         # Check if a streaming/recording program is running and let the player know.
         if is_user_streaming():
-            call screen dialog("A streaming/recording program has been detected. Let's Play Mode has been enabled to protect your privacy.",
+            call screen dialog("检测到您的设备正在运行直播/录屏软件。为保护您的隐私，已为您启用实况主模式。",
                 [Hide("dialog"), Return()])
         scene white
 
@@ -486,20 +486,20 @@ label after_load:
     if anticheat != persistent.anticheat:
         stop music
         scene black
-        "The save file could not be loaded."
-        "Are you trying to cheat?"
+        "无法加载存档文件。"
+        "你是不是想作弊呢？"
         $ m_name = "Monika"
         show monika 1 at t11
         if persistent.playername == "":
-            m "You're so funny."
+            m "真有意思啊。"
         else:
-            m "You're so funny, [persistent.playername]."
+            m "真有意思啊，[persistent.playername]。"
         $ renpy.utter_restart()
     else:
         # Show a hint about the skip button if it's the player's first playthrough.
         if persistent.playthrough == 0 and not persistent.first_load and not config.developer:
             $ persistent.first_load = True
-            call screen dialog("Hint: You can use the \"Skip\" button to\nfast-forward through text you've already read.", ok_action=Return())
+            call screen dialog("提示：您可以使用“快进”按钮来快速跳过您阅读过的文字。", ok_action=Return())
     return
 
 ## This label loads the label saved in the autoload variable. 
@@ -555,7 +555,7 @@ label autoload:
 # This label sets the main menu music to Doki Doki Literature Club before the
 # menu starts.
 label before_main_menu:
-    $ config.main_menu_music = audio.t1
+    # $ config.main_menu_music = audio.t1
     return
 
 # This label handles special logic that should happen when the game quits.

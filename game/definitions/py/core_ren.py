@@ -19,13 +19,14 @@ store = renpy.store
 
 # The default splash message for the game that players will see when launching your mod.
 splash_message_default = (
-    "This mod is an unofficial fan game that is unaffiliated with Team Salvato."
+    "本模组为非官方性质的同人游戏，与 Team Salvato 无关。"
 )
 
 # Stores multiple splash messages that can be used in the game.
 splash_messages = [
     ":o",
     "Bronya... :o",
+    "你是谁？请支持中文模组开发社。",
 ]
 
 

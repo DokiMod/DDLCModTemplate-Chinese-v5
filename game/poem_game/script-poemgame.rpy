@@ -114,7 +114,7 @@ label poem(transition=True):
     $ allow_skipping = False
 
     if persistent.playthrough == 0 and chapter == 0: #Shows the below dialogue the first time the minigame is played.
-        call screen dialog("It's time to write a poem!\n\nPick words you think your favorite club member\nwill like. Something good might happen with\nwhoever likes your poem the most!", ok_action=Return())
+        call screen dialog("写诗时间到！\n\n请从下列词语中，挑选出你觉得部员们会喜欢的几个词，组成一首诗吧！\n要是你写的诗恰好让某位成员爱不释手，那么你和她之间可能会发生什么好事哦~", ok_action=Return())
     
     $ poem_game.start()
     $ poem_game.finish()
