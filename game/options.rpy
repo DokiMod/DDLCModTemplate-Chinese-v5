@@ -2,23 +2,25 @@
 ## you are using, give them this version number. 
 ### DO NOT REMOVE OR CHANGE THE ABOVE COMMENT. ###
 
-## 此 Mod 模板的版本为 5.0.1-zh 
+## 此 Mod 模板的版本为 5.0.1-zh，如果您需要提供 DDLC 中文 Mod 模板相关的反馈，
+## 请在反馈时附上该版本号。
+### 请勿修改或删除上述注释。 ###
 
-## options.rpy
+## options.rpy - 选项
 # This file customizes what your mod is and and how it starts and builds!
 
-# This controls what your mod is called.
+# 这里可以为你的模组命名。
 define config.name = "DDLC 中文 Mod 模板 5.0"
 
-# This controls whether you want your mod name to show in the main menu.
-# If your mod name is big, it is suggested to turn this off.
+# 该选项控制是否在游戏主菜单展示模组名称及版本号。
+# 如果模组名字太长，建议禁用此选项。
 define gui.show_name = True
 
-# This controls the version number of your mod.
+# 该选项代表模组的版本号。
 define config.version = "5.0.1-zh"
 
-# This adds information about your mod in the About screen.
-# DDLC does not have a 'About' screen so you can leave this blank.
+# 这里是在“关于”页显示的 Mod 介绍文字。
+# 您可以在这里写点 Mod 的简介，默认情况下它将出现在“额外功能”的“关于”界面。
 define gui.about = _("")
 
 # This control the name of your mod build when you package your mod
@@ -28,13 +30,13 @@ define gui.about = _("")
 #   Example: Doki Doki Yuri Time to DokiDokiYuriTime
 define build.name = "DDLCChineseModTemplateV"
 
-# This configures whether your mod has sound effects.
+# 该选项控制模组是否包含音效。
 define config.has_sound = True
 
-# This configures whether your mod has music.
+# 该选项控制模组是否包含背景音乐。
 define config.has_music = True
 
-# This configures whether your mod has voices.
+# 该选项控制模组是否包含语音。
 define config.has_voice = False
 
 # This configures what music will play when you launch your mod and in the 
@@ -78,10 +80,10 @@ default preferences.afm_time = 15
 default preferences.music_volume = 0.75
 default preferences.sfx_volume = 0.75
 
-# This controls the save folder name of your mod.
-# Finding your Saves:
+# 该选项控制模组的存档位置。请不要在此处使用中文，这会导致异常。
+# 如需寻找存档位置，请查看以下文件夹：
 #   Windows: %AppData%/RenPy/
-#   macOS: $HOME/Library/RenPy/ (Un-hide the Library Folder)
+#   macOS: $HOME/Library/RenPy/ （取消隐藏 Library 文件夹）
 #   Linux: $HOME/.renpy/
 define config.save_directory = "DDLCModTemplate-Chinese-v5"
 
@@ -91,7 +93,7 @@ define config.window_icon = "gui/window_icon.png"
 # This controls whether your mod allows the player to skip dialogue.
 define config.allow_skipping = True
 
-# This controls whether your mod saves automatically.
+# 该选项控制模组是否执行自动存档。
 define config.has_autosave = False
 
 # This controls whether you mod saves automatically when quitting the game.
@@ -186,6 +188,11 @@ init python:
     build.classify("game/tl/**", "scripts all") ## Translation Folder
     build.classify("game/mod_extras/**.rpyc", "scripts") ## Extra Features (Backwards Compatibility)
 
+    # ## 如果您需要使用 Ren'Py 原生目录结构，或者有替换原版游戏素材的需求，
+    # ## 请取消注释下面两行。
+    # build.classify("game/gui/**", "mod_assets all")
+    # build.classify("game/images/**", "mod_assets all")
+
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/.**', None)
@@ -202,7 +209,8 @@ init python:
     build.classify('**.rpa', None)
     build.classify('README.html','mod all')
     build.classify('README.linux', 'linux')
-   
+    build.classify('font-attributions.txt','mod all')
+
     # This sets' README.html as documentation
     build.documentation('README.html')
 

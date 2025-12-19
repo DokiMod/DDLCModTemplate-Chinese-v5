@@ -1,5 +1,5 @@
 # Copyright 2019-2025 Azariel Del Carmen (bronya_rand). All rights reserved.
-# This is where the splashscreen, disclaimer and menu code reside in.
+# 本文件包含启动屏幕（splashscreen）、免责声明（disclaimer）与菜单的代码。
 
 # This image text shows the splash message when the game loads.
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
@@ -342,9 +342,9 @@ label splashscreen:
         $ config.allow_skipping = True
         return
 
-    # This checks if 'sayori.chr' was deleted after the disclaimer page and if so,
-    # show a premature death scene. This feature has been commented out for mod safety reasons but can
-    # be used if needed.
+    # 此处的代码会在显示免责声明画面之后检查 'sayori.chr' 是否被删除。如果该文件已被删除，
+    # 游戏将显示一个过早“噶了”的画面。考虑到模组安全问题，此处的代码默认被注释，
+    # 但如果你有需求，也可以选择取消注释下方代码。
 
     # if s_kill_early:
     #     show black
@@ -389,7 +389,7 @@ label splashscreen:
     #     show noise:
     #         alpha 0.1
     #     with Dissolve(1.0)
-    #     show expression Text("Now everyone can be happy.", style="sayori_text"):
+    #     show expression Text("现在，大家都开心了。", style="sayori_text"):
     #         xalign 0.8
     #         yalign 0.5
     #         alpha 0.0
@@ -415,9 +415,8 @@ label splashscreen:
     $ config.allow_skipping = True
     return
 
-# This label script is used when 'monika.chr' is deleted from the game after the 
-# at the beginning of a new game. This feature has been commented out for mod safety 
-# reasons but can be used if needed.
+# 此 label 所包含的代码会在 'monika.chr' 在开篇被删除后，玩家选择开始新游戏时触发。
+# 考虑到模组安全问题，此处的代码默认被注释，但如果你有需求，也可以选择取消注释下方代码。
 
 # label ch0_kill:
 #     $ s_name = "Sayori"

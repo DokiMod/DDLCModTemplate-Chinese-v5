@@ -1,4 +1,4 @@
-## script.rpy
+## script.rpy - 脚本
 
 # This is the main script that Ren'Py calls upon to start
 # your mod's story! 

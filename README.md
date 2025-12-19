@@ -54,7 +54,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 ### Core Features
 
 - ✅ **顺应 Team Salvato 的准则要求** - Includes required splashscreen (disclaimer) and follows all IP guidelines for fan mods.
-- 🐍 **Python 3 & Ren'Py 8 Optimized** - Clean, modern code optimized for the latest Ren'Py.
+- 🐍 **Python 3 & Ren'Py 8 优化** - Clean, modern code optimized for the latest Ren'Py.
 - 📚 **Original DDLC Scripts Included** - Reference the original game scripts for learning purposes.
 - 🌐 **Cross-Platform Support** - Build for Windows, macOS, Linux, and Android.
 - 🎨 **Automatic GUI Coloring** - Customize GUI and menu button colors without editing assets.
@@ -64,9 +64,9 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 
 ### Gameplay Features
 
-- 🎮 **Uncensored Mode** - Option to show more sensitive content.
-- 📹 **Let's Play Mode** - Protect personal information while streaming/recording.
-- 📖 **NVL Support** - Full NVL (novel-style) dialogue support thanks to Yagamirai01.
+- 🎮 **无屏蔽模式** - Option to show more sensitive content.
+- 📹 **实况主模式** - Protect personal information while streaming/recording.
+- 📖 **NVL 支持** - Full NVL (novel-style) dialogue support thanks to Yagamirai01.
 
 ### Returned DDLC Features
 

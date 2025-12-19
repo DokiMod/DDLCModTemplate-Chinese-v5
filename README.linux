@@ -6,3 +6,13 @@ on Linux due to a import error by old Ren'Py 6 files.
 If you get a error with the SH file, make sure it's set to LF and not CRLF via a Text Editor.
 
 That is all. Happy mod playing!
+
+---
+
+如需在 Linux 启动本模组，请运行 ./LinuxLauncher.sh 文件，而不是运行 DDLC.sh 或模组内置的 .sh 脚本文件。
+这一额外新增的 .sh 文件修复了因旧版 Ren'Py 6 文件导入错误引发的 Linux 平台模组运行问题。
+
+如果你在运行此 .sh 文件时遇到了报错，请确保该文件的行尾序列选项是 LF（而不是 CRLF）。你可以通过文本编辑器
+修改该文件的行尾序列。
+
+综上。祝您模组之旅愉快！

@@ -1,4 +1,4 @@
-## poem_special.rpy
+## poem_special.rpy - 特殊诗篇
 
 # This file defines the special poems that the player can see during Act 2.
 # Only three poems are ever shown to the player which are selected at random

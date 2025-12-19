@@ -221,12 +221,12 @@ screen bsod(bsodCode="DDLC_ESCAPE_PLAN_FAILED", bsodFile="libGLESv2.dll", rsod=F
                 
                 #text "問題が起きたためコンピュータを再起動しました。このまま起動する場合は、\n"
                 #text "いずれかのキーを押すか、数秒間そのままお待ちください。" line_spacing 25
-                #text "电脑因出现问题而重新启动。请按一下按键,或等几秒钟以继续启动。"
+                text "电脑因出现问题而重新启动。请按一下按键，或等几秒钟以继续启动。"
 
-                text "Il computer è stato riavviato a causa di un problema. Per continuare l'avvio,\n"
-                text "premere un tasto o attendere qualche secondo." line_spacing 25
-                text "De computer is opnieuw opgestart vanwege een probleem. Druk op een toets\n"
-                text "om door te gaan met opstarten, of wacht een paar seconden." line_spacing 25
+                # text "Il computer è stato riavviato a causa di un problema. Per continuare l'avvio,\n"
+                # text "premere un tasto o attendere qualche secondo." line_spacing 25
+                # text "De computer is opnieuw opgestart vanwege een probleem. Druk op een toets\n"
+                # text "om door te gaan met opstarten, of wacht een paar seconden." line_spacing 25
         elif release <= (10, 15): # OS X El Capitan, macOS Sierra -> macOS Catalina
             add Solid("#000")
 
