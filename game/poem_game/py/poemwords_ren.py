@@ -4,6 +4,8 @@
 # This file replaces the original `poemwords.txt` file and defines the words used in the poem game
 # using a Python class structure alongside Ren'Py 8 `_ren.py` approach for Python code.
 
+# 请注意：我们暂未完成写诗游戏中文版 / 中英双语版的代码迁移。
+
 """renpy
 init python:
 """

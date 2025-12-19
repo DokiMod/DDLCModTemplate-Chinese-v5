@@ -7,7 +7,7 @@
 ### 请勿修改或删除上述注释。 ###
 
 ## options.rpy - 选项
-# This file customizes what your mod is and and how it starts and builds!
+# 本文件用于自定义模组具体内容，以及模组构建方式！
 
 # 这里可以为你的模组命名。
 define config.name = "DDLC 中文 Mod 模板 5.0"
@@ -23,11 +23,11 @@ define config.version = "5.0.1-zh"
 # 您可以在这里写点 Mod 的简介，默认情况下它将出现在“额外功能”的“关于”界面。
 define gui.about = _("")
 
-# This control the name of your mod build when you package your mod
-# in the Ren'Py Launcher or DDMM (Doki Doki Mod Maker).
-# Note:
-#   The build name is ASCII only so no numbers, spaces, or semicolons.
-#   Example: Doki Doki Yuri Time to DokiDokiYuriTime
+# 该选项控制您在 Ren'Py 启动器或 DDMM（Doki Doki Mod Maker）打包模组时，
+# 模组构建显示的名称。
+# 备注：
+#   构建名只允许使用 ASCII 字符，因此请不要在此处输入空格、数字、下划线。
+#   命名举例：Doki Doki Yuri Time -> DokiDokiYuriTime
 define build.name = "DDLCChineseModTemplateV"
 
 # 该选项控制模组是否包含音效。
@@ -190,6 +190,7 @@ init python:
 
     # ## 如果您需要使用 Ren'Py 原生目录结构，或者有替换原版游戏素材的需求，
     # ## 请取消注释下面两行。
+    # ## 注意！该功能未经过测试，存在引发意外的可能性。
     # build.classify("game/gui/**", "mod_assets all")
     # build.classify("game/images/**", "mod_assets all")
 

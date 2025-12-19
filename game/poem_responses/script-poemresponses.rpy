@@ -50,7 +50,7 @@ label poemresponse_start:
         else:
             $ menutext = "接下来要跟谁分享我的诗呢？"
 
-        ## Main Menu of the Poem Responses
+        ## 赏诗反应菜单
         menu:
             "[menutext]"
 
