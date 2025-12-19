@@ -43,7 +43,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 - 寻求跨平台支持的开发者 (Windows x64, macOS, Linux)
 
 > [!NOTE]
-> **DDLC Mod Template 与 DDLC 中文 Mod 模板与 Team Salvato 完全无关，且并非为 DDLC 续作《Doki Doki Literature Club Plus!》设计。请勿将该模板（含上游模板）及其代码用于非官方 DDLC 补丁等其他用途。**
+> **DDLC Mod Template、DDLC 中文 Mod 模板与 Team Salvato 完全无关，且并非为 DDLC 续作《Doki Doki Literature Club Plus!》设计。请勿将该模板（含上游模板）及其代码用于非官方 DDLC 补丁等其他用途。**
 
 > [!NOTE] 
 > 由于 Python 2 已于 2020 年 1 月 1 日停止支持，Ren'Py 7 已在 Ren'Py 8.4 发布后终止支持，[DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 已暂停 Python 2 分支开发，因此 DDLC 中文 Mod 模板 v5 将不会继续兼容 Python 2 / Ren'Py 7。由此带来不便，烦请谅解。
