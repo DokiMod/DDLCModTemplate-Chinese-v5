@@ -418,7 +418,7 @@ screen quick_menu():
             xalign 0.5
             yalign 0.995
 
-            #textbutton _("Back") action Rollback()
+            #textbutton _("回滚") action Rollback()
             textbutton _("历史") action ShowMenu('history')
             textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("自动") action Preference("auto-forward", "toggle")
@@ -794,12 +794,12 @@ screen about():
                 yfit True
 
             vbox:
-                add Transform("mod_assets/DDLCModTemplateLogo.png", size=(200,200)) # xalign .5
+                add Transform("mod_assets/DDLCModTemplateLogo.png", size=(200,200)) xalign .5
 
                 null height 5
                 
-                label "[config.name!t]" # xalign .5
-                text _("Version [config.version!t]\n") # xalign .5
+                label "[config.name!t]" xalign .5
+                text _("版本：[config.version!t]\n") xalign .5
 
                 ## gui.about is usually set in options.rpy.
                 if gui.about:
@@ -1848,7 +1848,7 @@ screen skip_indicator():
         hbox:
             spacing 6
 
-            text _("Skipping")
+            text _("正在快进")
 
             text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
             text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"

@@ -1,5 +1,6 @@
 > DDLC 中文 Mod 模板 v5 目前处于早期开发阶段（可视为刚刚新建文件夹），请暂时不要使用本版本模板！我们还在决定 v5 版本的翻译、开发方向。  
-> 如果您有简体中文 DDLC 同人模组创作需求，请您暂时先使用 DDLC 中文 Mod 模板 [2.0](https://github.com/imgradeone/DDLCModTemplate-Chinese-next) 或 [4.0](https://github.com/DokiMod/DDLCModTemplate-Chinese-future)，或者暂时直接使用 [DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 修改字体等配置。
+> 如果您有简体中文 DDLC 同人模组创作需求，请您暂时先使用 DDLC 中文 Mod 模板 [2.0](https://github.com/imgradeone/DDLCModTemplate-Chinese-next) 或 [4.0](https://github.com/DokiMod/DDLCModTemplate-Chinese-future)，或者暂时直接使用 [DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 修改字体等配置。  
+> 如需获取开发版本模板，您可以查看 [imgradeone/DDLCModTemplate-Chinese-v5](https://github.com/imgradeone/DDLCModTemplate-Chinese-v5) 中的其他分支。但请依旧做好功能不稳定、翻译不完整的准备。
 
 # 文思泉涌**新**出发 - DDLC 中文 Mod 模板 v5
 基于 "Bronya Rand" 的 [DDLC Mod Template (5.0)](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 开发，由 DokiMod 翻译、修改
@@ -42,7 +43,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 - 寻求跨平台支持的开发者 (Windows x64, macOS, Linux)
 
 > [!NOTE]
-> **DDLC Mod Template 与 DDLC 中文 Mod 模板与 Team Salvato 完全无关，且并非为 DDLC 续作《Doki Doki Literature Club Plus!》设计。请勿将该模板（含上游模板）及其代码用于非官方 DDLC 补丁等其他用途。**
+> **DDLC Mod Template、DDLC 中文 Mod 模板与 Team Salvato 完全无关，且并非为 DDLC 续作《Doki Doki Literature Club Plus!》设计。请勿将该模板（含上游模板）及其代码用于非官方 DDLC 补丁等其他用途。**
 
 > [!NOTE] 
 > 由于 Python 2 已于 2020 年 1 月 1 日停止支持，Ren'Py 7 已在 Ren'Py 8.4 发布后终止支持，[DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 已暂停 Python 2 分支开发，因此 DDLC 中文 Mod 模板 v5 将不会继续兼容 Python 2 / Ren'Py 7。由此带来不便，烦请谅解。
@@ -54,7 +55,7 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 ### Core Features
 
 - ✅ **顺应 Team Salvato 的准则要求** - Includes required splashscreen (disclaimer) and follows all IP guidelines for fan mods.
-- 🐍 **Python 3 & Ren'Py 8 Optimized** - Clean, modern code optimized for the latest Ren'Py.
+- 🐍 **Python 3 & Ren'Py 8 优化** - Clean, modern code optimized for the latest Ren'Py.
 - 📚 **Original DDLC Scripts Included** - Reference the original game scripts for learning purposes.
 - 🌐 **Cross-Platform Support** - Build for Windows, macOS, Linux, and Android.
 - 🎨 **Automatic GUI Coloring** - Customize GUI and menu button colors without editing assets.
@@ -64,9 +65,9 @@ DDLC 中文 Mod 模板 v5 是 Azariel Del Carmen (bronya_rand) 开发的 [DDLC M
 
 ### Gameplay Features
 
-- 🎮 **Uncensored Mode** - Option to show more sensitive content.
-- 📹 **Let's Play Mode** - Protect personal information while streaming/recording.
-- 📖 **NVL Support** - Full NVL (novel-style) dialogue support thanks to Yagamirai01.
+- 🎮 **无屏蔽模式** - Option to show more sensitive content.
+- 📹 **实况主模式** - Protect personal information while streaming/recording.
+- 📖 **NVL 支持** - Full NVL (novel-style) dialogue support thanks to Yagamirai01.
 
 ### Returned DDLC Features
 
@@ -224,5 +225,5 @@ Thanks to the following people for their contributions to the DDLC Mod Template:
 ---
 
 <p align="center">
-   <b>Copyright © 2019-2025 Azariel "Bronya Rand" Del Carmen (bronya_rand). All rights reserved. Doki Doki Literature Club, the Doki Doki Literature Club code, is the property of Team Salvato. Copyright © 2017 Team Salvato. All rights reserved.</b>
+   <b>Copyright © 2019-2025 Azariel "Bronya Rand" Del Carmen (bronya_rand). All rights reserved. Translated and modified by DokiMod.<br>Doki Doki Literature Club! 是 Team Salvato 的游戏作品与 IP。Copyright © 2017 Team Salvato. All rights reserved.</b>
 </p>

@@ -1,4 +1,4 @@
-## gui.rpy
+## gui.rpy - 界面
 
 # This file defines all the positions, colors, paths and more of DDLC's GUI
 # interface.
@@ -10,13 +10,13 @@ init -2 python:
     # This sets the resolution of DDLC to 1280x720p
     gui.init(1280, 720)
 
-## GUI Sounds
+## 界面音效
 # These variables set the sound effects for the GUI elements in the game.
 define -2 gui.hover_sound = "gui/sfx/hover.ogg" # Hover Sound Effect
 define -2 gui.activate_sound = "gui/sfx/select.ogg" # Click Sound Effect
 define -2 gui.activate_sound_glitch = "gui/sfx/select_glitch.ogg" # Glitched Sound Effect
 
-## Colors!
+## 颜色！
 # These variables set the color for DDLC's text in-game.
 
 # This color is used to label and highlight text.
@@ -47,7 +47,7 @@ define -2 gui.hover_muted_color = '#9999c1'
 define -2 gui.text_color = '#ffffff'
 define -2 gui.interface_text_color = '#ffffff'
 
-# Fonts and Font Sizes
+# 字体与字体大小
 # These variables set the font and its' size for DDLC's text in-game.
 
 # This font is used for in-game text.
@@ -86,7 +86,7 @@ define -2 gui.main_menu_background = "menu_bg"
 # This sets background for the pause/game menu
 define -2 gui.game_menu_background = "game_menu_bg"
 
-## Dialogue
+## 对话
 # These variables set the dialogue box positions and placement in-game.
 
 # This controls the height of the textbox containing dialogue.
@@ -125,7 +125,7 @@ define gui.text_width = 744
 # This controls the horizontal alignment of the dialogue text.
 define gui.text_xalign = 0.0
 
-## Buttons
+## 按钮
 # These variables set the buttons in-game.
 
 # This controls the width and height of a button. 

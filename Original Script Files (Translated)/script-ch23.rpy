@@ -718,10 +718,10 @@ label yuri_kill_3:
     m 2e "我会帮你清理干净的，好吗？"
     m "稍微等我一下就好..."
     $ console.clear_history()
-    $ console("os.remove(\"characters/yuri.chr\")", "yuri.chr 已成功删除。")
+    $ console("os.remove(\"characters/yuri.chr\")", "yuri.chr 删除完成。")
     $ delete_character("yuri")
     $ pause(1.0)
-    $ console("os.remove(\"characters/natsuki.chr\")", "natsuki.chr 已成功删除。")
+    $ console("os.remove(\"characters/natsuki.chr\")", "natsuki.chr 删除完成。")
     $ delete_character("natsuki")
     $ pause(1.0)
     m 2a "可以了。"

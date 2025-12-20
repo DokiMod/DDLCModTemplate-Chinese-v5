@@ -1,3 +1,5 @@
+> 请注意！DDLC 中文 Mod 模板未测试过 Xcode 支持。使用 Xcode 配合 DDLC 中文 Mod 模板进行同人模组开发有可能会出现意外。
+
 #  Using DDLCModTemplate with Xcode
 
 ![DDLC Mod in Xcode](https://marquiskurt.net/images/covers/2019-06-09-cover.png)
