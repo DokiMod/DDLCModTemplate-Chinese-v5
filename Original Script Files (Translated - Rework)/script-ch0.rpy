@@ -68,83 +68,83 @@ label ch0_main:
     scene bg class_day
     with wipeleft_scene
 
-    "The school day is as ordinary as ever, and it's over before I know it."
-    "After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
-    mc "Clubs..."
-    "Sayori wants me to check out some clubs."
-    "I guess I have no choice but to start with the anime club..."
+    "在学校的日子和往常一样平淡，不知不觉就结束了。"
+    "整理完书包后，我茫然地盯着墙，完全没有半点动力。"
+    mc "啊，社团..."
+    "纱世里希望我能去看看学校里的社团。"
+    "我想我大概是别无选择了，先试试从动漫社开始吧..."
 
-    s "Hellooo?"
+    s "哈——喽——？"
     show sayori 1b zorder 2 at t11
-    mc "Sayori...?"
-    "Sayori must have come into the classroom while I was spacing out."
-    "I look around and realize that I'm the only one left in the classroom."
-    s 1a "I thought I'd catch you coming out of the classroom, but I saw you just sitting here and spacing out, so I came in."
-    s "Honestly, you're even worse than me sometimes... I'm impressed!"
-    mc "You don't need to wait up for me if it's going to make you late to your own club."
-    s 1y "Well, I thought you might need some encouragement, so I thought, you know..."
-    mc "Know what?"
-    s 1a "Well, that you could come to my club!"
-    mc "Sayori..."
-    s 4r "Yeah??"
-    mc "...There is no way I'm going to your club."
+    mc "纱世里......？"
+    "纱世里肯定是趁我发呆时悄悄溜进教室的。"
+    "四处张望了一下，我才意识到教室里只剩下我自己待到现在了。"
+    s 1a "我本来想趁你出教室时跟你碰个头，但看你一直坐在这里发呆，我就进来了。"
+    s "讲真，你有时比我还过分欸......我已经记下了哦！"
+    mc "要是害你自己的社团活动迟到，你也没必要等我啊。"
+    s 1y "唔，我觉得你需要有人推你一把，所以我就...嗯......"
+    mc "就想什么？"
+    s 1a "就是，你就可以加入我的社团了！"
+    mc "纱世里......"
+    s 4r "嗯哼？？"
+    mc "...加入你的社团，那是不可能的。"
     show sayori at s11
-    s 5d "Eeeehhhhh?! Meanie!"
-    "Sayori is vice president of the Literature Club."
-    "Not that I was ever aware that she had any interest in literature."
-    "In fact, I'm 99%% sure she only did it because she thought it would be fun to help start a new club."
-    "Since she was the first one to show interest after the one who proposed the club, she inherited the title \"Vice President\"."
-    "That said, my interest in literature is guaranteed to be even less."
-    mc "Yeah. I'm going to the anime club."
+    s 5d "欸欸欸？！好过分啊！"
+    "纱世里是文学部的副部长。"
+    "讲真，我压根没觉得她会对文学有任何兴趣。"
+    "实际上，我有 99%% 的把握敢说，她只是觉得帮忙成立新社团会很好玩。"
+    "由于她是社团成立后第一个加入的成员，她自然而然地接过了“副社长”的职位。"
+    "话虽如此，我对文学的兴趣绝对比她还少。"
+    mc "你没听错。我已经决定去动漫部了。"
     show sayori zorder 2 at t11
-    s 1g "C'mon, please?"
-    mc "Why do you care so much, anyway?"
-    s 5b "Well..."
-    s "I kind of told the club yesterday I would bring in a new member..."
-    s "And Natsuki made cupcakes and everything..."
-    s "Ehehe..."
-    mc "Don't make promises you can't keep!"
-    "I can't tell if Sayori is really that much of an airhead, or if she's so cunning as to have planned all of this out."
-    "I let out a long sigh."
-    mc "Fine... I'll stop by for a cupcake, okay?"
+    s 1g "拜托！来我这嘛！"
+    mc "不是，你为什么要管这么多啊？"
+    s 5b "这个嘛......"
+    s "大概是我昨天和她们说，今天一定能带来一个新成员......"
+    s "然后夏树连纸杯蛋糕都做好了......"
+    s "欸嘿嘿......"
+    mc "不要随便做无法兑现的许诺啊喂！"
+    "我都说不清楚她到底是真的脑袋一片空白，还是说她已经狡猾到早有预谋。"
+    "我长长地叹了口气。"
+    mc "好吧...看在小蛋糕的份上，我去参观一下，可以吧？"
     show sayori at h11
-    s 4r "Yes! Let's go~!"
+    s 4r "好耶！跟我来～！"
 
     stop music fadeout 2.0
 
     scene bg corridor
     with wipeleft_scene
 
-    "And thus, today marks the day I sold my soul for a cupcake."
-    "I dejectedly follow Sayori across the school and upstairs - a section of the school I rarely visit, being generally used for third-year classes and activities."
-    "Sayori, full of energy, swings open the classroom door."
+    "就这样，今天，我为了区区一个纸杯蛋糕而出卖了自己的灵魂。"
+    "我垂头丧气地跟着纱世里穿过校园，走上楼梯，来到了我很少涉足的楼层 - 这里通常只供高三学生上课和社团活动使用。"
+    "元气满满的纱世里，一口气拉开了教室的门。"
 
     scene bg club_day
     with wipeleft
     play music t3
     show sayori 4 at l41
-    s "Everyone! The new member is here~!"
-    mc "I told you, don't call me a 'new member--'"
+    s "各位！新成员来了～！"
+    mc "我不是说过不要叫我‘新成——’"
     show sayori at lhide
     hide sayori
-    "Eh? I glance around the room."
+    "欸？我扫视了一遍房间。"
     show yuri 1a zorder 2 at t11
-    y "Welcome to the Literature Club. It's a pleasure meeting you."
-    y "Sayori always says nice things about you."
+    y "欢迎来到文学部。很高兴见到你。"
+    y "纱世里经常跟我说你的好话。"
     show yuri zorder 2 at t22
     show natsuki 4c zorder 2 at t21
-    n "Seriously? You brought a boy?"
-    n "Way to kill the atmosphere."
+    n "真的假的？你带了个男生过来？"
+    n "太毁气氛了吧。"
     show yuri zorder 2 at t33
     show natsuki zorder 2 at t32
     show monika 1k zorder 2 at t31
-    m "Ah, [player]! What a nice surprise!"
-    m "Welcome to the club!"
+    m "啊，是 [player] 啊! 你怎么也来了！"
+    m "欢迎来到文学部！"
     show monika 1a
-    mc "..."
-    "All words escape me in this situation."
-    "This club..."
-    "{i}...is full of incredibly cute girls!!{/i}"
+    mc "......"
+    "看着眼前这幅景象，我根本说不出话来。"
+    "这个社团里......"
+    "{i}...全都是超级可爱的女孩子啊啊啊！！{/i}"
 
     show monika zorder 1 at thide
     show yuri zorder 1 at thide
@@ -152,45 +152,45 @@ label ch0_main:
     hide monika
     hide yuri
 
-    n 2c "What are you looking at?"
-    n "If you want to say something, say it."
-    mc "S-Sorry..."
+    n 2c "你到底在看什么啊？"
+    n "有话直说。"
+    mc "抱...抱歉......"
     show natsuki zorder 2 at t32
     show yuri 2l zorder 3 at f33
-    y "Natsuki..."
-    $ n_name = 'Natsuki'
+    y "夏树......"
+    $ n_name = '夏树'
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f32
-    n 5s "Hmph."
+    n 5s "哼。"
     show natsuki zorder 2 at t32
 
-    "The girl with the sour attitude, whose name is apparently Natsuki, is one I don't recognize."
-    "Her small figure makes me think she's probably a first-year."
-    "She is also the one who made cupcakes, according to Sayori."
+    "我并不认识这个看起来态度很嚣张的女生。很明显，这位应该就是夏树。"
+    "她身材娇小，看上去像是一年级的学妹。"
+    "根据纱世里说的话，今天的小蛋糕也就是她做的。"
 
     show sayori 2q zorder 3 at f31
-    s "You can just ignore her when she gets moody~"
-    "Sayori says that quietly into my ear, then turns back toward the other girls."
-    s 1x "Anyway! This is Natsuki, always full of energy."
-    s "And this is Yuri, the smartest in the club!"
-    $ y_name = 'Yuri'
+    s "她闹脾气的时候，你当没看见就行啦~"
+    "纱世里悄悄在我耳旁说道，接着又转向其他女孩子。"
+    s 1x "总之！这位就是夏树，始终元气满满。"
+    s "然后这位是优里，全社团最聪明的人！"
+    $ y_name = '优里'
     show sayori zorder 2 at t31
     show yuri zorder 3 at f33
-    y 4b "D-Don't say things like that..."
-    "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with people like Sayori and Natsuki."
+    y 4b "别、别这么说..."
+    "优里，看起来更加成熟，却有点害羞，似乎不太跟得上纱世里和夏树这类人的节奏。"
     show yuri zorder 2 at t33
-    mc "Ah... Well, it's nice to meet both of you."
+    mc "啊......那个，很高兴认识你们俩。"
     show yuri zorder 1 at thide
     show natsuki zorder 1 at thide
     hide yuri
     hide natsuki
     show sayori zorder 3 at f31
-    s 1a "And it sounds like you already know Monika, is that right?"
-    $ m_name = 'Monika'
+    s 1a "哦对了，你好像已经认识莫妮卡了，对吧？"
+    $ m_name = '莫妮卡'
     show sayori zorder 2 at t31
     show monika 2a zorder 3 at f32
-    m "That's right."
-    m "It's great to see you again, [player]."
+    m "没错。"
+    m "[player]，很高兴又和你见面啦。"
     show monika 5a at hop
     "Monika smiles sweetly."
     "We do know each other - well, we rarely talked, but we were in the same class last year."
