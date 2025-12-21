@@ -4,308 +4,308 @@ label ch2_main:
     scene bg club_day
     with dissolve_scene_half
     play music t2
-    "Another day passes, and it's time for the club meeting already."
-    "I've gotten a little more comfortable here over the past couple days."
-    "Entering the clubroom, the usual scene greets me."
+    "又一天过去了，已经到了社团活动的时间。"
+    "几天下来，我对文学部已经相当适应了。"
+    "走进部室，迎接我的又是那熟悉的一幕。"
     show sayori 2x zorder 2 at t11
-    s "Hi [player]~"
-    mc "Yo, Sayori."
-    mc "Looks like you're in a good mood today."
-    s 1q "Ehehe~"
-    s "I'm just still not used to you being in the club, that's all."
-    mc "I see..."
-    mc "...That's a pretty simple thing to get you in a good mood."
-    mc "But I guess it's always the simple things with you, anyway."
-    s 1d "Speaking of which..."
-    s "I'm kinda hungry..."
-    s "Will you come with me to buy a snack?"
-    mc "No thanks."
-    s 4h "Eh??"
-    s "T-That's not like you at all!!"
-    mc "I have my reasons."
-    mc "Why don't we take a look at your purse, Sayori?"
-    s 4l "E-Eh?"
+    s "嗨，[player]~"
+    mc "哟，这不纱世里嘛。"
+    mc "你今天看起来心情很不错嘛。"
+    s 1q "欸嘿嘿~"
+    s "我只是还不太习惯看见你出现在社团里，没别的意思。"
+    mc "这样啊......"
+    mc "...这么小一件事都能让你这么高兴啊。"
+    mc "不过似乎你也总是为这种小事开心呢。"
+    s 1d "说起来......"
+    s "我有点饿了......"
+    s "要和我一起去买零食吗？"
+    mc "不了，谢谢。"
+    s 4h "诶？？"
+    s "这、这一点也不像你！！"
+    mc "我有我的理由。"
+    mc "要不检查下你的钱包吧，纱世里？"
+    s 4l "诶、诶？"
     show sayori at s11
-    s "Why that...all of a sudden?"
-    mc "No reason, really."
-    mc "I just wanted to look at it."
-    s 1l "A-Ah..."
+    s "为什么......突然要看啊？"
+    mc "没有啥原因，真的。"
+    mc "我只是想看看。"
+    s 1l "啊、啊......"
     show sayori zorder 2 at t11
-    "Sayori nervously retrieves her coin purse."
-    "She fumbles with the latch and gets it open."
-    "Then, she turns it upside-down and lets its contents spill onto the desk."
-    "Only two small coins fall out."
-    s 5a "A-Ahaha..."
-    mc "I knew it..."
-    mc "I can see right through you, Sayori."
-    s 5c "That's not fair!"
-    s "How did you even know?"
-    mc "It's simple."
-    mc "If you had enough money in the first place, you would have bought a snack before coming to the clubroom."
-    mc "So, either you're not hungry and wanted an excuse to take a walk..."
-    mc "Or, you planned to conveniently forget that you spent all your money, so that I would lend you some!"
-    mc "But there's one more thing..."
-    mc "...You're always hungry!"
-    mc "And so, that only leaves the one option!"
-    s 4p "Uwaaa~!"
-    s "I give up!"
-    s "Don't make me feel guiltyyy!"
-    mc "If you feel guilty, that means you deserve to feel guilty..."
+    "纱世里紧张地拿出了她的零钱包。"
+    "她笨拙地摸索着扣子，将钱包打开。"
+    "然后，她把钱包倒过来，将里面的东西都倒在桌面上。"
+    "掉出来的只有两枚小硬币。"
+    s 5a "啊、啊哈哈......"
+    mc "我就知道......"
+    mc "纱世里，我早就看穿你了。"
+    s 5c "这不公平！"
+    s "你怎么知道的？"
+    mc "很简单。"
+    mc "如果你一开始就有足够的钱，来部室之前你肯定就买好零食了。"
+    mc "所以，要么就是你不饿，只是想找个借口出去走走......"
+    mc "要么就是，你早就花光了所有的钱，然后试图装健忘骗我借钱给你！"
+    mc "不过，还有一点......"
+    mc "......你就没有不饿的时候！"
+    mc "这么一来，就只剩下最后一种可能了！"
+    s 4p "呜哇啊啊~！"
+    s "我投降好吧！"
+    s "别搞得我那么内疚好吧！"
+    mc "你要是觉得内疚的话，那就说明你确实应该感到内疚......"
     show yuri 1c zorder 2 at t33
-    y "Ahaha."
-    "Yuri suddenly giggles."
+    y "啊哈哈。"
+    "优里突然咯咯地笑了起来。"
     show sayori 4g
-    mc "Eh?"
-    "I didn't notice that she was listening in."
-    "Her face is in her book, as always."
+    mc "诶？"
+    "我都没注意到她在听我们说话。"
+    "她把脸埋在书里，就跟往常一样。"
     show yuri 3n at h33
-    y "A-Ah!"
-    y "I wasn't listening or anything--!"
-    y 3o "It was just...something in my book..."
+    y "啊、啊！"
+    y "我刚刚没有在听——！"
+    y 3o "只不过是......书里的东西......"
     show sayori zorder 3 at f32
-    s 1h "Yuriiii..."
-    s "Tell [player] to let me borrow some money..."
+    s 1h "优——里——......"
+    s "快让 [player] 借我点钱......"
     show sayori zorder 2 at t32
     show yuri zorder 3 at f33
-    y 3h "That's--!"
-    y "Don't get me involved like that, Sayori..."
-    y "Besides..."
-    y 1k "You should only buy what you can responsibly afford..."
-    y "And frankly, after pulling a mischievous little stunt like that, your suffering is fair enough retribution."
+    y 3h "这......！"
+    y "纱世里，别这样把我牵扯进来啊......"
+    y "更何况......"
+    y 1k "你应该根据自己的经济能力来买东西......"
+    y "而且坦白说，耍这么个小把戏，你的痛苦也算是受到点报应了。"
     show sayori 1b
-    mc "..."
-    y 3n "Ah--!"
-    y "Did I just..."
-    y 4c "I-I didn't mean that!!"
-    y "I got too absorbed into my book..."
-    y "Uu..."
+    mc "......"
+    y 3n "啊——！"
+    y "我刚刚是不是......"
+    y 4c "我、我不是那个意思！！"
+    y "我看这本书看得太入迷了......"
+    y "唔......"
     show yuri zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1r "Ahaha!"
-    s 3x "I really like when you speak your mind, Yuri..."
-    s "It doesn't happen much, but it's a fun side of you!"
+    s 1r "啊哈哈！"
+    s 3x "我真的很挺喜欢你有话直说的样子，优里......"
+    s "虽说很少见，但那也是你有趣的一面哦！"
     show sayori zorder 2 at t32
     show yuri zorder 3 at f33
-    y 3v "That's..."
-    y "There's no way you could think that..."
+    y 3v "这......"
+    y "你怎么会那样想......"
     show yuri zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1x "You were right, though..."
-    s "I did something bad and now I have to accept the revolution."
+    s 1x "你说的倒也没错啦......"
+    s "我做了错事，所以就得接受抱怨。"
     show sayori zorder 2 at t32
     show yuri zorder 3 at f33
-    y 3h "Retribution..."
+    y 3h "是‘报应’啦......"
     show yuri zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1l "That!"
+    s 1l "反正就那个词啦！"
     show sayori zorder 2 at t32
     show yuri zorder 3 at f33
-    y "Still, coming from you, Sayori..."
-    y 1a "I guess there's a little devil inside all of us, isn't there?"
+    y "难得你会这么说，纱世里......"
+    y 1a "我想，我们每个人心中都有只小恶魔，对吧？"
     show yuri zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1q "Ehehe..."
+    s 1q "欸嘿嘿......"
     show sayori zorder 2 at t32
-    mc "Don't let her fool you."
-    mc "Sayori knows exactly what she's doing."
-    mc "After all, she told you guys she was bringing me to the club before she even told me..."
+    mc "别听她瞎说。"
+    mc "纱世里知道她在做什么。"
+    mc "别忘了，她在跟我说之前，就已经告诉你们她会把我带到社团来......"
     show sayori zorder 3 at f32
-    s 1h "B-But...!"
-    s "You wouldn't have come if it weren't for the cupcakes..."
-    s "So I had to trick Natsuki into making them!"
+    s 1h "但、但是......！"
+    s "你要不是为了小蛋糕，也不会来嘛......"
+    s "所以我只好耍点小诡计，骗夏树去做蛋糕了！"
     show sayori zorder 2 at t32
-    mc "Come on, give me more credit than that, Sayori."
+    mc "拜托，对我有点信心好嘛，纱世里。"
     show sayori zorder 3 at f32
-    s 1l "Ehehe..."
+    s 1l "欸嘿嘿......"
     play sound "sfx/slap.ogg"
     show white zorder 4:
         alpha 0.6
         linear 0.25 alpha 0.0
     show sayori 4p zorder 3 at hf32
-    "{i}Pwap!{/i}"
+    "{i}啪！{/i}"
     hide white
-    s 4p "Kyaa--!"
-    "Out of nowhere, something smacks Sayori in the face and tumbles onto the desk."
-    s 4j "Ow..."
-    s "What was--"
-    s 4n "Eh??"
-    s "A-A cookie!"
-    "Sure enough, it's a giant cookie wrapped in plastic."
-    "Sayori glances around."
-    s 4m "I-Is this a miracle??"
-    s "It's because I paid my restitution!"
+    s 4p "噫呀——！"
+    "不知道从哪里冒出来的某个东西冷不丁地打到了纱世里脸上，然后滚到了桌子上。"
+    s 4j "嗷......"
+    s "什么东西——"
+    s 4n "诶？？"
+    s "是、是曲奇诶！"
+    "真的诶，是一块塑料包装的超大曲奇。"
+    "纱世里环顾了一下四周。"
+    s 4m "这、这就是奇迹吗？"
+    s "一定是因为我受到了报复！"
     show sayori zorder 2 at t32
-    mc "Retribution..."
+    mc "是‘报应’啦......"
     show sayori 4n
     show yuri zorder 3 at f33
-    y 1u "Actually, that one almost worked..."
+    y 1u "其实你这个词差不多算是用对了......"
     show yuri zorder 2 at t33
     show natsuki 3z zorder 3 at f31
-    n "Ahahaha!"
-    n "I {i}was{/i} just gonna give it to you."
-    n 3d "But then I heard you blab about the cupcakes."
-    n "It was totally worth seeing your reaction, though. Ahaha!"
+    n "啊哈哈哈！"
+    n "这曲奇{i}本来{/i}就是我打算给你的。"
+    n 3d "但我接着又听到你把小蛋糕的事情给说漏嘴了。"
+    n "不过能看到你那反应，倒也算是扯平了吧。啊哈哈！"
     show natsuki zorder 2 at t31
     show sayori zorder 3 at f32
-    s 4m "N-Natsuki!"
-    s "That's so nice of you!"
-    s 4s "I'm so happy..."
-    "Sayori hugs the cookie."
+    s 4m "夏、夏树！"
+    s "你人好好哦！"
+    s 4s "我超开心的......"
+    "纱世里抱住了曲奇。"
     show sayori zorder 2 at t32
-    mc "Jeez, just eat it..."
-    "Sayori rapidly tears open the wrapper and takes a big bite."
+    mc "天哪，你赶紧吃就是了......"
+    "纱世里一下子就拆开了包装，大口咬了下去。"
     show sayori zorder 3 at f32
-    s 4q "Sho good..."
+    s 4q "尊好次......"
     show sayori zorder 3 at hf32
-    s 4o "Mmf--!"
-    "Sayori suddenly clasps her hands over her mouth."
-    s 4p "I bit my tongue..."
+    s 4o "唔——！"
+    "纱世里突然捂住了嘴。"
+    s 4p "我咬到舌头了......"
     show sayori zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 3a "Ehehe."
-    n "You're going through a lot over just one cookie."
-    "Natsuki takes a bite of her own cookie."
+    n 3a "欸嘿嘿。"
+    n "你吃个曲奇还挺一波三折的嘛。"
+    "夏树咬了一口自己的曲奇。"
     show natsuki zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1c "Ah, yours looks really good too, Natsuki!"
-    s "Can I try it?"
+    s 1c "啊，夏树，你这个看上去也很好吃嘛！"
+    s "我能尝尝吗？"
     show sayori zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 4e "Jeez..."
-    n "Beggars can't be choosers!"
+    n 4e "拜托......"
+    n "蹭吃的还带挑三拣四啊！"
     show natsuki zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1h "But yours is chocolate..."
+    s 1h "但你的是巧克力味的......"
     show sayori zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 4c "Yeah, why do you think I gave you that one?"
+    n 4c "是啊，不然你觉得我为啥要给你那块？"
     show natsuki zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1g "Fine..."
-    s 1q "Still, I'm really happy that you shared this one with me."
-    s "Ehehe~"
+    s 1g "好吧......"
+    s 1q "不过你能把这块分享给我，还是让我很开心。"
+    s "诶嘿嘿~"
     show sayori behind natsuki zorder 2 at t21
-    "Sayori gets out of her seat and goes behind Natsuki, then wraps her arms around her."
-    n 12c "Ah-- Jeez..."
-    n "I get it, I get it."
-    "Cookie still in hand, Natsuki reaches up to nudge Sayori off of her."
+    "纱世里起身走到夏树身后，伸出双臂搂住了她。"
+    n 12c "啊——真是的......"
+    n "行啦行啦。"
+    "夏树手里还拿着曲奇，便用手肘把纱世里轻轻推开。"
     show sayori 1n at h21
-    s "...{i}Om.{/i}"
-    "Sayori suddenly leans down and takes a bite out of Natsuki's cookie."
-    n 1p "{i}H-Hey!!{/i}"
-    n "Did you seriously just do that?!"
-    s 1q "Uhuhuhu!"
+    s "......{i}啊呜。{/i}"
+    "纱世里突然弯下身，咬了一口夏树的曲奇。"
+    n 1p "{i}喂、喂！！{/i}"
+    n "你还真就上嘴抢啊？！"
+    s 1q "唔呼呼呼！"
     show sayori at lhide
     hide sayori
-    "Mouth full, Sayori trots away to safety."
+    "嘴巴塞得满满的纱世里，快步跑到了安全的地方。"
     show yuri 1c
-    "Yuri and I laugh as well."
+    "优里和我也笑了起来。"
     show yuri 1a
     show natsuki zorder 3 at f31
-    n 1w "Jeez! You're such a kid sometimes!"
-    n 1h "Monika! Can you tell Sayori--"
-    n 1c "--Eh?"
-    "Natsuki glances around."
-    "Monika isn't in the clubroom."
-    n 4q "Ugh..."
-    n "Where's Monika, anyway?"
+    n 1w "天哪！你有时简直跟一小孩差不多诶！"
+    n 1h "莫妮卡！你能不能说说纱世里——"
+    n 1c "——诶？"
+    "夏树看了看四周。"
+    "莫妮卡并不在部室。"
+    n 4q "呃......"
+    n "所以说，莫妮卡去哪了？"
     show natsuki zorder 2 at t31
     show yuri 2f zorder 3 at f33
-    y "Good question..."
-    y "Have any of you heard anything about her being late today?"
+    y "好问题......"
+    y "她有和你们说今天会晚点来之类的吗？"
     show sayori 1b zorder 3 at f32
     show yuri zorder 2 at t33
-    s "Not me..."
+    s "没有......"
     show sayori zorder 2 at t32
-    mc "Yeah, I haven't either."
+    mc "啊，我也不知道。"
     show yuri zorder 3 at f33
-    y 2l "Hm..."
-    y "That's a bit unusual."
+    y 2l "唔......"
+    y "那可有点反常。"
     show yuri zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1g "I hope she's okay..."
+    s 1g "希望她没事......"
     show sayori zorder 2 at t32
     show natsuki 3k zorder 3 at f31
-    n "Of course she's okay."
-    n "She probably just had something to do today."
-    n 3t "She's pretty popular, after all..."
+    n "她肯定不会有事的。"
+    n "她也许只是今天刚好有事要做。"
+    n 3t "毕竟她还是蛮受欢迎的......"
     show natsuki zorder 2 at t31
     show sayori 4m zorder 3 at f32
-    s "Eh?"
-    s "You don't think she..."
-    s "She has a...!"
+    s "诶？"
+    s "你该不会觉得她......"
+    s "她交了一个......！"
     show sayori zorder 2 at t32
     show yuri 1a zorder 3 at f33
-    y "Ahaha. I wouldn't be surprised."
-    y "She's probably more desirable than all of us combined."
+    y "啊哈哈，那也不奇怪嘛。"
+    y "她可能比我们所有人加起来都更有魅力。"
     show yuri zorder 2 at t33
     show sayori 1r zorder 3 at f32
-    s "Ehehe, that's true..."
+    s "诶嘿嘿，确实是这样......"
     show sayori zorder 2 at t32
     show natsuki 1p zorder 3 at f31
-    n "Excuse me?!"
+    n "这又是哪跟哪啊喂？！"
     hide natsuki
     hide sayori
     hide yuri
     with wipeleft
-    "Suddenly, the door swings open."
+    "突然，门猛地打开了。"
     show monika 1g at l41
-    m "Sorry! I'm super sorry!"
-    mc "Ah, there you are..."
-    m "I didn't mean to be late..."
-    m "I hope you guys weren't worried or anything!"
+    m "抱歉抱歉！非常抱歉！"
+    mc "啊，你终于到了......"
+    m "我真不是故意要迟到的......"
+    m "希望你们没有在担心我之类的！"
     show sayori 4n zorder 3 at f42
-    s "Eh??"
-    s "Monika chose the club over her boyfriend after all!"
-    s "You're so strong-willed!"
+    s "诶？？"
+    s "所以莫妮卡最终在社团和男朋友之间选择了社团！"
+    s "你的意志力真的很强诶！"
     show sayori zorder 2 at t42
     show monika zorder 3 at f41
-    m 1l "B-Boyfriend...?"
-    m "What on Earth are you talking about?"
-    "Monika quizzically glances at me."
+    m 1l "什、什么男朋友......？"
+    m "你们到底在说什么啊？"
+    "莫妮卡疑惑地看向我。"
     show monika zorder 2 at t41
-    mc "Ah, never mind that..."
-    mc "What held you up, anyway?"
+    mc "啊，就当无事发生吧......"
+    mc "话说，你是被什么事情耽误了吗？"
     show monika zorder 3 at f41
-    m 1e "Ah..."
-    m "Well, my last period today was study hall."
-    m "To be honest, I kind of just lost track of time..."
-    m "Ahaha..."
+    m 1e "啊......"
+    m "嗯，我今天最后一节课是自习课。"
+    m "说实话，我忘了注意时间......"
+    m "啊哈哈......"
     show monika zorder 2 at t41
     show natsuki 2c zorder 3 at f43
-    n "That makes no sense, though."
-    n "You would have heard the bell ring, at least."
+    n "那也不合理啊。"
+    n "你至少应该有听到下课铃吧。"
     show natsuki zorder 2 at t43
     show monika zorder 3 at f41
-    m 1m "I must not have heard it, since I was practicing piano..."
+    m 1m "那想必是被我练钢琴的声音盖过去了吧......"
     show monika zorder 2 at t41
     show yuri 1e zorder 3 at f44
-    y "Piano...?"
-    y "I wasn't aware you played music as well, Monika."
+    y "钢琴......？"
+    y "我都不知道你会弹钢琴耶，莫妮卡。"
     show yuri zorder 2 at t44
     show monika zorder 3 at f41
-    m 1l "Ah, I don't, really...!"
-    m "I kind of just started recently."
-    m 1m "I've always wanted to learn piano."
+    m 1l "啊，其实也不算会弹......！"
+    m "我最近才开始学。"
+    m 1m "我一直都蛮想学钢琴的。"
     show monika zorder 2 at t41
     show sayori 4x zorder 3 at f42
-    s "That's so cool!"
-    s "You should play something for us, Monika!"
+    s "很酷诶！"
+    s "莫妮卡，弹几首曲子给我们听听吧！"
     show sayori zorder 2 at t42
     show monika zorder 3 at f41
-    m "That's..."
-    "Monika looks at me."
-    m 1a "Maybe once I get a little bit better, I will."
+    m "这......"
+    "莫妮卡看着我说道。"
+    m 1a "大概还是等我弹得稍微好点了，再弹给大家听吧。"
     show monika zorder 2 at t41
     show sayori zorder 3 at f42
-    s 4q "Yay~!"
+    s 4q "好耶~！"
     show sayori zorder 2 at t42
-    mc "That sounds cool."
-    mc "I'd also look forward to it."
+    mc "听起来好厉害。"
+    mc "我也很期待哦。"
     show monika zorder 3 at f41
-    m 1b "Is that so?"
-    m "In that case..."
-    m "I won't let you down, [player]."
+    m 1b "是吗？"
+    m "这样的话......"
+    m "我不会让你失望的，[player]。"
     show sayori zorder 1 at thide
     show natsuki zorder 1 at thide
     show yuri zorder 1 at thide
@@ -313,24 +313,24 @@ label ch2_main:
     hide sayori
     hide natsuki
     hide yuri
-    "Monika smiles sweetly."
-    mc "Ah..."
-    mc "I didn't mean any pressure or anything like that!"
-    m 1a "Ahaha, don't worry."
-    m "I've been practicing a whole lot recently."
-    m "And I'd really love the chance to share once I'm ready."
-    mc "I see..."
-    mc "In that case, best of luck."
-    m 1j "Thanks~!"
-    m 1a "So, I didn't miss anything, did I?"
-    mc "Not...not really."
+    "莫妮卡冲我甜甜地笑着。"
+    mc "啊......"
+    mc "我不是想给你压力什么的！"
+    m 1a "啊哈哈，不用担心。"
+    m "我最近练习得蛮多的。"
+    m "等我准备好之后，有机会的话我会很乐意分享的。"
+    mc "这样啊......"
+    mc "那么，就祝你好运吧。"
+    m 1j "谢谢~！"
+    m 1a "话说，我没有错过什么吧？"
+    mc "呃......其实没错过什么。"
     show monika zorder 1 at thide
     hide monika
-    "I choose to leave out Sayori's mischievous escapade."
-    "I'm sure Natsuki will end up complaining to her, anyway."
-    "It looks like everyone has already settled down."
-    "Sayori somehow already finished her entire cookie."
-    "Yuri is back to her book, and Natsuki disappeared into the closet."
+    "我选择不提纱世里的调皮恶作剧。"
+    "不过我敢肯定，夏树最后还是会跟她抱怨的。"
+    "看起来大家都已经安定下来了。"
+    "纱世里竟然已经吃完了整块曲奇。"
+    "优里回到了书本前，而夏树也消失在储藏间里了。"
 
 
 
@@ -348,81 +348,81 @@ label ch2_end:
     show monika 4b zorder 2 at t32
     with wipeleft_scene
     play music t3
-    m "Okay, everyone!"
-    m "We're all done reading each other's poems, right?"
-    m "I have something extra planned today, so if everyone could come sit at the front of the room..."
+    m "好了，各位！"
+    m "我们都已经读完彼此的诗了，对吧？"
+    m "我们今天需要商量点别的事，请大家都坐到房间的前面来..."
     show natsuki 3c zorder 3 at f31
-    n "Is this about the festival?"
+    n "是关于学园祭吗？"
     show natsuki zorder 2 at t31
     show monika 1j zorder 3 at f32
-    m "Well, sort of~"
+    m "嗯，差不多~"
     show monika 1a zorder 2 at t32
     show natsuki 1m zorder 3 at f31
-    n "Ugh. Do we really have to do something for the festival?"
-    n "It's not like we can put together anything good in just a few days."
-    n "We'll just end up embarrassing ourselves instead of getting any new members."
+    n "呃。我们真的非要准备学园祭不可吗？"
+    n "我们好像也没办法在短短几天内，拼凑出什么像样的东西来啊。"
+    n "可能到头来不仅没办法吸引到新成员，还会让我们自己出丑。"
     show yuri 2g zorder 3 at f33
     show natsuki zorder 2 at t31
-    y "That's a concern of mine as well."
-    y "I don't really do well with last-minute preparations..."
+    y "我也有这种担心呢。"
+    y "临时抱佛脚什么的，我真的不擅长......"
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
-    m 1b "Don't worry so much!"
-    m "We're going to keep it simple, okay?"
-    m 1a "We won't need much more than a few decorations."
-    m "Sayori has been working on posters, and I've designed some pamphlets we can give out during the event."
+    m 1b "别想那么多嘛！"
+    m "我们就弄得简单点，好吗？"
+    m 1a "做一点小装饰，其实也差不多了。"
+    m "纱世里已经在做海报了，我也设计了一些能在赏诗会期间分发的诗册。"
     show monika zorder 2 at t32
     show natsuki 3c zorder 3 at f31
-    n "Okay, that's great and all..."
-    n "But that doesn't tell us what we're actually going to be doing for the event."
+    n "好吧，这些都很不错......"
+    n "但你还是没说清楚，我们到底要在赏诗会上做什么啊。"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
-    m 1d "Ah, sorry! I thought you heard about it already."
-    m 1b "We're going to be performing!"
+    m 1d "啊，抱歉！我还以为你已经知道了。"
+    m 1b "我们要上台表演！"
     show monika zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 3h "Performing?"
+    n 3h "表演？"
     show natsuki zorder 2 at t31
     show yuri zorder 3 at f33
-    y 3n "P..."
-    y 3o "Um, Monika..."
+    y 3n "表......"
+    y 3o "呃，莫妮卡......"
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
-    m 1k "Yeah! We're going to be having a poetry performance."
-    m 1b "Each of us are going to choose a poem to recite during the event."
-    m "But the cool part is, we're also going to let anyone else come up and recite poems too!"
-    m 1a "Sayori's putting it on all the posters in case anyone wants to prepare ahead of time."
+    m 1k "没错！我们要举办一场诗朗诵表演。"
+    m 1b "我们每个人都要选一首诗，在赏诗会上朗诵。"
+    m "不过最棒的部分是，其他人也有机会上台进行诗朗诵！"
+    m 1a "纱世里会在海报上写明这一点，以便有意者提前做好准备。"
     show yuri zorder 2 at t44
     show monika zorder 2 at t43
     show natsuki zorder 2 at t42
     show sayori 4q at l41
-    s "Ehehe~"
-    "Sayori, who's been coloring a poster, holds it up for us to see."
+    s "诶嘿嘿~"
+    "紗世里一直在给海报上色，她把它拿起来给我们看了看。"
     show natsuki 4w zorder 3 at f42
-    n "Are you kidding me, Monika?"
-    n "You didn't...you didn't already start putting those posters up, did you?"
+    n "你是在开玩笑吗，莫妮卡？"
+    n "你不会......你不会已经把这些海报贴出去了吧？"
     show natsuki zorder 2 at t42
     show monika zorder 3 at f43
-    m 1d "Eh? Well, I did..."
-    m "Do you really think it's that bad of an idea...?"
+    m 1d "诶？是的，我已经贴了......"
+    m "你真的觉得这个主意有那么糟吗......？"
     show monika zorder 2 at t43
     show natsuki 1s zorder 3 at f42
-    n "Well, no."
-    n "It's not a bad idea."
-    n 1w "But I didn't sign up for this, you know!"
-    n 1x "There is {i}no{/i} way I'm going to be performing in front of a group of people like that!"
+    n "好吧，倒也没有。"
+    n "这个主意也不算糟。"
+    n 1w "但是我可不想参加这个哦！"
+    n 1x "我{i}绝不{/i}可能像你说的那样，在一大群人面前表演的！"
     show natsuki zorder 2 at t42
     show yuri zorder 3 at f44
-    y 3r "I...I agree with Natsuki!"
-    y 3w "I could never...in my life...do something like that..."
-    "Imagining it, Yuri shakes her head in fear."
+    y 3r "我...我同意夏树！"
+    y 3w "我这辈子......也不会......做那样的事情的......"
+    "想到这里，优里害怕地摇了摇头。"
     show yuri zorder 2 at t44
     show sayori 1g zorder 3 at f41
-    s "Guys..."
+    s "各位……"
     show sayori zorder 2 at t41
     show monika zorder 3 at f43
-    m 1g "No, Sayori..."
-    m "I understand where they're coming from."
+    m 1g "纱世里，先别说了……"
+    m "我明白她们心里在想什么。"
     m "Remember that Natsuki and Yuri have never shared their poems with anyone until just a couple days ago..."
     m "It's a lot to ask for them to recite their poems out loud to a whole room full of people."
     m 1r "I guess I kind of overlooked that."
@@ -834,8 +834,11 @@ label ch2_end:
     scene bg residential_day
     with wipeleft_scene
     $ ch2_winner = poemwinner[1].capitalize()
-    if ch2_winner == "Sayori":
-        $ ch2_winner = "Yuri"
+    if ch2_winner == "Sayori" or ch2_winner == "Yuri":
+        $ ch2_winner = "优里"
+    elif ch2_winner == "Natsuki":
+        $ ch2_winner = "夏树"
+
     "I walk home with Sayori once more."
     "Even though it's only been a few days, a lot of things have already changed."
     "But today, Sayori is being a little quieter than usual on the way home."
@@ -858,7 +861,7 @@ label ch2_end:
     menu:
         "Well..."
         "I would walk home with [ch2_winner].":
-            if ch2_winner == "Natsuki":
+            if ch2_winner == "夏树":
                 call ch2_end_natsuki
             else:
                 call ch2_end_yuri
@@ -873,7 +876,7 @@ label ch2_end_sayori:
     mc "You really think I would ditch you for [ch2_winner]?"
     s 1e "Eh?!"
     s "B-But..."
-    if ch2_winner == "Natsuki":
+    if ch2_winner == "夏树":
         s "She's so cute and fun to be around..."
     else:
         s "She's so beautiful and smart..."

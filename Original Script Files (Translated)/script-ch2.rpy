@@ -861,7 +861,7 @@ label ch2_end:
     menu:
         "好吧..."
         "我会和[ch2_winner]一起走回家。":
-            if ch2_winner == "Natsuki":
+            if ch2_winner == "夏树":
                 call ch2_end_natsuki
             else:
                 call ch2_end_yuri
@@ -876,7 +876,7 @@ label ch2_end_sayori:
     mc "你真的觉得我会抛下你而选择[ch2_winner]吗？"
     s 1e "诶？！"
     s "但-但是..."
-    if ch2_winner == "Natsuki":
+    if ch2_winner == "夏树":
         s "她那么可爱有趣..."
     else:
         s "她那么漂亮聪明..."
