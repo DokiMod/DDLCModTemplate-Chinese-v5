@@ -418,121 +418,121 @@ label ch2_end:
     "想到这里，优里害怕地摇了摇头。"
     show yuri zorder 2 at t44
     show sayori 1g zorder 3 at f41
-    s "各位……"
+    s "各位......"
     show sayori zorder 2 at t41
     show monika zorder 3 at f43
-    m 1g "纱世里，先别说了……"
+    m 1g "纱世里，先别说了......"
     m "我明白她们心里在想什么。"
-    m "Remember that Natsuki and Yuri have never shared their poems with anyone until just a couple days ago..."
-    m "It's a lot to ask for them to recite their poems out loud to a whole room full of people."
-    m 1r "I guess I kind of overlooked that."
-    m "So, I'm sorry."
+    m "要知道几天前，夏树和优里还从来没有跟别人分享过她们的诗......"
+    m "让她们当着一屋子的人大声朗诵自己的诗，确实要求太高了。"
+    m 1r "我好像确实忽略了这一点。"
+    m "唉，实在对不起。"
     show monika zorder 2 at t43
     show natsuki 5g zorder 3 at f42
-    n "..."
+    n "......"
     show natsuki zorder 2 at t42
     show monika zorder 3 at f43
-    m 1i "...But!"
-    m "I still think we should give it our best!"
-    m 1d "We're the only ones responsible for the fate of this club."
-    m "If we start the event and each put on a good performance..."
-    m 3a "Then it will inspire others to do the same!"
-    m "And the more people who perform, the better we'll be able to show everyone what literature is all about!"
+    m 1i "......但是！"
+    m "我觉得我们还是应该竭尽全力！"
+    m 1d "毕竟这个社团的命运只能靠我们自己。"
+    m "如果我们成功举办了赏诗会，并且演出效果不错的话......"
+    m 3a "那就会激励别人也这么做！"
+    m "表演的人越多，我们就能更好地告诉大家，文学到底是什么！"
     show monika zorder 2 at t43
     show sayori 1r zorder 3 at f41
-    s "Yeah!"
-    s 1x "It's about expressing your feelings..."
-    s "Being intimate with yourself..."
-    s "Finding new horizons..."
-    s "And having fun!"
+    s "是的!"
+    s 1x "文学就是表达出你们的感情......"
+    s "挖掘自己的内心......"
+    s "发现新的视界......"
+    s "然后玩得开心就行了！"
     show sayori zorder 2 at t41
     show monika zorder 3 at f43
-    m 4b "That's right!"
-    m "And it's those reasons that we're all in this club today."
-    m 4e "Don't you want to share that with others?"
-    m "To inspire them to find the same feelings that brought you here in the first place?"
-    m 1e "I know you do."
-    m "I know we all do."
-    m 1b "And if all it takes is standing in front of the room for two minutes and reciting a poem..."
-    m "...Then I know you can do it!"
+    m 4b "没错！"
+    m "正因如此，我们今天才会相聚在社团里。"
+    m 4e "你们难道不想和他人分享吗？"
+    m "难道就不想鼓舞其他人，让他们体会到当初引领各位来到这里的那些感受吗？"
+    m 1e "我知道你们想的。"
+    m "我知道我们都很想。"
+    m 1b "而如果我们只需要花上两分钟，站在房间前朗诵一首诗的话......"
+    m "......那我相信大家一定可以做到的！"
     show monika 1a zorder 2 at t43
     show natsuki 5s zorder 3 at f42
-    n "..."
+    n "......"
     show natsuki zorder 2 at t42
     show yuri 4b zorder 3 at f44
-    y "..."
+    y "......"
     show yuri zorder 2 at t44
     show sayori 1g
-    "Natsuki and Yuri remain silent."
-    "Sayori looks worried."
-    "I guess that leaves me no choice..."
-    mc "I agree..."
-    mc "I don't think it's too much to ask."
-    mc "I think that Sayori and Monika have been trying really hard to get new members."
-    mc "The least we can do is help them out a little bit."
+    "夏树和优里沉默不语。"
+    "纱世里看起来则有些担心。"
+    "那想必我是别无选择了......"
+    mc "我同意......"
+    mc "我不觉得这样的要求很过分。"
+    mc "纱世里和莫妮卡一直努力地想吸引新成员。"
+    mc "我觉得我们至少该帮她们分担一点。"
     show natsuki zorder 3 at f42
-    n 5h "Well...maybe, but..."
-    n "..."
-    "It looks like Natsuki doesn't have any arguments left."
-    n "Uu..."
-    n 1q "...Okay, fine!"
-    n "I guess I'll just have to get it over with."
+    n 5h "好吧......或许你说的没错，但是......"
+    n "......"
+    "夏树似乎也没什么可反驳的了。"
+    n "唔......"
+    n 1q "......那，行吧！"
+    n "看来我也只能忍一下了。"
     show natsuki zorder 2 at t42
     show sayori zorder 3 at f41
-    s 4r "Alright~!"
+    s 4r "太好了~！"
     show sayori 4a zorder 2 at t41
     show monika zorder 3 at f43
-    m 1e "Phew..."
-    m "Thanks, Natsuki."
-    m "What about you, Yuri...?"
+    m 1e "呼......"
+    m "谢谢你，夏树。"
+    m "那你呢，优里......？"
     show monika zorder 2 at t43
     show yuri zorder 3 at f44
-    y "..."
-    "Yuri dejectedly glances around at everyone else's expectant faces."
-    y "Sigh..."
-    y "I-I guess I don't really have a choice..."
+    y "......"
+    "优里郁闷地看着周围其他人满怀期待的脸。"
+    y "唉......"
+    y "那、那我也别无选择了啊......"
     show yuri zorder 2 at t44
     show sayori zorder 3 at f41
-    s 4r "Ahaha! That's everyone!"
-    s "You're the best, Yuri~"
+    s 4r "啊哈哈！那就是全员参加咯！"
+    s "你最好了，优里~"
     show sayori 4a zorder 2 at t41
     show yuri zorder 3 at f44
-    y "This club is seriously going to be the death of me..."
+    y "这个社团迟早会要了我的命啊......"
     show yuri zorder 2 at t44
     show monika zorder 3 at f43
-    m 1l "Oh gosh..."
-    m 1n "You'll be fine, Yuri."
-    m "But anyway..."
-    m 1b "Let's move onto the main event!"
-    m "I want each of you to choose a poem of yours."
-    m "We're going to practice reciting them in front of each other."
+    m 1l "哦，天哪......"
+    m 1n "没事的，优里。"
+    m "不过话说回来......"
+    m 1b "我们还是开始准备赏诗会吧！"
+    m "我希望你们每个人都选一首自己的诗。"
+    m "我们会在彼此面前进行朗诵练习。"
     show monika 1a zorder 2 at t43
     show natsuki zorder 3 at f42
-    n 1p "N-N-No way!!"
+    n 1p "不、不、不行！！"
     show natsuki zorder 2 at t42
     show yuri 3n zorder 3 at f44
-    y "Monika...!"
-    y "This is too sudden...!"
+    y "莫妮卡......！"
+    y "这太突然了吧......！"
     show yuri zorder 2 at t44
     show monika zorder 3 at f43
-    m 2a "Well, if you can't recite your poem in front of the club, how do you expect to do it in front of strangers?"
+    m 2a "呃，要是连在社团成员面前朗诵都不敢，又怎么能指望在陌生人面前朗诵呢？"
     show monika zorder 2 at t43
     show yuri 4c zorder 3 at f44
     show natsuki 1o
-    y "Oh no..."
+    y "哦不……"
     show yuri zorder 2 at t44
     show monika zorder 3 at f43
-    m 2a "Don't worry."
-    m "I'll start off to help everyone feel a little more comfortable."
+    m 2a "别担心。"
+    m "我会打头阵，让大家更自在一些。"
     show monika zorder 2 at t43
     show sayori 1r zorder 3 at f41
-    s "Can I go next??"
+    s "那我能当下一位吗？？"
     show sayori zorder 2 at t41
     show monika zorder 3 at f43
-    m "Ahaha. Of course."
-    m 2d "Now, let's see..."
-    "Monika flips through her notebook to the specific poem she has in mind for herself."
-    "She then stands behind the podium."
+    m "啊哈哈，当然可以。"
+    m 2d "这样的话，我看看……"
+    "莫妮卡快速翻动笔记本，寻找着她心里想着的那一首诗。"
+    "接着她便站在了讲台后面。"
     show monika zorder 2 at t11
     show sayori zorder 1 at thide
     show natsuki zorder 1 at thide
@@ -540,25 +540,25 @@ label ch2_end:
     hide sayori
     hide natsuki
     hide yuri
-    m 1a "The title of this poem is {i}The Way They Fly{/i}."
-    m 1r "Ahem..."
+    m 1a "这首诗题为《飞翔的方式》。"
+    m 1r "咳咳……"
     show monika 1a
-    "Monika begins reciting her poem."
-    "Her clear, confident voice fills the room."
-    "More than that, her inflection is pristine."
-    "She knows exactly how to apply emotion behind each line she recites, bringing the words to life."
-    "Is this something she's done before, or is she simply a natural?"
-    "I glance around me."
-    "Everyone has their eyes on Monika."
-    "Sayori looks amazed."
-    "Yuri has an intense expression on her face that I don't understand."
+    "莫妮卡开始朗诵她的诗。"
+    "她那清晰又自信的声音在整间房内回荡。"
+    "不仅如此，她那抑扬顿挫的语调也很质朴清新。"
+    "她十分清楚如何将感情投入到自己朗诵的每一行诗句中，给文字带来生气。"
+    "她是之前就朗诵过诗篇，还是说她天生就如此在行？"
+    "我朝周围看了看。"
+    "所有人的视线都放在莫妮卡身上。"
+    "纱世里一脸惊讶。"
+    "优里脸上带着我不能理解的紧张表情。"
     show monika 1j
-    "Finally, Monika finishes the recitation."
-    "The four of us applaud."
-    "Monika takes a breath and smiles."
+    "终于，莫妮卡完成了朗诵。"
+    "我们四个都鼓起了掌。"
+    "莫妮卡深吸了一口气，微笑了起来。"
     show monika 1a
     show sayori 4m zorder 3 at f33
-    s "That...that was so good, Monika!"
+    s "莫妮卡，你……你的表现好棒啊！"
     show sayori zorder 2 at t33
     show monika zorder 3 at f32
     m 1j "Ahaha, thank you very much."
