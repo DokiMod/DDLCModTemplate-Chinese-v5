@@ -519,7 +519,7 @@ label ch2_end:
     show monika zorder 2 at t43
     show yuri 4c zorder 3 at f44
     show natsuki 1o
-    y "哦不……"
+    y "哦不......"
     show yuri zorder 2 at t44
     show monika zorder 3 at f43
     m 2a "别担心。"
@@ -530,7 +530,7 @@ label ch2_end:
     show sayori zorder 2 at t41
     show monika zorder 3 at f43
     m "啊哈哈，当然可以。"
-    m 2d "这样的话，我看看……"
+    m 2d "这样的话，我看看......"
     "莫妮卡快速翻动笔记本，寻找着她心里想着的那一首诗。"
     "接着她便站在了讲台后面。"
     show monika zorder 2 at t11
@@ -541,7 +541,7 @@ label ch2_end:
     hide natsuki
     hide yuri
     m 1a "这首诗题为《飞翔的方式》。"
-    m 1r "咳咳……"
+    m 1r "咳咳......"
     show monika 1a
     "莫妮卡开始朗诵她的诗。"
     "她那清晰又自信的声音在整间房内回荡。"
@@ -558,73 +558,73 @@ label ch2_end:
     "莫妮卡深吸了一口气，微笑了起来。"
     show monika 1a
     show sayori 4m zorder 3 at f33
-    s "莫妮卡，你……你的表现好棒啊！"
+    s "莫妮卡，你......你的表现好棒啊！"
     show sayori zorder 2 at t33
     show monika zorder 3 at f32
-    m 1j "Ahaha, thank you very much."
-    m 1a "I was just hoping to set a good example."
-    m "Are you ready to go next, Sayori?"
+    m 1j "啊哈哈，非常感谢。"
+    m 1a "希望我树立了一个好的榜样。"
+    m "准备好接棒上场了吗，纱世里？"
     show monika zorder 2 at t32
     show yuri 2r at l31
-    y "I...I'll go next!!"
+    y "下......下一个让我来！！"
     show sayori at h33
-    s 1n "Uwah! Yuri's fired up all of a sudden!"
-    "Yuri clutches a sheet of paper between her hands and stands up."
-    "Keeping her head down, she walks quickly over to the podium."
+    s 1n "呜哇！优里突然火力全开啦！"
+    "优里手中攥着一张纸，站了起来。"
+    "她低着头，快速走向讲台。"
     show monika zorder 1 at thide
     show sayori zorder 1 at thide
     show yuri zorder 2 at t11
     hide monika
     hide sayori
-    y 2v "This poem is called--!"
-    "Yuri anxiously glances at each of us."
-    s "You can do it, Yuri..."
-    y "It...It's called...{i}Afterimage of a Crimson Eye{/i}."
-    "Yuri's voice shakes as she starts reading the poem."
-    "Just a moment ago, she practically refused to do this."
-    "Why is she suddenly putting in so much effort?"
+    y 2v "这首诗的题目是——！"
+    "优里紧张地看着我们。"
+    s "你可以的，优里......"
+    y "题......题目叫......《绯红眼眸之残影》。"
+    "优里开始朗诵诗，声音有些颤抖。"
+    "明明刚刚她还特别抗拒的。"
+    "为什么她突然之间变得这么努力了？"
     show yuri 2l
-    "As Yuri gets past the first couple of lines, her voice changes."
-    "It's almost like what happens when Yuri gets absorbed into her books."
-    "Her quivering words transform into the sharp syllables of a fierce and confident woman."
-    "The poem is full of twists and turns in its structure that she enunciates with perfect timing."
-    "This must be a rare glimpse into the whirling fire Yuri keeps concealed inside her head...!"
+    "读过开头的几行过后，优里的声音发生了变化。"
+    "简直就和她沉浸到书本里的时候一样。"
+    "她的语调不再颤抖，每个音节铿锵有力，迸发出勇猛而自信的气势。"
+    "这首诗通篇都是结构上的迂回曲折，而她的咬字与节奏将其表现得淋漓尽致。"
+    "优里一直封存于脑海深处的那团飞旋跳动的热情火焰，如今难得可以一睹真容......！"
     show yuri 2t
-    "Suddenly, she's finished."
-    "Everyone is stunned."
-    "Yuri snaps back into reality and glances around her, as if she bewildered even herself."
-    y 3o "I..."
-    "...It's up to me to save this situation."
-    "I'm the first to start applauding."
-    "Everyone joins me afterward, and we give Yuri the recognition she deserves."
-    "It's not that we didn't want to applaud for her."
-    "But we were caught so off-guard that we must have forgotten."
-    "As we applaud, Yuri holds the poem to her chest and rushes back into her seat."
+    "她的朗诵戛然而止。"
+    "所有人都呆住了。"
+    "优里猛然回到了现实中，环顾四周，似乎自己也困惑不已。"
+    y 3o "我......"
+    "......看来需要我来救场了。"
+    "我带头鼓起了掌。"
+    "大家都随后鼓掌起来，给了优里应得的认可。"
+    "我们刚刚并不是不想为她鼓掌。"
+    "而是因为她的表现出乎了所有人的意料，结果大家都没回过神，忘记了鼓掌。"
+    "伴随着我们的掌声，优里把诗紧贴在胸口，跑回了自己的座位。"
     show yuri at lhide
     hide yuri
     show monika 1a zorder 2 at t11
-    m "Yuri, that was really good."
-    m "Thank you for sharing."
-    y "..."
-    "Looks like Yuri is down for the count..."
+    m "优里，你表现得非常棒。"
+    m "谢谢你的分享。"
+    y "......"
+    "似乎优里已经筋疲力尽了......"
     show sayori 1q zorder 2 at t31
-    s "Okaay~"
-    s "I guess I'm next, then!"
-    "Sayori hops out of her chair and cheerfully walks to the podium."
+    s "好啦~"
+    s "那下一位就让我上了！"
+    "纱世里从座位上跳了起来，兴高采烈地走向讲台。"
     show sayori zorder 2 at t11
     show monika zorder 1 at thide
     hide monika
-    s 1x "This one's called...{i}My Meadow{/i}."
-    s "Ah..."
-    s 1s "...Ahaha!"
-    s 4s "Sorry, I giggled..."
-    s 4q "Ehehe..."
-    mc "Sayori..."
-    s 1l "It's a lot harder than I thought!"
-    s "How did you guys do it so easily?"
+    s 1x "这首诗叫做......《我的大草地》。"
+    s "啊......"
+    s 1s "......啊哈哈！"
+    s 4s "不好意思，我刚刚傻笑了......"
+    s 4q "诶嘿嘿......"
+    mc "纱世里......"
+    s 1l "这比我想象中要难好多啊！"
+    s "为什么你们做起来都那么轻松啊？"
     show monika 3a zorder 2 at t31
     show sayori 1b
-    m "Ah..."
+    m "啊......"
     m "Try not to think of it like you're reciting to other people."
     m "Imagine you're reciting it to yourself, like in front of a mirror, or in your own head."
     m "It's your poem, so it'll come out the best that way."
