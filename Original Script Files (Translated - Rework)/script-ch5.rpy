@@ -1,7 +1,7 @@
-image exception_bg = "#dadada"
-image fake_exception = Text("An exception has occurred.", size=40, style="_default")
-image fake_exception2 = Text("File \"game/script-ch5.rpy\", line 307\nSee traceback.txt for details.", size=20, style="_default")
-
+image exception_bg = "#dadada" # maybe #d0d0d0?
+image fake_exception = Text("发生异常。", size=40, style="_default")
+image fake_exception2 = Text("File \"game/script-ch5.rpy\", line 307\n查看 traceback.txt 了解详情。", size=20, style="_default") 
+# 不翻译 File "game/script-ch5.rpy", line 307 系故意为之
 image splash_glitch:
     subpixel True
     "images/bg/splash-glitch.png"
