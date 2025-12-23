@@ -10,9 +10,9 @@ label ch22_main:
     scene bg club_day2
     with dissolve_scene_half
     play music t6
-    "Another day passes, and it's time for the club meeting already."
-    "I've gotten a little more comfortable here over the past couple days."
-    "Entering the clubroom, the usual scene greets me."
+    "又一天过去了，已经到了社团活动的时间。"
+    "几天下来，我对文学部已经相当适应了。"
+    "走进部室，迎接我的又是那熟悉的一幕。"
     if renpy.random.randint(0,2) == 0:
         show yuri half zorder 2 at i11
         show yuri_half2 zorder 1 at i11
@@ -146,11 +146,11 @@ label ch22_main:
     mc "Hey...!"
     "Suddenly, the door swings open."
     show monika 1g at l41
-    m "Sorry! I'm super sorry!"
-    mc "Ah, there you are..."
+    m "抱歉抱歉！非常抱歉！"
+    mc "啊，你终于到了......"
     show monika zorder 3 at f41
-    m "I didn't mean to be late..."
-    m "I hope you guys weren't worried or anything!"
+    m "我真不是故意要迟到的......"
+    m "希望你们没有在担心我之类的！"
     show monika zorder 2 at t41
     mc "Nah..."
     mc "Well, Natsuki was."
@@ -164,21 +164,21 @@ label ch22_main:
     n 1s "...What took you so long, anyway?"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
-    m 1e "Ah..."
-    m "Well, my last period today was study hall."
-    m "To be honest, I kind of just lost track of time..."
-    m "Ahaha..."
+    m 1e "啊......"
+    m "嗯，我今天最后一节课是自习课。"
+    m "说实话，我忘了注意时间......"
+    m "啊哈哈......"
     show monika zorder 2 at t41
     show natsuki zorder 3 at f33
-    n 2c "That makes no sense, though."
-    n "You would have heard the bell ring, at least."
+    n 2c "那也不合理啊。"
+    n "你至少应该有听到下课铃吧。"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
-    m 1m "I must not have heard it, since I was practicing piano..."
+    m 1m "那想必是被我练钢琴的声音盖过去了吧......"
     show monika zorder 2 at t41
     show yuri zorder 3 at f32
-    y 1e "Piano...?"
-    y "I wasn't aware you played music as well, Monika."
+    y 1e "钢琴......？"
+    y "我都不知道你会弹钢琴诶，莫妮卡。"
     show yuri zorder 2 at t32
     show monika zorder 3 at f41
     m 1l "Ah, don't give me more credit than I deserve."
@@ -199,31 +199,31 @@ label ch22_main:
     m "Ahaha, that's..."
     "Monika looks at me."
     m 1a "Well, I am working on writing a song, but it's not quite done yet..."
-    m "Maybe once I get a little bit better, I will."
+    m "大概还是等我弹得稍微好点了，再弹给大家听吧。"
     show monika zorder 2 at t41
-    mc "That sounds cool."
-    mc "I look forward to it."
+    mc "听起来好厉害。"
+    mc "我很期待哦。"
     show monika zorder 3 at f41
-    m 1b "Is that so?"
-    m "In that case..."
-    m "I won't let you down, [player]."
+    m 1b "是吗？"
+    m "这样的话......"
+    m "我不会让你失望的，[player]。"
     show yuri zorder 1 at thide
     show natsuki zorder 1 at thide
     hide yuri
     hide natsuki
     show monika 5 zorder 2 at t11
-    "Monika smiles sweetly."
-    mc "Ah..."
-    mc "I didn't mean any pressure or anything like that!"
-    m 1a "Ahaha, don't worry."
+    "莫妮卡冲我甜甜地笑着。"
+    mc "啊......"
+    mc "我不是想给你压力什么的！"
+    m 1a "啊哈哈，不用担心。"
     m "I was hoping that I could share it with you, anyway."
     m "I guess that's why I've been practicing so much recently."
-    mc "I see..."
+    mc "这样啊......"
     "I'm not sure if Monika was referring to the whole club, or just me..."
-    mc "In that case, best of luck."
-    m 1j "Thanks~!"
-    m 1a "So, I didn't miss anything, did I?"
-    mc "Not...not really."
+    mc "那么，就祝你好运吧。"
+    m 1j "谢谢~！"
+    m 1a "话说，我没有错过什么吧？"
+    mc "呃......其实没错过什么。"
     show monika zorder 1 at thide
     hide monika
     "I choose not to bring up anything that the three of us talked about."
@@ -301,7 +301,7 @@ label ch22_end:
     stop music fadeout 1.0
     scene black
     with wipeleft_scene
-    call screen confirm("You have unlocked a special poem.\nWould you like to read it?", Return(True), Return(False))
+    call screen confirm("你解锁了一首特别诗篇。\n想现在就读读看吗？", Return(True), Return(False))
     if _return:
         call expression "poem_special_" + str(persistent.special_poems[1])
         scene black with Dissolve(1.0)
@@ -348,12 +348,12 @@ label ch22_end:
 
 
 
-    m "Okay, everyone!"
-    m "We're all done reading each other's poems, right?"
+    m "好了，各位！"
+    m "我们都已经读完彼此的诗了，对吧？"
     $ config.mouse = None
-    m "We have something we need to go over today, so if everyone could come sit at the front of the room..."
+    m "我们今天需要商量点别的事，请大家都坐到房间的前面来......"
     show natsuki 3c zorder 3 at f31
-    n "Is this about the festival?"
+    n "是关于学园祭吗？"
     show natsuki zorder 2 at t31
     show monika 1j zorder 3 at f32
     m "Well, sort of~"
@@ -516,7 +516,7 @@ label ch22_end:
     $ style.say_dialogue = style.edited
     $ currentpos = get_pos() / 2.07
     play music "<from " + str(currentpos) + " loop 1.532>bgm/9g.ogg"
-    y "Who cares about that obnoxious brat?"
+    y "谁在乎那个死缠滥干的玻璃心小鬼啊？"
     $ style.say_dialogue = style.normal
     $ currentpos = get_pos() * 2.07
     play music "<from " + str(currentpos) + " loop 3.172>bgm/9.ogg"

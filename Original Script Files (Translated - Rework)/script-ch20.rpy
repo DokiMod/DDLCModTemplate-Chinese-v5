@@ -490,7 +490,7 @@ label ch20_main2:
     $ config.allow_skipping = False
     $ allow_skipping = False
 
-    call screen confirm("You have unlocked a special poem.\nWould you like to read it?", Return(True), Return(False))
+    call screen confirm("你解锁了一首特别诗篇。\n想现在就读读看吗？", Return(True), Return(False))
     if _return:
         call expression "poem_special_" + str(persistent.special_poems[0])
     else:

@@ -281,7 +281,7 @@ label ch2_main:
     show monika zorder 2 at t41
     show yuri 1e zorder 3 at f44
     y "钢琴......？"
-    y "我都不知道你会弹钢琴耶，莫妮卡。"
+    y "我都不知道你会弹钢琴诶，莫妮卡。"
     show yuri zorder 2 at t44
     show monika zorder 3 at f41
     m 1l "啊，其实也不算会弹......！"
@@ -350,7 +350,7 @@ label ch2_end:
     play music t3
     m "好了，各位！"
     m "我们都已经读完彼此的诗了，对吧？"
-    m "我们今天需要商量点别的事，请大家都坐到房间的前面来..."
+    m "我们今天需要商量点别的事，请大家都坐到房间的前面来......"
     show natsuki 3c zorder 3 at f31
     n "是关于学园祭吗？"
     show natsuki zorder 2 at t31

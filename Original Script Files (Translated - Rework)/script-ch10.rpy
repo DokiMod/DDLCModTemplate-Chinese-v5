@@ -12,12 +12,12 @@ label ch10_main:
 
     s "[gtext]"
     $ s_name = glitchtext(12)
-    "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
-    "That girl is [s_name], my neighbor and good friend since we were children."
-    "You know, the kind of friend you'd never see yourself making today, but it just kind of works out because you've known each other for so long?"
-    "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently, and I would get tired of waiting up."
-    "But if she's going to chase after me like this, I almost feel better off running away."
-    "However, I just sigh and idle in front of the crosswalk and let [s_name] catch up to me."
+    "我看见一个吵吵闹闹的女孩从远处朝我跑来，一边猛挥着手，仿佛完全意识不到这样会引来全世界的注意。"
+    "她叫[s_name]，我的邻居，也是我的儿时玩伴。"
+    "怎么说，换做现在，我大概不会想跟她交朋友。但是，因为和她相识太久，我们就自然而然地合拍了。"
+    "我们以前经常这样结伴上学，但上了高中以后，她睡过头的频率就越来越高，我也就有点懒得等她了。"
+    "每当她像这样狂追不舍的时候，我还真的有点想一走了之。"
+    "然而我也别无选择，只是叹了口气，在路口等着，好让[s_name]赶上我。"
 
     show sayori glitch zorder 2 at t11
     python:
