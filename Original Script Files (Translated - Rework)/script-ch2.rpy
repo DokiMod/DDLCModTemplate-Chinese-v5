@@ -625,95 +625,95 @@ label ch2_end:
     show monika 3a zorder 2 at t31
     show sayori 1b
     m "啊......"
-    m "Try not to think of it like you're reciting to other people."
-    m "Imagine you're reciting it to yourself, like in front of a mirror, or in your own head."
-    m "It's your poem, so it'll come out the best that way."
+    m "尽量别把它当成是在对着别人朗诵就行。"
+    m "想象一下你是在对着自己朗诵，就像对着镜子，或者在脑中默念一样。"
+    m "毕竟这是你自己写的诗，所以这样做的效果最好。"
     show sayori 1i
-    s "I see, I see..."
-    s "Okay, then..."
+    s "明白了，明白了......"
+    s "好的，那么......"
     show monika zorder 1 at thide
     hide monika
     show sayori 1c
-    "Sayori begins her poem."
-    "Somehow, it feels like her soft voice was made as a perfect match."
-    "The poem isn't aimlessly cheery like Sayori is."
-    "It's serene and bittersweet."
-    "If I were to read this on paper, I probably wouldn't think much of it..."
-    "But hearing it come from Sayori's voice almost gives it a whole new meaning."
-    "Maybe this is what Sayori meant when she said she likes my poems."
-    "It's like I get to reach more deeply into someone I thought I knew through and through."
-    "Sayori finishes, and we applaud."
-    s 3q "I did it~!"
-    mc "Good job, Sayori."
-    s "Ehehe, even [player] liked it."
-    s "I guess that's a good sign~"
-    mc "What does that even mean...?"
+    "纱世里开始了朗诵。"
+    "不知怎地，这首诗和她温柔的声线仿佛是天作之合。"
+    "不过这首诗并不像纱世里本人那样，欢快得无忧无虑。"
+    "它带着些安宁，又有着苦乐参半的感觉。"
+    "如果我是在纸上读到这首诗，那我大概不会想这么多..."
+    "但是听到纱世里用她的声音读出来时，这首诗就有了全新的含义。"
+    "可能纱世里说她喜欢我的诗时，大概也是这个意思吧。"
+    "就有一种，我本以为我早已相当了解她，但现在自己对她的理解又更深一层的感觉。"
+    "纱世里读完了，我们鼓起了掌。"
+    s 3q "我做到了~！"
+    mc "做得不错，纱世里！"
+    s "欸嘿嘿，连 [player] 都喜欢哦。"
+    s "我想这一定是个好兆头吧~"
+    mc "你这是在说什么呀......？"
     show monika 2b zorder 3 at f31
-    m "It came out nicely, Sayori."
-    m "The atmosphere of the poem fits you really nicely."
-    m "But it might be that other poems wouldn't work quite as well with that kind of delivery..."
+    m "效果非常好啊，纱世里。"
+    m "诗的基调与你相当契合。"
+    m "只不过，如果你的其它诗也用这种风格来朗诵的话，效果也许会稍逊一筹吧......"
     show monika zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1g "Eh? I don't really understand..."
+    s 1g "诶？我不是很明白......"
     show sayori zorder 2 at t32
     show monika zorder 3 at f31
-    m 1a "In other words, I've seen poems of yours where that sort of gentle delivery wouldn't work as well."
-    m "They might need a little more force behind them, depending on what you're reading..."
+    m 1a "换句话说，我读过你其他的诗，它们不太适合这种温柔的表达方式。"
+    m "那些诗可能需要以更有力道的方式来呈现，而力量的多少则取决于你所读的内容......"
     show monika zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1x "Oh, I know what you mean!"
-    s "That's...well, I've been practicing that kind of thing..."
-    s 5 "It's just embarrassing to do in front of everyone..."
-    s "Ehehe..."
+    s 1x "哦，我懂你的意思了！"
+    s "就是......嗯，我已经有在练习这些了......"
+    s 5 "只不过站在大家面前有些难为情而已......"
+    s "欸嘿嘿......"
     show sayori zorder 2 at t32
     show monika zorder 3 at f31
-    m 4a "Then next time, I'm going to make you pick a poem that challenges you a little more."
-    m "We don't have much time before the festival, you know?"
+    m 4a "那下次我可要让你选一首更有挑战性的诗哦。"
+    m "你也知道离学园祭也只剩下没几天了吧？"
     show monika zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1q "Okaaaaay."
+    s 1q "好......吧。"
     show sayori zorder 2 at t32
     show monika zorder 3 at f31
-    m 1a "Now, who's next...?"
-    m "Natsuki?"
+    m 1a "那么，下一个谁来......？"
+    m "夏树可以吗？"
     show natsuki 5s zorder 3 at f33
     show monika zorder 2 at t31
-    n "Hmph."
-    n "Don't make me go before [player]."
-    n "It's not like I can compare to you guys, anyway..."
-    n "Might as well let [player] lower everyone's standards a little before I have to do it."
+    n "哼。"
+    n "别把我排在 [player] 之前上场。"
+    n "何况我也没法跟你们相比啊......"
+    n "那么，倒不如先让 [player] 降低一下大家的标准，然后我再上场，免得我成降低预期的了。"
     show natsuki zorder 2 at t33
     show sayori zorder 3 at f32
-    s 1g "Natsuki..."
+    s 1g "夏树......"
     show sayori zorder 2 at t32
-    mc "It's fine, it's fine."
-    mc "I might as well get it over with."
-    mc "But it's not like I have much of a selection of what to read..."
-    mc "I'll just have to go with what I wrote for today."
-    "I stand up and step in front of the podium."
+    mc "没事，没多大事。"
+    mc "长痛不如短痛，我也想赶紧搞定。"
+    mc "但是在读的内容上，我好像没啥选择了......"
+    mc "那我就读我昨天写的诗吧。"
+    "我站起来，走到了讲台前。"
     show natsuki 2c zorder 2 at t44
     show sayori 1a zorder 2 at t43
     show monika 1a zorder 2 at t42
     show yuri 1e zorder 2 at t41
-    "Everyone has their eyes on me, making me feel terribly awkward."
-    "I recite my poem."
-    "Since I'm not exactly confident in my own writing, it's hard to put energy into it."
-    "Despite that, once I finish, I receive applause anyway."
-    mc "Sorry I'm not really as good as everyone else..."
+    "大家都将目光集中在我一个人身上，让我感到格外尴尬。"
+    "我朗诵了我的诗。"
+    "由于我对自己的写作水平不是特别有信心，所以我很难有感情地朗诵手里的诗作。"
+    "尽管如此，在我读完的那一刻，我还是收获了掌声。"
+    mc "抱歉，我表现得没大家那么好......"
     show monika zorder 3 at f42
-    m 1a "Don't worry about it so much."
-    m "I think it's less about your abilities, and more about your lack of confidence in your writing."
-    m "That's something that'll improve over time, though."
+    m 1a "别太担心。"
+    m "我觉得你的能力倒是问题不大，你对自己的写作水平缺乏信心才是最大的问题。"
+    m "不过随着时间推移，你会越来越有信心的。"
     show monika zorder 2 at t42
-    mc "Yeah... Maybe."
+    mc "嗯......也许吧。"
     show monika zorder 3 at f42
-    m 1j "Alright, then!"
-    m 1a "That just leaves you, Natsuki."
+    m 1j "好了！"
+    m 1a "那么接下来，夏树，只剩你了。"
     show monika zorder 2 at t42
     show natsuki zorder 3 at f44
-    n 2g "Yeah, yeah."
-    n "I'm going."
-    "Natsuki begrudgingly gets out of her seat and makes her way to the podium."
+    n 2g "好吧，好吧。"
+    n "我这就上场。"
+    "夏树不情愿地离开座位，走向讲台。"
     show sayori zorder 1 at thide
     show monika zorder 1 at thide
     show yuri zorder 1 at thide
@@ -721,116 +721,116 @@ label ch2_end:
     hide sayori
     hide monika
     hide yuri
-    n 2c "The poem is called..."
-    n 2q "It's called..."
-    n 1x "W-Why are you all looking at me?!"
-    m "Because you're presenting..."
-    n 2x "Hmph..."
-    n 2h "Anyway...the poem is called {i}Jump{/i}."
-    "Natsuki takes a breath."
+    n 2c "这首诗的题目是......"
+    n 2q "它叫做......"
+    n 1x "不、不是，你们都盯着我干嘛？！"
+    m "因为现在是你在读诗啊..."
+    n 2x "哼......"
+    n 2h "算了......这首诗题为《跳跃》。"
+    "夏树深吸了一口气。"
     show natsuki 2c
-    "Once she starts reciting the poem, her sour attitude disappears a little."
-    "While she's still a little unenthused, her poem has a rhythm and rhyme to it."
-    "It's Natsuki's trademark style, and it works surprisingly well when spoken aloud."
-    "The words feel like they bounce up and down, as if giving life to the poem."
+    "开始朗诵后，她的别扭态度稍微消散了一些。"
+    "尽管她还是有些没精打采，但她的诗却自有节奏和韵律。"
+    "这就是夏树的标志性风格，在大声朗读情况下，表现出人意料地好。"
+    "辞藻如若在空中跃动，仿佛给诗赋予了生命。"
     show natsuki 2s
-    "Natsuki finishes, and everyone applauds."
-    "She huffs back to her seat."
+    "夏树读完了，大家都鼓起掌来。"
+    "她气鼓鼓地回到了座位上。"
     show monika 2a zorder 3 at f31
-    m "That wasn't so bad, was it?"
+    m "还不错啊！"
     show monika zorder 2 at t31
     show natsuki 5w zorder 3 at f32
-    n "Easy for you to say..."
-    n "You'd better not make me do that again."
+    n "你嘴上倒是说得轻松......"
+    n "你可别强迫我再来一次了。"
     show natsuki zorder 2 at t32
     show monika 1d zorder 3 at f31
-    m "Ah, well..."
-    m "Do you at least feel prepared enough to recite a poem in front of other people?"
+    m "啊，好啦......"
+    m "这下你至少做好了心理准备，可以在别人面前进行诗朗诵了吧？"
     show monika zorder 2 at t31
     show natsuki 2c zorder 3 at f32
-    n "I mean, doing it in front of other people will be way easier!"
-    n "I can put on whatever face I want for other people."
-    n 2q "But when it's just my friends..."
-    n "It's just...embarrassing."
+    n "就是说，在别人面前诗朗诵可容易得多了！!"
+    n "对着别人，我随便摆出什么样的脸色都可以。"
+    n 2q "但如果是在朋友面前......"
+    n "就真的很......难为情。"
     show natsuki zorder 2 at t32
     show sayori 1b zorder 3 at f33
-    s "That's a surprise, Natsuki..."
-    s "I think it would be the other way around for me."
+    s "还真让人意外啊，夏树......"
+    s "我觉得对我来说恰恰相反。"
     show sayori zorder 2 at t33
     show natsuki zorder 3 at f32
-    n "Well, that's just how it is, so..."
+    n "总之，就是这样了嘛，所以说......"
     show natsuki zorder 2 at t32
     show monika zorder 3 at f31
-    m 1a "Well, I guess in that case..."
-    m "You won't have much to worry about for the festival."
-    m 2b "That said, I want to thank everyone for coming through."
-    m "It might be hard, but I hope that you all have an idea of what it's like now."
-    m 4b "Make sure you pick a poem and get enough practice before the festival, okay?"
-    m "I'll be making pamphlets, so let me know ahead of time what you'll be reciting."
+    m 1a "呃，我想既然如此......"
+    m "你就不用太担心自己在学园祭时的表现了。"
+    m 2b "那么，感谢大家的参与。"
+    m "虽然可能会有点难，不过希望大家都对赏诗会是什么样子有了大致的了解。"
+    m 4b "请务必在学园祭开始前选好一首诗，并且多加练习，好吗？"
+    m "我会去做诗册，所以还请事先告诉我你们要朗诵那首诗。"
     show monika zorder 2 at t31
-    mc "Jeez..."
-    mc "I should probably find some other poem to recite instead."
+    mc "坏了......"
+    mc "我大概还是另找一些诗来朗诵得了。"
     show monika zorder 3 at f31
-    m 1j "That's fine, too!"
-    m 1a "It doesn't have to be your own."
-    m "I'm already pleasantly surprised that you're putting in all this effort for the club."
-    m 5 "It makes me really happy."
+    m 1j "那也可以的！"
+    m 1a "不是自己的诗也没关系。"
+    m "你能为社团付出这么多努力，已经很让我惊喜了。"
+    m 5 "我真的非常高兴。"
     show monika zorder 2 at t31
-    mc "Ah... Yeah, no problem..."
+    mc "啊......好吧，小意思啦......"
     play music t8 fadeout 1.0
     show monika zorder 2 at t11
     show sayori zorder 1 at thide
     show natsuki zorder 1 at thide
     hide sayori
     hide natsuki
-    m 4b "Okay, everyone!"
-    m "I think that's about it for today."
-    m "I know the festival is coming up, but let's try to write poems for tomorrow, as well."
-    m "It's been working out really nicely so far, so I'd like to continue that."
-    m "As for the festival, we'll finish planning tomorrow, and then we'll have the weekend to prepare."
-    m "Monday's the big day!"
+    m 4b "好了，各位！"
+    m "那么今天就到这里吧。"
+    m "我知道学园祭迫在眉睫，但是明天大家还是试着写首诗吧。"
+    m "到目前为止，这项活动的效果都非常棒，所以我想把它继续下去。"
+    m "而关于学园祭，我们会在明天完成规划，然后用周末的时间来进行准备。"
+    m "星期一就是咱们的大日子啦！"
     show sayori 4r zorder 2 at t31
-    s "I can't wait~!"
+    s "我都等不及啦~！"
     show yuri 4b zorder 2 at t33
-    y "I can do this... I can do this..."
-    mc "Alright--"
+    y "我做得到的......我做得到的......"
+    mc "好吧——"
     hide sayori
     hide monika
     hide yuri
     with wipeleft
-    "I stand up."
-    "There's no way I'll be able to find the same enthusiasm as Sayori and Monika, but I'll do my best to get through it."
-    "If it's for the sake of the club..."
-    "And impressing Monika..."
-    "Then I'll have to do my best."
+    "我站了起来。"
+    "虽然我的热忱比不上像纱世里和莫妮卡，但我也会尽己所能。"
+    "如果是为了社团......"
+    "以及为了给莫妮卡留下好印象......"
+    "那么我就必须全力以赴。"
     show sayori 1a zorder 2 at t32
-    mc "Ready to go, Sayori?"
+    mc "准备好回家了吗，纱世里？"
     show sayori at h32
-    s 1x "Yep!"
+    s 1x "嗯！"
     show natsuki 2d zorder 3 at f33
-    n "Look at you two, always going home together like that."
+    n "看看你们俩，总是这样结伴回家。"
     show monika 5 zorder 3 at f31
     show natsuki zorder 2 at t33
-    m "It's kind of adorable, isn't it?"
+    m "还怪可爱的，不是吗？"
     show monika zorder 2 at t31
     show sayori zorder 3 at f32
-    s 1q "Ehehe~"
+    s 1q "欸嘿嘿~"
     show sayori zorder 2 at t32
-    mc "Jeez, guys..."
-    mc "Don't make such a big deal out of it."
+    mc "天哪，各位......"
+    mc "别那么大惊小怪嘛。"
     show natsuki zorder 2 at t44
     show sayori zorder 2 at t43
     show monika zorder 2 at t42
     show yuri 1u zorder 3 at f41
-    y "It must be a little nice, though..."
+    y "不过你们好像乐在其中嘛......"
     show yuri zorder 2 at t41
-    mc "Well..."
-    mc "Ah..."
-    "How am I supposed to respond to that?"
+    mc "这个嘛......"
+    mc "啊......"
+    "这要我怎么回应啊？"
     show sayori zorder 3 at f43
-    s 1d "It's okay, [player], you don't have to say it."
+    s 1d "没关系的，[player]，不说出来也不要紧。"
     show sayori zorder 2 at t43
-    mc "...Whatever. Let's go already."
+    mc "......不管了。我们走吧。"
     scene bg residential_day
     with wipeleft_scene
     $ ch2_winner = poemwinner[1].capitalize()
@@ -839,104 +839,104 @@ label ch2_end:
     elif ch2_winner == "Natsuki":
         $ ch2_winner = "夏树"
 
-    "I walk home with Sayori once more."
-    "Even though it's only been a few days, a lot of things have already changed."
-    "But today, Sayori is being a little quieter than usual on the way home."
-    mc "Hey, Sayori..."
+    "我又一次和纱世里结伴走回家。"
+    "虽然只过了短短几天，但很多事情都已经改变了。"
+    "不过今天回家路上，纱世里比往常要更安静一些。"
+    mc "嘿，纱世里......"
     show sayori 1k at t11
-    s "..."
-    s 1n "...Sorry! I was spacing out!"
-    mc "Ah, no wonder..."
-    s 1d "Um..."
-    s "I was...thinking about something from earlier."
-    s "I like how we get to..."
-    s 1y "I-I mean..."
-    "Sayori fumbles with her words."
-    s 1a "So...let's just say that one day, [ch2_winner] asked to walk home with you..."
-    mc "Huh?!"
-    s "What would you do?"
-    mc "What kind of question is that...?"
-    mc "You're kind of putting me on the spot here..."
-    s 1y "Ehehe..."
+    s "......"
+    s 1n "......对不起！我走神了！"
+    mc "啊，怪不得......"
+    s 1d "唔......"
+    s "我刚刚......在想之前的事情。"
+    s "我很喜欢像这样一起......"
+    s 1y "我、我是说......"
+    "纱世里笨拙地组织着语言。"
+    s 1a "就是......假设有一天，[ch2_winner]提出要跟你一起回家......"
+    mc "哈？！"
+    s "你会怎么做？"
+    mc "这是个什么问题......？"
+    mc "你可有点把我难住了......"
+    s 1y "欸嘿嘿......"
     menu:
-        "Well..."
-        "I would walk home with [ch2_winner].":
-            if ch2_winner == "夏树":
+        "这个嘛......"
+        "我会和[ch2_winner]一起回家。":
+            if poemwinner[1] == "natsuki":
                 call ch2_end_natsuki
             else:
                 call ch2_end_yuri
-        "I would still walk home with Sayori.":
+        "我仍然会和纱世里一起回家。":
             call ch2_end_sayori
 
-    "Then again, the festival is only a few days away..."
-    "Who knows what will happen in that time?"
+    "但话又说回来，距离学园祭只剩下几天了......"
+    "谁知道到时候会发生什么呢？"
     return
 label ch2_end_sayori:
-    mc "Sayori..."
-    mc "You really think I would ditch you for [ch2_winner]?"
-    s 1e "Eh?!"
-    s "B-But..."
-    if ch2_winner == "夏树":
-        s "She's so cute and fun to be around..."
+    mc "纱世里......"
+    mc "你真的觉得我会抛下你而选择[ch2_winner]吗？"
+    s 1e "诶？！"
+    s "但、但是......"
+    if poemwinner[1] == "natsuki":
+        s "况且她那么可爱，还那么有趣......"
     else:
-        s "She's so beautiful and smart..."
-    mc "Jeez..."
-    mc "I already see her in the club every day."
-    mc "Besides, you always seem to really like going home together..."
-    mc "I wouldn't just ruin that for you."
-    s 1y "You're so silly, [player]..."
-    s "You think about me too much sometimes."
-    s "[ch2_winner] would deserve it if she wanted it, so..."
-    mc "Sayori, I've already made up my mind."
-    mc "I really can't figure you out sometimes..."
-    s "Sorry..."
-    mc "Besides, what's the point in speculating something that's never going to happen?"
-    s 1k "Hm..."
+        s "况且她长得又漂亮，脑袋也聪明......"
+    mc "唉哟......"
+    mc "反正我天天都能在部室见到她。"
+    mc "而你跟我一起回家的时候，看上去总是那么的开心......"
+    mc "我怎么可能毁了你的好心情呢。"
+    s 1y "你真傻，[player]......"
+    s "有时候你实在太为我着想了。"
+    s "如果[ch2_winner]想和你结伴回家的话，那也是无可厚非的，所以......"
+    mc "纱世里，我已经下定决心了。"
+    mc "我有时候还真搞不懂你......"
+    s "抱歉......"
+    mc "再说了，假设一件永远都不会发生的事情，又有什么意义呢？"
+    s 1k "唔......"
     show sayori at thide
     hide sayori
-    "The conversation trails off."
-    "It's kind of a weird thing for Sayori to care so much about..."
-    "But I want to respect her and keep her happy, too."
+    "对话逐渐停了下来。"
+    "纱世里居然这么在乎这件事，我感觉有点奇怪......"
+    "但我想尊重她，也想让她开心。"
     return
 
 label ch2_end_natsuki:
-    mc "Walking home with Natsuki, huh..."
-    "Why does the thought of that make my heart pound...?"
-    mc "I mean..."
-    mc "I think I would be afraid of what she'd do to me if I turned her down..."
-    s 1x "Isn't she so cute and fun to be around?"
+    mc "和夏树一起走回家，唔......"
+    "为什么这个想法会让我心跳不已啊......？"
+    mc "我是说......"
+    mc "如果我拒绝她的话，我有点怕她对我做些什么......"
+    s 1x "不是因为她可爱又有趣吗？"
     jump ch2_end_shared
 
 label ch2_end_yuri:
-    mc "Walking home with Yuri, huh..."
-    "Why does the thought of that make my heart pound...?"
-    mc "I mean..."
-    mc "Given how hard it is for her to socialize, I would feel awful turning her down, so..."
-    s 1x "Isn't she so beautiful and smart?"
+    mc "和优里一起走回家，唔......"
+    "为什么这个想法会让我心跳不已啊......？"
+    mc "我是说......"
+    mc "看到她在社交方面这么努力，如果拒绝她的话，我会非常内疚，所以......"
+    s 1x "不是因为她漂亮还聪明吗？"
     jump ch2_end_shared
 
 label ch2_end_shared:
-    mc "That has nothing to do with what I just said!"
-    s 4s "Ahaha! You admitted it!"
-    mc "Jeez..."
-    mc "There's not even any point in speculating something that's never going to happen."
-    s 1d "Well, maybe..."
-    s "But I just like to think about it."
-    s 1y "It's not long before you won't need me anymore, you know?"
-    mc "Need you...?"
-    mc "Sayori..."
-    mc "I can't figure out how you're seeing things in your head right now."
-    s "Sorry..."
-    mc "Everyone is different..."
-    mc "Nobody in the club is a replacement for you."
-    s 1k "Hmm..."
-    s "If you say so..."
+    mc "我可完全没这个意思！"
+    s 4s "啊哈哈！你承认了！"
+    mc "拜托......"
+    mc "假设一件永远都不会发生的事情，根本就没有意义啊。"
+    s 1d "好吧，也许是吧......"
+    s "但是我就是喜欢想一想。"
+    s 1y "很快你就不再需要我了，对吧？"
+    mc "需要你......是什么意思？"
+    mc "纱世里......"
+    mc "我实在搞不懂你现在都在琢磨些什么。"
+    s "抱歉......"
+    mc "每个人都是不同的......"
+    mc "社团里没有任何一个人可以替代你。"
+    s 1k "唔......"
+    s "既然你都这么说了......"
     show sayori at thide
     hide sayori
-    "The conversation trails off, and I'm left feeling awkward."
-    "But it was kind of her fault for trapping me with such a weird question..."
-    "I can't just lie to her."
-    "But if there's something that makes her happy, I would hate to take that away from her."
-    "That's why I said there's no point in speculating."
+    "对话逐渐停了下来，只留我一人倍感尴尬。"
+    "可是她用这样一个奇怪的问题来套我的话，某种程度上也算是她的错......"
+    "我不能对她撒谎。"
+    "但我不想从她身边夺走能让她开心的东西。"
+    "这就是为什么我会说，假设是没有意义的。"
     return
 
