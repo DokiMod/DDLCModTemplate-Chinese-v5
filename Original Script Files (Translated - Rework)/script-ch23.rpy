@@ -444,56 +444,56 @@ label ch23_end:
     m 5a "耶，你选了我诶！"
     m "We can meet at your house this weekend."
     m "I promise it'll be fun."
-    m "Is Sunday okay with you?"
+    m "周日你方便吗？"
     show natsuki 1e zorder 3 at f31
     n "你他娘的在开什么玩笑？"
-    n "This isn't fair at all!"
+    n "这可一点都不公平！"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
-    m 2i "It is fair, Natsuki."
-    m "It's what he chose."
+    m 2i "哪里不公平了，夏树。"
+    m "这是他自己选的。"
     show monika zorder 2 at t32
     show yuri 3r zorder 3 at f33
-    y "No, it's not fair!"
-    y "Giving us all this work and then taking [player] for yourself."
-    y "What a shameful thing to do!"
+    y "不，这很有问题！"
+    y "把脏活累活全都抛给我们，结果自己把 [player] 带走了。"
+    y "简直是厚颜无耻！"
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
-    m 2r "Yuri, I didn't even give you any work."
-    m 2i "You decided it for yourself."
-    m "You're being a little unreasonable here."
+    m 2r "优里，我甚至都还没给你分配工作呢。"
+    m 2i "我都让你自己决定要做些什么了。"
+    m "你这样真的有点无理取闹了。"
     stop music
     show monika zorder 2 at t32
     show yuri zorder 3 at f33
-    y 2y4 "I'm being unreasonable?"
-    y 2y3 "Ahahaha!"
-    y "Monika, I can't believe how delusional and self-important you are!"
-    y "Pulling [player] away from me every single time you're not included in something."
-    y 1y1 "Are you jealous?"
-    y "Crazy?"
-    y 1y3 "Or maybe you just hate yourself so much that you take it out on others?"
-    y 1y4 "Here's a suggestion. Have you considered killing yourself?"
-    y "It would be beneficial to your mental health."
+    y 2y4 "我又无理取闹上了？"
+    y 2y3 "啊哈哈哈！"
+    y "莫妮卡啊，我都不敢相信你竟然是这种自私自利的妄想狂！"
+    y "只要有什么事情你没参与到，你就会把 [player] 从我身边拖走，每次都是这样。"
+    y 1y1 "你到底是在嫉妒呢？"
+    y "还是疯了呢？"
+    y 1y3 "还是你对自己的憎恨溢了一地，恨到开始随便把别人当出气筒了？"
+    y 1y4 "那我这边给你个小建议吧： 考虑一下自杀怎么样？"
+    y "这对你的精神健康可是大有裨益的哦。"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
-    n 5u "Yuri, you're scaring me a little..."
+    n 5u "优里，你这话说得有点恐怖了......"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
-    m 1r "Natsuki, let's just go."
-    m 1i "I don't think she wants us around right now."
+    m 1r "别管她了，夏树。"
+    m 1i "我认为她并不想让我们俩在这里继续待着。"
     show monika zorder 2 at t32
     show yuri zorder 3 at f33
-    y 2y3 "See, that wasn't very hard."
-    y "All I want is to spend a little time with him."
-    y "Is that so much to ask?"
+    y 2y3 "看吧，也没那么难嘛。"
+    y "我只是想跟他再多独处一会而已。"
+    y "这种要求很过分吗？"
     hide natsuki
     hide monika
     hide yuri
     with wipeleft
-    "Yuri follows Monika and Natsuki to the door."
+    "优里赶着莫妮卡和夏树出了教室门口。"
     show monika 5a zorder 2 at t11
-    m "Hey, [player]..."
-    m "Yuri is really something, isn't she?"
+    m "喂，[player]......"
+    m "优里真的有点那个，对吧？"
     show monika zorder 1 at thide
     hide monika
     "Monika giggles as Yuri pushes her out the door."
@@ -509,18 +509,18 @@ label ch23_end:
 
     play music t10y
     show yuri 2m zorder 2 at t11
-    y "Finally."
-    y 2y1 "Finally!"
-    y 2s "This is really all I wanted."
-    y 1y6 "[player], there's no need to spend the weekend with Monika."
-    y "Don't listen to her."
-    y 1y5 "Just come to my house instead."
-    y 3y5 "The whole day, with just the two of us..."
-    y "Doesn't that sound wonderful?"
-    y 3y1 "Ahahaha!"
-    y 3y4 "Wow... There's really something wrong with me, isn't there?"
-    y "But you know what?"
-    y 1y3 "I don't care anymore."
+    y "终于啊。"
+    y 2y1 "终于啊！"
+    y 2s "这才是我想要的一切。"
+    y 1y6 "[player]，没必要去和莫妮卡度过整个周末了。"
+    y "没必要听她说话。"
+    y 1y5 "你直接来我家吧。"
+    y 3y5 "想想一整天，就只有我们两个人......"
+    y "听起来不是很棒吗？"
+    y 3y1 "啊哈哈哈！"
+    y 3y4 "哇哦......我是不是有什么地方不对劲，对吗？"
+    y "但我跟你说哦？"
+    y 1y3 "我已经一点都不在乎了。"
     y "I've never felt this good my whole life."
     y 1y4 "Just being with you is a far greater pleasure than anything I could imagine."
     y "I'm addicted to you."
@@ -531,26 +531,26 @@ label ch23_end:
     y 2y4 "Then why does it feel more and more like something horrible is going to happen?"
     y 2y6 "Maybe that's why I tried stopping myself at first..."
     y "But the feeling is too strong now."
-    y 3y1 "I don't care anymore, [player]!"
-    y "I have to tell you!"
-    y 3y4 "I'm...I'm madly in love with you!"
-    y "It feels like every inch of my body...every drop of blood in me...is screaming your name."
-    y 3y3 "I don't care what the consequences are anymore!"
-    y "I don't care if Monika is listening!"
-    y 3w "Please, [player], just know how much I love you."
-    y 3m "I love you so much that I even touch myself with the pen I stole from you."
-    y 3y4 "I just want to pull your skin open and crawl inside of you."
-    y 3y6 "I want you all to myself."
-    y "And I will be only yours."
-    y "Doesn't that sound perfect?"
-    y 3s "Tell me, [player]."
-    y "Tell me you want to be my lover."
-    y "Do you accept my confession?"
+    y 3y1 "[player]，我已经什么都不在乎了！"
+    y "我必须要告诉你！"
+    y 3y4 "我......我爱你爱到要疯了！"
+    y "就像是每一寸肌肤......每一滴血液......都在尖叫着你的名字。"
+    y 3y3 "无论后果如何都已经无所谓了！"
+    y "莫妮卡有没有在听我也不管了！"
+    y 3w "[player]，求你了，看看我有多爱你。"
+    y 3m "我爱你爱到甚至偷了你的笔拿去自慰。"
+    y 3y4 "我满脑子只想扒开你的表皮，在你的体内游走。"
+    y 3y6 "我想要让你永远属于我。"
+    y "而我也将只属于你。"
+    y "听起来是不是很完美啊？"
+    y 3s "告诉我吧，[player]。"
+    y "告诉我你会成为我的爱人。"
+    y "你愿意接受我的告白吗？"
 
     menu:
-        "Yes.":
+        "接受。":
             jump yuri_kill
-        "No.":
+        "不接受。":
             jump yuri_kill
 
 label yuri_kill:
@@ -689,14 +689,14 @@ label yuri_kill_3:
     $ pause(1.25)
     show natsuki at lhide
     hide natsuki
-    "Natsuki runs away."
-    m "..."
+    "夏树跑了出去。"
+    m "......"
     show monika 2b zorder 2 at t11
-    m "I'm here!"
-    m 2d "[player], did something happen?"
-    m "Natsuki just ran past me..."
-    m 2i "...Oh..."
-    m "...Oh."
+    m "我来啦！"
+    m 2d "[player]，发生什么事了吗？"
+    m "夏树刚刚从我身边跑了出去......"
+    m 2i "......哦......"
+    m "......哦。"
     m 2r "..."
     m 2l "Ahahaha!"
     m "Well, that's a shame."
