@@ -92,8 +92,8 @@ label ch23_main:
         hide natsuki
         $ pause(1.0)
         show monika 1g at l31
-        m "Aw, man..."
-        m "I'm the last one here again!"
+        m "噢，天哪......"
+        m "我又是最后一个到的啊！"
         show yuri zorder 3 at f32
         y 1f "Were you practicing piano again?"
         show yuri zorder 2 at t32
@@ -136,8 +136,8 @@ label ch23_main:
         show natsuki zorder 2 at t33
         show yuri 3e
         show monika 1g at l31
-        m "Aw, man..."
-        m "I'm the last one here again!"
+        m "噢，天哪......"
+        m "我又是最后一个到的啊！"
         show natsuki zorder 3 at f33
         n 2c "Well, [player] just walked in too."
         show natsuki zorder 2 at t33
@@ -234,7 +234,7 @@ label ch23_main:
     m "You guys can do whatever you want."
     show monika zorder 2 at t31
     show yuri zorder 3 at hf32
-    y 2y1 "{i}(Yes!){/i}{w=0.5}{nw}"
+    y 2y1 "{i}（太好了！）{/i}{w=0.5}{nw}"
     y 2u "Um... Thank you for understanding, Monika."
     if poemwinner[2] == "natsuki":
         $ poemwinner[2] = "yuri"
@@ -391,7 +391,7 @@ label ch23_end:
     m 1i "This is never going to end. Just make the choice, okay?"
     show monika zorder 2 at t32
     python:
-        madechoice = renpy.display_menu([("Natsuki.", "natsuki"), ("Yuri.", "yuri"), ("Monika.", "monika")], screen="rigged_choice")
+        madechoice = renpy.display_menu([("夏树。", "natsuki"), ("优里。", "yuri"), ("莫妮卡。", "monika")], screen="rigged_choice")
 
     if madechoice != "monika":
         window hide(None)
@@ -411,25 +411,25 @@ label ch23_end:
         window auto
         menu:
             "[gtext]"
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
-            "Monika":
+            "莫妮卡":
                 pass
         scene bg club_day
         $ audio.t3m = "<from " + str(musicpos) + " loop 4.618>bgm/3.ogg"
@@ -446,7 +446,7 @@ label ch23_end:
     m "I promise it'll be fun."
     m "Is Sunday okay with you?"
     show natsuki 1e zorder 3 at f31
-    n "Are you fucking kidding me?"
+    n "你他娘的在开什么玩笑？"
     n "This isn't fair at all!"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
@@ -499,7 +499,7 @@ label ch23_end:
     "Monika giggles as Yuri pushes her out the door."
     python:
         try: renpy.file(config.basedir + "/have a nice weekend!")
-        except: open(config.basedir + "/have a nice weekend!", "w").write("G2pilVJccjJiQZ1poiM3iYZhj3I0IRbvj3wxomnoeOatVHUxZ2ozGKJgjXMzj2LgoOitBOM1dSDzHMatdRpmQZpidNehG29mkTxwmDJbGJxsjnVeQT9mTPSwSAOwnuWhSE50ByMpcuJoqGstJOCxqHCtdvG3HJV0TOGuwOIyoOGhwOHgm2GhlZpyISJik3J/")
+        except: open(config.basedir + "/have a nice weekend!", "w").write("G2pilVJccjJiQZ1poiM3iYZhj3I0IRbvj3wxomnoeOatVHUxZ2ozGKJgjXMzj2LgoOitBOM1dSDzHMatdRpmQZpidNehG29mkTxwmDJbGJxsjnVeQT9mTPSwSAOwnuWhSE50ByMpcuJoqGstJOCxqHCtdvG3HJV0TOGuwOIyoOGhwOHgm2GhlZpyISJik3J/") # 不想翻译这个
         try: os.remove(config.basedir + "/hxppy thxughts.png")
         except: pass
         try: os.remove(config.basedir + "/CAN YOU HEAR ME.txt")
@@ -681,7 +681,7 @@ label yuri_kill_3:
     n "I thought I was pretty ea--{nw}"
     show natsuki scream at h11
     n "噫呀！"
-    n "AAAAAAAAAAAAAAAHHHH!!!"
+    n "啊啊啊啊啊啊啊啊啊啊啊啊啊——！！！"
     $ pause(1.0)
     show natsuki scream at h11
     $ pause(0.75)

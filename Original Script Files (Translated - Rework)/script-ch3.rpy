@@ -303,44 +303,44 @@ label ch3_start_yuri:
     mc "不管怎么说，你都说得没错。"
     mc "如果我让你担心了，那么我很抱歉。"
     y 1s "不用道歉......"
-    y "Your troubles are only the concern of those who willingly share in that concern."
-    y "Of course, there are certainly those who find the most comfort in keeping to themselves..."
-    y "But if you would prefer to share what's on your mind, then I would be glad to listen."
-    mc "Ah, it's really not that big of a deal..."
-    mc "I was just feeling a bit uneasy about Sayori."
-    y 2t "Sayori...?"
-    mc "Yeah...she seems a little off today, but when I asked her about it, she didn't want to admit it to me."
-    mc "So I can't help but wonder if something happened to her."
-    y 3u "Oh?"
-    y "That's quite romantic..."
-    mc "Eh...?"
-    y 4c "S-Sorry!"
-    y "I didn't mean to say something stupid...!"
-    mc "It's not that, I just didn't want you to misunderstand."
-    mc "Sayori and I have just been friends for a long time, that's all."
-    y 2l "Ah...I see..."
-    y 2f "Then perhaps it is unusual for her to be dismissive to you about her feelings..."
-    mc "Or maybe I'm just reading into it a little too much..."
-    y 1u "[player]..."
-    y "The world is full of meaning, often hidden deep beneath plain sight."
-    y 1s "And there are many untold mysteries behind every person, no matter how well you may know them."
-    mc "Ah..."
-    mc "So you think that there might be something behind it after all?"
-    y 1l "Mm..."
-    y "I think that Sayori is a very complex person."
-    y 1h "Her mannerisms on the outside don't always match what may be going on inside her head..."
-    y "And she may not always know what she wants."
-    y "I noticed her strange behavior today, too..."
-    y "And I also feel some concern for her."
-    y 1f "But in your case, it looked like she was fully occupying your thoughts, wasn't she?"
-    mc "Well..."
-    mc "I guess that was the case."
-    y 3u "Sayori..."
-    y "She really...means a lot to you, doesn't she?"
-    mc "Ah--I...I guess..."
-    mc "But you don't need to put it that way!"
-    mc "We're just good friends, that's all..."
-    y 2t "..."
+    y "只有愿意关心你的人才会关注你的烦恼。"
+    y "当然，也有些人觉得什么都不说才是最舒服的......"
+    y "不过，如果你更愿意分享你的想法的话，那么我也很乐意倾听。"
+    mc "啊，其实没什么大不了的......"
+    mc "我刚刚只是为纱世里感到有些不安。"
+    y 2t "纱世里吗......？"
+    mc "是啊......她今天好像有些不在状态，但是我问她的时候，她却不愿意承认。"
+    mc "所以我就忍不住想知道她是不是出了什么事。"
+    y 3u "哦？"
+    y "那挺浪漫的......"
+    mc "诶......？"
+    y 4c "抱、抱歉！"
+    y "我不是故意要说那么蠢的话的......！"
+    mc "也没有什么蠢不蠢的，我只是不想让你误解。"
+    mc "纱世里和我只是认识了很久的朋友，仅此而已。"
+    y 2l "啊......我知道了......"
+    y 2f "那么她拒绝把她的感受告诉你，可能确实是有些反常了......"
+    mc "也可能是我有点过度解读了......"
+    y 1u "[player]......"
+    y "世界上充满了深意，它们往往都深藏在表面之下。"
+    y 1s "每个人背后都有很多不曾诉说的秘密，无论你有多么了解他们。"
+    mc "啊......"
+    mc "所以你觉得这背后可能会有些情况？"
+    y 1l "嗯......"
+    y "我觉得纱世里是个非常复杂的人。"
+    y 1h "她外在的行为举止似乎不总是和她的内心想法相匹配......"
+    y "而且她可能也不是一直都知道自己想要什么。"
+    y "我也注意到了她今天奇怪的行为......"
+    y "而且我也有些担心她。"
+    y 1f "但对你而言，她似乎完全占据了你的思考，不是吗？"
+    mc "这个嘛......"
+    mc "大概是这样的。"
+    y 3u "纱世里......"
+    y "她对你来说真的......很重要，对吧？"
+    mc "啊——应......应该是吧......"
+    mc "但你没必要说得那么夸张啦！"
+    mc "我们只不过是好朋友，仅此而已......"
+    y 2t "......"
     "Yuri suddenly looks deeply into my eyes."
     "Her expression is gentle and curious, as if she was searching for something."
     "Embarrassed, I avert my gaze."
@@ -400,15 +400,15 @@ label ch3_end:
     show monika 4b zorder 2 at t32
     with wipeleft_scene
     play music t3
-    m "...Okay, you three!"
+    m "...好了，你们仨！"
     m "We're all done sharing poems, right?"
     m "Why don't we start figuring out--"
     show natsuki 3c zorder 3 at f31
-    n "Hold on a second!"
-    n "Is it just me, or did you say something strange just now?"
+    n "稍等一下！"
+    n "是我出现错觉了吗，还是说你刚刚那句话是不是有点奇怪？"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
-    m 4d "Eh...?"
+    m 4d "欸......？"
     show monika zorder 2 at t32
     show yuri 1e zorder 3 at f33
     y "Something did sound a bit unusual..."
@@ -464,9 +464,9 @@ label ch3_end:
     mc "And second..."
     mc "She's kind of been avoiding me today, so I didn't want to force it..."
     show yuri 1g zorder 3 at f33
-    y "Hooooh?"
+    y "吼......？"
     show yuri zorder 2 at t33
-    mc "{i}That curious expression coming from Yuri, of all people??{/i}"
+    mc "{i}不是，这几个人里面，怎么偏偏是优里露出了那副好奇的表情啊？？{/i}"
     show monika 1r zorder 3 at f32
     m "Calm down, guys...!"
     m 1d "I talked to her earlier, and everything is fine."
@@ -487,7 +487,7 @@ label ch3_end:
     m "Can you handle that all by yourself, Natsuki?"
     show monika zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 4z "接受挑战！"
+    n 4z "我接受挑战！"
     show natsuki 4a zorder 2 at t31
     show monika zorder 3 at f32
     m 1a "And as for myself..."
@@ -629,18 +629,24 @@ label ch3_end:
     "Everyone looks straight at me."
     menu:
         "But of course, I'm going to go with--"
-        "Natsuki.":
+        "夏树。.":
             call ch3_end_natsuki
-        "Yuri.":
+        "优里。":
             call ch3_end_yuri
-        "Monika.":
+        "莫妮卡。":
             call ch3_end_monika
-        "Sayori...":
+        "纱世里......":
             call ch3_end_sayori
     scene bg residential_day
     with wipeleft_scene
     $ ch4_name = ch4_scene.capitalize()
     "I can't believe this!"
+
+    if ch4_scene == "natsuki":
+        $ ch4_name = "夏树"
+    else:
+        $ ch4_name = "优里"
+
     "[ch4_name] is going to be coming to my house on Sunday...?"
     if help_sayori:
         "Even though I would have preferred to do this with Sayori..."
@@ -672,47 +678,47 @@ label ch3_end_sayori:
     mc "If it's going to be anyone, then I prefer helping Sayori."
     mc "I mean, we're already neighbors, and--"
     show yuri 2f zorder 3 at f33
-    y "But Monika said--"
+    y "但是莫妮卡不是说了——"
     show yuri zorder 2 at t33
     show natsuki 4w zorder 3 at f31
-    n "Monika said that Sayori was helping her!"
-    n "Jeez..."
-    n 4h "Do you really hate us that much?"
+    n "莫妮卡说过纱世里是要去帮她的！"
+    n "天啊......"
+    n 4h "你难道就这么讨厌我们吗？"
     show natsuki zorder 2 at t31
-    mc "N-No!"
+    mc "不、不是这样的！"
     show monika 1e zorder 3 at f32
-    m "Sorry, I didn't mean for this to be difficult..."
+    m "抱歉，我真的不是想为难你......"
     show monika zorder 2 at t32
     menu:
-        m "Just think of the club, okay?"
-        "Natsuki.":
+        m "不过，现在先麻烦你为社团着想吧，好吗？"
+        "夏树。":
             call ch3_end_natsuki
-        "Yuri.":
+        "优里。":
             call ch3_end_yuri
-        "Monika." if not help_monika:
+        "莫妮卡。" if not help_monika:
             call ch3_end_monika
     return
 
 
 label ch3_end_monika:
     $ help_monika = True
-    mc "Well, I guess I should probably be helping Monika..."
+    mc "嗯，我觉得我应该帮莫妮卡......"
     show monika 5 zorder 3 at f32
-    m "Yay, you picked me!"
+    m "耶，你选了我诶！"
     show monika zorder 2 at t32
     show natsuki 3e zorder 3 at f31
     stop music fadeout 1.0
-    n "Hold on one second!"
+    n "稍等一下！"
     show natsuki zorder 2 at t31
     show yuri 2r zorder 3 at f33
-    y "Y-Yeah!"
+    y "是、是啊！"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
     play music t7
     n "Monika, you're the one who needs the least help out of all of us!"
     show natsuki zorder 2 at t31
     show monika 1d zorder 3 at f32
-    m "Eh? But..."
+    m "诶？但是......"
     show monika zorder 2 at t32
     show yuri 1h zorder 3 at f33
     y "I agree with Natsuki."
@@ -738,7 +744,7 @@ label ch3_end_monika:
     m "In fact, it sounds like you guys are the ones with ulterior motives!"
     show monika zorder 2 at t32
     show natsuki 1x zorder 3 at f31
-    n "{i}Excuse{/i} me?"
+    n "你到底在说{i}什么{/i}啊？"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
     m "Otherwise...this wouldn't have been made into such a big deal in the first place!"
@@ -747,7 +753,7 @@ label ch3_end_monika:
     y "That's...completely false, Monika!"
     show yuri zorder 2 at t33
     show natsuki 3e zorder 3 at f31
-    n "Yeah!"
+    n "没错！"
     n "We have a lot of work to do, you know!"
     n "We won't do as good of a job if you make us work alone."
     show natsuki zorder 2 at t31
@@ -771,19 +777,19 @@ label ch3_end_monika:
     stop music fadeout 1.0
     show natsuki 4g
     show yuri 2g
-    m 1r "Sigh..."
+    m 1r "唉......"
     m 1g "It's...technically most logical for [player] to help one of you two."
     m "So..."
     m 1c "I guess...that's what we'll do."
     show monika zorder 2 at t32
     play music t3
     menu:
-        m "Do you have a preference, [player]?"
-        "Natsuki.":
+        m "[player]，你更倾向于帮哪一个？"
+        "夏树。":
             call ch3_end_natsuki
-        "Yuri.":
+        "优里。":
             call ch3_end_yuri
-        "Sayori..." if not help_sayori:
+        "纱世里......" if not help_sayori:
             call ch3_end_sayori
     return
 

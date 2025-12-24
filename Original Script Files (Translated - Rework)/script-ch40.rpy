@@ -529,11 +529,11 @@ label ch40_main:
         stop sound
         hide screen tear
         window show(None)
-        s "Ah--"
+        s "啊——"
         call screen dialog("对不起......是我错了。", ok_action=Return())
         call screen dialog("这里终究是个没有幸福可言的地方啊......", ok_action=Return())
         call screen dialog("永别了，纱世里。", ok_action=Return())
-        call screen dialog("再见了，[player]。", ok_action=Return())
+        call screen dialog("永别了，[player]。", ok_action=Return())
         call screen dialog("永别了，文学部。", ok_action=Return())
         $ gtext = glitchtext(120)
         s "[gtext]{nw}"

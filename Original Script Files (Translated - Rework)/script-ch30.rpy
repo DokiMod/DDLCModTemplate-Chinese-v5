@@ -125,7 +125,7 @@ init python:
 
 label ch30_noskip:
     show screen fake_skip_indicator
-    m "...Are you trying to fast-forward?"
+    m "......你是想快进吗？"
     m "I'm not boring you, am I?"
     m "Oh gosh..."
     m "...Well, there's nothing to fast-forward to, [player]."
@@ -172,7 +172,7 @@ label ch30_main:
     hide splash-glitch2 with Dissolve(0.5, alpha=True)
     scene black
     stop music
-    m "..."
+    m "......"
     m "Uh, can you hear me?"
     m "...Is it working?"
     $ persistent.clear[9] = True
