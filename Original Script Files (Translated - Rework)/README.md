@@ -1,0 +1,22 @@
+# 重做进度
+
+- [x] ch0
+- [x] ch1
+- [x] ch2
+- [ ] ch3
+- [ ] ch4
+- [ ] ch5
+- [ ] ch10
+- [ ] ch20
+- [ ] ch21
+- [ ] ch22
+- [ ] ch23
+- [ ] ch30
+- [ ] ch40
+- [ ] exclusives-natsuki
+- [ ] exclusives-sayori
+- [ ] exclusives-yuri
+- [ ] exclusives2-natsuki
+- [ ] exclusives2-yuri
+- [ ] poemresponses
+- [ ] poemresponses2

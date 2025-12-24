@@ -16,7 +16,7 @@ image sayori end-glitch:
     "sayori/end-glitch2.png"
 
 label ch40_main:
-    $ s_name = "Sayori"
+    $ s_name = "纱世里"
     stop music fadeout 2.0
     scene bg residential_day
     with dissolve_scene_full
@@ -25,7 +25,7 @@ label ch40_main:
         if not persistent.monika_back:
             try:
                 renpy.file("../characters/monika.chr")
-                renpy.call_screen("dialog", message="Please stop playing with my heart.\nI don't want to come back.", ok_action=Return())
+                renpy.call_screen("dialog", message="请不要再玩弄我的心了。\n我真的不想回来。", ok_action=Return())
                 persistent.monika_back = True
             except:
                 pass
@@ -98,7 +98,7 @@ label ch40_main:
     scene bg corridor
     with wipeleft_scene
     "I recall the room number of the club from a flier I saw."
-    "I walk across the school and upstairs - a section of the school I rarely visit, being generally used for third-year classes and activities."
+    "我穿过校园，走上楼梯，登上了我很少涉足的楼层——这里通常只供高三学生上课和社团活动使用。"
     "Before long, I find the room."
     "I timidly open the door in front of me."
     scene bg club_day
@@ -126,8 +126,8 @@ label ch40_main:
     n "No need to be so formal."
     n "He's gonna think we're really strict or something..."
     show natsuki at t31
-    $ y_name = "Yuri"
-    $ n_name = "Natsuki"
+    $ y_name = "优里"
+    $ n_name = "夏树"
     show yuri at f33
     y 3q "Ah..."
     y "Sorry, Natsuki..."
@@ -499,20 +499,20 @@ label ch40_main:
         s 1q "Forever and ever..."
         hide sayori
         show sayori 1a onlayer screens zorder 101 at face
-        s "F"
-        s "o"
-        s "r"
+        s "永"
+        s "远"
+        s "都"
         show screen tear(20, 0.1, 0.1, 0, 40)
         play sound "sfx/s_kill_glitch1.ogg"
         $ pause(0.25)
         stop sound
         hide screen tear
-        s "e"
-        s "v"
-        s "e"
+        s "要"
+        s "在"
+        s "一"
         window show(None)
         stop music
-        call screen dialog("No...", ok_action=Return())
+        call screen dialog("不要......", ok_action=Return())
         show layer master
         hide black
         show sayori end-glitch onlayer screens
@@ -520,7 +520,7 @@ label ch40_main:
         s "W-What's happening...?"
         call screen dialog("I won't let you hurt him.", ok_action=Return())
         s "Who..."
-        s "I-It hurts--"
+        s "停、停下，好痛——"
         show screen tear(20, 0.1, 0.1, 0, 40)
         window hide(None)
         play sound "sfx/s_kill_glitch1.ogg"
@@ -530,11 +530,11 @@ label ch40_main:
         hide screen tear
         window show(None)
         s "Ah--"
-        call screen dialog("I'm sorry... I was wrong.", ok_action=Return())
-        call screen dialog("There's no happiness here after all...", ok_action=Return())
-        call screen dialog("Goodbye, Sayori.", ok_action=Return())
-        call screen dialog("Goodbye, [player].", ok_action=Return())
-        call screen dialog("Goodbye, Literature Club.", ok_action=Return())
+        call screen dialog("对不起......是我错了。", ok_action=Return())
+        call screen dialog("这里终究是个没有幸福可言的地方啊......", ok_action=Return())
+        call screen dialog("永别了，纱世里。", ok_action=Return())
+        call screen dialog("再见了，[player]。", ok_action=Return())
+        call screen dialog("永别了，文学部。", ok_action=Return())
         $ gtext = glitchtext(120)
         s "[gtext]{nw}"
         show screen tear(20, 0.1, 0.1, 0, 40)

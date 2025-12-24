@@ -571,12 +571,12 @@ label yuri_kill_1:
     stop music
     scene bg club_day
     show yuri 3d at i11
-    y "...Ahahaha."
-    y "Ahahahahahaha!"
+    y "......啊哈哈哈。"
+    y "啊哈哈哈哈哈哈!"
     $ style.say_dialogue = style.normal
-    y 3y5 "Ahahahahahahahaha!"
+    y 3y5 "啊哈哈哈哈哈哈哈哈!"
     $ style.say_dialogue = style.edited
-    y 3y3 "AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA{nw}"
+    y 3y3 "啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈{nw}"
     window hide(None)
     window auto
     $ style.say_dialogue = style.normal
@@ -632,7 +632,7 @@ label yuri_kill_2:
     $ renpy.save_persistent()
     python:
         _history_list = []
-        m.add_history(None, "", """Welcome to the Literature Club! It's always been a dream of mine to make something special out of the things I love. Now that you're a club member, you can help me make that dream come true in this cute game!Every day is full of chit-chat and fun activities with all of my adorable and unique club members:Sayori, the youthful bundle of sunshine who values happiness the most;Natsuki, the deceivingly cute girl who packs an assertive punch;Yuri, the timid and mysterious one who finds comfort in the world of books;...And, of course, Monika, the leader of the club! That's me!I'm super excited for you to make friends with everyone and help the Literature Club become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?Welcome to the Literature Club! It's always been a dream of mine to make something special out of the things I love. Now that you're a club member, you can help me make that dream come true in this cute game!Every day is full of chit-chat and fun activities with all of my adorable and unique club members:Sayori, the youthful bundle of sunshine who values happiness the most;Natsuki, the deceivingly cute girl who packs an assertive punch;Yuri, the timid and mysterious one who finds comfort in the world of books;...And, of course, Monika, the leader of the club! That's me!I'm super excited for you to make friends with everyone and help the Literature Club become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?Welcome to the Literature Club! It's always been a dream of mine to make something special out of the things I love. Now that you're a club member, you can help me make that dream come true in this cute game!Every day is full of chit-chat and fun activities with all of my adorable and unique club members:Sayori, the youthful bundle of sunshine who values happiness the most;Natsuki, the deceivingly cute girl who packs an assertive punch;Yuri, the timid and mysterious one who finds comfort in the world of books;...And, of course, Monika, the leader of the club! That's me!I'm super excited for you to make friends with everyone and help the Literature Club become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with me?will you promise to spend the most time with""")
+        m.add_history(None, "", """欢迎来到文学部！我一直以来的梦想，就是能在自己喜欢的事情上做出点名堂来，所以我凭借着自己对文学的热忱，创立了这个文学部。呐，现在你也是文学部的一员啦~快快来这款可爱的游戏里帮我圆梦吧！文学部的生活轻松惬意，每天除了跟社团成员闲聊，就是举办各种有趣的社团活动！社团里的其他成员全都个性鲜明，而且超~级可爱~接下来就让我向你介绍一下其他成员吧~纱世里，青春阳光的少女，总是元气满满，开朗健谈！快乐就是她最珍视的事！夏树，看似可爱娇小的少女，但却有着惊人的魄力，可能随时都会给你自信一击！优里，羞怯内向又神秘的少女，喜欢在文学的世界里寻找慰藉。......当然了，还有我！文学部的部长，莫妮卡！你能跟所有人都交上朋友，让文学部的氛围变得更加融洽吗？我超~级期待哦~不过呢，我也知道你其实是个善解人意的小可爱，所以啊——花最多的时间来陪我吧，你能保证吗？欢迎来到文学部！我一直以来的梦想，就是能在自己喜欢的事情上做出点名堂来，所以我凭借着自己对文学的热忱，创立了这个文学部。呐，现在你也是文学部的一员啦~快快来这款可爱的游戏里帮我圆梦吧！文学部的生活轻松惬意，每天除了跟社团成员闲聊，就是举办各种有趣的社团活动！社团里的其他成员全都个性鲜明，而且超~级可爱~接下来就让我向你介绍一下其他成员吧~纱世里，青春阳光的少女，总是元气满满，开朗健谈！快乐就是她最珍视的事！夏树，看似可爱娇小的少女，但却有着惊人的魄力，可能随时都会给你自信一击！优里，羞怯内向又神秘的少女，喜欢在文学的世界里寻找慰藉。......当然了，还有我！文学部的部长，莫妮卡！你能跟所有人都交上朋友，让文学部的氛围变得更加融洽吗？我超~级期待哦~不过呢，我也知道你其实是个善解人意的小可爱，所以啊——花最多的时间来陪我吧，你能保证吗？欢迎来到文学部！我一直以来的梦想，就是能在自己喜欢的事情上做出点名堂来，所以我凭借着自己对文学的热忱，创立了这个文学部。呐，现在你也是文学部的一员啦~快快来这款可爱的游戏里帮我圆梦吧！文学部的生活轻松惬意，每天除了跟社团成员闲聊，就是举办各种有趣的社团活动！社团里的其他成员全都个性鲜明，而且超~级可爱~接下来就让我向你介绍一下其他成员吧~纱世里，青春阳光的少女，总是元气满满，开朗健谈！快乐就是她最珍视的事！夏树，看似可爱娇小的少女，但却有着惊人的魄力，可能随时都会给你自信一击！优里，羞怯内向又神秘的少女，喜欢在文学的世界里寻找慰藉。......当然了，还有我！文学部的部长，莫妮卡！你能跟所有人都交上朋友，让文学部的氛围变得更加融洽吗？我超~级期待哦~不过呢，我也知道你其实是个善解人意的小可爱，所以啊——花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪我吧，你能保证吗？花最多的时间来陪""")
 
     $ style.say_dialogue = style.edited
     scene black
@@ -680,7 +680,7 @@ label yuri_kill_3:
     n "Wow, you got here before me?"
     n "I thought I was pretty ea--{nw}"
     show natsuki scream at h11
-    n "EYAH!"
+    n "噫呀！"
     n "AAAAAAAAAAAAAAAHHHH!!!"
     $ pause(1.0)
     show natsuki scream at h11

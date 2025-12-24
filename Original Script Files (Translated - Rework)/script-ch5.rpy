@@ -85,26 +85,26 @@ label ch5_main:
     scene bg residential_day
     with dissolve_scene_full
 
-    "It's the day of the festival."
-    "Of all days, I expected this to be the one where I'd be walking to school with Sayori."
-    "But Sayori isn't answering her phone."
-    "I considered going to her house to wake her up, but decided that's a little too much."
-    "Meanwhile, the preparations for the event should be nearly complete."
+    "今天就是学园祭了。"
+    "先不说平时如何，我原以为今天一定会跟纱世里一起走路上学。"
+    "但纱世里没接我的电话。"
+    "我考虑过直接去她家叫醒她，但又觉得似乎有点做过头了。"
+    "与此同时，学园祭活动的准备工作也差不多完成了。"
     if ch4_scene == "natsuki":
-        "I managed to carry all the cupcakes myself by carefully stacking two trays."
-        "Natsuki is already texting up a storm, but I can't respond, thanks to my hands being full."
+        "我小心翼翼地将两个托盘叠放在一起，一个人把蛋糕全端了出来。"
+        "夏树的短信现在像风暴一样轰炸着我，但是我两只手都腾不开，根本没办法回复她。"
     else:
-        "The banner Yuri and I painted is dry, and I gently rolled it up to take with me."
-        "She sent me a pleasant text reminding me not to forget anything, and I reassured her."
+        "我和优里上色的条幅已经干了，我轻轻将它卷好带了出来。"
+        "她发来一条友好的短信，提醒我别忘带什么东西，我让她大可放心。"
     "Funnily enough, I probably feel the same way as Natsuki about the event."
     "I'm more excited for it to be over so I can spend time with Sayori and [ch4_name] at the festival."
     "But knowing Monika, I'm sure the event will be great, too."
 
     scene bg club_day with wipeleft_scene
     show monika 5 zorder 2 at t11
-    m "[player]!"
-    m "You're the first one here."
-    m "Thanks for being early!"
+    m "[player]！"
+    m "你今天可是第一个到的呢。"
+    m "谢谢你来得这么早！"
     mc "That's funny, I thought at least Yuri would be here by now."
     "Monika is placing little booklets on each of the desks in the classroom."
     "They must be the ones she prepared that have all the poems we're performing."
@@ -133,7 +133,7 @@ label ch5_main:
     "Did Sayori really tell her about it that quickly?"
     if sayori_confess:
         "That we're...a couple now?"
-        "I didn't really plan on bringing it up with anyone yet..."
+        "我可还没打算向其他人公开呢......"
     else:
         "About how I basically turned down her confession?"
         "That makes me really seem like the bad guy here..."
@@ -161,12 +161,12 @@ label ch5_main:
     "It's different from the one she practiced."
     "It's one that I haven't read before..."
     $ poem_db.show_poem("poem_s3")
-    mc "Ah--"
-    "What is this...?"
-    "Reading the poem, I get a pit in my stomach."
+    mc "啊——"
+    "这到底是啥......？"
+    "读着这首诗，我的心仿佛沉到了谷底。"
     show monika 1d zorder 2 at t11
-    m "[player]?"
-    m "What's wrong?"
+    m "[player]？"
+    m "怎么了？"
     mc "Ah, nothing..."
     "This poem feels completely different from everything else Sayori's written."
     "But more than that..."
@@ -208,14 +208,14 @@ label ch5_main:
     "It just feels right."
 
     "Outside Sayori's room, I knock on her door."
-    mc "Sayori?"
+    mc "纱世里？"
     mc "Wake up, dummy..."
     "There's no response."
     "I really didn't want to have to enter her room like this..."
     "Isn't it kind of a breach of privacy?"
-    "But she really leaves me no choice."
-    "I gently open the door."
-    mc "{cps=30}.......Sayo--{/cps}{nw}"
+    "但她实在让我别无他法。"
+    "我轻轻地打开了房门。"
+    mc "{cps=30}.......纱世——{/cps}{nw}"
     $ persistent.playthrough = 1
     $ persistent.anticheat = renpy.random.randint(100000, 999999)
     $ renpy.save_persistent()
@@ -288,12 +288,12 @@ label ch5_main:
     show fake_exception2 zorder 2:
         xpos 0.1 ypos 0.15
     python:
-        try: sys.modules['renpy.error'].report_exception("Oh jeez...I didn't break anything, did I? Hold on a sec, I can probably fix this...I think...\nActually, you know what? This would probably be a lot easier if I just deleted her. She's the one who's making this so difficult. Ahaha! Well, here goes nothing.", False)
+        try: sys.modules['renpy.error'].report_exception("哦，天哪...我是不是不小心把什么东西给弄坏了？等会儿，我应该可以把这东西修好的......吧......\n但话又说回来了！直接把她删掉，会不会省事多了？毕竟把事情变得那么复杂的人就是她啊。啊哈哈！既然如此，那我就试试看吧。", False)
         except: pass
     $ pause(6.0)
 
 
-    "..."
+    "......"
     hide fake_exception
     hide fake_exception2
     hide exception_bg
@@ -337,8 +337,8 @@ label ch5_main:
         "And gave her what I know she wanted out of our relationship..."
     "...Then I could have prevented this."
     "I know I could have prevented this!"
-    "Screw the Literature Club."
-    "Screw the festival."
+    "去它丫的文学部。"
+    "去它丫的学园祭。"
     "I just...lost my best friend."
     "Someone I grew up with."
     "She's gone forever now."
@@ -348,13 +348,13 @@ label ch5_main:
     "And now I'll carry this guilt with me until I die."
     "Nothing in my life is worth more than hers..."
     "But I still couldn't do what she needed from me."
-    "And now..."
-    "I can never take it back."
-    "Never."
-    "Never."
-    "Never."
-    "Never."
-    "Never..."
+    "而且现在......"
+    "我永远无法重来了。"
+    "永远。"
+    "永远。"
+    "永远。"
+    "永远。"
+    "永远......"
     $ in_sayori_kill = False
 
 

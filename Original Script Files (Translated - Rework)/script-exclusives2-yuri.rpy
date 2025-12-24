@@ -330,7 +330,7 @@ label yuri_exclusive2_2_ch22:
     play music "<from " + str(currentpos) + " loop 10.893>bgm/6o.ogg"
     mc "Let's see..."
     "The most logical place for Yuri to be would be the nearest water fountain..."
-    $ y_name = "Yuri"
+    $ y_name = "优里"
     "I start heading down the hallway."
     $ y_name = "???"
     y "Haah.....haah...."
@@ -343,7 +343,7 @@ label yuri_exclusive2_2_ch22:
     "Are they in pain...?"
     "I reach the corner and peer around it."
     mc "Yuri...?"
-    $ y_name = "Yuri"
+    $ y_name = "优里"
     show yuri cuts zorder 2 at t11
     y "Kya--!"
 
@@ -367,7 +367,7 @@ label yuri_exclusive2_2_ch22:
     "{cps=150}...What's that noise?{/cps}{nw}"
     y "{cps=150}....Haah.....haah....{/cps}{nw}"
     y "{cps=150}Haah.....haah....{/cps}{nw}"
-    $ y_name = "Yuri"
+    $ y_name = "优里"
     "{cps=150}I start heading down the hallway.{/cps}{nw}"
     "{cps=150}The most logical place for Yuri to be would be the nearest water fountain...{/cps}{nw}"
     mc "{cps=150}Let's see...{/cps}{nw}"

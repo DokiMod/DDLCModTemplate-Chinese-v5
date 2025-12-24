@@ -162,7 +162,7 @@ label ch30_main:
     $ m.what_args["slow_abortable"] = config.developer
     if not config.developer:
         $ style.say_dialogue = style.default_monika
-    $ m_name = "Monika"
+    $ m_name = "莫妮卡"
     $ delete_all_saves()
     scene white
     play music "bgm/monika-start.ogg" noloop
@@ -199,7 +199,7 @@ label ch30_main:
     m "I'm talking to {i}you{/i}, [player]."
     if not is_user_streaming():
         if currentuser is not None and currentuser.lower() != player.lower():
-            m "Or..."
+            m "或者说......"
             m "...Do you actually go by [currentuser] or something?"
     m "Now that I think about it, I don't really know anything about the real you."
     m "In fact, I don't even know if you're a boy or a girl..."

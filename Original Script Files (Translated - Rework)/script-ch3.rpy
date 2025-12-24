@@ -487,7 +487,7 @@ label ch3_end:
     m "Can you handle that all by yourself, Natsuki?"
     show monika zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 4z "Challenge accepted!"
+    n 4z "接受挑战！"
     show natsuki 4a zorder 2 at t31
     show monika zorder 3 at f32
     m 1a "And as for myself..."
