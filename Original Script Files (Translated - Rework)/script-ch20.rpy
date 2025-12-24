@@ -31,7 +31,7 @@ label ch20_main2:
 
     $ m_name = "???"
 
-    m "...[player]?"
+    m "...[player]？"
     window hide(None)
     show monika g2 zorder 2 at t11
     $ pause(0.75)
@@ -475,14 +475,14 @@ label ch20_main2:
     show monika 1a zorder 2 at t33
     "当然，还有莫妮卡。"
     "每天放学后泡在文学社团里，我真的会感到快乐吗？"
-    "说不定我还有机会和当中的哪个女生拉近距离..."
+    "说不定我还有机会和当中的哪个女生拉近距离......"
     hide natsuki
     hide yuri
     hide monika
     with wipeleft
     "没错！"
     "我只要充分利用条件就行了，好运总有一天会来的。"
-    "看来万事都要从今晚写的这首诗诗开始了..."
+    "看来万事都要从今晚写的这首诗开始了......"
 
     stop music fadeout 2.0
     scene black with dissolve_scene_full

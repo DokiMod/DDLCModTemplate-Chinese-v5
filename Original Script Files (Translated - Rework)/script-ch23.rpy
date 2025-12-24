@@ -95,19 +95,19 @@ label ch23_main:
         m "噢，天哪......"
         m "我又是最后一个到的啊！"
         show yuri zorder 3 at f32
-        y 1f "Were you practicing piano again?"
+        y 1f "你又去练习钢琴了吗？"
         show yuri zorder 2 at t32
         show monika zorder 3 at f31
-        m 5a "Yeah..."
-        m "Ahaha..."
+        m 5a "是的......"
+        m "啊哈哈......"
         show monika zorder 2 at t31
         show yuri zorder 3 at f32
-        y 1m "You must have a lot of determination."
-        y "Starting this club, and still trying to make time for piano..."
+        y 1m "你还真是有毅力呢。"
+        y "不但创办了这个社团，现在又开始学钢琴......"
         show yuri 1a zorder 2 at t32
         show monika zorder 3 at f31
-        m 1a "Well, maybe not determination..."
-        m 3a "But I guess passion."
+        m 1a "嗯，也许不是毅力......"
+        m 3a "我觉得是热情驱使着我。"
         m "It motivates me to work hard for the festival, too."
     else:
         show natsuki zorder 2 at t33
@@ -142,19 +142,19 @@ label ch23_main:
         n 2c "Well, [player] just walked in too."
         show natsuki zorder 2 at t33
         show yuri zorder 3 at f32
-        y 1f "Were you practicing piano again?"
+        y 1f "你又去练习钢琴了吗？"
         show yuri zorder 2 at t32
         show monika zorder 3 at f31
-        m 5a "Yeah..."
-        m "Ahaha..."
+        m 5a "是的......"
+        m "啊哈哈..."
         show monika zorder 2 at t31
         show yuri zorder 3 at f32
-        y 1m "You must have a lot of determination."
-        y "Starting this club, and still trying to make time for piano..."
+        y 1m "你还真是有毅力呢。"
+        y "不但创办了这个社团，现在又开始学钢琴......"
         show yuri 1a zorder 2 at t32
         show monika zorder 3 at f31
-        m 1a "Well, maybe not determination..."
-        m 3a "But I guess passion."
+        m 1a "嗯，也许不是毅力......"
+        m 3a "我觉得是热情驱使着我。"
         m "It motivates me to work hard for the festival and..."
         m 3n "Um..."
         show monika zorder 2 at t31
@@ -265,7 +265,7 @@ label ch23_end:
     show monika 4b zorder 2 at t32
     with wipeleft_scene
     play music t3
-    m "Okay, everyone!"
+    m "好了，各位！"
     m "It's time to figure out the festival preparations."
     m 1i "Let's hurry and get this over with."
     if get_appeal("natsuki") >= 2:
@@ -285,7 +285,7 @@ label ch23_end:
     m 2r "Look, can we just get this done?"
     m 2d "I'm going to be printing and assembling all the poetry pamphlets."
     if get_appeal("natsuki") >= 2:
-        m 2i "Natsuki, you can make cupcakes."
+        m 2i "夏树，你可以去做小蛋糕。"
         m "I know you're at least good at that."
         show monika zorder 2 at t32
         show natsuki zorder 3 at f31
@@ -301,7 +301,7 @@ label ch23_end:
         show monika zorder 3 at f32
         m 2a "...Yeah, that."
         m "Glad we're on the same page."
-    m 1m "Yuri, you can..."
+    m 1m "优里，你可以..."
     m 1r "...Well, it doesn't matter."
     m 1i "Do whatever you want, as long as you think it'll help."
     show monika zorder 2 at t32
@@ -387,7 +387,7 @@ label ch23_end:
     n 1o "{i}You{/i} shut your mouth!"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
-    m 1r "Jesus christ..."
+    m 1r "老天爷啊..."
     m 1i "This is never going to end. Just make the choice, okay?"
     show monika zorder 2 at t32
     python:
@@ -441,7 +441,7 @@ label ch23_end:
         hide natsuki
         hide yuri
 
-    m 5a "Yay, you picked me!"
+    m 5a "耶，你选了我诶！"
     m "We can meet at your house this weekend."
     m "I promise it'll be fun."
     m "Is Sunday okay with you?"

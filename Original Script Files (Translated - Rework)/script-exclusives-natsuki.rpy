@@ -1,7 +1,7 @@
 label natsuki_exclusive_1:
     scene bg club_day
     with wipeleft_scene
-    n "Ugh...!"
+    n "呃......！"
     "I hear Natsuki utter an exasperated sigh from within the closet."
     "She seems to be annoyed by something."
     "I approach her, in case she needs a hand."
@@ -10,7 +10,7 @@ label natsuki_exclusive_1:
     show natsuki 4r zorder 2 at t11
     with wipeleft_scene
     mc "You looking for something in there?"
-    n 4x "Freaking Monika..."
+    n 4x "可恶的莫妮卡......"
     n "She never puts my stuff back in the right spot!"
     n "What's the point in keeping your collection organized if someone else is just gonna mess it up?"
     "Natsuki slides a bunch of stacked books and boxes across the shelf."

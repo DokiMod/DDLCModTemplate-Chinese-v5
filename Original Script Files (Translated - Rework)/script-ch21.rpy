@@ -434,7 +434,7 @@ label ch21_end:
     y "It would just be...embarrassing with you listening..."
     show yuri zorder 2 at t32
     show monika zorder 3 at f31
-    m 1r "{i}*Sigh*{/i}"
+    m 1r "{i}*唉*{/i}"
     m 1d "I guess I don't really have a choice, do I?"
     show monika zorder 2 at t31
     show yuri zorder 3 at f32

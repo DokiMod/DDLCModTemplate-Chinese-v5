@@ -188,90 +188,90 @@ label ch40_main:
     hide natsuki
     hide yuri
     with wipeleft
-    "The girls have a few desks arranged to form a table."
-    "Natsuki and Yuri walk over to the corner of the room, where Natsuki grabs a wrapped tray and Yuri opens the closet."
-    "Still feeling awkward, I take a seat next to Sayori."
-    "Natsuki proudly marches back to the table, tray in hand."
+    "女孩们把几张课桌拼成了一张大桌子。"
+    "与此同时，夏树和优里走到了房间的角落，夏树端出来一个盖好的托盘，而优里打开了储藏间。"
+    "我还是觉得有些尴尬，于是就坐在了纱世里的旁边。"
+    "夏树端着托盘，趾高气扬地走了回来。"
     show natsuki 2z zorder 2 at t22
-    n "Okaaay, are you ready?"
-    n "...Ta-daa!"
+    n "好——咯，准备好了吗？"
+    n "...锵锵！"
     show sayori 4m zorder 2 at t21
-    s "Uwooooah!"
-    "Natsuki lifts the foil off the tray to reveal a dozen white, fluffy cupcakes decorated to look like little cats."
-    "The whiskers are drawn with icing, and little pieces of chocolate were used to make ears."
+    s "哇哦——！"
+    "夏树掀开了盖在托盘上的锡箔纸，托盘上放着十二个小猫形状的雪白松软的小蛋糕。"
+    "她用糖霜画出了小猫的胡须，还用小片的巧克力做了耳朵。"
     show sayori at f21
-    s 4r "So cuuuute~!"
+    s 4r "好可爱呀~！"
     show sayori at t21
     mc "Wow, those look amazing."
     show natsuki at f22
-    n 2d "Ehehe. Well, you know."
-    n "Just hurry and take one!"
+    n 2d "嗯哼哼，没想到吧。"
+    n "赶紧尝一下吧！"
     show natsuki at t22
-    "Sayori grabs one first, then I follow."
+    "纱世里马上拿起了一块，然后是我。"
     show sayori at f21
-    s 4q "It's delicious!"
+    s 4q "超好吃！"
     show sayori at t21
-    "Sayori talks with her mouth full and has already managed to get icing on her face."
-    "I turn the cupcake around in my fingers, looking for the best angle to take a bite."
+    "纱世里脸上沾满了糖霜，满嘴都是蛋糕，边吃边称赞着。"
+    "我把蛋糕放在手里转了一圈，想找一个合适的角度下口。"
     show sayori zorder 1 at thide
     hide sayori
     show natsuki 1c zorder 2 at t32
-    "Natsuki is quiet."
-    "I can't help but notice her sneaking glances in my direction."
-    "Is she waiting for me to take a bite?"
-    "I finally bite down."
-    "The icing is sweet and full of flavor - I wonder if she made it herself."
-    mc "This is really good."
-    mc "Thank you, Natsuki."
+    "夏树默不作声。"
+    "我不禁注意到了她偷偷瞄向我的视线。"
+    "她是在等我咬下去么？"
+    "我终于咬下了一口。"
+    "糖霜甜度正好，风味十足——这真的是她自己做的吗？"
+    mc "真的很豪赤欸。"
+    mc "谢谢你，夏树。"
     n 42c "W-Well...of course it is!"
     n "I'm a pro, after all!"
     n 42a "There's no need to thank me or anything..."
     show natsuki zorder 1 at thide
     hide natsuki
     "As Natsuki struggles to accept the compliment, Yuri returns to the table, carrying a tea set."
-    "She carefully places a teacup in front of each of us before setting down the teapot next to the cupcake tray."
+    "她小心翼翼地在每个人面前摆好一个茶杯，然后将茶壶放在托盘旁边。"
     show yuri 1a zorder 2 at t11
-    mc "You keep a whole tea set in this classroom?"
-    y "Don't worry, the teachers gave us permission."
-    y "After all, doesn't a hot cup of tea help you enjoy a good book?"
-    mc "Ah... I-I guess..."
+    mc "你居然在部室里放了一整套茶具？"
+    y "别担心，老师同意过了。"
+    y "何况，热茶配好书，不也很美妙吗？"
+    mc "啊...想必——也对......"
     show natsuki 2y at f31
     n "Ehehe. Already trying to impress our new member, Yuri?"
     show natsuki at t31
     show yuri at f11
-    y 3n "Eh?! T-That's not..."
+    y 3n "诶？！不、不是这样的......"
     show yuri at t11
     show natsuki at thide
     hide natsuki
-    "Insulted, Yuri looks away."
-    y 4b "I meant that, you know..."
-    mc "I believe you."
-    mc "Well, tea and reading might not be a pastime for me, but I at least enjoy tea."
-    y 2u "I'm glad..."
-    "Yuri faintly smiles to herself in relief."
-    y 1a "So, [player], what kinds of things do you like to read?"
-    mc "Well... Ah..."
-    "Considering how little I've read these past few years, I don't really have a good way of answering that."
-    mc "...Manga..."
-    "I mutter quietly to myself, half-joking."
+    "优里难堪地把脸别了过去。"
+    y 4b "我的意思是，那个......"
+    mc "我相信你。"
+    mc "嗯，阅读和品茶或许不是我的消遣方式，但我起码还蛮喜欢喝茶。"
+    y 2u "那就好......"
+    "优里宽慰地浅浅一笑。"
+    y 1a "所以说，[player]，你平时都喜欢读些什么呢？"
+    mc "这个......啊......"
+    "考虑到我过去几年匮乏的阅读量，我真的不知道该如何回答。"
+    mc "......漫画吧......"
+    "我半开玩笑地小声嘀咕着。"
     show natsuki 1c zorder 2 at t41
-    "Natsuki's head suddenly perks up."
-    "It looks like she wants to say something, but she keeps quiet."
+    "夏树突然抬起了头。"
+    "她似乎想说些什么，不过最后还是选择了沉默。"
     show natsuki zorder 1 at thide
     hide natsuki
-    y 3u "N-Not much of a reader, I guess..."
-    mc "...Well, that can change..."
-    "What am I saying?"
-    "I spoke without thinking after seeing Yuri's sad smile."
-    mc "Anyway, what about you, Yuri?"
-    y 1l "Well, let's see..."
-    "Yuri traces the rim of her teacup with her finger."
-    y 1a "My favorites are usually novels that build deep and complex fantasy worlds."
-    y "The level of creativity and craftsmanship behind them is amazing to me."
-    y 1f "And telling a good story in such a foreign world is equally impressive."
-    "Yuri goes on, clearly passionate about her reading."
-    "She seemed so reserved and timid since the moment I walked in, but it's obvious by the way her eyes light up that she finds her comfort in the world of books, not people."
-    y 2m "But you know, I like a lot of things."
+    y 3u "你、你好像并不算是喜欢阅读的样子呢......"
+    mc "......呃，也不是不能改啦......"
+    "我到底在说什么啊？"
+    "看到优里的苦笑，我没经大脑就把这句话说出来了。"
+    mc "话说回来，优里，你喜欢读些什么呢？"
+    y 1l "嗯，让我想想..."
+    "优里的指尖描划着茶杯边缘。"
+    y 1a "我最喜欢的是那种世界观深邃复杂的幻想小说。"
+    y "这类文学背后的创意和匠心，真的让我大开眼界。"
+    y 1f "而且，能在那样陌生的世界观下叙述好一个故事，也同样令人钦佩。"
+    "优里滔滔不绝地说着，她显然对阅读充满了热情。"
+    "尽管她从我步入社团的那一刻起就表现得内向羞怯，但从她闪闪发亮的双眼可以看得出来，比起现实的人际关系，她更喜欢在书中寻求安慰。"
+    y 2m "不过嘛，我喜好的类型还有很多。"
     y 2a "Don't feel intimidated if you don't read much, okay?"
     y "I'm certain we can find something that we have in common."
     show yuri at t22
@@ -284,7 +284,7 @@ label ch40_main:
     show natsuki at f21
     n 2h "Well, about...you know, the first thing he said..."
     show natsuki at t21
-    mc "Manga?"
+    mc "漫画吗？"
     show yuri at f22
     y 2i "That's right..."
     y "Natsuki tends to read manga in the clubroom--"
