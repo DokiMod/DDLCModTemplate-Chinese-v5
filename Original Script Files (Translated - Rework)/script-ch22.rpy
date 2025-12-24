@@ -18,22 +18,22 @@ label ch22_main:
         show yuri_half2 zorder 1 at i11
     else:
         show yuri 1s zorder 2 at t11
-    y "Welcome back, [player]..."
+    y "欢迎回来，[player]......"
     hide yuri_half2
-    mc "Ah, hi Yuri..."
-    "I'm not sure if it's me, or if it's Yuri's expression..."
-    "But the weight of yesterday's quarrel still hangs in the air a little."
-    y 2v "U-Um..."
-    "Yuri glances over her shoulder, looking around the room."
-    "Natsuki is reading manga at a desk."
-    "And surprisingly, Monika isn't here yet."
-    "Suddenly, Yuri takes my arm and pulls me to the corner of the room."
+    mc "啊，你好啊优里......"
+    "我不太确定是因为我，还是因为优里的脸色......"
+    "但昨天的争吵余波未了，让气氛似乎依旧有些沉重。"
+    y 2v "唔、唔......"
+    "优里扭头望了一下身后，视线在教室里徘徊。"
+    "夏树正在课桌前看漫画。"
+    "令人惊讶的是，莫妮卡还没有到。"
+    "突然，优里抓着我的胳膊，把我拉到了教室的角落。"
     show bg closet
     show yuri 2t zorder 2 at t11
     with wipeleft
-    y "About yesterday..."
-    y "I..."
-    y 2v "I really need to apologize."
+    y "关于昨天那件事......"
+    y "我......"
+    y 2v "我真的需要道歉。"
     y "Nothing like that has ever happened before..."
     y 2t "And...something just came over me, I guess..."
     y "I wasn't acting mentally sound."
@@ -506,34 +506,34 @@ label ch22_end:
     y "This is bad..."
     y "I don't know what to do..."
     mc "Well..."
-    mc "Do you have an opinion on the festival?"
-    y 4b "I-I don't know..."
+    mc "你对学园祭有什么想法吗？"
+    y 4b "我、我不知道......"
     $ style.say_dialogue = style.normal
-    y "I'm kind of indifferent, I guess..."
+    y "我其实有点无所谓吧......"
     show black zorder 3
     show y_glitch_head zorder 3:
         xpos 630 ypos -50 zoom 2.0
     $ style.say_dialogue = style.edited
     $ currentpos = get_pos() / 2.07
     play music "<from " + str(currentpos) + " loop 1.532>bgm/9g.ogg"
-    y "谁在乎那个死缠滥干的玻璃心小鬼啊？"
+    y "谁在乎那个烦人的幼稚鬼啊？"
     $ style.say_dialogue = style.normal
     $ currentpos = get_pos() * 2.07
     play music "<from " + str(currentpos) + " loop 3.172>bgm/9.ogg"
     hide black
     hide y_glitch_head
-    y "I mean, I like how nice and quiet the club is right now..."
-    y "And I'm just...happy with you here..."
-    y 2t "But still!"
-    y "I'm the Vice President..."
-    y "It's not right for me to ignore my responsibilities like that..."
+    y "我是说，我确实更喜欢现在这个安静平和的社团......"
+    y "而且我只是觉得......和你在这里挺好的......"
+    y 2t "但是！"
+    y "毕竟我是副部长......"
+    y "我不该像那样逃避我的责任......"
     show black zorder 3
     show y_glitch_head zorder 3:
         xpos 430 ypos -450 zoom 4.5
     $ style.say_dialogue = style.edited
     $ currentpos = get_pos() / 2.07
     play music "<from " + str(currentpos) + " loop 1.532>bgm/9g.ogg"
-    y "Nobody would cry if she killed herself."
+    y "就算她自杀了，也不会有人为她哭泣的。"
     $ style.say_dialogue = style.normal
     $ currentpos = get_pos() * 2.07
     stop music
@@ -547,9 +547,9 @@ label ch22_end:
     hide black
     hide y_glitch_head
     hide blood_eye
-    y 2l "I should do my best to consider everyone's perspective and make the decision that's right for the club."
-    y 1t "But what about you, [player]?"
-    y "What do you want to get out of this club?"
+    y 2l "我应该尽力考虑所有人的感受，然后做出对社团来说正确的决定。"
+    y 1t "那么，[player] 你呢？"
+    y "你想从这个社团中得到什么？"
     "Yuri repeats the same question as Monika."
     "I decide giving an indirect answer is better than nothing."
     mc "...I think the most important thing is for everyone to get along..."
@@ -643,20 +643,20 @@ label ch22_end:
     m "Sometimes it feels like you and I are the only real people here."
     m "You know what I mean?"
     m 1g "But it's weird, because in all the time you've been here, we've hardly gotten to spend any time together."
-    m 1n "Ah...I mean..."
+    m 1n "啊......我是说......"
     m "I guess it's technically only been a couple days..."
     m 1l "Sorry, I didn't mean to say something weird!"
-    m 1e "There are just some things I've been hoping to talk about with you..."
-    m "Things I know only you could understand."
+    m 1e "其实有些事情，我早就想跟你说了......"
+    m "一些我知道只有你才能理解的事情。"
     stop music fadeout 3.0
     show black onlayer front:
         alpha 0.0
         0.25
         linear 3.0 alpha 1.00
-    m "So that's why--\"{space=5000}{w=0.75}{nw}"
-    m 1g "Wait, not yet!\"{space=5000}{w=0.5}{nw}"
-    m "No!\"{space=5000}{w=0.5}{nw}"
-    m "Stop it!\"{space=5000}{w=1.0}{nw}"
+    m "所以这就是为什么——\"{space=5000}{w=0.75}{nw}"
+    m 1g "等一下，还没说完呢！\"{space=5000}{w=0.5}{nw}"
+    m "不要啊！\"{space=5000}{w=0.5}{nw}"
+    m "快停下！\"{space=5000}{w=1.0}{nw}"
     window hide(None)
     window auto
     hide black onlayer front
