@@ -78,16 +78,16 @@ label ch23_main:
         show natsuki zorder 2 at t33
         show yuri zorder 3 at f32
         $ style.say_dialogue = style.normal
-        y 2u "Natsuki..."
+        y 2u "夏树啊......"
         $ style.say_dialogue = style.edited
-        y 1f "Nobody cares."
+        y 1f "没人在乎你的。"
         y "Why don't you go look for some coins under the vending machines or something?"
         $ style.say_dialogue = style.normal
         show yuri zorder 2 at t32
         show natsuki zorder 3 at f33
-        n 1p "--!"
-        n 1r "..."
-        n 12f "..."
+        n 1p "——！"
+        n 1r "......"
+        n 12f "......"
         show natsuki at thide
         hide natsuki
         $ pause(1.0)
@@ -376,7 +376,7 @@ label ch23_end:
     m "Fine."
     show monika 1h zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 3w "Jeez..."
+    n 3w "天哪......"
     n "[player], I know how fed up you are with these two by now."
     n 3c "We can just--"
     show natsuki zorder 2 at t31
@@ -471,8 +471,8 @@ label ch23_end:
     y "只要有什么事情你没参与到，你就会把 [player] 从我身边拖走，每次都是这样。"
     y 1y1 "你到底是在嫉妒呢？"
     y "还是疯了呢？"
-    y 1y3 "还是你对自己的憎恨溢了一地，恨到开始随便把别人当出气筒了？"
-    y 1y4 "那我这边给你个小建议吧： 考虑一下自杀怎么样？"
+    y 1y3 "还是说，你对自己的憎恨溢了一地，恨到开始随便把别人当出气筒了？"
+    y 1y4 "那我这边给你个小建议吧：考虑一下自杀怎么样？"
     y "这对你的精神健康可是大有裨益的哦。"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
