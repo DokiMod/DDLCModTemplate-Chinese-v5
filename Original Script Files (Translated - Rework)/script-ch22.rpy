@@ -356,12 +356,12 @@ label ch22_end:
     n "是关于学园祭吗？"
     show natsuki zorder 2 at t31
     show monika 1j zorder 3 at f32
-    m "Well, sort of~"
+    m "嗯，差不多~"
     show monika 1a zorder 2 at t32
     show natsuki 1m zorder 3 at f31
-    n "Ugh. Do we really have to do something for the festival?"
-    n "It's not like we can put together anything good in just a few days."
-    n "We'll just end up embarrassing ourselves instead of getting any new members."
+    n "呃。我们真的非要准备学园祭不可吗？"
+    n "我们好像也没办法在短短几天内，拼凑出什么像样的东西来啊。"
+    n "可能到头来不仅没办法吸引到新成员，还会让我们自己出丑。"
     if faint_effect:
         $ currentpos = get_pos() + 2.0
         stop music fadeout 2.0
@@ -370,7 +370,7 @@ label ch22_end:
             linear 2.0 alpha 1.0
     show natsuki zorder 2 at t31
     show yuri 2g zorder 3 at f33
-    y "That's a concern of mine as well."
+    y "我也有这种担心呢。"
     if faint_effect:
         hide black onlayer front
         hide veins onlayer front
@@ -379,11 +379,11 @@ label ch22_end:
         show layer master
         show layer screens
         play music "<from " + str(currentpos) + " loop 4.618>bgm/3.ogg"
-    y "I don't really do well with last-minute preparations..."
+    y "临时抱佛脚什么的，我真的不擅长......"
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
-    m 1b "Don't worry so much!"
-    m "We're going to keep it simple, okay?"
+    m 1b "别想那么多嘛！"
+    m "我们就弄得简单点，好吗？"
     m 2a "Look..."
     m 2m "I know everyone's been a little more...lively...ever since [player] joined and we've started with some club activities."
     m 2d "But this isn't the time for us to become complacent."

@@ -466,7 +466,7 @@ label ch0_main:
     m "各位，我有个主意~"
     show yuri 3e zorder 2 at t31
     show natsuki 2k zorder 2 at t33
-    ny "...？"
+    ny "......？"
     "夏树和优里疑惑地看向莫妮卡。"
     m 2b "我们每个人都回家写一首自己的诗吧！"
     m "然后下次社团活动的时候，我们就可以彼此分享了。"
@@ -487,7 +487,7 @@ label ch0_main:
     m "不是吗，[player]？"
     show monika zorder 2 at t43
     "莫妮卡又冲我甜甜地笑着。"
-    mc "等会儿......还有一个问题。"
+    mc "等一下......还有一个问题。"
     show monika zorder 3 at f43
     m 1d "诶？还有什么问题吗？"
     "既然话题又回到了拉我进社团这件事上，我终于能直截了当、一吐为快了。"
@@ -500,7 +500,7 @@ label ch0_main:
     show natsuki 4g
     show yuri 2e
     "我的思路戛然而止。"
-    "四个女生全都用失落的眼神看着我。"
+    "四位女生全都用失落的眼神看着我。"
     show monika at s43
     m 1p "但、但是......"
     show yuri at s42

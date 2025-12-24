@@ -110,7 +110,7 @@ label ch1_main:
     y 4b "如果你愿意的话...我们可以一起讨论......"
     "这、这、这......"
     "这女孩怎么能这么可爱啊？"
-    "明明知道我不怎么看书，她居然还特意挑了本她认为我会喜欢的书给我..."
+    "明明知道我不怎么看书，她居然还特意挑了本她认为我会喜欢的书给我......"
     mc "谢谢你，优里！我一定会看的！"
     "我热情地接过了那本书。"
     show yuri 2m zorder 2 at t11
@@ -216,7 +216,7 @@ label ch1_end:
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
     y 1i "唔......"
-    y "好吧，我确实有几个建议......"
+    y "那么，我确实有几点建议......"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 5x "哼。"
@@ -256,7 +256,7 @@ label ch1_end:
     y 2r "你多半只是嫉妒 [player] 更珍视我的建议，而不是你的建议！"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 1e "哈！你又知道他没有更重视{i}我{/i}的建议了？"
+    n 1e "哈？！你又知道他没有更重视{i}我{/i}的建议了？"
     n "你就那么自负吗？"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
@@ -328,7 +328,7 @@ label ch1_end:
     "我对写作这门事一窍不通啊..."
     "不过不管我站在谁的一边，那个人对我的评价可能会变得更高吧！"
     menu:
-        "所以，当然是要选...！"
+        "所以，当然是要选......！"
         "夏树。":
             call ch1_end_natsuki
         "优里。":
