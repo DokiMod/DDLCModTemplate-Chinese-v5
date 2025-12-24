@@ -11,13 +11,13 @@ label ch20_main:
     play music t2
 
 label ch20_main2:
-    "It's an ordinary school day, like any other."
-    "Mornings are usually the worst, being surrounded by couples and friend groups walking to school together."
-    "Meanwhile, I've always walked to school alone."
-    "I always tell myself it's about time I meet some girls or something like that..."
-    "But I have no motivation to join any clubs."
-    "I'm perfectly content just getting by on the average while spending my free time on games and anime."
-    "There's always the anime club, but it's not like there would be any girls in it anyway..."
+    "今天是个平凡的上学日，和往常没什么两样。"
+    "早晨可以说是一天中最糟糕的时候，周围尽是结伴上学的情侣和小团体。"
+    "而与此同时，我却总是独自一人。"
+    "我经常告诉自己，差不多是时候找一个女朋友什么的了......"
+    "但我加入什么社团的可以说是毫无动力。"
+    "我完全满足于平淡普通的生活，闲暇时间就沉浸在动画和游戏里。"
+    "我当然可以选择加入学校的动漫部，但是那里怎么可能会有女孩子啊......"
 
     scene bg class_day
     with wipeleft_scene
@@ -25,13 +25,13 @@ label ch20_main2:
     "在学校的日子和往常一样平淡，不知不觉就结束了。"
     "整理完书包后，我茫然地盯着墙，完全没有半点动力。"
     mc "啊，社团..."
-    "There really aren't any that interest me."
-    "Besides, most of them would probably be way too demanding for me to want to deal with."
+    "实在没哪个社团能让我提起兴趣。"
+    "除此以外，大部分社团都会安排很多事，这我肯定受不了。"
     "我想除了动漫部外，我大概是别无选择了......"
 
     $ m_name = "???"
 
-    m "...[player]？"
+    m "......[player]？"
     window hide(None)
     show monika g2 zorder 2 at t11
     $ pause(0.75)
@@ -44,30 +44,30 @@ label ch20_main2:
     show monika 1 zorder 2 at t11
     mc "......莫妮卡？"
     $ m_name = "莫妮卡"
-    m 1b "Oh my goodness, I totally didn't expect to see you here!"
-    m 5 "It's been a while, right?"
-    mc "Ah..."
-    mc "Yeah, it has."
-    "Monika smiles sweetly."
-    "We do know each other - well, we rarely talked, but we were in the same class last year."
-    "Monika was probably the most popular girl in class - smart, beautiful, athletic."
-    "Basically, completely out of my league."
-    "So, having her smile at me so genuinely feels a little..."
-    mc "What did you come in here for, anyway?"
-    m 1a "Oh, I've just been looking for some supplies to use for my club."
-    m 1d "Do you know if there's any construction paper in here?"
-    m "Or markers?"
-    mc "I guess you could check the closet."
-    mc "...You're in the debate club, right?"
-    m 5 "Ahaha, about that..."
-    m "I actually quit the debate club."
-    mc "Really? You quit?"
-    m "Yeah..."
-    m 2e "To be honest, I can't stand all of the politics around the major clubs."
-    m "It feels like nothing but arguing about the budget and publicity and how to prepare for events..."
-    m "I'd much rather take something I personally enjoy and make something special out of it."
-    mc "In that case, what club did you decide to join?"
-    m 1b "Actually, I'm starting a new one!"
+    m 1b "哦天哪，我完全没想到会在这里看见你！"
+    m 5 "有一段时间没见了吧？"
+    mc "啊......"
+    mc "嗯，确实有一段时间了。"
+    "莫妮卡冲我甜甜地笑着。"
+    "我们的确互相认识——好吧，虽然我们基本没怎么聊过天。我跟她在去年还是同班同学呢。"
+    "莫妮卡可以说是班级里最受欢迎的女生——聪明，漂亮，又擅长运动。"
+    "可以说，和我是不同世界的人。"
+    "所以，看到她这么真诚地朝我微笑，我有点......"
+    mc "话说，你怎么会来这？"
+    m 1a "哦，我只是来帮自己的社团找些用得上的东西。"
+    m 1d "你知道这里有没有彩纸吗？"
+    m "或者马克笔？"
+    mc "我觉得你可以看看储藏间里有没有。"
+    mc "......你的社团是辩论部，对吧？"
+    m 5 "啊哈哈，关于那个......"
+    m "实际上，我退出辩论部了。"
+    mc "真的假的？你退部了？"
+    m "是啊......"
+    m 2e "说实话，我无法忍受大社团里的勾心斗角。"
+    m "感觉一天到晚都只是在为了预算和宣传还有如何准备活动而争论不休，别无它事......"
+    m "我更愿意选择自己真正喜欢的东西，然后做出点名堂来。"
+    mc "这样啊，那你决定加入哪个社团呢？"
+    m 1b "其实，我正在组建一个新社团！"
     m "是一个文学社团哦！{nw}"
     show screen tear(20, 0.1, 0.1, 0, 40)
     window hide(None)
@@ -79,41 +79,41 @@ label ch20_main2:
     m "是一个文学社团哦！{fast}"
     window auto
     mc "文学吗......？"
-    "That sounds kind of...dull?"
-    mc "How many members do you have so far?"
-    m 5 "Um..."
-    m "Ahaha..."
-    m "It's kind of embarrassing, but there are only three of us so far."
-    m "It's really hard to find new members for something that sounds so boring..."
-    mc "Well, I can see that..."
-    m 3d "But it's really not boring at all, you know!"
-    m "Literature can be anything. Reading, writing, poetry..."
-    m 3e "I mean, one of my members even keeps her manga collection in the clubroom..."
-    mc "Wait...really?"
-    m 2k "Yeah, it's funny, right?"
-    m 2e "She always insists that manga is literature, too."
-    m "I mean, she's not wrong, I guess..."
-    m "And besides, a member's a member, right?"
-    "...Did Monika say \"she\"?"
-    "Hmm..."
-    m 1a "Hey, [player]..."
-    m "By any chance...are you still looking for a club to join?"
-    mc "Ah--"
-    mc "I mean, I guess so, but..."
-    m "In that case..."
-    m 5 "Is there any chance you could do me a big favor?"
-    m "I won't ask you to join, but..."
-    m "If you could at the very least visit my club, it would make me really happy."
-    m "Please?"
-    mc "Um..."
-    "Well, I guess I have no reason to refuse..."
-    "Besides, how could I ever refuse someone like Monika?"
-    mc "Sure, I guess I could check it out."
-    m 1k "Aah, awesome!"
-    m 1b "You're really sweet, [player], you know that?"
-    mc "I-It's nothing, really..."
-    m 1a "Shall we go, then?"
-    m "I'll look for the materials another time - you're more important."
+    "听起来有点......无聊的样子？"
+    mc "那你们现在找到多少部员了呢？"
+    m 5 "唔......"
+    m "啊哈哈......"
+    m "说起来真有点不好意思，我们现在只有三个人。"
+    m "要给这么个听上去很无聊的社团寻找新成员，真的很难......"
+    mc "嗯，我能理解......"
+    m 3d "但其实一点也不无聊，真的！"
+    m "任何事物都可以是文学。阅读，写作，诗歌......"
+    m 3e "这么说吧，我们社团里的姑娘当中，甚至有人把漫画收藏拿到了部室......"
+    mc "等等......真的吗？"
+    m 2k "是啊，好玩吧？"
+    m 2e "那丫头总是坚称漫画也是文学的一份子。"
+    m "是说，她说得也没错啦......"
+    m "况且，成员有一个算一个嘛，对吧？"
+    "......所以莫妮卡刚刚是不是说了“姑娘”？"
+    "嗯......"
+    m 1a "嘿，[player]......"
+    m "顺便问一下......你还在想要加入哪个社团吗？"
+    mc "啊——"
+    mc "呃，大概是在找，不过......"
+    m "这样的话......"
+    m 5 "你可以帮我一个大忙吗？"
+    m "我不会强迫你加入，不过......"
+    m "如果你能稍微来我的社团参观一下，我会非常开心的。"
+    m "可以吗？"
+    mc "唔......"
+    "呃，我似乎没有拒绝的理由......"
+    "再说了，我又怎么拒绝得了像莫妮卡这样的人呢？"
+    mc "没问题，那我就去看看吧。"
+    m 1k "啊哈，太好了！"
+    m 1b "你知道吗？[player]，你人真的很好呢。"
+    mc "这、这真的没什么啦......"
+    m 1a "那我们现在就走吧？"
+    m "材料什么的我下次再来找吧——比起那些东西，你更加重要。"
 
     stop music fadeout 2.0
 
@@ -143,8 +143,8 @@ label ch20_main2:
     n "真的假的？你带了个男生过来？"
     n "太毁气氛了吧。"
     show monika 3m zorder 3 at f31
-    m "Don't be mean, Natsuki..."
-    m 3b "...But anyway, welcome to the club, [player]!"
+    m "别那么言重嘛，夏树......"
+    m 3b "......总之，欢迎来到文学部，[player]！"
     show monika 3a zorder 2 at t31
     mc "......"
     "看着眼前这幅景象，我根本说不出话来。"
@@ -152,57 +152,57 @@ label ch20_main2:
     "{i}...全都是超级可爱的女孩子啊啊啊！！{/i}"
 
     show natsuki zorder 3 at f32
-    n 5c "So, let me guess..."
-    n "You're Monika's boyfriend, right?"
+    n 5c "那么，容我大胆一猜......"
+    n "你肯定是莫妮卡的男朋友吧？"
     show natsuki zorder 2 at t32
-    mc "Wha--"
-    mc "No, I'm not!"
+    mc "什——"
+    mc "不，我才不是！"
     show yuri zorder 3 at f33
     y 2l "夏树......"
     $ n_name = '夏树'
-    "The girl with the sour attitude, whose name is apparently Natsuki, is one I don't recognize."
-    "Her small figure makes me think she's probably a first-year."
+    "我并不认识这个看起来态度很嚣张的女生。很明显，这位应该就是夏树。"
+    "她身材娇小，看上去像是一年级的学妹。"
 
     show yuri zorder 2 at t33
     show monika zorder 3 at f31
-    m 2l "A-Anyway, this is Natsuki, energetic as usual..."
-    m 2b "And this is Yuri, the Vice President!"
+    m 2l "总、总之，这位是夏树，和平常一样元气满满......"
+    m 2b "这位是优里，文学部的副部长！"
     $ y_name = '优里'
     show monika 2a zorder 2 at t31
     show yuri zorder 3 at f33
-    y 4 "I-It's nice to meet you..."
+    y 4 "很、很荣幸认识你......"
     "优里看起来更加成熟，却有点害羞，似乎不太跟得上夏树这种人的节奏。"
     show yuri zorder 2 at t33
-    mc "Yeah... It's nice to meet both of you."
+    mc "嗯......很高兴认识你们俩。"
     show monika zorder 3 at f31
-    m 1a "So, I ran into [player] in a classroom, and he decided to come check out the club."
-    m "Isn't that great?"
+    m 1a "嗯，我正巧在教室里碰到了[player]，他决定来我们社团看看。"
+    m "还不错吧？"
     show monika zorder 2 at t31
     show natsuki zorder 3 at f32
-    n 4e "Wait! Monika!"
-    n "Didn't I tell you to let me know in advance before you brought anyone new?"
-    n 4q "I was going to...well, you know..."
+    n 4e "等等！莫妮卡！"
+    n "我不都跟你说过了嘛，让其他人加入之前要先告诉我啊？"
+    n 4q "我还要准备......好吧，呃......"
     show natsuki zorder 2 at t32
     show monika zorder 3 at f31
-    m 1e "Sorry, sorry!"
-    m "I didn't forget that, but I just happened to run into him."
+    m 1e "抱歉，抱歉！"
+    m "我没忘，只不过是碰巧遇到了他而已。"
     show monika zorder 2 at t31
     show yuri zorder 3 at f33
-    y 1a "In that case, I should at least make some tea, right?"
+    y 1a "这样的话，我是不是该沏一些茶？"
     show yuri zorder 2 at t33
     show monika zorder 3 at f31
-    m 1b "Yeah, that would be great!"
-    m "Why don't you come sit down, [player]?"
+    m 1b "嗯，那再好不过了！"
+    m "不如过来坐坐吧，[player]？"
     hide monika
     hide natsuki
     hide yuri
     with wipeleft
-    "The girls have a few desks arranged to form a table."
-    "Yuri walks to the corner of the room and opens the closet."
-    "Meanwhile, Monika and Natsuki sit across from each other."
-    "Still feeling awkward, I take a seat next to Monika."
+    "女孩们把几张课桌拼成了一张大桌子。"
+    "优里走到教室的角落，打开了储藏间。"
+    "与此同时，莫妮卡和夏树则面对面坐在桌旁。"
+    "我还是觉得有些尴尬，于是就坐在了莫妮卡的旁边。"
     show monika 1a zorder 2 at t11
-    m "So, I know you didn't really plan on coming here..."
+    m "嗯，我知道你其实并没有打算要来这里......"
     m "但我们会给你家一般的感觉，好吗？"
     m 1j "作为文学部的部长，我的职责就是让社团充满乐趣和活力，创造更有趣的社团时光！"
     mc "我有点惊讶，这个社团居然只有这么些人。"
@@ -218,7 +218,7 @@ label ch20_main2:
     show natsuki 4q zorder 2 at t21
     n "呃......"
     n "......大概吧。"
-    "Natsuki reluctantly agrees."
+    "夏树勉强同意了。"
     "这些截然不同的女孩们，却都感兴趣于同一个目标......"
     "想必莫妮卡一定花了不少功夫去找这两个成员。"
     "优里端着一套茶具，回到了桌旁。"
@@ -364,18 +364,18 @@ label ch20_main2:
     y "......"
     show yuri zorder 2 at t32
     show monika 2m zorder 3 at f33
-    m "Ah..."
-    m "I mean, I thought it was a good idea..."
+    m "啊......"
+    m "我觉得，这个主意应该还行吧......"
     show monika zorder 2 at t33
     show yuri zorder 3 at f32
-    y 2l "Well..."
-    y "...I think you're right, Monika."
-    y 2f "We should probably start finding activities for all of us to participate in together."
-    y 2h "I did decide to take on the responsibility of Vice President, after all..."
-    y "I need to do my best to nurture the club as well as its members."
-    y 2a "Besides, now that we have a new member..."
-    y "It seems like a good step for us to take."
-    y "Do you agree as well, [player]?"
+    y 2l "这个嘛......"
+    y "......你说得对，莫妮卡。"
+    y 2f "我们也许应该开始找些能够全员参与的活动。"
+    y 2h "我终归还是要负起副部长的责任来......"
+    y "得尽力经营社团，好好培养社团成员才行。"
+    y 2a "况且，既然我们有新成员加入......"
+    y "迈出这么一步似乎也不错。"
+    y "[player]，你也同意吗？"
     show yuri zorder 2 at t32
     mc "等一下......还有一个问题。"
     show monika zorder 3 at f33
@@ -397,20 +397,20 @@ label ch20_main2:
     show natsuki at s31
     n 5s "哼。"
     mc "欸......？"
-    "The girls exchange glances before Monika turns back to me."
+    "女孩们相互交换了一下眼神，之后莫妮卡转向了我。"
     show monika zorder 3 at f33
-    m 1m "I...guess I need to tell you the truth, [player]."
-    m "The thing is..."
-    m 1p "...We don't have enough members yet to form an official club."
-    m "We need four..."
-    m "And I've been trying really, really hard to find new members."
-    m "And if we don't find one more before the festival..."
+    m 1m "[player]，我......我想我需要告诉你真相。"
+    m "事实上......"
+    m 1p "......我们还没有达到组建正式社团的最低人数要求。"
+    m "我们至少需要四个人......"
+    m "而我已经非常、非常努力地拉拢新成员了。"
+    m "要是我们没能在学园祭之前再找来一名成员的话......"
     show monika zorder 2 at t33
     mc "......"
     "我......我对这些可爱的女生超没辙啊。"
     "这种情况下，我还怎么可能做出头脑清醒的决定啊？"
-    "I would feel terrible for letting everyone down in this situation..."
-    "And besides, the club itself seems pretty relaxed..."
+    "要是在这种情况下还让她们失望，我一定会很过意不去的......"
+    "更何况，这个社团看上去还挺轻松的......"
     "所以说，只要付出写几首诗的代价，我就能每天和这些可爱的女生待在一起的话......"
     mc "......行吧。"
     mc "好了，那我就这么定了。"
@@ -420,11 +420,11 @@ label ch20_main2:
     show natsuki 1k zorder 2 at t31
     "女孩们的眼神一个接一个地泛起了光彩。"
     show monika zorder 3 at f33
-    m "Oh my goodness, really?"
-    m "Do you really mean that, [player]?"
+    m "天啊，真的吗？"
+    m "[player]，你真的确定吗？"
     show monika zorder 2 at t33
-    mc "Yeah..."
-    mc "It could be fun, right?"
+    mc "是的......"
+    mc "应该会挺有意思的，对吧？"
     show yuri zorder 3 at f32
     y 1m "你刚刚真的把我吓坏了......"
     show yuri zorder 2 at t32
@@ -432,10 +432,10 @@ label ch20_main2:
     n 5q "讲真，你要是真就这么一走了之，那我绝对会气炸。"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f33
-    m "[player], I'm so happy..."
-    m 1k "We can become an official club now!"
-    m 1e "Thank you so much for this. You're really amazing."
-    m "I'll do everything I can to give you a great time, okay?"
+    m "[player]，我真的很高兴......"
+    m 1k "我们终于可以成为正式社团了！"
+    m 1e "真的非常感谢你，你最棒了。"
+    m "我会尽力带给你一段美好的时光的，好吗？"
     show monika zorder 2 at t33
     mc "啊......那，谢谢。"
     show yuri zorder 1 at thide
@@ -457,11 +457,11 @@ label ch20_main2:
     "我真的能用我那平庸的写作水平打动班级之星莫妮卡么？"
     "焦虑之情已经开始在我心中翻涌了。"
     "与此同时，优里开始整理茶具，大家继续有一搭没一搭地闲聊着。"
-    mc "I guess I'll be on my way, then..."
+    mc "那我就回家了......"
     show monika 5a zorder 2 at t11
-    m "Okay!"
-    m "I'll see you tomorrow, then."
-    m "I can't wait!"
+    m "好的！"
+    m "那我们明天见。"
+    m "我都等不及了！"
 
     scene bg residential_day
     with wipeleft_scene
