@@ -1,6 +1,14 @@
-> DDLC 中文 Mod 模板 v5 目前处于早期开发阶段（可视为刚刚新建文件夹），请暂时不要使用本版本模板！我们还在决定 v5 版本的翻译、开发方向。  
-> 如果您有简体中文 DDLC 同人模组创作需求，请您暂时先使用 DDLC 中文 Mod 模板 [2.0](https://github.com/imgradeone/DDLCModTemplate-Chinese-next) 或 [4.0](https://github.com/DokiMod/DDLCModTemplate-Chinese-future)，或者暂时直接使用 [DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 修改字体等配置。  
-> 如需获取开发版本模板，您可以查看 [imgradeone/DDLCModTemplate-Chinese-v5](https://github.com/imgradeone/DDLCModTemplate-Chinese-v5) 中的其他分支。但请依旧做好功能不稳定、翻译不完整的准备。
+DDLC 中文 Mod 模板 v5 目前处于早期开发阶段（可视为刚刚新建文件夹），请暂时不要使用本版本模板！我们还在决定 v5 版本的翻译、开发方向。
+
+如果您有简体中文 DDLC 同人模组创作需求，请您暂时先使用 DDLC 中文 Mod 模板 [2.0](https://github.com/imgradeone/DDLCModTemplate-Chinese-next) 或 [4.0](https://github.com/DokiMod/DDLCModTemplate-Chinese-future)，或者暂时直接使用 [DDLC Mod Template 2.0](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 修改字体等配置。
+
+如需获取开发版本模板，您可以查看 [imgradeone/DDLCModTemplate-Chinese-v5](https://github.com/imgradeone/DDLCModTemplate-Chinese-v5) 中的其他分支。但请依旧做好功能不稳定、翻译不完整的准备。
+
+**使用此模板之前请注意！本项目包含对 DDLC 的剧透。我们希望您能在通关 DDLC 原作后使用该模板进行模组开发，以避免影响游戏体验。**
+
+**您仍需为自己的心理健康做周全的考虑。DDLC 本质上为心理恐怖游戏，并不适合所有玩家，且游戏内已经做了充足的提醒。心理健康比一切都重要。**
+
+---
 
 # 文思泉涌**新**出发 - DDLC 中文 Mod 模板 v5
 基于 "Bronya Rand" 的 [DDLC Mod Template (5.0)](https://github.com/Bronya-Rand/DDLCModTemplate2.0) 开发，由 DokiMod 翻译、修改
