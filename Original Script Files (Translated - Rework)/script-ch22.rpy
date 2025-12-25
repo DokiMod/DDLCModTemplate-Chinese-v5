@@ -49,57 +49,57 @@ label ch22_main:
     mc "这件事并没有破坏我对你的印象。"
     mc "不如说，我早就认定你人不坏了。"
     mc "而且，既然你都道歉了，我就更肯定你不是真心那样做的了。"
-    y 3t "A-Ah..."
-    y "[player]..."
-    y 3u "Don't say those kinds of things so frankly..."
-    y "They make me a little too happy."
-    y 1s "I'm really glad that you're such an understanding person..."
-    y "And I'm really glad that you joined this club."
-    y "Everything is a little bit brighter with you around, and--"
-    y 1t "Ah--"
-    y 4c "Sorry, what am I saying right now...?"
-    y "I just--"
+    y 3t "啊、啊......"
+    y "[player]......"
+    y 3u "别把这些话说得那么直白嘛......"
+    y "这会让我有点开心过头的。"
+    y 1s "你这么善解人意，我真的很开心......"
+    y "我也很高兴你能加入社团。"
+    y "只要有你在身边，一切似乎都明亮了起来，而且——"
+    y 1t "啊——"
+    y 4c "抱歉，我在说些什么......？"
+    y "我只是——"
     show natsuki 2c zorder 3 at f33
-    n "Hey, have you guys seen Monika?"
+    n "嘿，你们看到莫妮卡了吗？"
     show natsuki zorder 2 at t33
     show yuri 3n at h32
-    y "Ah--!"
-    mc "No, I haven't..."
-    mc "I was also kind of wondering where she was."
+    y "啊——！"
+    mc "没，没看到......"
+    mc "我也在想她去哪了呢。"
     show natsuki zorder 3 at f33
-    n 5g "Man..."
-    n 5c "Yuri, I'm guessing you haven't, either?"
+    n 5g "奇怪......"
+    n 5c "优里，我猜你大概也没见到她吧？"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y 4a "..."
-    "Yuri is clearly taken aback by how calmly Natsuki is addressing her."
-    y "N-No, I haven't..."
+    y 4a "......"
+    "夏树这么平静地对她说话，显然让优里吓了一跳。"
+    y "没、没，我也没有......"
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
-    n 1u "Jeez, this isn't like her at all."
-    n "I know it's stupid, but I can't help but worry a little bit..."
+    n 1u "天哪，这可一点也不像她的风格。"
+    n "我知道有点傻，但是我实在忍不住有点担心......"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y 2t "..."
+    y 2t "......"
     show yuri zorder 2 at t32
     show natsuki 1h zorder 3 at f33
-    n "What?"
-    n "Why're you looking at me like that?"
+    n "不是？"
+    n "为什么用那种眼神看我啊？"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y "U-Um..."
-    y "Natsuki, about yesterday..."
-    y 3w "I-I just wanted to apologize!"
-    y "I promise I didn't mean any of the things I said!"
-    y 3t "And I'll do my best to stay under control from now on..."
-    y "So--"
+    y "呃、嗯......"
+    y "夏树，关于昨天那件事......"
+    y 3w "我、我只是想跟你道歉！"
+    y "我发誓我说的话都只是一时冲动！"
+    y 3t "从现在起，我会更加努力控制住自己的情绪......"
+    y "所以——"
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
-    n 2c "Yuri, what the heck are you talking about?"
-    n "Did you do something yesterday?"
+    n 2c "优里，你到底在说什么啊？"
+    n "你昨天是做了什么吗？"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y 3f "...Eh?"
+    y 3f "......诶？"
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
     $ style.say_dialogue = style.normal
@@ -124,27 +124,27 @@ label ch22_main:
         hide n_moving_mouth
         $ style.say_dialogue = style.normal
     show natsuki zorder 3 at f33
-    n 2j "I'll accept your apology anyway, if it helps you feel better about it."
-    n "Besides, it's kinda nice to hear, since I was always afraid you secretly hated me or something like that."
+    n 2j "总之，如果这样能让你好受些的话，那我就接受你的道歉好啦。"
+    n "另外，其实我总是担心你是不是暗地里讨厌我什么的，所以能听到你坦诚布公，我还挺开心的。"
     n 2z "欸嘿嘿。"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y 3q "N-No, not at all...!"
-    y "I don't hate you..."
+    y 3q "没、没有，我怎么会......！"
+    y "我并不讨厌你的......"
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
     n 2l "啊哈哈。"
-    n "Well, you're kind of weird, but I don't hate you either."
+    n "嘛，你是有点古怪，不过我也不讨厌你啦。"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
-    y 3t "..."
-    "Natsuki turns to me."
+    y 3t "......"
+    "夏树转向了我。"
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
-    n 2a "You're still on trial, though."
+    n 2a "但是，你，还有待考察哦。"
     show natsuki zorder 2 at t33
-    mc "Hey...!"
-    "Suddenly, the door swings open."
+    mc "喂......！"
+    "突然，门猛地打开了。"
     show monika 1g at l41
     m "抱歉抱歉！非常抱歉！"
     mc "啊，你终于到了......"
@@ -152,16 +152,16 @@ label ch22_main:
     m "我真不是故意要迟到的......"
     m "希望你们没有在担心我之类的！"
     show monika zorder 2 at t41
-    mc "Nah..."
-    mc "Well, Natsuki was."
+    mc "没有啦......"
+    mc "不过，夏树倒是挺担心的。"
     show natsuki zorder 3 at f33
-    n 1p "I-I was not!!"
+    n 1p "我、我可没有！！"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
     m 1k "啊哈哈。"
     show monika zorder 2 at t41
     show natsuki zorder 3 at f33
-    n 1s "...What took you so long, anyway?"
+    n 1s "......话说回来，你为什么迟到了啊？"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
     m 1e "啊......"
@@ -181,24 +181,24 @@ label ch22_main:
     y "我都不知道你会弹钢琴诶，莫妮卡。"
     show yuri zorder 2 at t32
     show monika zorder 3 at f41
-    m 1l "Ah, don't give me more credit than I deserve."
-    m 1m "I guess I've been practicing for a while, but I'm still not really good yet."
+    m 1l "啊，我还差得远呢。"
+    m 1m "虽然练了有一段时间了，不过我的水平还不够好。"
     show monika zorder 2 at t41
     show yuri zorder 3 at f32
-    y 1a "Still..."
-    y "That must require a lot of dedication."
-    y "So, I'm still impressed."
+    y 1a "但是......"
+    y "你肯定也已经付出相当多的努力了。"
+    y "所以，我还是很佩服你。"
     show yuri zorder 2 at t32
     show monika zorder 3 at f41
-    m 5 "Aw, well thanks, Yuri~"
+    m 5 "喔，谢谢你，优里~"
     show monika zorder 2 at t41
     show natsuki zorder 3 at f33
-    n 2d "You should play something for us sometime!"
+    n 2d "找个时间弹给我们听嘛！"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
-    m "Ahaha, that's..."
-    "Monika looks at me."
-    m 1a "Well, I am working on writing a song, but it's not quite done yet..."
+    m "啊哈哈，这个嘛......"
+    "莫妮卡看着我说道。"
+    m 1a "好吧，其实我正在写一首歌，不过还没写完......"
     m "大概还是等我弹得稍微好点了，再弹给大家听吧。"
     show monika zorder 2 at t41
     mc "听起来好厉害。"
@@ -216,24 +216,24 @@ label ch22_main:
     mc "啊......"
     mc "我不是想给你压力什么的！"
     m 1a "啊哈哈，不用担心。"
-    m "I was hoping that I could share it with you, anyway."
-    m "I guess that's why I've been practicing so much recently."
+    m "反正我本来就打算秀一下的。"
+    m "大概这就是为什么我最近越练越勤了吧。"
     mc "这样啊......"
-    "I'm not sure if Monika was referring to the whole club, or just me..."
+    "我不太确定莫妮卡口中的“秀一下”，到底是指秀给文学部的所有人，还是只秀给我......"
     mc "那么，就祝你好运吧。"
     m 1j "谢谢~！"
     m 1a "话说，我没有错过什么吧？"
     mc "呃......其实没错过什么。"
     show monika zorder 1 at thide
     hide monika
-    "I choose not to bring up anything that the three of us talked about."
-    "Besides, Natsuki has already run off into the closet."
+    "我觉得还是不要说出我们三个之前的谈话内容比较好。"
+    "况且夏树都已经跑到储藏间那边去了。"
     show yuri 2q zorder 2 at t11
-    y "[player]..."
-    y "Um..."
-    y "Since your compliments put me in a good mood..."
-    y "I was wondering if you would like to spend some time together today."
-    y 3o "I mean--in the club!"
+    y "[player]......"
+    y "唔......"
+    y "你说的那些话让我很开心......"
+    y "所以，今天我们如果能一起度过就好了。"
+    y 3o "我是说——在社团里！"
     if poemwinner[0] == "natsuki":
         $ set_character_poem_appeal("yuri", 1, 1)
         mc "啊，可以啊。"
@@ -268,21 +268,21 @@ label ch22_main:
         mc "嗯，那当然。"
         mc "我本来也是这么打算的。"
     show yuri zorder 2 at h11
-    y 3y5 "Okay!"
-    y "Can we start now?"
-    y "Let's find a place to sit--"
-    y 3n "A-Ah--"
-    y "I'm being a little forceful, aren't I...?"
-    y 4c "I'm sorry!"
-    y "My heart...just won't stop pounding, for some reason..."
-    mc "Don't worry about it."
-    mc "If anything, it's nice to see you have so much energy."
-    y 3q "Y-Yeah!"
-    y "But..."
-    y 3j "I need to try to calm down."
-    y "I won't be able to focus on reading like this..."
-    mc "Take your time."
-    "Yuri takes a deep breath, then pulls a copy of the book out of her bag."
+    y 3y5 "那好吧！"
+    y "那我们现在开始吗？"
+    y "我们去找个地方坐——"
+    y 3n "啊、啊——"
+    y "我会不会有点强迫你了......？"
+    y 4c "实在抱歉！"
+    y "我的心......不知道为什么，跳得很厉害......"
+    mc "别想太多了。"
+    mc "倒不如说，看你这样干劲十足也挺好的。"
+    y 3q "嗯、是的！"
+    y "不过......"
+    y 3j "我真的需要冷静一下。"
+    y "不然我没办法专心读书......"
+    mc "慢慢来吧。"
+    "优里深吸一口气，随后从书包里拿出了一本书。"
 label ch22_main2:
     if get_character_poem_appeal("natsuki", 2) == 1:
         $ set_character_poem_appeal("natsuki", 2, 0)
@@ -552,78 +552,78 @@ label ch22_end:
     y "你想从这个社团中得到什么？"
     "优里问了和莫妮卡相同的问题。"
     "我决定给个委婉的回答，至少比一言不发好点。"
-    mc "...I think the most important thing is for everyone to get along..."
-    mc "...And for the club to provide something that you can't get anywhere else."
-    mc "I don't think it's about how many members, but rather the quality of each member."
-    mc "That's what will end up making the Literature Club a special place."
-    y 1u "I see..."
-    y "I really agree with you."
+    mc "......我觉得所有人都能好好相处是最重要的......"
+    mc "......以及文学部本身是否能提供别的地方没有的东西。"
+    mc "我觉得这并不取决于成员的数量，而是取决于他们的品质。"
+    mc "这一点最终能让文学部变成一个特别的地方。"
+    y 1u "这样啊......"
+    y "你说得没错呢。"
     show blood_eye2 zorder 3:
         pos (568, 165)
-    y 1f "Each member contributes their own qualities in a special way."
-    y "With each change in members, the identity of the club as a whole will change, too."
-    y 1h "I don't think that's necessarily a bad thing."
-    y "Stepping out of your comfort zone once in a while..."
-    y 1a "So if you would like to help Monika with the festival, then I'm on your side as well."
+    y 1f "每个成员都能以自己的方式为社团贡献力量。"
+    y "虽然随着成员的更迭，社团的整体特质也会逐渐改变。"
+    y 1h "不过我不觉得这一定是坏事。"
+    y "偶尔也踏出自己的舒适圈也还不错嘛......"
+    y 1a "所以如果你想帮莫妮卡准备学园祭的话，我也会站在你这边的。"
     hide blood_eye2
-    mc "Alright."
-    mc "Well, maybe we can all talk to Natsuki tomorrow..."
-    "Yuri nods."
+    mc "好的。"
+    mc "那么，也许我们可以明天再和夏树好好谈谈......"
+    "优里点了点头。"
     show monika 1g zorder 3 at f21
     show yuri zorder 2 at t22
-    m "Hey, Yuri..."
+    m "嘿，优里......"
     show monika zorder 2 at t21
     show yuri zorder 3 at f22
-    y 1t "Eh?"
+    y 1t "诶？"
     show yuri zorder 2 at t22
     show monika zorder 3 at f21
-    m 1p "Um, I know things were a little awkward yesterday..."
-    m "But I feel like you deserve to know that I still think you're a wonderful vice president."
-    m 1e "And also, a wonderful friend."
+    m 1p "唔，我知道昨天的气氛有点尴尬......"
+    m "但是我觉得我还是应该告诉你，你是个很棒的副部长。"
+    m 1e "而且，也是个很棒的朋友。"
     show monika zorder 2 at t21
     show yuri zorder 3 at f22
-    y 3s "M-Monika..."
+    y 3s "莫、莫妮卡......"
     show yuri zorder 2 at t22
     show monika zorder 3 at f21
-    m 2e "I want to do everything I can to make this the best club ever."
-    m "Okay?"
+    m 2e "为了让文学部成为最棒的社团，我会尽我一切努力的。"
+    m "好吗？"
     show monika zorder 2 at t21
     show yuri zorder 3 at f22
-    y "...Me too."
+    y "......我也会。"
     show yuri zorder 2 at t22
     show monika zorder 3 at f21
-    m 1a "Yeah..."
-    m "Let's all go home for today."
-    m "We'll talk about the festival tomorrow."
+    m 1a "嗯......"
+    m "那我们今天就先回家吧。"
+    m "关于学园祭的事情还是明天再讨论吧。"
     show monika zorder 2 at t21
     show yuri zorder 3 at f22
-    y 1m "Okay."
-    y "I look forward to it."
-    y 1a "Shall we go, [player]?"
+    y 1m "好的。"
+    y "我很期待哦。"
+    y 1a "所以一起走吗，[player]？"
     show yuri zorder 2 at t22
     show monika zorder 3 at f21
-    m 1d "Um--"
-    m 1p "Please don't take this the wrong way, but..."
-    m "I'm going to chat a little bit with [player] before we leave."
-    m 1d "Just to see what he thinks of his time here and all that..."
-    m "It's important to me, as President."
+    m 1d "唔——"
+    m 1p "你先别误会，只不过我......"
+    m "我需要在走之前和[player]说几句话。"
+    m 1d "只是问问他这段时间以来的感受......"
+    m "作为部长，这对我挺重要的。"
     show monika zorder 2 at t21
     show yuri zorder 3 at f22
-    y 2v "..."
-    "Yuri looks a little troubled, but she doesn't protest."
-    y 2t "Okay."
-    y 2s "I trust your judgment, Monika."
-    y "In that case, I'll see the two of you tomorrow."
+    y 2v "......"
+    "优里看起来有点苦恼，但她并没有反对。"
+    y 2t "好吧。"
+    y 2s "我相信你的判断，莫妮卡。"
+    y "那么，明天再见吧。"
     show yuri zorder 2 at t22
     show monika zorder 3 at f21
-    m 1j "See you tomorrow~"
+    m 1j "明天见~"
     show yuri zorder 1 at thide
     hide yuri
-    "Monika waves as Yuri exits the classroom."
+    "莫妮卡在优里离开教室时挥了挥手。"
 
     show monika 2a zorder 2 at t11
-    m "Phew..."
-    m 2e "Things have been a bit hectic lately, haven't they?"
+    m "呼......"
+    m 2e "最近事情开始变成一团乱麻了，对吧？"
     show darkred:
         additive 0.2
         alpha 0
@@ -631,21 +631,21 @@ label ch22_end:
     show noise:
         alpha 0
         linear 20 alpha 0.1
-    m "[player], I just wanted to make sure you're enjoying your time at this club."
-    m "I would really hate to see you unhappy."
-    m 2m "I feel kind of like I'm responsible for that, as President..."
+    m "[player]，我只是想确保你在文学部里过得愉快。"
+    m "我会非常不愿意看到你不开心。"
+    m 2m "我觉得这应当是我作为部长的责任......"
     stop music
-    m 4e "And I really do care about you...you know?"
-    m "I don't like seeing the other girls give you a hard time."
-    m 4r "With how mean Natsuki is and everything..."
-    m 4m "And Yuri being a little bit...you know."
+    m 4e "而且我真的很在乎你......你知道吗？"
+    m "我不喜欢看到她们为难你。"
+    m 4r "毕竟夏树有点太刻薄......"
+    m 4m "而优里也有点......你懂的。"
     m 5a "啊哈哈......"
-    m "Sometimes it feels like you and I are the only real people here."
-    m "You know what I mean?"
-    m 1g "But it's weird, because in all the time you've been here, we've hardly gotten to spend any time together."
+    m "有时候我会觉得，这里仿佛只有你我是真正的人。"
+    m "你明白我的意思吧？"
+    m 1g "但挺奇怪的，你来这都这么久了，我们却几乎没有单独相处过呢。"
     m 1n "啊......我是说......"
-    m "I guess it's technically only been a couple days..."
-    m 1l "Sorry, I didn't mean to say something weird!"
+    m "虽然你实际加入社团好像也才那么几天......"
+    m 1l "抱歉，我不是故意要说一些奇怪的话的！"
     m 1e "其实有些事情，我早就想跟你说了......"
     m "一些我知道只有你才能理解的事情。"
     stop music fadeout 3.0
