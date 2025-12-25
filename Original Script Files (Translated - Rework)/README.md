@@ -10,7 +10,7 @@
 - [x] ch20
 - [x] ch21
 - [ ] ch22
-- [ ] ch23
+- [x] ch23
 - [ ] ch30
 - [ ] ch40
 - [ ] exclusives-natsuki
