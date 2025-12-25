@@ -68,7 +68,7 @@ image n_rects_ghost5:
 label natsuki_exclusive2_1:
     scene bg club_day
     with wipeleft_scene
-    n "Ugh...!"
+    n "呃......！"
     "I hear Natsuki utter an exasperated sigh from within the closet."
     "She seems to be annoyed by something."
     "I approach her, in case she needs a hand."
@@ -79,9 +79,9 @@ label natsuki_exclusive2_1:
     $ style.say_dialogue = style.normal
     mc "You looking for something in there?"
     $ style.say_dialogue = style.edited
-    n 4x "fucking monikammmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+    n 4x "莫妮卡我丢你老莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫莫"
     $ style.say_dialogue = style.normal
-    $ _history_list[-1].what = "Freaking Monika..."
+    $ _history_list[-1].what = "可恶的莫妮卡..."
     n "She never puts my stuff back in the right spot!"
     n "What's the point in keeping your collection organized if someone else is just gonna mess it up?"
     "Natsuki slides a bunch of stacked books and boxes across the shelf."
@@ -114,10 +114,10 @@ label natsuki_exclusive2_1:
     n 5c "It was the tone of your voice."
     $ style.say_dialogue = style.normal
     n "But I'll tell you one thing, [player]."
-    n 4l "Consider this a lesson straight from the Literature Club:{nw}"
-    $ _history_list[-1].what = "Consider this a lesson straight from the Literature Club: Don't judge a book by its cover!"
+    n 4l "你就把这句话当作是文学部给你上的一课吧：{nw}"
+    $ _history_list[-1].what = "你就把这句话当作是文学部给你上的一课吧：不要以貌取书！"
     $ style.say_dialogue = style.edited
-    n "don't judge a bookkkkkkkkkkkkkkkkk kkkkk kk{space=20}k{space=40}k{space=120}k{space=160}k{space=200}k"
+    n "不要以貌取取取取取取取取取取取取取取取取取取 取取取取 取取{space=20}取{space=40}取{space=120}取{space=160}取{space=200}取"
     $ style.say_dialogue = style.normal
     $ _history_list.pop()
     n "In fact--"
@@ -212,9 +212,9 @@ label natsuki_exclusive2_1:
     n "I mean, I feel like I can't even keep it in my own room..."
 
     $ style.say_dialogue = style.edited
-    n "My dad would beat the shit out of me if he found this."
+    n "要是被我爸发现这些，他铁定把我打到半死。"
     $ style.say_dialogue = style.normal
-    $ _history_list[-1].what = "I don't even know what my dad would do if he found this."
+    $ _history_list[-1].what = "我根本不知道我爸发现这些后会怎么样。"
     n "At least it's safe here in the clubroom."
     show n_cg1_exp3 at cgfade
     n "'Cept Monika's kind of a jerk about it..."
@@ -292,7 +292,7 @@ label natsuki_exclusive2_1:
     "Natsuki's eyes suddenly light up again."
     "She snatches the bar from the floor and immediately tears off the wrapper."
     show natsuki zorder 3 at f22
-    n 1s "I told you not to give mmph..."
+    n 1s "我不是跟你说过别让我吃唔……"
     show natsuki zorder 2 at t22
     "She doesn't even finish her sentence before stuffing it into her mouth."
     show natsuki zorder 1 at thide

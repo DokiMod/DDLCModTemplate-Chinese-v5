@@ -4,7 +4,7 @@ label ch2_main:
     scene bg club_day
     with dissolve_scene_half
     play music t2
-    "又一天过去了，已经到了社团活动的时间。"
+    "又一天过去了，眨眼间已经到了社团活动的时间。"
     "几天下来，我对文学部已经相当适应了。"
     "走进部室，迎接我的又是那熟悉的一幕。"
     show sayori 2x zorder 2 at t11

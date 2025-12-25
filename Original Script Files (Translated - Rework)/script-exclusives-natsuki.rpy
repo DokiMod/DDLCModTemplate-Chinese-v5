@@ -42,7 +42,7 @@ label natsuki_exclusive_1:
     mc "I didn't even say anything."
     n 5c "It was the tone of your voice."
     n "But I'll tell you one thing, [player]."
-    n 4l "Consider this a lesson straight from the Literature Club: Don't judge a book by its cover!"
+    n 4l "你就把这句话当作是文学部给你上的一课吧：不要以貌取书！"
     n "In fact--"
     "Natsuki pulls out the first volume of Parfait Girls from the box."
     n "I'm gonna show you exactly why!"
@@ -179,7 +179,7 @@ label natsuki_exclusive_1:
     n "Yeah, that's pretty accurate."
     "{i}...Wait, which part??{/i}"
     n "I mean, I feel like I can't even keep it in my own room..."
-    n "I don't even know what my dad would do if he found this."
+    n "我根本不知道我爸发现这些后会怎么样。"
     n "At least it's safe here in the clubroom."
     show n_cg1_exp3 at cgfade
     n "'Cept Monika was kind of a jerk about it..."

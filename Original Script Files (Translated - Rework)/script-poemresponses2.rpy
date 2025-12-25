@@ -4,34 +4,34 @@ label ch21_y_end:
 label ch22_y_end:
     stop music fadeout 2.0
     $ poem_db.show_poem("poem_y22", music=False, img="yuri 2s")
-    y 2q "Ahaha..."
-    y "It doesn't really matter what it's about."
-    y "My mind has been a little hyperactive lately, so I had to take it out on your pen."
-    y 2o "Ah--"
-    y 2q "That is...a-a pen fell out of your backpack yesterday, so I took it home for safekeeping and..."
-    y "I, um..."
-    y 2y6 "I just...really like...the way...that it writes."
-    y "So I wrote this...poem...with it."
-    y "And now you're touching it..."
-    y 2y5 "Ahaha."
-    y 3p "I-I'm okay!!"
-    y 3o "What did I just..."
-    y "..."
-    y 4c "...Can we pretend this conversation never happened?"
-    y "You can keep the poem, though..."
+    y 2q "啊哈哈......"
+    y "这首诗的内容不是重点。"
+    y "我的思维最近有些过分活跃了，所以我就借你的笔发泄了一下。"
+    y 2o "啊——"
+    y 2q "这......这支是昨天从你书包里掉出来的笔，为了保管，我就把它带回家了......"
+    y "我，唔......"
+    y 2y6 "我只是......很喜欢......这支笔......写起来的手感。"
+    y "所以我就......用它......写了这首诗。"
+    y "而现在你正摸着它......"
+    y 2y5 "啊哈哈。"
+    y 3p "我、我没事的！！"
+    y 3o "我刚刚到底在说什么啊......"
+    y "......"
+    y 4c "......我们可以当作刚刚无事发生吗？"
+    y "不过这首诗你可以留着......"
     return
 label ch23_y_end:
     show darkred zorder 5:
         alpha 0
         linear 2.0 alpha 1.0
     $ poem_db.show_poem("poem_y23", track="bgm/5_yuri2.ogg", revert_music=False, img="yuri eyes", where=truecenter)
-    y "Do you like it??"
-    y "I wrote it for you!"
+    y "你喜欢吗？？"
+    y "这是我专门为你而写的！"
     $ gtext = glitchtext(80)
     show yuri 1b at i11
-    y "In case you couldn't tell, the poem is about [gtext]"
-    y 1y6 "More importantly, I've endowed it with my scent."
-    y "See, aren't I the most thoughtful person in the club?"
+    y "以防你看不出来，我先告诉你这首诗是关于[gtext]"
+    y 1y6 "更重要的是，我给这首诗赋予了我的气味。"
+    y "看呀，我难道不是整个文学部最体贴的人吗？"
     play sound "sfx/glitch2.ogg"
     show yuri glitch
     $ pause(0.2)
@@ -42,9 +42,9 @@ label ch23_y_end:
     $ audio.t5c = "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
     $ renpy.music.stop(channel="music_poem")
     $ renpy.music.play(audio.t5c)
-    y "..."
-    y 4d "I..."
-    y "I think I'm...going to vomit."
+    y "......"
+    y 4d "我......"
+    y "我感觉我......有点想吐了。"
     show yuri at lhide
     hide yuri
     $ pause(1.0)
@@ -70,15 +70,15 @@ label ch22_n_end:
         n 1e "...But that just makes people stupid!"
         n "Who cares what someone likes, as long as they're not hurting anyone, and it makes them happy?"
         n 1q "I think people really need to learn to respect others for liking weird things..."
-        n 1x "...Such as two of the girls in this very club, whom I respectfully won't name."
-        n 1s "Kind of ironic that even in my one place of comfort, I can't even have people respect me..."
-        n 1u "...Jeez, now you're making me complain too much!"
-        "{i}(...What did I do?){/i}"
-        mc "For what it's worth, I respect you..."
-        n 1h "Well--"
-        n "I guess thanks..."
-        n 1s "...But it's kind of obvious that you 'respect' Yuri more, so..."
-        n 42c "Whatever... We're done sharing, so you can leave now."
+        n 1x "......比如说就在这个社团里的某两个女生，至于是谁我就不指名道姓了。"
+        n 1s "讽刺的是，即便是在我的安乐窝，竟然也没有人尊重我......"
+        n 1u "......呃，都怪你，害我说了一大堆抱怨的话！"
+        "{i}（......我到底干啥了？）{/i}"
+        mc "不管怎么说，我是尊重你的......"
+        n 1h "嗯——"
+        n "那就谢谢了......"
+        n 1s "......但是很明显，你更‘尊重’优里，所以说......"
+        n 42c "算了......我们都分享完了，你现在可以走了。"
     return
 label ch22_n_end2:
     $ poem_db.show_poem("poem_n2b", revert_music=False)
@@ -102,25 +102,25 @@ label ch22_n_end2:
     show n_rects_ghost1 zorder 4
     show n_rects_ghost2 zorder 4
     show n_rects_ghost3 zorder 4
-    n ghost1 "Yuri is a sick freak."
-    n "That should be obvious by now."
-    n "So just play with me instead."
-    n "Okay?"
-    n "You don't hate me, [player], do you?"
-    n "Do you hate me?"
+    n ghost1 "优里就是一个死病狂。"
+    n "这一点现在已经明显得不能再明显了。"
+    n "所以你还是改成陪我玩吧。"
+    n "可以吗？"
+    n "[player]，你并不讨厌我，对吧？"
+    n "你讨厌我吗？"
     show natsuki_ghost_blood zorder 3
-    n "Do you want to make me go home crying?"
-    n "The club is the only place I feel safe."
-    n "Don't ruin that for me."
-    n "Don't ruin it."
-    n "Please."
-    n "Just stop talking to Yuri."
-    n "Play with me instead."
-    n "It's all I have..."
-    n "Play with me."
+    n "你想让我哭着回家吗？"
+    n "文学部是唯一一个让我感到安全的地方。"
+    n "不要毁了我的安乐窝。"
+    n "不要毁了它。"
+    n "拜托你了。"
+    n "你就不要再和优里说话了。"
+    n "陪我玩就行了。"
+    n "我想说的就这些了......"
+    n "陪我玩。"
     stop music
     hide n_rects_ghost3
-    n ghost2 "PLAY WITH ME!!!"
+    n ghost2 "陪！我！玩！！！"
     $ style.say_dialogue = style.normal
     $ quick_menu = False
     $ pause(1)
@@ -164,30 +164,30 @@ label ch23_n_end:
     stop music
     hide screen tear
     show natsuki ghost_base
-    n "I changed my mind."
-    n "Ignore everything you just read."
-    n "There's no point in trying to do anything."
-    n "It's Yuri's own fault that she's so unlikable."
-    n "Can you hear me, [player]?"
-    n "If you would just spend more time with Monika, all these problems would go away."
-    n "Yuri and I are too messed up for someone as wonderful as you."
-    n "Just think of Monika from now on."
-    n "Just Monika."
+    n "我改变主意了。"
+    n "请忘掉刚刚你读到的一切。"
+    n "尝试做任何事情都没有意义。"
+    n "优里那么招人厌都是她自己的错。"
+    n "你听得见我说话吗，[player]？"
+    n "如果你能多花点时间和莫妮卡共处，那么所有问题都会迎刃而解。"
+    n "对于你这样美好的人来说，我和优里实在太糟糕了。"
+    n "从现在开始，你只想着莫妮卡就行了。"
+    n "只选莫妮卡。"
     hide natsuki
     $ style.say_dialogue = style.edited
-    "Just Monika."
+    "只选莫妮卡。"
     menu:
-        "Just Monika."
-        "Just Monika.":
+        "只选莫妮卡。."
+        "只选莫妮卡。":
             pass
     $ style.say_dialogue = style.normal
-    $ renpy.call_screen("dialog", "Just Monika.", ok_action=Return())
+    $ renpy.call_screen("dialog", "只选莫妮卡。", ok_action=Return())
     scene white
     play music t1
     show intro with Dissolve(0.5, alpha=True)
     $ pause(2.5)
     hide intro with Dissolve(0.5, alpha=True)
-    show splash_warning "Just Monika." with Dissolve(0.5, alpha=True)
+    show splash_warning "只选莫妮卡。" with Dissolve(0.5, alpha=True)
     $ pause(1.0)
     play music t5
     $ skip_transition = True
@@ -207,10 +207,10 @@ label ch22_m_end:
     $ pause(0.5)
     hide screen tear
     play music t5c
-    m 5 "Sorry, I know it's kind of abstract."
-    m "I'm just trying to...um..."
-    m 1r "Well, never mind."
-    m "There's no point in explaining."
+    m 5 "抱歉，我知道这样说有些抽象。"
+    m "我只是在试着......唔......"
+    m 1r "算了，当我没说。"
+    m "解释没有意义。"
     m 1i "Anyway..."
     m 3b "Here's Monika's Writing Tip of the Day!"
     m "Sometimes you'll find yourself facing a difficult decision..."
@@ -220,7 +220,7 @@ label ch22_m_end:
     m "Can you hear me?"
     m 3g "Tell me you can hear me."
     m "Anything."
-    $ renpy.call_screen("dialog", "Please help me.", ok_action=Return())
+    $ renpy.call_screen("dialog", "请帮帮我。", ok_action=Return())
     m 3k "...That's my advice for today!"
     m "Thanks for listening~"
     return
@@ -241,13 +241,13 @@ label ch23_m_end:
     show monika 1d zorder 11 at i11
     $ quick_menu = True
     $ mouse_visible = True
-    m "Jeez! That really startled me!{fast}"
+    m "天哪！真把我吓了一大跳！{fast}"
     window auto
-    m "Um..."
-    m 1m "Well, I guess I kinda messed up at, uh... 'writing' this poem."
-    m "I was just trying to..."
-    m 1i "...Never mind."
-    m "Let's just move on..."
+    m "唔......"
+    m 1m "好吧，我似乎把，呃......‘写’这首诗这件事搞砸了。"
+    m "我只是想......"
+    m 1i "......算了。"
+    m "我们继续吧......"
     stop music
     return
 
@@ -746,6 +746,6 @@ label m2_yuri_2:
 
 label m2_yuri_3:
     stop music
-    m 1i "Don't say I didn't warn you, [player]."
+    m 1i "[player]，不要说我没有警告过你。"
     $ skip_poem = True
     return

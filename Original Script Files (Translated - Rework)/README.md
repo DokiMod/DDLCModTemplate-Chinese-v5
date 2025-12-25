@@ -12,7 +12,7 @@
 - [ ] ch22
 - [x] ch23
 - [ ] ch30
-- [ ] ch40
+- [x] ch40
 - [ ] exclusives-natsuki
 - [ ] exclusives-sayori
 - [ ] exclusives-yuri

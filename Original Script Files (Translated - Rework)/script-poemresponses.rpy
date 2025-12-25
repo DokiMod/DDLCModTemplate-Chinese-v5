@@ -761,8 +761,8 @@ label ch3_m_end:
 # This is where the characters will react to how they liked your poem from
 # good to OK to bad.
 label ch1_n_bad:
-    n "..."
-    mc "...?"
+    n "......"
+    mc "......？"
     # This if statement checks if we are in Act 2 and if a random number from 0-2
     # is 0 to trigger a special Act 2 screen.
     if persistent.playthrough == 2 and renpy.random.randint(0, 2) == 0:
@@ -803,7 +803,7 @@ label ch1_n_bad:
         hide blood2
         stop sound
         play music "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
-    n 2b "[player], if you're not going to take this club seriously then go home."
+    n 2b "[player]，如果你不想认真对待这个社团的话，那请你直接回家。"
     mc "W-What??"
     mc "Harsh..."
     n 42c "What, you expect me to believe that you actually put effort into this?"
