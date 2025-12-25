@@ -223,7 +223,7 @@ label ch0_main:
     "夏树端着托盘，趾高气扬地走了回来。"
     show natsuki 2z zorder 2 at t32
     n "好——咯，准备好了吗？"
-    n "...锵锵！"
+    n "......锵锵！"
     show sayori 4m zorder 2 at t31
     show monika 2d zorder 2 at t33
     s "哇哦——！"
@@ -280,7 +280,7 @@ label ch0_main:
     show yuri at h21
     y 3n "诶？！不、不是这样的......"
     "优里难堪地把脸别了过去。"
-    y 4b "我的意思是，那个......"
+    y 4b "那个，我是真的这么觉得的......"
     mc "我相信你。"
     mc "嗯，阅读和品茶或许不是我的消遣方式，但我起码还蛮喜欢喝茶。"
     y 2u "那就好......"

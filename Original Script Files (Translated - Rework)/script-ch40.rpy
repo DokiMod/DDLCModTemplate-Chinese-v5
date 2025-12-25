@@ -167,23 +167,23 @@ label ch40_main:
     show sayori at t32
     show yuri at f33
     y 1m "呼呼。"
-    y "What an appropriate day for that, isn't it?"
+    y "今天真是个适合庆祝的日子，对吧？"
     show yuri 1a at t33
     show sayori at f32
-    s 1r "Yeah!"
-    s 1x "After all, Natsuki decided to--"
+    s 1r "没错！"
+    s 1x "而且，夏树决定要——"
     show sayori at t32
     show natsuki at f31
-    n 1w "Hey, don't ruin the surprise!"
+    n 1w "嘿，不许剧透！"
     show natsuki at t31
     show sayori at f32
-    s 5a "Ehehe, sorry..."
+    s 5a "诶嘿嘿，不好意思......"
     show sayori at t32
     show natsuki at f31
-    n 1k "Everyone sit down at the table, okay?"
+    n 1k "大家都来桌子这边坐下，好吗？"
     show natsuki at t31
     show yuri at f33
-    y 1a "How about I make some tea as well?"
+    y 1a "要不我去泡壶茶？"
     hide sayori
     hide natsuki
     hide yuri
@@ -194,7 +194,7 @@ label ch40_main:
     "夏树端着托盘，趾高气扬地走了回来。"
     show natsuki 2z zorder 2 at t22
     n "好——咯，准备好了吗？"
-    n "...锵锵！"
+    n "......锵锵！"
     show sayori 4m zorder 2 at t21
     s "哇哦——！"
     "夏树掀开了盖在托盘上的锡箔纸，托盘上放着十二个小猫形状的雪白松软的小蛋糕。"
@@ -236,7 +236,7 @@ label ch40_main:
     y "何况，热茶配好书，不也很美妙吗？"
     mc "啊...想必——也对......"
     show natsuki 2y at f31
-    n "Ehehe. Already trying to impress our new member, Yuri?"
+    n "欸嘿嘿，优里，这么快就想给我们的新成员留点好印象吗？"
     show natsuki at t31
     show yuri at f11
     y 3n "诶？！不、不是这样的......"
@@ -244,7 +244,7 @@ label ch40_main:
     show natsuki at thide
     hide natsuki
     "优里难堪地把脸别了过去。"
-    y 4b "我的意思是，那个......"
+    y 4b "那个，我是真的这么觉得的......"
     mc "我相信你。"
     mc "嗯，阅读和品茶或许不是我的消遣方式，但我起码还蛮喜欢喝茶。"
     y 2u "那就好......"
@@ -272,165 +272,165 @@ label ch40_main:
     "优里滔滔不绝地说着，她显然对阅读充满了热情。"
     "尽管她从我步入社团的那一刻起就表现得内向羞怯，但从她闪闪发亮的双眼可以看得出来，比起现实的人际关系，她更喜欢在书中寻求安慰。"
     y 2m "不过嘛，我喜好的类型还有很多。"
-    y 2a "Don't feel intimidated if you don't read much, okay?"
-    y "I'm certain we can find something that we have in common."
+    y 2a "如果你阅读量不多的话，也不用觉得有压力，好吗？"
+    y "我们肯定能找到别的共同点的。"
     show yuri at t22
     show natsuki 2c at f21
-    n "Hey, Yuri..."
+    n "嘿，优里......"
     show natsuki at t21
     show yuri at f22
-    y 2f "Eh?"
+    y 2f "诶？"
     show yuri at t22
     show natsuki at f21
-    n 2h "Well, about...you know, the first thing he said..."
+    n 2h "就是，那个......他刚刚一开始说的......"
     show natsuki at t21
     mc "漫画吗？"
     show yuri at f22
-    y 2i "That's right..."
-    y "Natsuki tends to read manga in the clubroom--"
+    y 2i "没错......"
+    y "夏树以前就在部室里面看漫画——"
     show yuri at t22
     show natsuki at f21
-    n 1r "D-Don't just say it!!"
-    "For some reason, Natsuki seems embarrassed about it."
-    n 1q "Besides..."
-    n "Manga...is literature too, you know?"
-    n 1w "So...if [player] wants to read some of my manga, then don't try to stop him or anything!"
+    n 1r "不、不要直接讲出来啦！！"
+    "不知道为什么，夏树似乎对这件事很难为情。"
+    n 1q "而且......"
+    n "漫画......不也是一种文学，对吧？"
+    n 1w "所以......如果 [player] 就是想看我的漫画的话，那就别阻止他，让他看嘛！"
     show natsuki 1i at t21
     show yuri at f22
-    y 1l "Natsuki..."
-    y "I wouldn't do such a thing."
-    y 1i "However, it could also be nice for us to diversify ourselves a little..."
-    y "He can take this opportunity to try something new, as well."
-    y 1s "Wouldn't you agree, [player]?"
+    y 1l "夏树......"
+    y "我不会阻止他看漫画的啦。"
+    y 1i "不过，让自己的阅读兴趣更多样化一点也不是什么坏事......"
+    y "他同样可以利用这个机会读些不同的东西。"
+    y 1s "你也认同的吧，[player]？"
     show yuri at t33
     show natsuki at t32
     show sayori 1l at f31
-    s "M-Maybe--"
-    "Sensing the tension, Sayori jumps in."
-    s 1x "Maybe we can all try something new!"
-    s 1l "I think it could be fun..."
-    s 1c "And we'll all get to know each other a little bit better, too!"
-    s 1l "I mean..."
-    s "That's the kind of thing literature clubs do...right?"
+    s "大、大概吧——"
+    "纱世里察觉到气氛的紧张，赶紧插话打起了圆场。"
+    s 1x "或许我们大家都可以尝试一下新事物！"
+    s 1l "我想这应该会很有趣......"
+    s 1c "而且也能增进我们彼此之间的了解呢！"
+    s 1l "我是说......"
+    s "这不正是文学社团该做的事情嘛......对吧？"
     show sayori at t31
     show yuri at f33
-    y 1v "..."
-    y "I-I don't disagree or anything..."
+    y 1v "......"
+    y "我、我同意......"
     show yuri at t33
     show natsuki at f32
-    n 2j "Yeah..."
-    n "You're right as usual, President."
+    n 2j "嗯......"
+    n "部长，你说什么都对。"
     show natsuki at t32
     show sayori at f31
-    s 1q "Ehehe~"
+    s 1q "欸嘿嘿~"
     show sayori at t31
     show natsuki at f32
-    n 2c "Guess that means I should try picking up a novel or something, huh...?"
+    n 2c "看来我得找本小说来读读了，是吧......？"
     show natsuki at t32
-    mc "Well, that would make two of us..."
-    mc "I wouldn't mind doing it if I'm not the only one."
+    mc "嗯，那就有两个人了......"
+    mc "只要不是只有我一个人读就行。"
     show sayori at thide
     hide sayori
     show natsuki at f21
     show yuri at t22
-    n 2y "Then as for Yuri..."
+    n 2y "那么，优里的话......"
     show natsuki at t21
     show yuri at f22
-    y 2n "Eh...?"
-    y "I...I have to read manga...?"
+    y 2n "诶......？"
+    y "我......我要看漫画吗......？"
     show yuri at t22
     show natsuki at f21
-    n 4i "Jeez..."
-    n 4h "You were the one who suggested we diversify!"
-    n "You should be a little more open-minded..."
-    n 4u "It's kind of hurtful..."
+    n 4i "真是的......"
+    n 4h "不是你说的要多样化阅读兴趣的吗！"
+    n "你的思想应该更开明一些......"
+    n 4u "而且你那种反应挺伤人的......"
     show natsuki at t21
     show yuri at f22
-    y 2t "Hurtful...?"
-    y 2v "I-I didn't realize..."
-    y "..."
-    "With a guilty expression, Yuri thinks to herself."
-    y 2w "I'm sorry for disrespecting your interests, Natsuki."
-    y "If...if you're into it, then I'm sure it's a worthy form of literature."
+    y 2t "伤人......？"
+    y 2v "我、我没意识到......"
+    y "......"
+    "优里低头沉思，脸上挂着满满的负罪感。"
+    y 2w "夏树对不起，我以前一直没有尊重你的喜好。"
+    y "既......既然你这么钟爱漫画，那我相信漫画也应该是种有价值的文学。"
     show yuri at t22
     show natsuki at f21
-    n 5q "...Are you just saying that?"
+    n 5q "......你不会只是嘴上说说吧？"
     show natsuki at t21
     show yuri at f22
-    y "No..."
-    y "I've realized my error."
-    y 2t "So, if you're willing to consider starting a novel..."
-    y 2u "...Then I'll offer my gratitude by finding a manga to read as well."
+    y "不会的......"
+    y "我已经知道自己错在哪里了。"
+    y 2t "所以，如果你愿意考虑开始读小说......"
+    y 2u "......那么我也愿意去找本漫画来读一读，以表感谢。"
     show yuri at t22
     show natsuki at f21
-    n 1l "Really?!"
-    n 12c "I-I mean..."
-    n "It...makes me happy that you'd do that for me, Yuri."
-    n 2c "You can trust me to find something that you'll really like, okay?"
+    n 1l "真的吗？！"
+    n 12c "我、我是说......"
+    n "优里，你......你愿意为我这么做，让我很开心。"
+    n 2c "相信我，我一定会帮你找到合你口味的漫画，好吗？"
     show natsuki at t21
     show yuri at f22
-    y 1m "Same here..."
-    y 1h "Perhaps I'll visit the bookstore after the club meeting."
+    y 1m "彼此彼此......"
+    y 1h "社团活动结束后，我大概会去趟书店。"
     show yuri at t22
     show natsuki at f21
-    n 1q "Just...just you?"
+    n 1q "你......你自己一个人去吗？"
     show natsuki at t21
     show yuri at f22
-    y 3q "A-Ah--"
-    y 4a "Would you...like to come along with me?"
+    y 3q "啊、啊——"
+    y 4a "你......想跟我一起去么？"
     show yuri at t22
     show natsuki at f21
-    n 5s "Um..."
-    n "If you don't mind..."
+    n 5s "唔......"
+    n "如果你不介意的话就行......"
     show natsuki at t21
     show yuri at f22
-    y 3t "Not at all!"
-    y "I always go alone, so..."
+    y 3t "我完全不介意！"
+    y "我以前一直都是一个人去的，所以......"
     show yuri at t22
     show natsuki at f21
-    n "Yeah, me too..."
+    n "是啊，我也是......"
     show natsuki at t21
     show sayori 4s at l41
-    s "This is so cute~!"
-    mc "Sayori, shut up..."
+    s "好可爱呀~！"
+    mc "住口啦，纱世里......"
     show sayori at lhide
     hide sayori
     show natsuki at f21
-    n 2j "I'll show you some manga there too, okay?"
+    n 2j "到时候我也会带你去看看漫画的，好吗？"
     show natsuki at t21
     show yuri at f22
-    y 1a "Yes."
-    y "I look forward to it."
+    y 1a "好吧。"
+    y "我很期待哦。"
     show natsuki at thide
     show yuri at thide
     hide natsuki
     hide yuri
-    "Natsuki and Yuri start to clean up the food."
+    "夏树和优里开始把吃剩的食物收拾起来。"
     $ config.skipping = False
     $ config.allow_skipping = False
     show sayori 1q at t11
-    s "Ehehe~"
-    s 1x "I guess the meeting's over, huh?"
-    mc "Yeah, looks like it..."
-    mc "It's nice to see everyone getting along."
-    s 1q "Isn't it?"
-    s 1d "I think everyone likes you too, [player]."
-    mc "You think so...?"
-    mc "Well, everyone always seems to get along a little better with you around, Sayori."
-    s 1y "Aww, [player]~"
-    s "Don't say something like that, it's embarrassing!"
-    mc "Well, whatever."
-    mc "I was surprised when you told me you were starting a club..."
-    mc "But I think you're pulling it off just fine."
-    s 1r "We're gonna make it the best club ever!"
-    s 1x "Now that you joined, every day is gonna be so much fun."
+    s "欸嘿嘿~"
+    s 1x "我想今天的社团活动就到此为止了吧？"
+    mc "是啊，差不多了......"
+    mc "看到大家相处得这么融洽，真的很棒。"
+    s 1q "是吧是吧！"
+    s 1d "我觉得大家都喜欢你，[player]。"
+    mc "你这么觉得吗......？"
+    mc "我倒觉得，因为有纱世里在，大家似乎总是相处得更融洽些。"
+    s 1y "啊，[player]~"
+    s "别这么说嘛，搞得人家好害羞！"
+    mc "好吧，随便了。"
+    mc "之前你说要组建一个社团的时候，我都惊呆了......"
+    mc "但现在看来，你做得很棒。"
+    s 1r "我们会成为世上最棒的社团！"
+    s 1x "而且现在你也加入了，以后每天都会充满乐趣。"
     stop music fadeout 2.0
-    s 1a "Hey, [player]..."
-    s "I really want to thank you."
-    s "I mean, I'm really happy that you joined the club and everything..."
-    s "But the truth is, I already knew you were going to."
-    s 1q "Ehehe~"
-    s 1a "There's actually something else."
+    s 1a "嘿，[player]......"
+    s "我真的很想谢谢你。"
+    s "我是说，你能加入文学部我真的很开心......"
+    s "不过老实说，我早就知道你要加入了。"
+    s 1q "欸嘿嘿~"
+    s 1a "而且，不仅如此。"
     $ if all(clear for clear in persistent.clear): persistent.clearall = True
     if persistent.clearall:
         call ch40_clearall
@@ -443,7 +443,7 @@ label ch40_main:
 
     label ch40_clearnormal:
         show sayori 1a zorder 2 at t11
-        s "I wanted to thank you for getting rid of Monika."
+        s "我也要感谢你帮我们摆脱了莫妮卡。"
         play music hb
         show black:
             alpha 0.5
@@ -456,15 +456,15 @@ label ch40_main:
                 alpha 0.475
                 repeat
         show layer master at heartbeat
-        s 1b "That's right..."
-        s "I know everything that she did."
-        s 1x "Maybe it's because I'm the President now."
-        s "But I really know everything, [player]."
-        s 1q "Ehehe~"
-        s 1d "I know how hard you tried to make everyone happy."
-        s "I know about all of the awful things that Monika did to make everyone really sad..."
-        s 1b "But none of that matters anymore."
-        s "It's just us now.{nw}"
+        s 1b "没错......"
+        s "我知道她做过的每一件事。"
+        s 1x "大概是因为现在我成了部长吧。"
+        s "但是哦，[player]，我真的什么都知道哦。"
+        s 1q "欸嘿嘿~"
+        s 1d "我知道你为了让大家开心，付出了多大努力。"
+        s "我知道莫妮卡对我们做了很多过分的事情，让大家都超级伤心......"
+        s 1b "但这些都已经无所谓了。"
+        s "现在，这里只剩下我和你了。{nw}"
         show screen tear(20, 0.1, 0.1, 0, 40)
         play sound "sfx/s_kill_glitch1.ogg"
         $ pause(0.25)
@@ -479,11 +479,11 @@ label ch40_main:
             linear 0.1 alpha 0.8
             0.1
             alpha 0
-        s "It's just us now.{fast}"
+        s "现在，这里只剩下我和你了。{fast}"
         hide room_glitch
-        s 1d "And you made me the happiest girl in the whole world."
-        s "I can't wait to spend every day like this..."
-        s "With you."
+        s 1d "而你让我成为了这个世界上最幸福的女孩。"
+        s "我等不及要这样跟你度过每一天了......"
+        s "和你。"
         play sound "sfx/s_kill_glitch1.ogg"
         show room_glitch zorder 1:
             xoffset -10
@@ -496,7 +496,7 @@ label ch40_main:
             alpha 1.0
         $ pause(0.3)
         stop sound
-        s 1q "Forever and ever..."
+        s 1q "永远在一起......"
         hide sayori
         show sayori 1a onlayer screens zorder 101 at face
         s "永"
@@ -516,10 +516,10 @@ label ch40_main:
         show layer master
         hide black
         show sayori end-glitch onlayer screens
-        s "...Eh?"
-        s "W-What's happening...?"
-        call screen dialog("I won't let you hurt him.", ok_action=Return())
-        s "Who..."
+        s "......诶？"
+        s "什、什么情况......？"
+        call screen dialog("我不会让你伤害他的。", ok_action=Return())
+        s "谁啊......"
         s "停、停下，好痛——"
         show screen tear(20, 0.1, 0.1, 0, 40)
         window hide(None)
@@ -532,9 +532,9 @@ label ch40_main:
         s "啊——"
         call screen dialog("对不起......是我错了。", ok_action=Return())
         call screen dialog("这里终究是个没有幸福可言的地方啊......", ok_action=Return())
-        call screen dialog("永别了，纱世里。", ok_action=Return())
-        call screen dialog("永别了，[player]。", ok_action=Return())
-        call screen dialog("永别了，文学部。", ok_action=Return())
+        call screen dialog("再见了，纱世里。", ok_action=Return())
+        call screen dialog("再见了，[player]。", ok_action=Return())
+        call screen dialog("再见了，文学部。", ok_action=Return())
         $ gtext = glitchtext(120)
         s "[gtext]{nw}"
         show screen tear(20, 0.1, 0.1, 0, 40)
@@ -548,25 +548,25 @@ label ch40_main:
         return
 
     label ch40_clearall:
-        s "I wanted to thank you for spending so much time with us all."
+        s "我也要感谢你，与我们共度了那么长的时光。"
         play music mend
-        s 2d "You worked so hard to make each and every one of us happy."
-        s "You comforted us through our hard times."
-        s "And you helped us all get along with each other."
-        s 1a "Do you get it, [player]?"
-        s "Because I'm President now, I understand everything."
-        s 1q "You really didn't want to miss a single thing in this game, did you?"
+        s 2d "为了让我们每一个人开心，你付出了那么多的努力。"
+        s "在最艰难的时候，是你给了我们安慰。"
+        s "帮助我们互相打开心结。"
+        s 1a "你还不明白吗，[player]？"
+        s "因为我现在是部长了嘛，所以我什么都知道哦。"
+        s 1q "看来你是真的不想错过游戏里任何一个细节呢，对吧？"
         s 1a "你不断存档、读档，只为了能和每个人都共度时光。"
         s "只有真正在乎文学部的人会这样做。"
-        s "But..."
-        s 4d "All along, that's all I ever wanted."
-        s "For everyone to be happy and care about each other."
-        s 4q "Ahaha..."
-        s 1t "It's kind of sad, you know?"
-        s "After all you've done for us, there isn't much I can do for you in return."
-        s "We've already reached the end of the game."
-        s 1y "So..."
-        s "This is where we say goodbye."
+        s "不过......"
+        s 4d "不过自始至终，这就是我想要的。"
+        s "大家互相关心，一起欢笑。"
+        s 4q "啊哈哈......"
+        s 1t "真是的，气氛怎么一下子有点伤心了？"
+        s "你为我们付出了那么多，而我却无以为报。"
+        s "因为游戏到这里就要结束了。"
+        s 1y "那么......"
+        s "我们就在这里道别吧。"
         s 1d "感谢您游玩《心跳文学部》。"
         s "我会想你的，[player]。"
         s "记得偶尔回来看看，好吗？"
