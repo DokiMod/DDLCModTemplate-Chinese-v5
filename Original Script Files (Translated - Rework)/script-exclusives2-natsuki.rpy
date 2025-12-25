@@ -229,7 +229,7 @@ label natsuki_exclusive2_1:
     n "--"
     n "..."
     n "...So?"
-    mc "Ahaha."
+    mc "啊哈哈。"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
     n "Jeez, that's enough!"

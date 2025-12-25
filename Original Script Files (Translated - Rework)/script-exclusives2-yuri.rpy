@@ -144,7 +144,7 @@ label yuri_exclusive2_1_ch22:
     y 4a "I don't really mean to..."
     y "Sorry..."
     y 4c "I mean--!"
-    mc "Ahaha."
+    mc "啊哈哈。"
     mc "Here, this should work, right?"
     "I slide my desk until it's up against Yuri's, then hold my book more between the two of them."
     y 2v "Ah..."
@@ -213,7 +213,7 @@ label yuri_exclusive2_1_ch22:
     y "N-Never mind!"
     y "We didn't even get that far yet..."
     y "So I don't know why that came into my head..."
-    y "Ahaha!"
+    y "啊哈哈！"
     mc "Yuri, are you feeling alright?"
     hide y_cg1_exp3
     show y_cg1_exp1 at cgfade
@@ -712,7 +712,7 @@ label yuri_exclusive2_2_ch23:
     y 1y4 "Nobody to make me feel like stabbing myself in the throat."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1q "Ahaha..."
+    y 1q "啊哈哈......"
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
     y "That was a joke!"

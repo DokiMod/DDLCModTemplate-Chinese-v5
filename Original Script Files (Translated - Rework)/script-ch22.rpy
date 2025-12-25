@@ -126,14 +126,14 @@ label ch22_main:
     show natsuki zorder 3 at f33
     n 2j "I'll accept your apology anyway, if it helps you feel better about it."
     n "Besides, it's kinda nice to hear, since I was always afraid you secretly hated me or something like that."
-    n 2z "Ehehe."
+    n 2z "欸嘿嘿。"
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
     y 3q "N-No, not at all...!"
     y "I don't hate you..."
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
-    n 2l "Ahaha."
+    n 2l "啊哈哈。"
     n "Well, you're kind of weird, but I don't hate you either."
     show natsuki zorder 2 at t33
     show yuri zorder 3 at f32
@@ -158,7 +158,7 @@ label ch22_main:
     n 1p "I-I was not!!"
     show natsuki zorder 2 at t33
     show monika zorder 3 at f41
-    m 1k "Ahaha."
+    m 1k "啊哈哈。"
     show monika zorder 2 at t41
     show natsuki zorder 3 at f33
     n 1s "...What took you so long, anyway?"
@@ -550,8 +550,8 @@ label ch22_end:
     y 2l "我应该尽力考虑所有人的感受，然后做出对社团来说正确的决定。"
     y 1t "那么，[player] 你呢？"
     y "你想从这个社团中得到什么？"
-    "Yuri repeats the same question as Monika."
-    "I decide giving an indirect answer is better than nothing."
+    "优里问了和莫妮卡相同的问题。"
+    "我决定给个委婉的回答，至少比一言不发好点。"
     mc "...I think the most important thing is for everyone to get along..."
     mc "...And for the club to provide something that you can't get anywhere else."
     mc "I don't think it's about how many members, but rather the quality of each member."
@@ -639,7 +639,7 @@ label ch22_end:
     m "I don't like seeing the other girls give you a hard time."
     m 4r "With how mean Natsuki is and everything..."
     m 4m "And Yuri being a little bit...you know."
-    m 5a "Ahaha..."
+    m 5a "啊哈哈......"
     m "Sometimes it feels like you and I are the only real people here."
     m "You know what I mean?"
     m 1g "But it's weird, because in all the time you've been here, we've hardly gotten to spend any time together."

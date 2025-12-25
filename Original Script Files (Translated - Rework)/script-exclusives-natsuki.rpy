@@ -107,7 +107,7 @@ label natsuki_exclusive_1:
     mc "Ah, is that so?"
     mc "It sounds like you really know what you're talking about."
     mc "Maybe I underestimated you."
-    n 2z "Ehehe."
+    n 2z "欸嘿嘿。"
     n 1f "...Hey, wait!"
     n "What's {i}that{/i} supposed to mean?!"
     mc "Uwa--"
@@ -127,7 +127,7 @@ label natsuki_exclusive_1:
     n 1t "I just happened to get into baking around the same time I got this manga."
     n "Like I would ever get into anything because it's in a manga."
     n 4y "I feel bad for anyone that impressionable."
-    n "Ahaha!"
+    n "啊哈哈！"
     "Definitely not a coincidence..."
     "I guess that explains Natsuki's interest in baking."
     "Still, of all the hobbies to pick up from a manga, that's definitely one of the better ones."
@@ -194,7 +194,7 @@ label natsuki_exclusive_1:
     n "--"
     n "..."
     n "...So?"
-    mc "Ahaha."
+    mc "啊哈哈。"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
     n "Jeez, that's enough!"
@@ -512,7 +512,7 @@ label natsuki_exclusive_2_ch3:
     show natsuki zorder 2 at t11
     show monika zorder 3 at f31
     m 5 "S-Sorry, sorry!"
-    m "Ahaha..."
+    m "啊哈哈......"
     show monika zorder 2 at t31
     show natsuki zorder 3 at f11
     n 5r "Oh, and one more thing."
@@ -607,7 +607,7 @@ label natsuki_exclusive_2_ch3:
     "Natsuki averts her gaze."
     show natsuki 5u at t11
     n "T-Thanks..."
-    mc "Ahaha..."
+    mc "啊哈哈......"
     mc "It's nothing."
     "Natsuki is holding the volume I set aside in her hands."
     mc "Alright, I'm ready."
@@ -630,7 +630,7 @@ label natsuki_exclusive_2_ch3:
     n "Yep!"
     n "Even you sound more enthusiastic this time."
     mc "Well, I'm starting to get into it, you know."
-    n 4z "Ehehe."
+    n 4z "欸嘿嘿。"
     n "Told you."
     mc "Yeah, yeah..."
     show natsuki zorder 1 at thide

@@ -106,7 +106,7 @@ label sayori_exclusive_1:
     mc "Yeah..."
     mc "I know, I know."
     mc "You're always looking out for me, Sayori."
-    s 4q "Ehehe~"
+    s 4q "欸嘿嘿~"
     s "It's what I do best!"
     mc "...That's a problem!"
     mc "What about you?"
@@ -157,7 +157,7 @@ label sayori_exclusive_1:
     $ renpy.save_persistent()
     scene s_cg1
     with dissolve_cg
-    s "Ehehe~"
+    s "欸嘿嘿~"
     s "This is so funny."
     mc "What is?"
     s "Well..."
@@ -175,14 +175,14 @@ label sayori_exclusive_1:
     mc "Why is this one so hard to close...?"
     "I struggle to fully close the button near her chest."
     mc "Does this thing even fit you properly?"
-    s "Ehehe~"
+    s "欸嘿嘿~"
     s "It did when I bought it."
     mc "Sigh..."
     mc "If you ever buttoned it, you would have noticed sooner that it doesn't fit you anymore."
     mc "What are you smiling about?"
     s "It means my boobs got bigger again!"
     mc "D-Don't say that out loud!!"
-    s "Ehehe~"
+    s "欸嘿嘿~"
     mc "Anyway..."
     mc "You look much better now, so..."
     mc "Ah..."
@@ -212,7 +212,7 @@ label sayori_exclusive_1:
     s 1j "Only if you focus on going to bed earlier!"
     mc "Fine, fine..."
     mc "It's a deal."
-    s 4q "Ehehe~"
+    s 4q "欸嘿嘿~"
     s 4x "I guess we really are better at taking care of each other than we are at taking care of ourselves."
     mc "Yeah, I guess so, huh..."
     s 4y "So maybe you should come wake me up in the morning!"
@@ -282,7 +282,7 @@ label sayori_exclusive_2:
     mc "Hey, Sayori..."
     mc "What exactly are we doing for the festival, anyway?"
     mc "I'm not sure how you would make an event out of literature..."
-    s 1q "Ehehe!"
+    s 1q "欸嘿嘿！"
     s 1x "Me and Monika have it all planned out!"
     s "Don't you worry~"
     mc "Is that so...?"
@@ -453,7 +453,7 @@ label sayori_exclusive_2:
     s "I'd fall and scrape myself, or get a bump..."
     s "And I would start crying really hard."
     show s_cg2_exp3 at cgfade
-    s "Ahaha!"
+    s "啊哈哈！"
     s "And you would rush over as quick as you could."
     hide s_cg2_exp3
     s "You would try really hard to get me to stop crying."
@@ -549,7 +549,7 @@ label sayori_exclusive_2:
     mc "I found the poster paper, too."
     show sayori 4b
     show monika 5a zorder 3 at f22
-    m "Ahaha!"
+    m "啊哈哈！"
     m "Sounds like you ended up doing all the work, [player]."
     show monika zorder 2 at t22
     mc "Ah, well, Sayori--"
