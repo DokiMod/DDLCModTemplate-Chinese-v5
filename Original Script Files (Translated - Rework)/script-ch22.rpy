@@ -34,21 +34,21 @@ label ch22_main:
     y "关于昨天那件事......"
     y "我......"
     y 2v "我真的需要道歉。"
-    y "Nothing like that has ever happened before..."
-    y 2t "And...something just came over me, I guess..."
-    y "I wasn't acting mentally sound."
-    y 2w "Please don't think we're usually like this!"
-    y "Not just me, but Natsuki as well..."
+    y "以前从来没有发生过这样的事..."
+    y 2t "而且...可能我刚好被什么东西冲昏头脑了..."
+    y "所以昨天我的精神状态不太稳定。"
+    y 2w "我们通常不是这个样子的，请千万不要误会！"
+    y "不光是我，夏树也是......"
     show yuri 2t
-    mc "Yuri..."
-    mc "I'm happy that you were considerate and apologized."
-    mc "You don't have to worry too much."
-    mc "Even though I've only been here a couple days, I could tell something was off yesterday..."
-    mc "Maybe we were just a little extra sensitive because it was our first time sharing poems."
-    mc "But whatever it was..."
-    mc "It didn't make me think any less of you."
-    mc "I had already decided that there's no way you can be a bad person."
-    mc "And now that you're apologizing, I know you really didn't mean it."
+    mc "优里......"
+    mc "你这么体贴人、还向我道歉，我已经很开心了。"
+    mc "还是别太计较这件事了。"
+    mc "就算是才来了这里几天的我，也能感觉到昨天有什么不对劲......"
+    mc "也许只是因为昨天是我们第一次分享诗作，所以大家都有点太敏感了。"
+    mc "不过无论原因是什么......"
+    mc "这件事并没有破坏我对你的印象。"
+    mc "不如说，我早就认定你人不坏了。"
+    mc "而且，既然你都道歉了，我就更肯定你不是真心那样做的了。"
     y 3t "A-Ah..."
     y "[player]..."
     y 3u "Don't say those kinds of things so frankly..."
@@ -516,7 +516,7 @@ label ch22_end:
     $ style.say_dialogue = style.edited
     $ currentpos = get_pos() / 2.07
     play music "<from " + str(currentpos) + " loop 1.532>bgm/9g.ogg"
-    y "谁在乎那个烦人的幼稚鬼啊？"
+    y "谁想在乎那个烦人的幼稚鬼啊？"
     $ style.say_dialogue = style.normal
     $ currentpos = get_pos() * 2.07
     play music "<from " + str(currentpos) + " loop 3.172>bgm/9.ogg"
@@ -533,7 +533,7 @@ label ch22_end:
     $ style.say_dialogue = style.edited
     $ currentpos = get_pos() / 2.07
     play music "<from " + str(currentpos) + " loop 1.532>bgm/9g.ogg"
-    y "就算她自杀了，也不会有人为她哭泣的。"
+    y "那家伙就算是自杀了，也不会有人为她哭泣的。"
     $ style.say_dialogue = style.normal
     $ currentpos = get_pos() * 2.07
     stop music
