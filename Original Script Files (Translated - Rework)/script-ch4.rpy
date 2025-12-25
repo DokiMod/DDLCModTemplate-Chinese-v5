@@ -283,23 +283,23 @@ label ch4_main:
 label ch4_exclusive_natsuki:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
-    "I spend only a few minutes back at home anxiously awaiting Natsuki's arrival."
-    "Before I know it, she texts me to let me know she's outside the front door."
-    "Without delay, I open the front door to let her in."
+    "回到家后，我紧张地等待着夏树的到来，但其实只等了几分钟。"
+    "很快，她就发短信说她已经到门口了。"
+    "我马上去开了门，让她进来。"
     show natsuki 2bj zorder 2 at t11
     mc "......"
     n "怎么了？"
     mc "......嘿。"
-    "I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off."
-    "Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison."
-    n 4bc "Jeez, don't make it feel so awkward already!"
-    n "It's gonna be a long afternoon, so don't be weird just because you're not used to seeing me outside of school."
-    n "Anyway, I'm coming in."
+    "我也不知道自己在期待什么，不过夏树穿的竟然不是校服，这真是完全出乎我的意料。"
+    "和这么可爱的衣服一比，校服似乎变得完全不适合她了。"
+    n 4bc "真是的，不要搞得这么尴尬啊！"
+    n "还有一整个下午呢，别搞得这么奇奇怪怪的，不就是没在校外见过我么。"
+    n "总之，我要进来了。"
     scene bg kitchen
     show natsuki 1bj zorder 2 at t11
     with wipeleft
-    mc "I see you brought a lot of stuff..."
-    "Natsuki is carrying a large bag that is probably full of baking supplies."
+    mc "我看你带了很多东西......"
+    "夏树拎着一个大袋子，里面大概装满了烘焙用品。"
     n 2bj "Well, I didn't want to come all this way to find out that your kitchen isn't equipped for the job."
     n "You bought everything I asked you to, right?"
     mc "Yeah, I did."
@@ -658,20 +658,20 @@ label ch4_exclusive_natsuki:
     "My head starts to go dizzy as I feel her soft breaths against me."
     n 1bh "I've felt it..."
     n "For a while now..."
-    n 1bo "--!!"
+    n 1bo "——！！"
     show natsuki zorder 2 at t11
-    "Natsuki suddenly jumps back."
-    n "S-Sayori?!"
-    mc "Eh?!"
+    "夏树突然往后一跳。"
+    n "纱、纱世里？！"
+    mc "诶？！"
     show natsuki zorder 2 at t22
     show sayori 1bl zorder 3 at f21
-    s "Ah..."
-    s "H-Hi, [player]..."
-    mc "Sayori--!"
-    mc "Just now, we weren't--"
+    s "啊......"
+    s "嗨、嗨，[player]......"
+    mc "纱世里——！"
+    mc "我们刚刚不是在——"
     s 1bq "欸嘿嘿~"
-    s "It's okay, [player]."
-    s 1ba "I just stopped by to say hi~"
+    s "没关系的，[player]。"
+    s 1ba "我只是顺路过来打个招呼~"
     show sayori zorder 2 at t21
     show natsuki zorder 3 at f22
     n 5bq "A-Ah..."
@@ -680,17 +680,17 @@ label ch4_exclusive_natsuki:
     n "I'm already on my way out, so..."
     show natsuki zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1bh "Aw, really?"
-    s "That's too bad..."
+    s 1bh "呀，真的吗？"
+    s "那太可惜了......"
     show sayori zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 2bq "Yeah, well..."
-    n "I'll still see you at the festival tomorrow, so it's fine."
-    n 2bb "Just don't eat any cupcakes before then!"
-    n "Anyway, later!"
+    n 2bq "嗯，这个嘛......"
+    n "明天还能在学园祭上见面，所以也没关系的。"
+    n 2bb "不过记得不要在学园祭前偷吃蛋糕哦！"
+    n "那么，回见！"
     show natsuki at lhide
     hide natsuki
-    "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye."
+    "夏树慌慌张张地仓促离开了，而纱世里还在那里挥手告别。"
     return
 
 label ch4_exclusive_yuri:
@@ -1173,17 +1173,17 @@ label ch4_exclusive_yuri:
     "How am I supposed to respond to that?"
     "But I don't even get a chance to, as Yuri suddenly pulls back."
     show yuri 3bn zorder 2 at t11
-    y "S-Sayori--?"
-    mc "Eh?!"
+    y "纱、纱世里——？"
+    mc "诶？！"
     show sayori 1bl zorder 3 at f21
     show yuri zorder 2 at t22
-    s "Ah..."
-    s "H-Hi, [player]..."
-    mc "Sayori--!"
-    mc "Just now, we weren't--"
+    s "啊......"
+    s "嗨、嗨，[player]......"
+    mc "纱世里——！"
+    mc "我们刚刚不是在——"
     s 1bq "欸嘿嘿~"
-    s "It's okay, [player]."
-    s 1ba "I just stopped by to say hi~"
+    s "没关系的，[player]。"
+    s 1ba "我只是顺路过来打个招呼~"
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
     y 3bq "U-Um..."
@@ -1191,26 +1191,26 @@ label ch4_exclusive_yuri:
     y 3bv "I'm sorry, but I'm already on my way to leave!"
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1bh "Aw, really?"
-    s "That's too bad..."
+    s 1bh "呀，真的吗？"
+    s "那太可惜了......"
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y 2bt "I'm sorry..."
-    y "But we'll all be together at the festival tomorrow, so..."
-    y "So that's fine, right?"
+    y 2bt "抱歉......"
+    y "不过明天大家都会去学园祭的，所以......"
+    y "所以也没关系的，对吧？"
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 4bq "Of course!"
-    "Sayori beams."
+    s 4bq "那当然！"
+    "纱世里笑容满面地说道。"
     show sayori 4ba
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y 4bc "Y-Yeah, so..."
-    y "I'll see you tomorrow!"
+    y 4bc "是、是啊，那......"
+    y "那明天再见！"
     show yuri at lhide
     hide yuri
-    "Clearly embarrassed, Yuri hurries off."
-    "Sayori waves goodbye after her."
+    "优里显然有些尴尬，匆匆忙忙地走了。"
+    "纱世里还在她身后挥手告别。"
     return
 
 
