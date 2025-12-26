@@ -56,10 +56,10 @@ label ch22_n_end:
         jump ch22_n_end2
     else:
         $ poem_db.show_poem("poem_n2")
-        n 2a "Not bad, right?"
-        mc "It's quite a bit longer than yesterday's."
-        n 2w "Yesterday's was way too short..."
-        n "I was just warming up!"
+        n 2a "还不错吧？"
+        mc "篇幅可比昨天那首要长得多了。"
+        n 2w "昨天那首实在太短了......"
+        n "那不过是热热身罢了！"
         n 2c "I hope you didn't think that was the best I could do."
         mc "No, of course not..."
         n 2a "Anyway, the message is pretty straightforward in this poem."
@@ -83,15 +83,15 @@ label ch22_n_end:
 label ch22_n_end2:
     $ poem_db.show_poem("poem_n2b", revert_music=False)
     $ style.say_dialogue = style.edited
-    n 1g "[player]..."
-    n "Why didn't you come read with me today?"
-    n 1m "I was waiting for you."
-    n "I was waiting for a long time."
-    n "It was the only thing I had to look forward to today."
-    n "Why did you ruin it?"
-    n "Do you like Yuri more?"
-    n 1k "I think you're better off not associating with her."
-    n "Are you listening to me?"
+    n 1g "[player]......"
+    n "为什么你今天不来陪我看书？"
+    n 1m "我明明一直在等你。"
+    n "我都等了你好久好久。"
+    n "这可是我今天唯一值得期待的事情。"
+    n "为什么你偏偏要把它毁了？"
+    n "难不成你是更喜欢优里吗？"
+    n 1k "我觉得你最好不要跟她扯上一点关系。"
+    n "喂！你有在听我说话吗？"
     show darkred zorder 5:
         alpha 0.0
         easein 4.0 alpha 1.0
@@ -107,9 +107,9 @@ label ch22_n_end2:
     n "所以你还是改成陪我玩吧。"
     n "可以吗？"
     n "[player]，你并不讨厌我，对吧？"
-    n "你讨厌我吗？"
+    n "你到底讨厌我吗？"
     show natsuki_ghost_blood zorder 3
-    n "你想让我哭着回家吗？"
+    n "难道你就想让我哭着回家吗？"
     n "文学部是唯一一个让我感到安全的地方。"
     n "不要毁了我的安乐窝。"
     n "不要毁了它。"
@@ -210,17 +210,17 @@ label ch22_m_end:
     m 5 "抱歉，我知道这样说有些抽象。"
     m "我只是在试着......唔......"
     m 1r "算了，当我没说。"
-    m "解释没有意义。"
+    m "反正解释也没有意义。"
     m 1i "Anyway..."
     m 3b "Here's Monika's Writing Tip of the Day!"
     m "Sometimes you'll find yourself facing a difficult decision..."
     m "When that happens, don't forget to save your game!"
     m 3k "You never know when...um..."
-    m 3i "...Who am I talking to?"
-    m "Can you hear me?"
-    m 3g "Tell me you can hear me."
-    m "Anything."
-    $ renpy.call_screen("dialog", "请帮帮我。", ok_action=Return())
+    m 3i "......我到底在跟谁说话啊？"
+    m "听得到我说话吗？"
+    m 3g "告诉我，你能听到我说话。"
+    m "什么都好。"
+    $ renpy.call_screen("dialog", "请救救我。", ok_action=Return())
     m 3k "...That's my advice for today!"
     m "Thanks for listening~"
     return
@@ -264,28 +264,28 @@ label ch21_n_good:
 label ch22_n_bad:
 
     if get_character_poem_appeal("natsuki", 1) < 0:
-        n 1r "..."
-        n "Yeah, just as I thought..."
-        mc "...?"
-        n 2w "[player], come on."
-        n "I'm not stupid."
-        n 2h "I know how much time you've been spending with Yuri..."
-        n "It's obvious that you care more about impressing her than trying to improve your writing."
-        n 2w "To put it bluntly, it's kind of pathetic."
-        n 4h "Why are you even in this club, [player]?"
-        n "Honestly..."
-        n "I thought getting a new member would help everyone get more involved together."
-        n 4s "Not exclude each other even more."
-        n 1u "This is such a stupid activity anyway..."
-        n 12c "...Look, I'm not in a good mood today, and I just really don't feel like talking right now."
-        n "Please go away."
+        n 1r "......"
+        n "唉，不出所料......"
+        mc "......？"
+        n 2w "得了吧，[player]。"
+        n "我又不傻。"
+        n 2h "我知道你在优里身上花了多少时间......"
+        n "很明显你更在乎博取她的好感，而不是努力提高写作水平。"
+        n 2w "坦白说，这有点可悲。"
+        n 4h "[player]，你究竟为什么要加入这个社团啊？"
+        n "说真的......"
+        n "我原以为有新成员加入，就可以让大家更积极地参与。"
+        n 4s "而不是变本加厉地彼此排斥。"
+        n 1u "反正，这活动真的蠢到爆炸......"
+        n 12c "......听着，我今天心情不好，而且我现在也实在不想说话。"
+        n "请你走开。"
         $ skip_poem = True
         return
     else:
 
 
-        n 1k "...Hm."
-        n "I liked your last one better."
+        n 1k "......唔。"
+        n "我更喜欢你前一首诗。"
         mc "Eh? Really?"
         n 2c "Well yeah. I can tell you were a little more daring with this one."
         n "But you're really not good enough for that yet. It fell flat."
@@ -424,11 +424,11 @@ label ch23_n_med:
         jump ch23_n_shared
 
 label ch23_n_ygave:
-    n 1h "What?"
-    n "You gave your poem to Yuri?"
-    n 4x "Gross!"
-    n "What is with you two?"
-    n 1s "Hmph..."
+    n 1h "什么？"
+    n "你已经把诗给优里看过了？"
+    n 4x "恶心死了！"
+    n "你俩到底是有什么毛病啊？"
+    n 1s "哼......"
     n "It's not like I wanted to read it anyway."
     n 1r "It's just pissing me off a little bit that you didn't even think to show me at all."
     n 1x "...Ugh."
@@ -483,7 +483,7 @@ label ch22_y_good:
         y 2e "..."
         y "......"
         "Yuri stares at the poem with a surprised expression on her face."
-        mc "Do you...like it?"
+        mc "你......喜欢这首诗吗？"
         y "[player]..."
         y "...How did you pick up on this so quickly?"
         label ch22_y_good_shared:
@@ -528,45 +528,45 @@ label ch23_y_med:
     jump ch23_y_good
 
 label ch23_y_good:
-    y 1d "Finally..."
+    y 1d "终于啊......"
     y 3y5 "啊哈哈......"
     show yuri 3m
-    "Yuri holds my poem to her face and takes a deep breath."
-    y 3y6 "I love it."
-    y "I love everything about it."
-    y 3y5 "[player], I want to take this home."
-    y "Will you let me keep it?"
-    y "Please?"
-    mc "Sure, I don't care..."
+    "优里把我的诗紧紧贴在她的脸上，深深地吸了口气。"
+    y 3y6 "我喜欢这首诗。"
+    y "我喜欢这首诗的一切。"
+    y 3y5 "[player]，我想把这首诗带回家。"
+    y "可以让我留着它吗？"
+    y "拜托了？"
+    mc "当然，我不介意......"
     y 2y5 "啊哈哈。"
-    y "You're too nice to me, [player]..."
-    y "I've never met anyone as nice as you."
-    y 2y6 "I could die..."
-    y 3y5 "N-Not really, but--!"
-    y "I just don't know how to describe it."
-    y "It's okay to be feeling this way, right?"
+    y "[player]，你对我实在是太好了......"
+    y "我从来没有遇到过像你这么好的人。"
+    y 2y6 "我死而无憾了......"
+    y 3y5 "别、别当真，只不过——！"
+    y "我只是不知道该怎么形容。"
+    y "有这样的感觉也没关系的，对吧？"
     show yuri:
         "yuri 3y4"
         0.4
         "yuri 3y6"
-    y "It's not bad, right?"
-    "Yuri holds my poem to her chest."
-    y 3m "I'm going to take this home with me and keep it in my room."
-    y "I hope that it makes you feel good when you think about me having it."
+    y "这种感觉倒也不坏，是吧？"
+    "优里把我的诗贴在自己胸前。"
+    y 3m "我会把这首诗带回家，放在我的房间里。"
+    y "希望你想到这首诗由我珍藏时，能让你感到欣慰。"
     $ style.say_dialogue = style.normal
-    y 3y5 "I'll take good care of it!"
+    y 3y5 "我会好好珍藏它的！"
     $ style.say_dialogue = style.edited
-    y 3y6 "I'll even touch myself while reading it over and over."
+    y 3y6 "我甚至会在读过一遍又一遍的同时，自慰一番。"
     $ _history_list.pop()
-    y "I'll give myself paper cuts so your skin oil enters my bloodstream."
+    y "我还要用纸张划开皮肤，让你的皮脂渗入我的血液当中。"
     $ _history_list.pop()
-    y 3y1 "Ahahahahaha."
+    y 3y1 "啊哈哈哈哈哈。"
     $ _history_list.pop()
     $ style.say_dialogue = style.normal
-    y 2s "You can have my poem too."
-    y "Besides, after you read it, I know you're really going to want to keep it."
-    y 2y6 "Here, take it. I can't wait any longer."
-    y 2y5 "Hurry! Read it!"
+    y 2s "你当然也可以读一下我的诗。"
+    y "而且，等你读完，我敢肯定你也会超级想留着它的。"
+    y 2y6 "给你，拿着吧。我已经等不了一点了。"
+    y 2y5 "快点！读啊！"
     $ y_gave = True
     return
 

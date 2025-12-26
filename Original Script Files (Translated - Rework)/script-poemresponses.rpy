@@ -426,10 +426,10 @@ label ch1_n_end:
 
 label ch2_n_end:
     $ poem_db.show_poem("poem_n2")
-    n 2a "Not bad, right?"
-    mc "It's quite a bit longer than yesterday's."
-    n 2w "Yesterday's was way too short..."
-    n "I was just warming up!"
+    n 2a "还不错吧？"
+    mc "篇幅可比昨天那首要长得多了。"
+    n 2w "昨天那首实在太短了......"
+    n "那不过是热热身罢了！"
     n 2c "I hope you didn't think that was the best I could do."
     mc "No, of course not..."
     n 2a "Anyway, the message is pretty straightforward in this poem."

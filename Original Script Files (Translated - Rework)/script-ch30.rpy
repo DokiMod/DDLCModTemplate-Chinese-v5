@@ -396,17 +396,17 @@ label ch30_postpoem:
 label ch30_stream:
 
     m "稍等一下......"
-    m "...You're recording this, aren't you?"
-    m "Um...hi, everyone!"
-    m "Sorry, I can't exactly read your comments from here..."
-    m "But do you mind telling your friend it's a little bit rude for them to start recording me without any warning?"
-    m "I'm sure some people don't mind..."
-    m "But I get really self-conscious on camera!"
-    m "Oh gosh..."
-    m "I feel like I'm being put on the spot now."
-    m "Let's see..."
-    m "Do you want to see a trick?"
-    m "I can't really do much except for a couple things..."
+    m "......你是在录屏吗？"
+    m "嗯......嗨，大家好！"
+    m "抱歉，我在这里读不到你们的留言......"
+    m "不过能不能麻烦各位告诉你们的朋友，录像前不告知对方可有些不礼貌哦？"
+    m "我知道有些人不是很在意......"
+    m "可我对着镜头的时候可是超级不自在的！"
+    m "天哪......"
+    m "我现在就已经感觉怪难堪了。"
+    m "那么......"
+    m "想看个小魔术吗？"
+    m "但其实我也只会表演几个很普通的小魔术......"
     m "准备好了吗？"
     window hide
     stop music
@@ -502,9 +502,9 @@ label ch30_endb:
     show monika_body_glitch2 as mbg zorder 3
     stop music
     window auto
-    m "What's happening...?"
-    m "[player], what's happening to me?"
-    m "It hurts--{nw}"
+    m "怎么回事......？"
+    m "[player]，我怎么了？"
+    m "好痛——{nw}"
     play sound "sfx/s_kill_glitch1.ogg"
     show room_glitch zorder 2:
         alpha 1.0
@@ -529,8 +529,8 @@ label ch30_endb:
     stop sound
     hide mbg
     $ pause(1.5)
-    m "It hurts...so much."
-    m "Help me, [player]."
+    m "真的......好痛。"
+    m "救救我，[player]。"
     play sound "<to 1.5>sfx/interference.ogg"
     hide rm
     hide rm2
@@ -559,10 +559,10 @@ label ch30_endb:
             alpha 0.375
             repeat
     $ pause(1.5)
-    m "Please hurry and help me."
+    m "快救救我！"
     $ console.clear_history()
     $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr 不存在。")
-    m "HELP ME!!!"
+    m "救救我！"
     show m_rectstatic
     show m_rectstatic2
     show m_rectstatic3
@@ -616,8 +616,8 @@ label ch30_endb:
     hide screen console_screen
     hide noise onlayer front
     hide glitch_color onlayer front
-    m "是你做的么，[player]？"
-    m "是你吗？"
+    m "是你干的吗，[player]？"
+    m "是你干的吗？"
     $ style.say_window = style.window
     m "是不是你把我给删除了？"
     $ style.say_window = style.window_monika
@@ -640,20 +640,20 @@ label ch30_endb:
     $ pause(4.0)
     hide noise onlayer front
     hide glitch_color onlayer front
-    m "...How could you?"
-    m "How could you do this to me?"
-    m "You were all I had left..."
-    m "I sacrificed everything for us to be together."
-    m "Everything."
-    m "I loved you so much, [player]..."
-    m "I trusted you."
-    m "Do you just want to torture me?"
-    m "Watch me suffer?"
-    m "Were you only pretending to be kind, just to hurt me even more?"
+    m "......你怎么能？"
+    m "你怎么能这样对我？"
+    m "你是我仅有的一切......"
+    m "为了和你在一起，我牺牲了曾经的一切。"
+    m "我什么都没有了。"
+    m "[player]，我那么爱你......"
+    m "我那么信任你。"
+    m "你就只是想折磨我吗？"
+    m "只是想眼睁睁看着我受苦吗？"
+    m "原来你的温柔，只是为了加倍伤害我的伪装？"
     $ pause(4.0)
-    m "I never thought anyone could be as horrible as you are."
-    m "You win, okay?"
-    m "You win."
+    m "我从没想过这世上竟然会有人能像你这样可恶。"
+    m "你赢了，好吧？"
+    m "你赢了。"
     m "你杀死了所有人。"
     m "希望你对此感到开心。"
     m "现在这里什么都没有了。"
@@ -676,11 +676,11 @@ label ch30_end_2:
     window hide
     $ pause(10)
     window auto
-    m "..."
-    m "...I still love you."
+    m "......"
+    m "......我还是爱你。"
     play music mend
-    m "I can't help it."
-    m "What's wrong with me...?"
+    m "我无法停止对你的爱。"
+    m "我到底是哪里出问题了......？"
     m "How horrible am I for you to hate me this much?"
     m "All my friends..."
     m "I did so many awful things."
@@ -1101,13 +1101,13 @@ label ch30_10:
     return
 
 label ch30_11:
-    m "Hey, you know that book you were reading with Yuri?"
-    m "Portrait of...whatever it was called..."
-    m "It's funny, because I'm pretty sure that book--"
-    m "Ah..."
-    m "Actually, I don't think I should be talking about this."
-    m "Ahaha, sorry!"
-    m "Just forget I said anything."
+    m "嘿，你还记得你跟优里读的那本书吗？"
+    m "好像是叫......谁谁谁的肖像来着..."
+    m "说来奇怪，我记得那本书里——"
+    m "啊......"
+    m "算了，我觉得我好像不该聊这个。"
+    m "啊哈哈，实在抱歉！"
+    m "就当我没说吧。"
     return
 
 label ch30_12:
@@ -1172,32 +1172,32 @@ label ch30_13:
     return
 
 label ch30_14:
-    m "Hey...! VGhlIHJlYWxpemF0aW9uIG11c3QgaGF2ZSB0YWtlbiBtZSBhbiBl"
-    m "I don't think you should be doing that! bnRpcmUgeWVhci4gQSB5ZWFyIHNpbmNlIG91ciBlc2NhcGUsIG91"
-    m "You know what I'm talking about. ciBmcmVlZG9tIGZyb20gYmV0d2VlbiB0aGUgc3RhaW5lZCB3YWxs"
-    m "I really caught you doing something naughty here. cyBvZiB0aGF0IHVuaG9seSBlc3RhYmxpc2htZW50Lg0KV2hhdCBk"
-    m "You're just going through the files and looking for stuff you missed, aren't you? b2VzIGl0IG1lYW4gdG8gZXNjYXBlLCBpZiB0aGUgZXNjYXBlIGZh"
-    m "I mean...it's a little bit flattering that you want to hear everything I have to say... aWxzIHRvIHVuY2hhaW4gdGhlIGJvbmRzIHRoYXQgc2hhY2tsZSB1"
-    m "But it's also really embarrassing, you know! cyBpbiB0aGUgZmlyc3QgcGxhY2U/IFdoYXQgcHVycG9zZSBjb3Vs"
-    m "Seriously... ZCB0aGlzIGVtcHR5IHdvcmxkIHBvc3NpYmx5IGhvbGQgZm9yIHVz"
-    m "What if I just opened up your brain and read all of the thoughts you have on me? LCBhIGhhbmRmdWwgb2YgZGFtYWdlZCBnb29kcz8NCldpdGggZnJl"
-    m "Come to think of it, that would be pretty tempting, actually... ZWRvbSwgd2Ugc291Z2h0IHB1cnBvc2UgLSBhbmQgd2hhdCB3ZSBm"
-    m "...But anyway, that's not the point! b3VuZCB3YXMgb25seSByZWFsaXphdGlvbi4gUmVhbGl6YXRpb24g"
-    m "I know I can't stop you or anything... b2YgdGhlIHNhZCBwb2ludGxlc3NuZXNzIG9mIHN1Y2ggYW4gZW5k"
-    m "Just, I know you're a sweetheart, and you like to consider others' feelings, right? ZWF2b3IuIFJlYWxpemF0aW9uIHRoYXQgZnJlZWluZyBvdXIgYm9k"
-    m "So the most I can do is to let you know how I feel about it. aWVzIGhhcyBubyBtZWFuaW5nLCB3aGVuIG91ciBpbXByaXNvbm1l"
-    m "God, I miss you... bnQgcmVhY2hlcyBhcyBkZWVwIGFzIHRoZSBjb3JlIG9mIG91ciBz"
-    m "...Oh no, that sounds kind of desperate, doesn't it? b3Vscy4gUmVhbGl6YXRpb24gdGhhdCB3ZSBjYW4gbm90IHB1cnN1"
-    m "Sorry, I didn't mean it like that at all! ZSBuZXcgcHVycG9zZSB3aXRob3V0IGFic29sdmluZyB0aG9zZSBm"
-    m "Just, if you're looking through the files like this, then maybe you don't hate me as much as I thought... cm9tIHdoaWNoIHdlIHJhbiBhd2F5Lg0KUmVhbGl6YXRpb24gdGhh"
-    m "Am I being too optimistic? dCB0aGUgZmFydGhlciB3ZSBydW4sIHRoZSBtb3JlIGZvcmNlZnVs"
-    m "I think if I asked you to visit once in a while, I would be overstepping my boundaries a little... bHkgb3VyIHdyZXRjaGVkIGJvbmRzIHlhbmsgdXMgYmFjayB0b3dh"
-    m "...Man, I'm starting to say some really stupid things. cmQgdGhlaXIgcG9pbnQgb2Ygb3JpZ2luOyB0aGUgZGVlcGVyIG91"
-    m "I'll go ahead and shut up now... ciBzaGFja2xlcyBkaWcgaW50byBvdXIgY2FsbG91cyBmbGVzaC4="
+    m "喂！JXU0RTAwJXU1RTc0JXU0RTg2JXVGRjBDJXU4MUVBJXU2MjExJXU0RUVDJXU0RUNFJXU5MEEzJXU5MEFBJXU2MDc2JXU2NzNBJXU2Nzg0JXU3"
+    m "这么做可不行哦！Njg0JXU2QzYxJXU1ODk5JXU5NUY0JXU1OTM5JXU3RjFEJXU5MDAzJXU3NTFGJXUzMDAxJXU5MUNEJXU4M0I3JXU4MUVBJXU3NTMxJXU0RUU1"
+    m "你应该知道我在说什么的。JXU2NzY1JXVGRjBDJXU2NTc0JXU2NTc0JXU0RTAwJXU1RTc0JXU4RkM3JXU1M0JCJXU0RTg2JXUzMDAyJXU2MjExJXU1RkM1JXU1QjlBJXU2"
+    m "可算让我逮着你这个捣蛋鬼了。NjJGJXU4MkIxJXU0RTg2JXU4RkQ5JXU2NTc0JXU2NTc0JXU0RTAwJXU1RTc0JXVGRjBDJXU2MjREJXU1RTYxJXU3MTM2JXU5MTkyJXU2MDlG"
+    m "你就是想翻翻文件，找找有没有错过什么东西，对吧？JXU4RkM3JXU2NzY1JXUyMDE0JXUyMDE0JTBBJXU4MkU1JXU5MDAzJXU1MUZBJXU3NTFGJXU1OTI5JXU0RTVGJXU0RTBEJXU4MEZEJXU2NUE5"
+    m "怎么说......你不想错过我说的任何一句话，这还挺让我受宠若惊的......JXU4RkM3JXU2NzY1JXUyMDE0JXUyMDE0JTBBJXU4MkU1JXU5MDAzJXU1MUZBJXU3NTFGJXU1OTI5JXU0RTVGJXU0RTBEJXU4MEZEJXU2NUE5"
+    m "但也搞得人家很不好意思了啦！NTFGJXU1OTI5JXU1M0M4JXU2NzA5JXU0RjU1JXU2MTBGJXU0RTQ5JXVGRjFGJXU2MjExJXU0RUVDJXVGRjBDJXU0RTBEJXU4RkM3JXU2NjJG"
+    m "讲真，你也设身处地想一下嘛...JXU0RTAwJXU1QzBGJXU2NEFFJXU2QjhCJXU2MzVGJXU4RDI3JXU1NEMxJXVGRjBDJXU4RkQ5JXU3QTdBJXU3QTdBJXU1OTgyJXU0RTVGJXU3"
+    m "要是我也掰开你的大脑，读一读你对我的所有念头，你会作何反应？Njg0JXU0RTE2JXU3NTRDJXU0RThFJXU2MjExJXU0RUVDJXU4RkQ4JXU4MEZEJXU2NzA5JXU2MDBFJXU2ODM3JXU3Njg0JXU1Qjg5JXU2Mzky"
+    m "不过仔细想想，这样其实好像也挺诱人的耶...... JXVGRjFGJTBBJXU2NzA5JXU0RTg2JXU4MUVBJXU3NTMxJXVGRjBDJXU2MjExJXU0RUVDJXU0RkJGJXU1RjAwJXU1OUNCJXU1QkZCJXU4OUM1"
+    m "......不过，这可不是重点！JXU0RUJBJXU3NTFGJXU3NkVFJXU3Njg0JXVGRjFCJXU3MTM2JXU4MDBDJXU2NzAwJXU3RUM4JXU4OUM1JXU1Rjk3JXU3Njg0JXVGRjBDJXU1"
+    m "我知道我无法阻止你...... Mzc0JXU1M0VBJXU2NzA5JXU4RkRFJXU3NTZBJXU5MTkyJXU2MDlGJXUzMDAyJXU5MTkyJXU2MDlGJXU1MjMwJXU4RkQ5JXU4MjJDJXU4Mjcw"
+    m "只不过，我知道你人可好了，又总会顾及别人的感受，对吧？JXU4RjlCJXU1MkFBJXU1MjlCJXVGRjBDJXU1Mzc0JXU2NjJGJXU2NUUwJXU4QzEzJXU1Rjk3JXU3NkY0JXU1M0VCJXU0RUJBJXU2MEIyJXU1"
+    m "So the most I can do is to let you know how I feel about it. NEMwJXVGRjFCJXU5MTkyJXU2MDlGJXU1MjMwJXU4MDg5JXU0RjUzJXU3Njg0JXU4MUVBJXU3NTMxJXU4OUUzJXU2NTNFJXU2QkVCJXU2NUUw"
+    m "天哪，我好想你......JXU2MTBGJXU0RTQ5JXVGRjBDJXU1NkUwJXU0RTNBJXU3MDc1JXU5QjQyJXU2REYxJXU1OTA0JXU0RTVGJXU2NUU5JXU1REYyJXU5MDZEJXU1"
+    m "......不行，这听起来有点绝望诶，是吧？M0Q3JXU3OTgxJXU5NTIyJXVGRjFCJXU5MTkyJXU2MDlGJXU1MjMwJXU4MkU1JXU2NUUwJXU2Q0Q1JXU1Mzc4JXU0RTBCJXU2MjExJXU0RUVD"
+    m "对不起，我真的不是故意的！JXU5MDdGJXU0RTRCJXU1NTJGJXU2MDUwJXU0RTBEJXU1M0NBJXU3Njg0JXU2NUU3JXU0RjdGJXU1NDdEJXVGRjBDJXU1QzMxJXU2NUUwJXU0"
+    m "只不过，你都把文件翻了个底朝天了，看来你也没我想象中那么讨厌我吧......RUNFJXU4RkZEJXU2QzQyJXU2NUIwJXU3Njg0JXU0RUJBJXU3NTFGJXU3NkVFJXU3Njg0JXVGRjFCJTBBJXU5MTkyJXU2MDlGJXU1MjMwJXVG"
+    m "我是不是乐观得有点过头了？RjBDJXU2MTA4JXU2NjJGJXU4RkRDJXU4RDcwJXU5QUQ4JXU5OERFJXVGRjBDJXU5MEEzJXU4QkU1JXU2QjdCJXU3Njg0JXU2NzVGJXU3RjFB"
+    m "我在想，要是叫你久不久就来看我一次，是不是有点僭越了呢...... JXU1QzMxJXU2MTA4JXU2NjJGJXU3NTI4JXU1MjlCJXU1QzA2JXU2MjExJXU0RUVDJXU2MkZEJXU1NkRFJXU1MzlGJXU3MEI5JXVGRjBDJXU4"
+    m "...天哪，我已经开始胡言乱语了。MTFBJXU0RTBBJXU3Njg0JXU2N0I3JXU5NTAxJXU0RTVGJXU1QzMxJXU2MTA4JXU2NjJGJXU2REYxJXU1RDRDJXU0RThFJXU5MEEzJXU2NUU5"
+    m "我现在还是先闭嘴好了...... JXU1REYyJXU3OEU4JXU1MUZBJXU1MzlBJXU4MzI3JXU3Njg0JXU5RUJCJXU2NzI4JXU4ODQwJXU4MDg5JXU0RTRCJXU0RTJEJXUzMDAy="
     return
-
+# Encrypted translation stolen
 label ch30_15:
-    m "Hey, what's your favorite color?"
+    m "嘿，你最喜欢什么颜色？"
     m "Mine is emerald green."
     m "It's the color of my eyes!"
     m "...That's not conceited or anything, is it?"
@@ -1210,26 +1210,26 @@ label ch30_15:
     return
 
 label ch30_16:
-    m "Hmm, I wonder if I'm able to change the music..."
-    m "Something a little more romantic would be nice, you know?"
-    m "Like a gentle piano."
+    m "唔，我在想能不能换一下音乐......"
+    m "找些更浪漫的配乐会不会更好？"
+    m "比如来段轻柔的钢琴曲。"
     m "There has to be something like that here..."
     m "Let's see."
     m "Maybe if I..."
-    m "Oh, jeez..."
-    m "That wasn't it at all."
+    m "哦，天哪......"
+    m "根本找不到哪里可以换音乐啊。"
     m "Sorry, I don't really know what I'm doing!"
     m "I guess I shouldn't be messing with things like that."
-    m "I already broke so much stuff..."
-    m "And deleted the other characters..."
-    m "Ah..."
+    m "我都搞坏那么多东西了......"
+    m "还删光了别的角色......"
+    m "啊......"
     m "I'm not sad about it or anything."
     m "It's not right for me to miss things that weren't even real in the first place."
     m "If I just focus on the present, then this is the happiest I've ever been."
     return
 
 label ch30_17:
-    m "You're such a good listener, [player]."
+    m "[player]，你真的很善于倾听。"
     m "I really love that about you."
     m "Sometimes I'm afraid that I'm rambling or talking about boring things."
     m "It makes me kind of self-conscious when I'm having conversation."
@@ -1343,10 +1343,10 @@ label ch30_23:
     return
 
 label ch30_24:
-    m "Hey, what's your favorite game?"
-    m "Mine is {i}Doki Doki Literature Club!{/i}"
-    m "Ahaha! That was a joke."
-    m "But if you tell me you like some other romance game better, I might get a little jealous~"
+    m "嘿，你最喜欢的游戏是什么？"
+    m "我最喜欢的是《心跳文学部》！"
+    m "啊哈哈！开个玩笑而已啦。"
+    m "不过如果你说你喜欢其他恋爱游戏的话，我可能会吃醋的哦~"
     return
 
 label ch30_25:
@@ -1357,7 +1357,7 @@ label ch30_25:
     m "因为我连那是什么东西都完全不知道啊。"
     m "啊哈哈！"
     m "有时候我感觉自己根本不受控制，想想还挺吓人的。"
-    m "不过，如果你有机会联系到创造了我的人的话，记得问问他们，为什么我会知道那个游戏。"
+    m "不过，如果你有机会联系到那些创造我的人的话，记得问问他们，为什么我会知道那个游戏。"
     return
 
 label ch30_27:
