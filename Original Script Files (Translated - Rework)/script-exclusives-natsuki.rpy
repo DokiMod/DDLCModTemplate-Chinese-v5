@@ -19,7 +19,7 @@ label natsuki_exclusive_1:
     mc "啊——"
     mc "......偶尔吧......"
     "漫画这种东西，在弄清楚对方的态度前，你不能直接承认自己非常喜欢。"
-    mc "......你怎么知道？"
+    mc "......话说你是怎么知道的？"
     n 2k "我之前听你提起过。"
     n "更何况，你脸上都快把‘我喜欢看漫画’几个字给写出来了。"
     "这是想表达什么意思......？"
@@ -191,7 +191,7 @@ label natsuki_exclusive_1:
     mc "But at least you're enjoying yourself, right?"
     hide n_cg1_exp3
     show n_cg1_exp2 at cgfade
-    n "--"
+    n "——"
     n "..."
     n "...So?"
     mc "啊哈哈。"

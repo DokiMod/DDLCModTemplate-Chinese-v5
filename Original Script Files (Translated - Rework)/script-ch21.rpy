@@ -232,7 +232,7 @@ label ch21_end:
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
     y "标新立异......？"
-    y 2r "那还真实抱歉呢，以你的心理年龄来说，要让你理解我的生活方式确实太难了！"
+    y 2r "那还真是抱歉呢，以你的心理年龄来说，要让你理解我的生活方式确实太难了！"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 4f "听到没有？？"
@@ -342,7 +342,7 @@ label ch21_end:
     m "嘿，[player]......"
     show monika 1e onlayer front at i11
     $ renpy.display_menu(items=[('夏树。', True), ('优里。', True)], interact=False, screen='choice')
-    m "要不我们先\n暂时离场\n一下吧。"
+    m "要不我们先\n暂时离场吧。"
     $ renpy.display_menu(items=[('夏树。', True), ('优里。', True)], interact=False, screen='choice')
     m "好吗？"
     scene bg corridor
