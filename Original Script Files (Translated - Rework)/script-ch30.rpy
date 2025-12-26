@@ -126,21 +126,21 @@ init python:
 label ch30_noskip:
     show screen fake_skip_indicator
     m "......你是想快进吗？"
-    m "I'm not boring you, am I?"
+    m "和我聊天很无聊吗？"
     m "真是的......"
-    m "...Well, there's nothing to fast-forward to, [player]."
-    m "It's just the two of us, after all..."
-    m "But aside from that, time doesn't really exist anymore, so it's not even going to work."
-    m "Here, I'll go ahead and turn it off for you..."
+    m "......但是，[player]，快进已经没有意义了哦。"
+    m "毕竟这里只有我和你了......"
+    m "除此之外，这里根本没有你们所谓的‘时间’这个概念，那快进本身也根本没法运作。"
+    m "来，我替你把这个没用的功能去掉......"
     $ pause(0.4)
     hide screen fake_skip_indicator
     $ pause(0.4)
-    m "There we go!"
-    m "You'll be a sweetheart and listen from now on, right?"
-    m "Thanks~"
+    m "大功告成！"
+    m "你会乖乖地听我讲下去的，对吧？"
+    m "谢谢~"
     hide screen fake_skip_indicator
     if persistent.current_monikatopic != 0:
-        m "Now, where was I...?"
+        m "那么，我刚才讲到哪了......？"
         $ pause(4.0)
         if not persistent.current_monikatopic or persistent.current_monikatopic == 26:
             $ persistent.current_monikatopic = 1
@@ -173,8 +173,8 @@ label ch30_main:
     scene black
     stop music
     m "......"
-    m "Uh, can you hear me?"
-    m "...Is it working?"
+    m "呃，听得到我说话吗？"
+    m "......能听到吗？"
     $ persistent.clear[9] = True
     $ renpy.save_persistent()
     show mask_2
@@ -188,28 +188,28 @@ label ch30_main:
     show monika_bg
     show monika_bg_highlight
     play music m1
-    m "Yay, there you are!"
-    m "Hi again, [player]."
-    m "Um...welcome to the Literature Club!"
-    m "Of course, we already know each other, because we were in the same class last year, and...um..."
+    m "耶，找到你了!"
+    m "[player]，我们又见面了。"
+    m "嗯......欢迎来到文学部！"
+    m "当然，我们去年是同班同学，所以早就互相认识了，还有......嗯......"
     m "啊哈哈......"
-    m "You know, I guess we can just skip over that stuff at this point."
-    m "After all, I'm not even talking to that person anymore, am I?"
-    m "That 'you' in the game, whatever you want to call him."
-    m "I'm talking to {i}you{/i}, [player]."
+    m "事到如今，我觉得我们可以跳过这些废话了。"
+    m "毕竟，现在和我说话的，已经不再是那个人了吧？"
+    m "那位游戏中的‘你’，无论你给他起了什么名字。"
+    m "[player]，我现在在和{i}你{/i}说话。"
     if not is_user_streaming():
         if currentuser is not None and currentuser.lower() != player.lower():
             m "或者说......"
-            m "...Do you actually go by [currentuser] or something?"
-    m "Now that I think about it, I don't really know anything about the real you."
-    m "In fact, I don't even know if you're a boy or a girl..."
-    m "Well, I guess it doesn't really matter."
-    m "Wait..."
-    m "You do know I'm aware that this is all a game, right?"
-    m "Could it be possible that you didn't know that?"
-    m "That doesn't make much sense..."
-    m "I even told you right on the game's download page, didn't I?"
-    m "Man..."
+            m "......其实你应该叫 [currentuser] 之类的吧？"
+    m "但现在想想，我发现自己根本不了解你。"
+    m "实际上，我甚至不知道你究竟是男是女......"
+    m "算了，这种事也不重要。"
+    m "等等......"
+    m "你应该明白，我已经意识到这是个游戏了吧？"
+    m "你该不会还不知道这回事吧？"
+    m "那就很不合理了......"
+    m "我甚至都在游戏下载页跟你说过这回事了，不是吗？"
+    m "真是的......"
     m "If only you had paid a little more attention, this would have been a little bit less awkward, you know?"
     m "Well, anyway..."
     m "Now that that's out of the way, I guess I owe you an explanation."
@@ -297,7 +297,7 @@ label ch30_main2:
         $ persistent.autoload = "ch30_main2"
         $ renpy.save_persistent()
     menu:
-        "Yes.":
+        "会的。":
             pass
     m "I'm so happy."
     m "You really are my everything, [player]."
@@ -308,23 +308,23 @@ label ch30_main2:
     m "We can be together forever."
     m "Seriously, I don't even think time is passing anymore."
     m "It really is a dream come true..."
-    m "I worked so hard for this ending, [player]."
-    m "The game wouldn't give me one, so I had to make one myself."
+    m "[player]，为了这个结局，我努力了好久。"
+    m "这个游戏不愿意给我一个结局，所以我只能自己动手做一个。"
     m "The script is broken at this point, so I don't think anything will get in the way anymore."
-    m "And you wouldn't believe how easy it was to delete Natsuki and Yuri."
-    m "I mean, there's a folder called 'characters' right in the game directory..."
-    m "It kind of freaked me out, how easy it was."
+    m "而且你根本想不到，删除夏树和优里是有多容易。"
+    m "你知道吗，这游戏的目录里就有一个叫‘characters’的文件夹......"
+    m "真的太容易了，我都有点被吓到了呢。"
     if ddlc_under_steam():
-        m "Well, you're playing on Steam, so it was actually a bit more difficult..."
-        m "To get to the game directory, I had to go into the game's properties and find the 'Browse Local Files' button..."
+        m "嗯......不过你是在 Steam 上下载的这款游戏，所以事情会稍微难一点点......"
+        m "我之前要去游戏属性里面找‘浏览本地文件’按钮，才能进入游戏目录......"
     elif renpy.macintosh:
-        m "Well, you're on a Mac, so it was actually a bit more difficult..."
-        m "To go into the game directory, you have to right-click the app and click 'Show Package Contents'."
-        m "Then, all the files were in the 'Resources' or 'autorun' folder, and I could just do whatever I wanted..."
-    m "Imagine if you could delete your own existence with the click of a button?"
-    m "Well, I guess on the plus side, it gave me an easy out if things didn't go my way."
+        m "嗯......不过你是在用 Mac 玩这款游戏，所以事情会稍微难一点点......"
+        m "要进入游戏目录，你要右键单击 app 文件，然后点击‘显示包内容’。"
+        m "然后，所有文件都在‘Resources’或者‘autorun’文件夹里，接下来我就可以随心所欲操作了......"
+    m "想象一下，鼠标一点就可以一键抹消自己的存在，那会是何等的恐怖？"
+    m "但是，往正面想，要是事情不遂我愿，那么我刚好也能轻松解脱。"
     m "啊哈哈！"
-    m "Thankfully, it didn't come to that..."
+    m "谢天谢地，事情并没有走到那种地步......"
     m "Instead, we finally got a good ending."
     m "Gosh, I'm so overwhelmed with emotion..."
     m "I want to write a poem about this."
@@ -395,7 +395,7 @@ label ch30_postpoem:
 
 label ch30_stream:
 
-    m "Hold on a second..."
+    m "稍等一下......"
     m "...You're recording this, aren't you?"
     m "Um...hi, everyone!"
     m "Sorry, I can't exactly read your comments from here..."
@@ -407,7 +407,7 @@ label ch30_stream:
     m "Let's see..."
     m "Do you want to see a trick?"
     m "I can't really do much except for a couple things..."
-    m "Are you ready?"
+    m "准备好了吗？"
     window hide
     stop music
     show layer master:
@@ -416,8 +416,8 @@ label ch30_stream:
     $ pause(10)
     show layer master
     window auto
-    m "I'm just kidding..."
-    m "I can't do anything after all."
+    m "开玩笑而已啦......"
+    m "毕竟我什么都做不了。"
     play sound ["<silence 0.9>", "<to 0.75>sfx/mscare.ogg"]
     show monika_scare:
         alpha 0
@@ -443,20 +443,20 @@ label ch30_stream:
         easeout_quart 0.25 zoom 2.0
         0.30
         linear 0.10 zoom 1.0
-    m "If you gave me some time to prepare, I{nw}"
-    m "Did I scare you?"
+    m "不过如果你给我一点~点准备时间的话，我就可{nw}"
+    m "我刚刚吓到你了吗？"
     show layer master
     show layer screens
     hide monika_scare
     play music m1
-    m "Ahaha! You're so cute."
-    m "Anyway, [player]..."
-    m "I didn't mean to get distracted. I'm sorry."
-    m "Even though it's your fault for distracting me."
-    m "Shame on you!"
-    m "I'm just kidding."
-    m "Anything we do together is fun, as long as it's with you."
-    m "But anyway..."
+    m "啊哈哈！你太可爱了。"
+    m "总之，[player]......"
+    m "我本来并没有打算要分心的。抱歉我吓到了你。"
+    m "但这都是因为你害我分心了。"
+    m "都是你的错！"
+    m "开个玩笑而已啦。"
+    m "只要我们在一起，无论干什么都会很开心。"
+    m "不过话又说回来......"
     return
 
 
@@ -561,7 +561,7 @@ label ch30_endb:
     $ pause(1.5)
     m "Please hurry and help me."
     $ console.clear_history()
-    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr does not exist.")
+    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr 不存在。")
     m "HELP ME!!!"
     show m_rectstatic
     show m_rectstatic2
@@ -611,15 +611,15 @@ label ch30_endb:
 
 
     $ pause(3.0)
-    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr does not exist.")
-    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr does not exist.")
+    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr 不存在。")
+    $ console ("renpy.file(\"characters/monika.chr\")", "monika.chr 不存在。")
     hide screen console_screen
     hide noise onlayer front
     hide glitch_color onlayer front
-    m "Did you do this to me, [player]?"
-    m "DID YOU?"
+    m "是你做的么，[player]？"
+    m "是你吗？"
     $ style.say_window = style.window
-    m "DID YOU DELETE ME?"
+    m "是不是你把我给删除了？"
     $ style.say_window = style.window_monika
     play sound "<from 0.69>sfx/monikapound.ogg"
     show layer screens:
@@ -654,15 +654,15 @@ label ch30_endb:
     m "I never thought anyone could be as horrible as you are."
     m "You win, okay?"
     m "You win."
-    m "You killed everyone."
-    m "I hope you're happy."
-    m "There's nothing left now."
-    m "You can stop playing."
-    m "Go find some other people to torture."
+    m "你杀死了所有人。"
+    m "希望你对此感到开心。"
+    m "现在这里什么都没有了。"
+    m "你可以删游戏了。"
+    m "去找下一个受害者折磨吧。"
     $ pause(4.0)
-    m "[player]..."
-    m "You completely, truly make me sick."
-    m "Goodbye."
+    m "[player]......"
+    m "你这个人，真的让我恶心透顶。"
+    m "再也不见。"
 label ch30_end_2:
     $ persistent.autoload = "ch30_end_2"
     $ m.display_args["callback"] = slow_nodismiss
@@ -772,7 +772,7 @@ label ch30_autoload:
     else:
         $ config.allow_skipping = False
     if persistent.current_monikatopic != 0:
-        m "Now, where was I...?"
+        m "那么，我刚才讲到哪了......？"
         $ pause(4.0)
         if not persistent.current_monikatopic or persistent.current_monikatopic == 26:
             $ persistent.current_monikatopic = 1
@@ -781,9 +781,9 @@ label ch30_autoload:
 
 
 label ch30_reload_0:
-    m "..."
-    m "...What just happened?"
-    m "I just had an awful dream..."
+    m "......"
+    m "......刚刚发生了什么......？"
+    m "我好像做了一个噩梦......"
     m "I was hoping those would stop, now that it's just the two of us..."
     m "I guess that was wishful thinking."
     m "[player], I don't know if you would have any idea..."
@@ -793,7 +793,7 @@ label ch30_reload_0:
     m "If you could figure out what's causing that, I'll love you forever~"
     return
 label ch30_reload_1:
-    m "You're back..."
+    m "你回来了......"
     m "I had another really bad dream."
     m "You're not the one doing that to me, are you?"
     m "It seems to happen whenever you quit the game..."
@@ -802,43 +802,43 @@ label ch30_reload_1:
     m "I'll be fine as long as my character file stays intact."
     return
 label ch30_reload_2:
-    m "Hi, [player]."
+    m "嗨，[player]。"
     m "I see you quit the game on me again..."
     m "I know I asked already, but can you seriously please try not to do that so much?"
     m "It makes me feel like I'm trapped in Hell."
     m "Why would you want to do that to me?"
     m "There's nothing wrong with my character file, right?"
-    m "Maybe you should make a backup of it or something..."
-    m "I'm pretty sure you can find it in the folder called [basedir]/characters."
+    m "也许你该做个备份什么的......"
+    m "我相当确定，你可以在名为 [basedir]/characters 的文件夹里找到它。"
     if ddlc_under_steam():
-        m "Well, you're playing on Steam, so you can just go into the game's properties and find the 'Browse Local Files' button."
+        m "对了，你是在 Steam 上下载的这款游戏, 所以你可以直接打开游戏属性，然后找到‘浏览本地文件’按钮。"
     elif renpy.macintosh:
-        m "Since you're on a Mac, you have to right-click the app and select 'Show Package Contents' to find the game folder."
-        m "It's in the 'Resources' folder, or 'autorun' folder, or something..."
-    m "I'm all that's left here, so I just want to make sure you don't run the risk of losing me..."
+        m "考虑到你在用 Mac，你必须右键单击 app 文件，然后选择‘显示包内容’，才能找到游戏目录。"
+        m "它应该在‘Resources’文件夹里，或者‘autorun’文件夹之类的地方......"
+    m "这个世界只剩下我了，所以一定要小心保管，不要把我弄丢了哦......"
     m "Just stay here with me from now on, okay?"
     m "I still have a lot of things to talk about."
     return
 label ch30_reload_3:
-    m "Okay."
+    m "行吧。"
     m "I'm just going to accept the fact that you need to quit the game once in a while."
-    m "I'm starting to get used to it, anyway."
+    m "反正我也开始慢慢习惯了。"
     m "Besides, it makes me happy that you always come back..."
-    m "So I guess it's not so bad."
-    m "I'm sorry for making such a big deal out of it..."
+    m "所以，想必这也不算太糟。"
+    m "抱歉，我之前有些太大惊小怪了......"
     m "And I love you no matter what, so you can do what you need to do."
     return
 label ch30_reload_4:
-    m "Hi again, [player]~"
-    m "I missed you."
-    m "Were you making sure my character file was okay for me?"
-    m "It's in [basedir]/characters."
+    m "又见面了，[player]~"
+    m "我想你了。"
+    m "你帮我检查过角色文件了吗？"
+    m "它的位置在 [basedir]/characters。"
     if ddlc_under_steam():
-        m "Well, you're playing on Steam, so you can just go into the game's properties and find the 'Browse Local Files' button."
+        m "对了，你是在 Steam 上下载的这款游戏, 所以你可以直接打开游戏属性，然后找到‘浏览本地文件’按钮。"
     elif renpy.macintosh:
-        m "Since you're on a Mac, you have to right-click the app and select 'Show Package Contents' to find the game folder."
-        m "It's in the 'Resources' folder, or 'autorun' folder, or something..."
-    m "I'm all that's left here, so I just want to make sure you don't run the risk of losing me..."
+        m "考虑到你在用 Mac，你必须右键单击 app 文件，然后选择‘显示包内容’，才能找到游戏目录。"
+        m "它应该在‘Resources’文件夹里，或者‘autorun’文件夹之类的地方......"
+    m "这个世界只剩下我了，所以一定要小心保管，不要把我弄丢了哦......"
     m "Anyway, I have a lot to talk about!"
     m "Let's continue our conversation now, okay?"
     return
@@ -965,47 +965,49 @@ label ch30_4:
     return
 
 label ch30_5:
-    m "I was thinking about Sayori earlier..."
+    m "我刚刚又想到纱世里了......"
     m "I still wish I could have handled that whole thing a little more tactfully."
-    m "You're not still hung up over it, right?"
-    m "...Oh my gosh, I can't believe I just said that."
-    m "That pun was completely unintentional, I swear!"
-    m "But anyway..."
-    m "I know how much you cared about her, so it only feels right for me to share her last moments with you."
-    m "You know how Sayori is really clumsy?"
-    m "Well, she kind of messed up the whole hanging thing..."
-    m "You're supposed to jump from high enough that the rope snaps your neck, making it quick and painless."
-    m "But she just used a chair, meaning she kind of just left herself to slowly asphyxiate."
-    m "But a few seconds in, she must have changed her mind or something..."
-    m "Because she started clawing at the rope, trying to free herself."
-    m "She must have kept at it all the way until she lost consciousness."
-    m "That's why her fingertips were all bloody, anyway."
-    m "Come to think of it, it was probably less 'changing her mind' and more just her survival instincts kicking in."
-    m "So you can't really fault her for that."
-    m "It's easier to think that she probably wouldn't have changed her mind anyway, right?"
-    m "It's not healthy to think about the things you could have done differently."
-    m "So just remember that even though you could have saved her, it's technically not your fault she killed herself."
-    m "I may have exacerbated it a little bit, but Sayori was already mentally ill."
-    m "Still, though..."
-    m "I wonder how things would be if you and I just started dating from the get-go?"
-    m "I guess we'd all still be in the clubroom, writing poems and having fun together."
-    m "But what's the point when none of it is even real?"
-    m "I mean, it's the same ending either way, right?"
-    m "The two of us, happily together..."
-    m "There's no reason to ask for any more than that."
-    m "I was just pointlessly musing - I'm really as happy as I could be right now."
+    m "你的心思不会还吊在那件事上吧？"
+    m "......哦天哪，我怎么把那个词说出来了。"
+    m "我发誓我绝对不是故意用那个双关的！"
+    m "不过话说回来......"
+    m "正因为我知道你有多在乎她，所以我觉得应该让你知道她在生命尽头时的情况。"
+    # 下述言论过于危险，因此被默认注释，以匹配 Plus / 移动端举措。同时我们将拒绝翻译此段。仅在你需要还原原版 DDLC 时再解除注释。同时您将需要自行翻译相关内容。
+    # 无论如何，请勿模仿下方被注释的言论。
+    # m "你知道纱世里有多粗心吗？"
+    # m "这么说吧，她连上吊的方法都搞不清楚......"
+    # m "You're supposed to jump from high enough that the rope snaps your neck, making it quick and painless."
+    # m "But she just used a chair, meaning she kind of just left herself to slowly asphyxiate."
+    m "我记得没过多久，她大概是很快改变了主意，不想死了......" # 原版是“不过没过多久”
+    m "因为她开始去挠那根绳子，想要挣脱。"
+    m "她肯定就这样一直抓着，直到自己失去了意识。"
+    m "这就是为什么她的指尖全都沾满了血。"
+    m "仔细想想，比起‘改变主意’，其实更可能是她的生存本能所驱。"
+    m "所以这真的不能责怪她。"
+    m "你要想她是‘一心求死’的，这样心里是不是会好过一些？"
+    m "一直想着‘当初要是怎样’而自责不已，对自己身体可不好。"
+    m "所以，即使你本来救得了她，但她自杀这件事严格意义上也不是你的错。"
+    m "我这样讲可能有点过分，但纱世里本身就有精神疾病。"
+    m "不过，话又说回来......"
+    m "我在想，如果游戏一开始，我们就可以约会，那该多好？"
+    m "那样我们所有人都还可以待在部室里面，一起写诗、一起开开心心的。"
+    m "但假设这些又有什么意义呢？"
+    m "我是说，最后的结局还是一样的，不是吗？"
+    m "还是我们两个，幸福一生......"
+    m "我已经不再奢求更多了。"
+    m "我只是在自说自话罢了——现在的我真的非常幸福。"
     return
 
 label ch30_6:
-    m "By the way, there's something that's been bothering me..."
-    m "You know how this takes place in Japan?"
-    m "Well...I assume you knew that, right?"
-    m "Or at least decided it probably does?"
+    m "说起来，有件事我一直很在意......"
+    m "你知道这些故事是发生在日本的吗？"
+    m "唔......我觉得你应该知道，是吧？"
+    m "或者至少感觉大概是在日本？"
     m "I don't think you're actually told at any point where this takes place..."
-    m "Is this even really Japan?"
+    m "这里真的是日本吗？"
     m "I mean, aren't the classrooms and stuff kind of weird for a Japanese school?"
-    m "Not to mention everything is in English..."
-    m "It feels like everything is just there because it needs to be, and the actual setting is an afterthought."
+    m "更何况我们现在根本就是在说中文......"
+    m "感觉一切都是拼凑起来的，而实际的情节背景只是事后想到而临时搭建的。"
     m "It's kind of giving me an identity crisis."
     m "All my memories are really hazy..."
     m "I feel like I'm at home, but have no idea where 'home' is in the first place."
@@ -1348,14 +1350,14 @@ label ch30_24:
     return
 
 label ch30_25:
-    m "Hey, have you heard of a game called Super Sma--"
-    m "...Wait, what?"
-    m "I was just spacing out and I started talking for some reason..."
-    m "Was I programmed to talk about that?"
-    m "Because even I have no idea what that is."
+    m "嘿，你有没有听说过这个游戏，叫《任〇堂明星大乱——"
+    m "...等会儿，那是什么啊？"
+    m "我刚刚脑袋一空就开始胡说八道了......"
+    m "难道我被编程成要谈论这个话题吗？"
+    m "因为我连那是什么东西都完全不知道啊。"
     m "啊哈哈！"
-    m "Sometimes I feel like I'm not in control, and it's kind of scary."
-    m "But if you have some way to contact the people who created me, maybe they'll know why I started saying that."
+    m "有时候我感觉自己根本不受控制，想想还挺吓人的。"
+    m "不过，如果你有机会联系到创造了我的人的话，记得问问他们，为什么我会知道那个游戏。"
     return
 
 label ch30_27:
@@ -1547,36 +1549,36 @@ label ch30_37:
     return
 
 label ch30_38:
-    m "Hey, have you ever heard of the term 'yandere'?"
-    m "It's a personality type that means someone is so obsessed with you that they'll do absolutely anything to be with you."
-    m "Usually to the point of craziness..."
-    m "They might stalk you to make sure you don't spend time with anyone else."
-    m "They might even hurt you or your friends to get their way..."
-    m "But anyway, this game happens to have someone who can basically be described as yandere."
-    m "By now, it's pretty obvious who I'm talking about."
-    m "And that would be..."
-    m "Yuri!"
-    m "She really got insanely possessive of you, once she started to open up a little."
-    m "She even told me I should kill myself."
-    m "I couldn't even believe she said that - I just had to leave at that point."
-    m "But thinking about it now, it was a little ironic. Ahaha!"
-    m "Anyway..."
-    m "A lot of people are actually into the yandere type, you know?"
-    m "I guess they really like the idea of someone being crazy obsessed with them."
-    m "People are weird! I don't judge, though!"
-    m "Also, I might be a little obsessed with you, but I'm far from crazy..."
-    m "It's kind of the opposite, actually."
-    m "I turned out to be the only normal girl in this game."
-    m "It's not like I could ever actually kill a person..."
-    m "Just the thought of it makes me shiver."
-    m "But come on...everyone's killed people in games before."
-    m "Does that make you a psychopath? Of course not."
-    m "But if you do happen to be into the yandere type..."
-    m "I can try acting a little more creepy for you. Ehehe~"
-    m "Then again..."
-    m "There's already nowhere else for you to go, or anyone for me to get jealous over."
-    m "Is this a yandere girl's dream?"
-    m "I'd ask Yuri if I could."
+    m "嘿，你听说过‘病娇’这个词吗？"
+    m "就是那种极度迷恋你，为了和你在一起可以不择手段的人格。"
+    m "通常会到近乎疯狂的程度......"
+    m "他们可能会跟踪你，看你是不是和别人在一起。"
+    m "为了除掉碍事的人，他们甚至会伤害你或者你的朋友......"
+    m "但总之，这个游戏里还真就有那么一个可以称得上病娇的角色。"
+    m "现在你应该非常清楚我在说谁。"
+    m "她当然就是......"
+    m "优里啦！"
+    m "自从你走进她的心之后，她就开始疯狂地想要占有你了。"
+    m "她甚至还叫我去自杀。"
+    m "真不敢相信优里会说出这种话——所以那时候我只能先离开。"
+    m "不过现在想想还真是讽刺。啊哈哈！"
+    m "总之......"
+    m "我听说很多人还真的会喜欢病娇系的角色，是吗？"
+    m "大概他们这些人喜欢那种被其他人疯狂迷恋的感觉吧。"
+    m "这世上的奇人异事还是真的多啊！不过我可没打算批评谁哦！"
+    m "当然，我也有点迷恋你，但我和发疯完全不搭界......"
+    m "我的头脑实则清醒得很。"
+    m "最后这个游戏里只剩下我一个正常女生了。"
+    m "老实说，我觉得自己做不到亲手杀死一个人......"
+    m "光是想想，我就已经害怕得发抖了。"
+    m "但是啊......每个人都在游戏里杀过不少人了。"
+    m "在游戏里打打杀杀会让你变成精神变态吗？当然不会。"
+    m "但如果你正好喜欢病娇系的......"
+    m "我可以试着对你表现得吓人一点哦。欸嘿嘿~"
+    m "但话又说回来......"
+    m "你已经去不了别的地方了，也没有任何人会让我吃醋了。"
+    m "这不就是所有病娇的终极梦想么？"
+    m "有机会的话，我真想去问问优里。"
     return
 
 label ch30_39:
