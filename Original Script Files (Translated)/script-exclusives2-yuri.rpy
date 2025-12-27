@@ -17,7 +17,7 @@ label yuri_exclusive2_1:
     mc "Sorry..."
     mc "I was just spacing out..."
     "I mutter this, sensing I made her uncomfortable."
-    y oneeye "Oh..."
+    y oneeye "哦......"
     y "It's fine..."
     y "If I was focused, then I probably wouldn't have noticed in the first place."
     y "But I'm just re-reading a bit of this, so..."
@@ -234,10 +234,10 @@ label yuri_exclusive2_1_ch22:
     "Yuri stands up and practically rushes out of the classroom."
     mc "What on Earth was that about...?"
     show monika 1d zorder 2 at t11
-    m "[player]?"
-    m "Did something happen just now?"
+    m "[player]？"
+    m "刚刚是不是发生什么事了？"
     mc "诶？"
-    mc "I have no idea..."
+    mc "我没啥头绪啊......"
     mc "Yuri was acting a little strange, I guess..."
     m 1r "So you don't know anything..."
     mc "Sorry, I can't say I do."
@@ -320,7 +320,7 @@ label yuri_exclusive2_2_ch22:
     with wipeleft_scene
 
     "......"
-    "Ten minutes pass."
+    "十分钟过去了。"
     "Yuri said it wouldn't take long..."
     "Is something holding her up?"
     "I'm bored just waiting here, so I decide to go look for her."
@@ -333,19 +333,19 @@ label yuri_exclusive2_2_ch22:
     $ y_name = "优里"
     "I start heading down the hallway."
     $ y_name = "???"
-    y "Haah.....haah...."
-    y "....Haah.....haah...."
+    y "哈啊......哈啊......"
+    y "......哈啊........哈啊......"
     "...What's that noise?"
     "It's coming from around the corner..."
     "It sounds like breathing."
-    y "Khhhhh--"
+    y "嘶————"
     "A sharp inhale, like someone is sucking the air through their teeth."
     "Are they in pain...?"
     "I reach the corner and peer around it."
-    mc "Yuri...?"
+    mc "优里......？"
     $ y_name = "优里"
     show yuri cuts zorder 2 at t11
-    y "Kya--!"
+    y "噫呀——！"
 
     $ currentpos = 45.264 - (get_pos() / 2.0)
     $ audio.t6r = "<from " + str(currentpos) + " to 39.817 loop 0>bgm/6r.ogg"
@@ -357,16 +357,16 @@ label yuri_exclusive2_2_ch22:
     show vignette zorder 100 at vignetteflicker(-2.030)
     show layer master at rewind
     $ y_name = "???"
-    mc "{cps=150}Yuri...?{/cps}{nw}"
+    mc "{cps=150}优里......？{/cps}{nw}"
     "{cps=150}I reach the corner and peer around it.{/cps}{nw}"
     "{cps=150}Are they in pain...?{/cps}{nw}"
     "{cps=150}A sharp inhale, like someone is sucking the air through their teeth.{/cps}{nw}"
-    y "{cps=150}Khhhhh--{/cps}{nw}"
+    y "{cps=150}嘶————{/cps}{nw}"
     "{cps=150}It sounds like breathing.{/cps}{nw}"
     "{cps=150}It's coming from around the corner...{/cps}{nw}"
     "{cps=150}...What's that noise?{/cps}{nw}"
-    y "{cps=150}....Haah.....haah....{/cps}{nw}"
-    y "{cps=150}Haah.....haah....{/cps}{nw}"
+    y "{cps=150}......哈啊........哈啊......{/cps}{nw}"
+    y "{cps=150}哈啊......哈啊......{/cps}{nw}"
     $ y_name = "优里"
     "{cps=150}I start heading down the hallway.{/cps}{nw}"
     "{cps=150}The most logical place for Yuri to be would be the nearest water fountain...{/cps}{nw}"
@@ -380,8 +380,8 @@ label yuri_exclusive2_2_ch22:
     "{cps=150}I'm bored just waiting here, so I decide to go look for her.{/cps}{nw}"
     "{cps=150}Is something holding her up?{/cps}{nw}"
     "{cps=150}Yuri said it wouldn't take long...{/cps}{nw}"
-    "{cps=150}Ten minutes pass.{/cps}{nw}"
-    "{cps=150}...{/cps}{nw}"
+    "{cps=150}十分钟过去了。{/cps}{nw}"
+    "{cps=150}......{/cps}{nw}"
 
     $ del _history_list[-37:]
     if poemwinner[0] == "yuri" and chapter == 3:
@@ -394,7 +394,7 @@ label yuri_exclusive2_2_ch22:
     hide vignette
     show layer master
     show yuri 1a zorder 2 at t11
-    y "I'm back."
+    y "我回来了。"
     y "Thanks for waiting patiently."
     y "[player], do you like oolong tea?"
     mc "Ah, yeah."
@@ -536,7 +536,7 @@ label yuri_exclusive2_2_ch22:
     mc "S-Sorry!"
     mc "I guess I shouldn't have done that..."
     stop music
-    y "A-Ah..."
+    y "啊、啊......"
     "Yuri starts to breathe heavily."
     y "I..."
     y "I can't..."
@@ -546,11 +546,11 @@ label yuri_exclusive2_2_ch22:
     scene bg closet
     show yuri 2t zorder 2 at t11
     with wipeleft
-    y "[player]..."
+    y "[player]......"
     play sound closet_close
     show dark zorder 100
     with wipeleft
-    y "My heart..."
+    y "我的心脏......"
     y 2y6 "My heart won't stop pounding, [player]..."
     y "I can't calm down."
     y "I can't focus on anything anymore...!"
@@ -568,11 +568,11 @@ label yuri_exclusive2_2_ch22:
     hide yuri
     show yuri eyes
     $ pause(3.0)
-    y "...Haah..."
+    y "......哈啊......"
     $ pause(3.0)
-    y "...Haah..."
+    y "......哈啊......"
     $ pause(3.0)
-    y "...Haah..."
+    y "......哈啊......"
     $ pause(3.0)
     play sound closet_open
     stop music

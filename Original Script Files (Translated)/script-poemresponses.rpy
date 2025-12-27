@@ -688,7 +688,7 @@ label ch1_m_end2:
     m "Another way to think about it is this:"
     m "If you keep your pen in the same spot for too long, you'll just get a big dark puddle of ink."
     m "So just move your hand, and go with the flow!"
-    m 3k "……以上就是我今天的建议！"
+    m 3k "......以上就是我今天的建议！"
     m "感谢倾听~"
     return
 
@@ -721,7 +721,7 @@ label ch2_m_end:
     m 3d "Wait...is this tip even about writing?"
     m 3k "What am I even talking about?"
     m "啊哈哈！"
-    m 3b "……以上就是我今天的建议！"
+    m 3b "......以上就是我今天的建议！"
     m "感谢倾听~"
     return
 
@@ -753,7 +753,7 @@ label ch3_m_end:
     m "They'll want to focus more on everything that went into it, and the things you can work on."
     m "It's much more encouraging that way, and it will make you want to continue improving."
     m "It's almost like having your own little Literature Club, don't you think?"
-    m 3k "……以上就是我今天的建议！"
+    m 3k "......以上就是我今天的建议！"
     m "感谢倾听~"
     return
 
@@ -1089,7 +1089,7 @@ label ch2_n_good:
             m 1j "Of course! I liked it!"
             show monika 1a zorder 2 at t22
             show natsuki zorder 3 at f21
-            n 1r "Ugh..."
+            n 1r "呃......"
             n "You should really stop reading things that aren't for you, you know."
             n "You have a bad habit of doing that."
             show natsuki zorder 2 at t21
@@ -1117,7 +1117,7 @@ label ch2_n_good:
             m "Like what?"
             show monika zorder 2 at t22
             show natsuki zorder 3 at f21
-            n 12b "Ugh..."
+            n 12b "呃......"
             n "Never mind."
             if s_readpoem and y_readpoem:
                 "Well, I guess Natsuki has my poem now."
@@ -1204,7 +1204,7 @@ label ch3_n_bad:
             mc "I was......just joking...."
             n 4z "Oh, I know!"
             n "Don't worry, I was too."
-            n "Ahahaha!"
+            n "啊哈哈哈！"
             show natsuki 4j
             mc "......"
             "How the hell do you call that a joke?"
@@ -1373,7 +1373,7 @@ label ch1_s_bad:
     s "...Wow!"
     s "[player]..."
     s 4r "Your poem is really bad!"
-    s "Ahahaha!"
+    s "啊哈哈哈！"
     mc "诶？！"
     s 4a "It's fine, it's fine~"
     s "It's your first time."
@@ -1433,7 +1433,7 @@ label ch1_s_good:
     s 1x "Well..."
     s "Maybe that's why!"
     s "Because I have no idea what I like, either!"
-    s 1r "Ahahaha!"
+    s 1r "啊哈哈哈！"
     mc "Jeez..."
     if y_readpoem:
         "Yuri's opinion was way more constructive than this..."
@@ -1471,7 +1471,7 @@ label ch2_s_bad:
     label ch2_s_shared:
         s 1q "Yeah!"
         s "Me neither!"
-        mc "Ugh..."
+        mc "呃......"
         mc "Why don't you at least try giving it some thought?"
         s 2d "Aww, you want to write something for me?"
         s "That's so sweet~"
@@ -1570,7 +1570,7 @@ label ch2_s_good:
         mc "诶？"
         s "I love it~!"
         s "Especially after yesterday's poem!"
-        mc "Ugh..."
+        mc "呃......"
         mc "You're too honest sometimes, Sayori."
         s 4x "No, but really!!"
         s 1x "I wanna put this on my wall~"
@@ -1582,7 +1582,7 @@ label ch2_s_good:
         s 1l "Well..."
         s "Maybe that's why!"
         s "Because I have no idea what I like, either!"
-        s 4r "Ahahaha!"
+        s 4r "啊哈哈哈！"
         mc "Jeez..."
         "I'm sure Yuri's opinion has to be a little more constructive than this."
         "Maybe even Natsuki's."
@@ -1673,7 +1673,7 @@ label ch2_s_good:
         "I bend down and pick up the broken pencil."
         "Sayori clutches the desk beside her to support herself, knees shaking."
         s 5b "I-I'm a little clumsy today..."
-        s "Ahahaha..."
+        s "啊哈哈哈......"
         mc "Let's sit down, Sayori..."
         s 4y "Y-Yeah..."
         "I grab Sayori's arm and help her sit at the desk."
@@ -2378,7 +2378,7 @@ label ch1_m_start:
     m 1a "Anyway..."
     m "Want to share your poem with me?"
     mc "It's kind of embarrassing, but I guess I have to."
-    m 5a "Ahahaha!"
+    m 5a "啊哈哈哈！"
     m "Don't worry, [player]!"
     m "We're all a little embarrassed today, you know?"
     m "But it's that sort of barrier that we'll all learn to get past soon."
@@ -2481,7 +2481,7 @@ label m_natsuki_1:
     m 2b "I like it, [player]!"
     mc "Really...?"
     m 2e "It's a lot cuter than I expected."
-    m 2k "Ahahaha!"
+    m 2k "啊哈哈哈！"
     mc "Oh jeez..."
     m 1b "No, no!"
     m "It kind of makes me think of something Natsuki would write."

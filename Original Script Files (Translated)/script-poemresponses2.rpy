@@ -221,7 +221,7 @@ label ch22_m_end:
     m 3g "告诉我，你能听到我说话。"
     m "什么都好。"
     $ renpy.call_screen("dialog", "请救救我。", ok_action=Return())
-    m 3k "……以上就是我今天的建议！"
+    m 3k "......以上就是我今天的建议！"
     m "感谢倾听~"
     return
 label ch23_m_end:
@@ -587,7 +587,7 @@ label ch21_m_start:
     m 1a "Anyway..."
     m "Want to share your poem with me?"
     mc "It's kind of embarrassing, but I guess I have to."
-    m 5a "Ahahaha!"
+    m 5a "啊哈哈哈！"
     m "Don't worry, [player]!"
     m "We're all a little embarrassed today, you know?"
     m "But it's that sort of barrier that we'll all learn to get past soon."
@@ -653,7 +653,7 @@ label m2_natsuki_1:
     m 2b "I like it, [player]!"
     mc "Really...?"
     m 2e "It's a lot cuter than I expected."
-    m 2k "Ahahaha!"
+    m 2k "啊哈哈哈！"
     mc "Oh jeez..."
     m 1b "No, no!"
     m "It kind of makes me think of something Natsuki would write."
@@ -699,7 +699,7 @@ label m2_yuri_1:
     m 2b "Yuri!"
     show monika 2a
     show yuri 1s zorder 3 at f31
-    y "I'm back..."
+    y "我回来了......"
     y "Did I miss anything?"
     show yuri zorder 2 at t31
     show monika zorder 3 at f32

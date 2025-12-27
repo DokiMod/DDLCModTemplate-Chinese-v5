@@ -75,11 +75,11 @@ label natsuki_exclusive_1:
     show natsuki 5g
     "I didn't exactly expect to be sitting this close to her, either..."
     "Not that I can say it's a particularly bad thing."
-    "I open the book."
+    "我打开了漫画。"
     "It's only a few seconds before Natsuki once again inches closer, reclaiming the additional space while she hopes I won't notice."
     "I can feel her peering over my shoulder, much more eager to begin reading than I am."
     n 1k "Wow, how long has it been since I read the beginning...?"
-    mc "Hm?"
+    mc "嗯？"
     mc "You don't go back and flip through the older volumes every now and then?"
     n 2k "Not really."
     n "Maybe sometimes after I've already finished the series."
@@ -108,10 +108,10 @@ label natsuki_exclusive_1:
     mc "It sounds like you really know what you're talking about."
     mc "Maybe I underestimated you."
     n 2z "欸嘿嘿。"
-    n 1f "...Hey, wait!"
-    n "What's {i}that{/i} supposed to mean?!"
+    n 1f "......喂，等一下！"
+    n "你刚刚{i}那话{/i}是什么意思啊？！"
     mc "呜哇——"
-    "Natsuki gives me a little shove."
+    "夏树轻轻地推了我一把。"
     mc "I just meant that I haven't yet seen you at your full power..."
     n 5s "Hmph. Good save."
     mc "Ah... This chapter seems like it's about baking."
@@ -151,7 +151,7 @@ label natsuki_exclusive_1:
     mc "I always get excited when I convince any of my friends to pick up a series I enjoy."
     mc "You know what I mean?"
     n "...?"
-    mc "Hm?"
+    mc "嗯？"
     mc "You don't?"
     show n_cg1_exp2 at cgfade
     n "Um..."
@@ -175,20 +175,20 @@ label natsuki_exclusive_1:
     mc "I'm already kind of a loser, so I guess I gravitated toward the other losers over time."
     mc "But it's probably harder for someone like you..."
     hide n_cg1_exp3
-    n "Hm."
-    n "Yeah, that's pretty accurate."
-    "{i}......等会，她说的‘很准确’到底指的是哪部分啊？？{/i}"
-    n "I mean, I feel like I can't even keep it in my own room..."
-    n "我根本不知道我爸发现这些后会怎么样。"
-    n "At least it's safe here in the clubroom."
+    n "嗯。"
+    n "好吧，你说得还挺准确的。"
+    "{i}......等会儿，她说的‘很准确’到底指的是哪部分啊？？{/i}"
+    n "我是说，我甚至都没法把漫画放在自己房间里......"
+    n "我根本不知道我爸发现这些漫画后会怎么样。"
+    n "至少放在部室里挺安全的。"
     show n_cg1_exp3 at cgfade
-    n "'Cept Monika was kind of a jerk about it..."
-    n "Ugh! I just can't win, can I?"
-    mc "Well, it paid off in the end, didn't it?"
-    mc "I mean, here I am, reading it."
-    n "Well, it's not like that solves any of my problems."
+    n "虽说这里有莫妮卡那个讨人厌的家伙......"
+    n "呃、可恶！我难道就不能赢那家伙一次吗？"
+    mc "没事啦，你把漫画放在这里，不是也得到回报了吗？"
+    mc "你看，现在我不是正在这里读着吗？"
+    n "哼，可是这又没解决我的任何问题。"
     mc "也许吧......"
-    mc "But at least you're enjoying yourself, right?"
+    mc "但至少你也乐在其中，不是吗？"
     hide n_cg1_exp3
     show n_cg1_exp2 at cgfade
     n "——"
@@ -197,14 +197,14 @@ label natsuki_exclusive_1:
     mc "啊哈哈。"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
-    n "Jeez, that's enough!"
-    n "Are you gonna keep reading, or what?"
-    mc "Yeah, yeah..."
-    "I flip the page."
-    "Suddenly, Natsuki starts laughing."
+    n "天哪，真的够了！"
+    n "所以你到底还读不读了？"
+    mc "好吧，好吧......"
+    "我又翻了一页。"
+    "夏树突然笑了出来。"
     hide n_cg1_exp3
     show n_cg1_exp1 at cgfade
-    n "Ahahaha!"
+    n "啊哈哈哈！"
     n "I totally forgot that happens!"
     "Natsuki puts her finger on one of the panels."
     n "Minori is my favorite character."
@@ -229,19 +229,19 @@ label natsuki_exclusive_1:
     mc "......"
     show monika zorder 2 at t21
     show natsuki 4w zorder 3 at f22
-    n "Oh, come on!"
-    n "Could your timing be any worse?"
+    n "哦，拜托啊！"
+    n "你这时机还能踩得再糟一点吗？"
     show natsuki zorder 2 at t22
     show monika zorder 3 at f21
-    m 5 "Sorry~!"
+    m 5 "对不起~！"
     m "I just need to make sure we have enough time."
     m "Though you do look pretty cozy over there. Ahaha!"
     show monika zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 4o "Eh...?"
-    n 1p "A-Ah!"
-    "Natsuki suddenly notices how close she's gotten to me."
-    "She hastily slides herself a good twelve inches away from me."
+    n 4o "诶......？"
+    n 1p "啊、啊！"
+    "夏树突然间意识到自己离我有多近。"
+    "她连忙往旁边一滑，退了足足三十公分。"
     show monika zorder 1 at thide
     show natsuki 1s zorder 2 at t11
     hide monika
@@ -320,7 +320,7 @@ label natsuki_exclusive_2_ch3:
     m 3b "It's all still there, I just had to organize it a bit!"
     show monika zorder 1 at thide
     hide monika
-    n 1r "Ugh..."
+    n 1r "呃......"
     "The top shelf is far above Natsuki's head."
     show natsuki at h11
     "She makes a futile hop, trying to figure out how to reach her manga."

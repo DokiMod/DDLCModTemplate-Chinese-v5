@@ -152,11 +152,11 @@ label natsuki_exclusive2_1:
     show natsuki 5g
     "I didn't exactly expect to be sitting this close to her, either..."
     "Not that I can say it's a particularly bad thing."
-    "I open the book."
+    "我打开了漫画。"
     "It's only a few seconds before Natsuki once again inches closer, reclaiming the additional space while she hopes I won't notice."
     "I can feel her peering over my shoulder, much more eager to begin reading than I am."
     n 1k "Wow, how long has it been since I read the beginning...?"
-    mc "Hm?"
+    mc "嗯？"
     mc "You don't go back and flip through the older volumes every now and then?"
     n 2k "Not really."
     n "Maybe sometimes after I've already finished the series."
@@ -181,7 +181,7 @@ label natsuki_exclusive2_1:
     mc "I always get excited when I convince any of my friends to pick up a series I enjoy."
     mc "You know what I mean?"
     n "...?"
-    mc "Hm?"
+    mc "嗯？"
     mc "You don't?"
     show n_cg1_exp2 at cgfade
     n "Um..."
@@ -205,25 +205,25 @@ label natsuki_exclusive2_1:
     mc "I'm already kind of a loser, so I guess I gravitated toward the other losers over time."
     mc "But it's probably harder for someone like you..."
     hide n_cg1_exp3
-    n "Hm."
-    n "Yeah, that's pretty accurate."
-    "{i}...Wait, which part??{/i}"
+    n "嗯。"
+    n "好吧，你说得还挺准确的。"
+    "{i}......等会儿，她说的‘很准确’到底指的是哪部分啊？？{/i}"
     $ style.say_dialogue = style.normal
-    n "I mean, I feel like I can't even keep it in my own room..."
+    n "我是说，我甚至都没法把漫画放在自己房间里......"
 
     $ style.say_dialogue = style.edited
     n "要是被我爸发现这些，他铁定把我打到半死。"
     $ style.say_dialogue = style.normal
     $ _history_list[-1].what = "我根本不知道我爸发现这些后会怎么样。"
-    n "At least it's safe here in the clubroom."
+    n "至少放在部室里挺安全的。"
     show n_cg1_exp3 at cgfade
-    n "'Cept Monika's kind of a jerk about it..."
-    n "Ugh! I just can't win, can I?"
-    mc "Well, it paid off in the end, didn't it?"
-    mc "I mean, here I am, reading it."
-    n "Well, it's not like that solves any of my problems."
-    mc "Maybe..."
-    mc "But at least you're enjoying yourself, right?"
+    n "虽说这里有莫妮卡那个讨人厌的家伙......"
+    n "呃、可恶！我难道就不能赢那家伙一次吗？"
+    mc "没事啦，你把漫画放在这里，不是也得到回报了吗？"
+    mc "你看，现在我不是正在这里读着吗？"
+    n "哼，可是这又没解决我的任何问题。"
+    mc "也许吧......"
+    mc "但至少你也乐在其中，不是吗？"
     hide n_cg1_exp3
     show n_cg1_exp2 at cgfade
     n "——"
@@ -232,10 +232,10 @@ label natsuki_exclusive2_1:
     mc "啊哈哈。"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
-    n "Jeez, that's enough!"
-    n "Are you gonna keep reading, or what?"
-    mc "Yeah, yeah..."
-    "I flip the page."
+    n "天哪，真的够了！"
+    n "所以你到底还读不读了？"
+    mc "好吧，好吧......"
+    "我又翻了一页。"
     show black with dissolve_cg
     "......"
     "......"
@@ -292,7 +292,7 @@ label natsuki_exclusive2_1:
     "Natsuki's eyes suddenly light up again."
     "She snatches the bar from the floor and immediately tears off the wrapper."
     show natsuki zorder 3 at f22
-    n 1s "我不是跟你说过别让我吃唔……"
+    n 1s "我不是跟你说过别让我吃唔......"
     show natsuki zorder 2 at t22
     "She doesn't even finish her sentence before stuffing it into her mouth."
     show natsuki zorder 1 at thide

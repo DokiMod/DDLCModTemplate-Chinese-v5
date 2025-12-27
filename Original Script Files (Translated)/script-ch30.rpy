@@ -1281,7 +1281,7 @@ label ch30_20:
     m "Well, whatever."
     m "It's not like you ever made fun of me."
     m "You're too much of a sweetheart to do that, aren't you?"
-    m "Ahaha~"
+    m "啊哈哈~"
     return
 
 label ch30_21:
@@ -1409,7 +1409,7 @@ label ch30_29:
     m "Well, at least I already met the best person in the whole world..."
     m "Even if it was by chance."
     m "I guess I just got really lucky, huh?"
-    m "Ahaha~"
+    m "啊哈哈~"
     return
 
 label ch30_30:
@@ -1445,7 +1445,7 @@ label ch30_31:
     m "But I also know that I'll probably change a lot as time goes on."
     m "We just need to enjoy the present and not think about the past!"
     m "And that's really easy to do, with you here."
-    m "Ahaha~"
+    m "啊哈哈~"
     return
 
 label ch30_32:
@@ -1622,7 +1622,7 @@ label ch30_39:
     m "Our society, our art, everything - it's built on thousands of years of human innovation."
     m "So as long as you start on that foundation, and take it step by step..."
     m "You, too, can do amazing things."
-    m "……以上就是我今天的建议！"
+    m "......以上就是我今天的建议！"
     m "感谢倾听~"
     return
 

@@ -555,7 +555,7 @@ label yuri_exclusive_2_ch3:
     m "好了，各位！"
     mc "呜哇——"
     show yuri 3p zorder 2 at t11
-    y "A-Ah!"
+    y "啊、啊！"
     play music t3
     "Yuri jolts back."
     show yuri 3n
@@ -571,7 +571,7 @@ label yuri_exclusive_2_ch3:
     "The spell is abruptly broken."
     y 4c "I'll..."
     y "I'll take care of the cups..."
-    mc "Yeah..."
+    mc "好吧......"
     show yuri zorder 1 at thide
     hide yuri
     "Yuri picks up the teacups from the floor."

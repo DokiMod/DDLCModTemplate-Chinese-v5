@@ -364,7 +364,7 @@ label sayori_exclusive_2:
     show sayori 2p at h11
     "{i}Smack!{/i}"
     hide white
-    s "Kya--!"
+    s "噫呀——！"
     "Sayori bends over and smacks her forehead right into the shelf."
     "She falls to the floor, and the crayons spill all over her lap."
     show sayori 4p at s11
@@ -433,7 +433,7 @@ label sayori_exclusive_2:
     show s_cg2_exp3 at cgfade
     s "啊——"
     s "Sorry, I forgot~"
-    s "Ahahaha!"
+    s "啊哈哈哈！"
     mc "How hard did you hit your head...?"
     "Sayori places the bottle against the bump on her head."
     show s_cg2_exp1 at cgfade
