@@ -12,7 +12,7 @@ label yuri_exclusive_1:
     "糟了——"
     "I think she noticed me looking at her..."
     "She sneaks another glance at me, and our eyes meet for a split second."
-    y 4b "..."
+    y 4b "......"
     "But that only makes her hide her face deeper in her book."
     mc "Sorry..."
     mc "I was just spacing out..."
@@ -93,7 +93,7 @@ label yuri_exclusive_1:
     y 3n "Y-You don't have to!"
     mc "Ahaha, what are you saying?"
     mc "Just a moment ago, you said you were looking forward to it."
-    y 3o "..."
+    y 3o "......"
     mc "Let me just get the book..."
     "I quickly retrieve the book that I had put into my bag."
     mc "Alright...it's fine if I sit here, right?"
@@ -198,13 +198,13 @@ label yuri_exclusive_1:
     mc "W-Wait!"
     mc "I didn't mean it in a bad way or anything!"
     mc "Sorry, I really didn't know you were self-conscious about that sort of thing..."
-    y "..."
+    y "......"
     mc "I guess I more meant that it's kind of cute..."
     y 3q "A-Ah--"
     y "What are you saying all of a sudden...?"
     y "I...!"
     show monika 4 at l31
-    m "Okay, everyone!"
+    m "好了，各位！"
     show yuri 3n at h11
     y "...!"
     show monika zorder 3 at f31
@@ -310,7 +310,7 @@ label yuri_exclusive_2_ch3:
     show monika zorder 3 at f31
     m 1g "E-Eh...?"
     show monika zorder 2 at t31
-    mc "--!"
+    mc "——！"
     "My mouth gapes."
     show monika zorder 3 at f31
     m 5a "I..."
@@ -443,7 +443,7 @@ label yuri_exclusive_2_ch3:
     "Our bodies are even closer to each other."
     show yuri 2h zorder 2 at t11
     y "I can't see too well..."
-    mc "--!"
+    mc "——！"
     show yuri 2e at d11
     "Yuri slides closer until our shoulders are touching."
     "How am I supposed to focus on reading like this...?!"
@@ -456,7 +456,7 @@ label yuri_exclusive_2_ch3:
     "Meanwhile, Yuri hasn't noticed a single thing."
     "She wears her intense reading expression, and I can only presume the world around her has faded away."
     "I use all of my willpower to focus on reading."
-    "..."
+    "......"
     "After a few minutes, I finally manage to relax a little."
     "I put the teacup between my legs and fumble with the chocolate wrapper."
     mc "Ah, sorry..."
@@ -535,7 +535,7 @@ label yuri_exclusive_2_ch3:
     "I nervously take another chocolate between my fingers."
     "But this time, Yuri's eyes meet mine."
     show y_cg2_exp3
-    y "..."
+    y "......"
     "How did it even come to this...?"
     "Yuri doesn't avert her gaze."
     "I notice her chest rising and falling to the rhythm of her breaths."
@@ -552,8 +552,8 @@ label yuri_exclusive_2_ch3:
     window show(None)
     window auto
     show monika 4b zorder 2 at l31
-    m "Okay, everyone!"
-    mc "Uwa--"
+    m "好了，各位！"
+    mc "呜哇——"
     show yuri 3p zorder 2 at t11
     y "A-Ah!"
     play music t3

@@ -696,7 +696,7 @@ label ch30_end_2:
     m "How could I do that to someone I love...?"
     m "That's not love..."
     m "That's..."
-    m "..."
+    m "......"
     $ pause(6.0)
     m "I've...made up my mind."
     m "[player]..."
@@ -707,14 +707,14 @@ label ch30_end_2:
     m "They were still my friends."
     m "And I loved them all."
     m "And I loved the Literature Club."
-    m "..."
+    m "......"
     m "I really...did love the Literature Club."
     m "That's why I'm going to do this."
     m "I know it's the only way for everyone to be happy."
     m "And if I really love you..."
     stop music
     $ pause(3.0)
-    m "..."
+    m "......"
     m "Then..."
     $ gtext = glitchtext(30)
     m "[gtext]{nw}"
@@ -1271,7 +1271,7 @@ label ch30_19:
     return
 
 label ch30_20:
-    m "Okay, everyone!"
+    m "好了，各位！"
     m "It's time to..."
     m "...I'm just kidding."
     m "I just used to really like saying that for some reason."
@@ -1584,7 +1584,7 @@ label ch30_38:
 label ch30_39:
     m "You know, it's been a while since we've done one of these..."
     m "...so let's go for it!"
-    m "Here's Monika's Writing Tip of the Day!"
+    m "以下是莫妮卡的今日写作小窍门！"
     m "Sometimes when I talk to people who are impressed by my writing, they say things like 'I could never do that'."
     m "It's really depressing, you know?"
     m "As someone who loves more than anything else to share the joy of exploring your passions..."
@@ -1622,8 +1622,8 @@ label ch30_39:
     m "Our society, our art, everything - it's built on thousands of years of human innovation."
     m "So as long as you start on that foundation, and take it step by step..."
     m "You, too, can do amazing things."
-    m "...That's my advice for today!"
-    m "Thanks for listening~"
+    m "……以上就是我今天的建议！"
+    m "感谢倾听~"
     return
 
 label ch30_40:

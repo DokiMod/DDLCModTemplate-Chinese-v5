@@ -378,7 +378,7 @@ label ch3_start_none:
         stop music fadeout 1.0
     scene bg club_day
     with wipeleft_scene
-    "..."
+    "......"
     if not renpy.music.get_playing(channel='music') == audio.t3:
         play music t3
     show monika 4b zorder 2 at t11

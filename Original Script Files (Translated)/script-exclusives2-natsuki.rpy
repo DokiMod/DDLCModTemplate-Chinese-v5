@@ -101,54 +101,54 @@ label natsuki_exclusive2_1:
     "夏树从我手里抢过了那卷漫画。"
     "接着她转过身，把那本漫画按照集数插回漫画盒中。"
     n 4d "啊哈，这下好多了！"
-    n "Seeing a box set with one book missing is probably the most irritating sight in the world."
-    mc "I know that feel..."
-    "I get a closer look at the box set she's admiring."
-    mc "Parfait Girls...?"
-    "It's a series I've never heard of in my life."
-    "That probably means it's either way out of my demographic, or it's simply terrible."
-    n 5g "If you're gonna judge, you can go do it through the glass on that door."
-    "She points to the classroom door."
-    mc "H-Hey, I wasn't judging anything...!"
-    mc "I didn't even say anything."
-    n 5c "It was the tone of your voice."
+    n "看见一套漫画缺了一本，大概是世上最恼人的景象了。"
+    mc "我懂这种感觉......"
+    "我凑近看了眼她正欣赏着的这套漫画。"
+    mc "《芭菲女孩》......？"
+    "我从没听说过这个系列。"
+    "这意味着，这漫画要么完全不在我的品味版图上，要么就是个粪作。"
+    n 5g "你要是想指点江山的话，就到那扇门外头去，隔着门上的玻璃说去吧。"
+    "她指着教室门。"
+    mc "喂、喂，我可没有要指点江山......！"
+    mc "我还什么都没说呢。"
+    n 5c "你的语调已经表达出来了。"
     $ style.say_dialogue = style.normal
-    n "But I'll tell you one thing, [player]."
+    n "不过 [player]，我得先告诉你一件事。"
     n 4l "你就把这句话当作是文学部给你上的一课吧：{nw}"
     $ _history_list[-1].what = "你就把这句话当作是文学部给你上的一课吧：不要以貌取书！"
     $ style.say_dialogue = style.edited
     n "不要以貌取取取取取取取取取取取取取取取取取取 取取取取 取取{space=20}取{space=40}取{space=120}取{space=160}取{space=200}取"
     $ style.say_dialogue = style.normal
     $ _history_list.pop()
-    n "In fact--"
-    "Natsuki pulls out the first volume of Parfait Girls from the box."
-    n "I'm gonna show you exactly why!"
-    "She shoves the book right into my hands."
+    n "实际上——"
+    "夏树从盒子里抽出《芭菲女孩》的第一卷。"
+    n "我现在就可以告诉你，为什么是这个道理！"
+    "她把漫画塞进我的手里。"
     mc "啊......"
-    "I stare at the cover."
-    "It features four girls in colorful attire striking animated feminine poses."
-    "It's...exceedingly \"moe\"."
-    n 4b "Don't just stand there!"
-    mc "Uwa--"
+    "我看着封面。"
+    "上面画着四个盛装打扮的美少女，每个都摆出动漫女角色特有的妩媚姿势。"
+    "这个......‘萌’得实在过头了。"
+    n 4b "别傻站着啊！"
+    mc "呜哇——"
     show natsuki zorder 1 at thide
     hide natsuki
-    "Natsuki grabs my arm and pulls me out of the closet."
-    "She then takes a seat against the wall, beneath the windowsills."
-    "She pats on the ground next to her, signaling me to sit there."
+    "夏树抓着我的手臂把我拖出了储藏间。"
+    "然后她挨着墙坐在了窗沿底下。"
+    "她拍了拍身边的地面，示意我坐在那里。"
     show bg club_day
     show natsuki 2a zorder 2 at t11
     with wipeleft
-    mc "Wouldn't chairs be more comfortable...?"
-    "I take my seat."
-    n 2k "Chairs wouldn't work."
-    n "We can't read at the same time like that."
-    mc "Eh? Why's that?"
-    mc "Ah...I guess it's easier to be close together like this..."
-    n 2o "--!"
-    n 5r "D-Don't just say that!"
-    n "You'll make me feel weird about it!"
-    "Natsuki crosses her arms and scootches an inch away from me."
-    mc "Sorry..."
+    mc "坐椅子上不是更舒服么......？"
+    "我坐了下来。"
+    n 2k "椅子不行。"
+    n "那样我们俩就没法一起看了。"
+    mc "诶？为什么？"
+    mc "啊......我知道了，这样就能凑得更近一点吧......"
+    n 2o "——！"
+    n 5r "不、不要直接说出来嘛！"
+    n "你弄得我都觉得怪怪的了！"
+    "夏树交叉着双臂，挪远了一些。"
+    mc "抱歉......"
     show natsuki 5g
     "I didn't exactly expect to be sitting this close to her, either..."
     "Not that I can say it's a particularly bad thing."
@@ -227,8 +227,8 @@ label natsuki_exclusive2_1:
     hide n_cg1_exp3
     show n_cg1_exp2 at cgfade
     n "——"
-    n "..."
-    n "...So?"
+    n "......"
+    n "......所以呢？"
     mc "啊哈哈。"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
@@ -237,8 +237,8 @@ label natsuki_exclusive2_1:
     mc "Yeah, yeah..."
     "I flip the page."
     show black with dissolve_cg
-    "..."
-    "..."
+    "......"
+    "......"
     "....."
     "......."
     "........."
@@ -249,7 +249,7 @@ label natsuki_exclusive2_1:
     "I glance over at her."
     hide black with dissolve_cg
     "It looks like she's started to fall asleep."
-    mc "Hey, Natsuki..."
+    mc "嘿，夏树......"
     hide n_cg1_exp4
     show n_cg1_exp5 at cgfade
     n "Y-Yeah...?"
@@ -278,14 +278,14 @@ label natsuki_exclusive2_1:
     window auto
     scene bg club_day
     show monika 1r zorder 2 at t11
-    m "Oh jeez..."
-    m 1d "Natsuki, are you okay?"
+    m "哦天哪......"
+    m 1d "夏树，你还好吗？"
     show monika zorder 2 at t21
     show natsuki 12b zorder 3 at f22
-    n "..."
+    n "......"
     show natsuki zorder 2 at t22
     show monika zorder 3 at f21
-    m 1a "Here..."
+    m 1a "给你......"
     show monika zorder 2 at t21
     "Monika reaches into her bag and pulls out some kind of protein bar."
     "She throws it in Natsuki's direction."
@@ -299,10 +299,10 @@ label natsuki_exclusive2_1:
     hide natsuki
     show monika 3b zorder 2 at t11
     m "Don't worry, [player]."
-    m "She's fine."
+    m "她没事的。"
     m "It just happens every now and then."
     m 1a "That's why I always keep a snack in my bag for her."
-    m 5a "Anyway...!"
+    m 5a "话说回来......！"
     m "Why don't we all share poems now?"
 
     return

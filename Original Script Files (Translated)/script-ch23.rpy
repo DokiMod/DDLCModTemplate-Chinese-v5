@@ -116,7 +116,7 @@ label ch23_main:
         y 2o "没、没事的......"
         show yuri zorder 2 at t32
         show natsuki zorder 3 at f33
-        n "..."
+        n "......"
         show natsuki zorder 2 at t33
         show yuri zorder 3 at f32
         y 2v "我真的有那么不对劲吗......？"

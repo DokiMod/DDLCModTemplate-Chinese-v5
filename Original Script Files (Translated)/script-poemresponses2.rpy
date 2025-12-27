@@ -212,7 +212,7 @@ label ch22_m_end:
     m 1r "算了，当我没说。"
     m "反正解释也没有意义。"
     m 1i "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
+    m 3b "以下是莫妮卡的今日写作小窍门！"
     m "Sometimes you'll find yourself facing a difficult decision..."
     m "When that happens, don't forget to save your game!"
     m 3k "You never know when...um..."
@@ -221,8 +221,8 @@ label ch22_m_end:
     m 3g "告诉我，你能听到我说话。"
     m "什么都好。"
     $ renpy.call_screen("dialog", "请救救我。", ok_action=Return())
-    m 3k "...That's my advice for today!"
-    m "Thanks for listening~"
+    m 3k "……以上就是我今天的建议！"
+    m "感谢倾听~"
     return
 label ch23_m_end:
     $ quick_menu = False
@@ -364,7 +364,7 @@ label ch23_n_bad:
         return
 
     elif get_character_poem_appeal("natsuki", 1) < 0 or get_character_poem_appeal("natsuki", 2) < 0:
-        n "..."
+        n "......"
         n 2c "...Meh."
         n "I guess you really haven't learned anything after all."
         n "Honestly, I don't know why I got my hopes up in the first place."
@@ -384,7 +384,7 @@ label ch23_n_bad:
             return
     else:
 
-        n "..."
+        n "......"
         n 2r "Oh, man."
         n "This is seriously a step backwards."
         mc "诶？"
@@ -398,7 +398,7 @@ label ch23_n_med:
     if get_character_poem_appeal("natsuki", 1) < 0 and get_character_poem_appeal("natsuki", 2) < 0:
         jump ch23_n_bad
     elif get_character_poem_appeal("natsuki", 2) < 0:
-        n "..."
+        n "......"
         n 2k "...This one's alright."
         mc "Alright?"
         n "Yeah, it's at least better than yesterday's."
@@ -416,7 +416,7 @@ label ch23_n_med:
             n "So read it carefully, okay?"
             return
     else:
-        n "..."
+        n "......"
         n 2k "...This one's alright."
         mc "Alright?"
         n "Well, yeah."
@@ -457,7 +457,7 @@ label ch22_y_bad:
 label ch22_y_med:
     y 2b "I've been waiting for this..."
     y "Let's see what you've written for today."
-    y 3m "..."
+    y 3m "......"
     "Yuri smiles and takes a deep breath."
     y "I like just holding it."
     mc "...?"
@@ -480,7 +480,7 @@ label ch22_y_good:
     if get_character_poem_appeal("yuri", 1) < 1:
         y 2b "I've been waiting for this..."
         y "Let's see what you've written for today."
-        y 2e "..."
+        y 2e "......"
         y "......"
         "Yuri stares at the poem with a surprised expression on her face."
         mc "你......喜欢这首诗吗？"
@@ -512,7 +512,7 @@ label ch22_y_good:
 
         y 2b "I've been waiting for this..."
         y "Let's see what you've written for today."
-        y 2e "..."
+        y 2e "......"
         y "......"
         "Yuri stares at the poem with a surprised expression on her face."
         mc "Do you...like it?"
@@ -620,7 +620,7 @@ label ch22_m_start:
         m "Want to share what you wrote for today?"
         mc "Sure... Here you go."
         "I give my poem to Monika."
-        m "..."
+        m "......"
         m "...Alright!"
     $ nextscene = f"m2_yuri_{get_appeal("yuri")}"
     call expression nextscene

@@ -12,7 +12,7 @@ label yuri_exclusive2_1:
     "糟了——"
     "I think she noticed me looking at her..."
     "She sneaks another glance at me, and our eyes meet for a split second."
-    y 4b "..."
+    y 4b "......"
     "But that only makes her hide her face deeper in her book."
     mc "Sorry..."
     mc "I was just spacing out..."
@@ -102,7 +102,7 @@ label yuri_exclusive2_1_ch22:
     y dragon "Y-Yes!"
     y 3n "I-I mean, you don't have to, but...!"
     mc "Ahaha, what are you saying?"
-    y 3o "..."
+    y 3o "......"
     mc "Let me just get the book..."
     "I quickly retrieve the book that I had put into my bag."
     mc "Alright...it's fine if I sit here, right?"
@@ -319,7 +319,7 @@ label yuri_exclusive2_2_ch22:
     scene bg club_day
     with wipeleft_scene
 
-    "..."
+    "......"
     "Ten minutes pass."
     "Yuri said it wouldn't take long..."
     "Is something holding her up?"
@@ -464,7 +464,7 @@ label yuri_exclusive2_2_ch22:
     "Our bodies are even closer to each other."
     show yuri 2h zorder 2 at t11
     y "I can't see too well..."
-    mc "--!"
+    mc "——！"
     show yuri 2e at d11
     "Yuri slides closer until our shoulders are touching."
     "How am I supposed to focus on reading like this...?!"
@@ -477,7 +477,7 @@ label yuri_exclusive2_2_ch22:
     "Meanwhile, Yuri hasn't noticed a single thing."
     "She wears her intense reading expression, and I can only presume the world around her has faded away."
     "I use all of my willpower to focus on reading."
-    "..."
+    "......"
     "After a few minutes, I finally manage to relax a little."
     "I put the teacup between my legs and fumble with the chocolate wrapper."
     mc "Ah, sorry..."
@@ -676,7 +676,7 @@ label yuri_exclusive2_2_ch23:
     y 2y3 "But finally, we're alone..."
     y "Can we just stay here for a while?"
     y 1m "Yeah..."
-    y "..."
+    y "......"
     play music hb
     show layer master at heartbeat
     show yuri as yuri_eyes zorder 4:

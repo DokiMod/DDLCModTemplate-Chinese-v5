@@ -341,7 +341,7 @@ label ch3_y_end_special:
     $ poem_db.show_poem("poem_y3b", img="yuri 4b")
     "Finishing the poem, I start to hand it back to Yuri."
     "But instead of taking it from me, she looks away."
-    y "..."
+    y "......"
     y "Do you...dislike it?"
     mc "Ah--no, of course not."
     mc "I just...don't really know how I should respond."
@@ -352,7 +352,7 @@ label ch3_y_end_special:
     y 2v "I-I don't know if I'll be able to explain this one..."
     mc "That's fine."
     mc "I understand this one."
-    y 4c "..."
+    y 4c "......"
     "Yuri is having an even harder time speaking than usual."
     mc "Does this one...mean a lot to you?"
     "Yuri nods."
@@ -535,7 +535,7 @@ label ch3_n_end:
 
 label ch3_n_end_special:
     $ poem_db.show_poem("poem_n3b")
-    n 1q "..."
+    n 1q "......"
     n "...Why are you looking at me like that?"
     n "If you don't like it, then just say it."
     n 1u "I won't...get mad."
@@ -560,7 +560,7 @@ label ch3_n_end_special:
     n "Just..."
     n 12c "Remember that...I can think these things sometimes, too!"
     n "You know, when you're nice to me, it's..."
-    n 12a "..."
+    n 12a "......"
     n "...Meaningful."
     mc "Ah...I'm glad."
     "Sensing Natsuki is satisfied, I start to hand the poem back to her."
@@ -577,7 +577,7 @@ label ch3_n_end_special:
     "Instead of teasing her, I choose to go along with it."
     n 1t "...Good."
     n "If you didn't, I would..."
-    n "..."
+    n "......"
     n 1h "Never mind..."
     n 1q "Just...I'm glad that you want it."
     "Natsuki backpedals on her words and leaves it at that."
@@ -681,15 +681,15 @@ label ch1_m_end2:
     m "I'm kind of nervous to talk about deep stuff like that, because it's kind of coming on strongly..."
     m "Maybe after everyone is better friends with each other."
     m 1j "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
+    m 3b "以下是莫妮卡的今日写作小窍门！"
     m "Sometimes when you're writing a poem - or a story - your brain gets too fixated on a specific point..."
     m "If you try so hard to make it perfect, then you'll never make any progress."
     m "Just force yourself to get something down on the paper, and tidy it up later!"
     m "Another way to think about it is this:"
     m "If you keep your pen in the same spot for too long, you'll just get a big dark puddle of ink."
     m "So just move your hand, and go with the flow!"
-    m 3k "...That's my advice for today!"
-    m "Thanks for listening~"
+    m 3k "……以上就是我今天的建议！"
+    m "感谢倾听~"
     return
 
 label ch2_m_end:
@@ -713,7 +713,7 @@ label ch2_m_end:
     m "Or a conversation with the reader."
     m "So putting it that way, not every poem is {i}about{/i} something."
     m "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
+    m 3b "以下是莫妮卡的今日写作小窍门！"
     m "Sometimes you'll find yourself facing a difficult decision..."
     m "When that happens, don't forget to save your game!"
     m "You never know when you might change your mind..."
@@ -721,8 +721,8 @@ label ch2_m_end:
     m 3d "Wait...is this tip even about writing?"
     m 3k "What am I even talking about?"
     m "啊哈哈！"
-    m 3b "...That's my advice for today!"
-    m "Thanks for listening~"
+    m 3b "……以上就是我今天的建议！"
+    m "感谢倾听~"
     return
 
 label ch3_m_end:
@@ -745,7 +745,7 @@ label ch3_m_end:
     mc "You mean one-dimensional...?"
     m 1l "Ah...yeah, that!"
     m 1a "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
+    m 3b "以下是莫妮卡的今日写作小窍门！"
     m "Are you ever too shy to share your writing because you're afraid it's not that good?"
     m "It can be really disheartening to get a lukewarm response to something you put so much into."
     m "But if you find other people who enjoy writing, then sharing becomes a lot easier!"
@@ -753,8 +753,8 @@ label ch3_m_end:
     m "They'll want to focus more on everything that went into it, and the things you can work on."
     m "It's much more encouraging that way, and it will make you want to continue improving."
     m "It's almost like having your own little Literature Club, don't you think?"
-    m 3k "...That's my advice for today!"
-    m "Thanks for listening~"
+    m 3k "……以上就是我今天的建议！"
+    m "感谢倾听~"
     return
 
 ## Poem Opinion Responses
@@ -826,7 +826,7 @@ label ch1_n_bad:
     return
 
 label ch1_n_med:
-    n "..."
+    n "......"
     mc "...?"
     n 2k "...Well, it's about what I expected from someone like you."
     mc "That's a little blunt..."
@@ -842,11 +842,11 @@ label ch1_n_med:
     return
 
 label ch1_n_good:
-    n "..."
+    n "......"
     mc "...?"
     n 1t "...Okay, well let's start with the things I don't like!"
     n "First of all, um..."
-    mc "..."
+    mc "......"
     "Natsuki re-reads my poem."
     n 4c "N-Never mind. I don't feel like giving you my opinion."
     mc "Eh? Then what's the point of sharing in the first place?"
@@ -861,7 +861,7 @@ label ch1_n_good:
     n 1w "You were supposed to show me some dumb poem and make me go 'Hah, well it's not that great but let me show you what real literature looks like!'"
     n 1h "And you went and ruined it!"
     n "I hope you're happy!"
-    mc "..."
+    mc "......"
     mc "...So, in other words, you're saying you liked it?"
     n 1o "Urk--"
     "Natsuki's retort gets caught in her throat."
@@ -982,7 +982,7 @@ label ch2_n_med:
 label ch2_n_good:
     # This if statement checks if Natsuki's opinion on your first poem was not good.
     if get_character_poem_appeal("natsuki", 1) != 1:
-        n 1h "..."
+        n 1h "......"
         "Natsuki reads my poem."
         "She keeps glancing at me, then back at the poem."
         "By now, she must have read it more than once."
@@ -1013,7 +1013,7 @@ label ch2_n_good:
         return
     else:
         label ch2_n_good_sharedwithch3:
-            n 1n "..."
+            n 1n "......"
             "Natsuki reads my poem."
             "She keeps glancing at me, then back at the poem."
             "By now, she must have read it more than once."
@@ -1032,7 +1032,7 @@ label ch2_n_good:
             mc "Well..."
             mc "In that case, what's the problem with me trying to impress you?"
             n 1e "I'll tell you! You--"
-            n 1p "--"
+            n 1p "——"
             "Natsuki's face freezes, like she just realized something."
             n "Y-Y-You..."
             n "You're trying to...impress {i}me?{/i}"
@@ -1142,7 +1142,7 @@ label ch2_n_good:
                 m "It's not fair if you don't let everyone finish reading it."
                 show monika zorder 2 at t22
                 show natsuki zorder 3 at f21
-                n "..."
+                n "......"
                 n 2h "...Fine."
                 "Natsuki returns my poem."
                 n "It's not like she's going to like it, though."
@@ -1163,7 +1163,7 @@ label ch3_n_bad:
             $ skip_poem = True
             return
     elif get_character_poem_appeal("natsuki", 1) < 0 or get_character_poem_appeal("natsuki", 2) < 0:
-        n "..."
+        n "......"
         n 2c "...Meh."
         n "I guess you really haven't learned anything after all."
         n "Honestly, I don't know why I got my hopes up in the first place."
@@ -1171,7 +1171,7 @@ label ch3_n_bad:
         mc "What did I do wrong?"
         jump ch2_n_bad_sharedwithch3
     else:
-        n "..."
+        n "......"
         n 2r "Oh, man."
         n "This is seriously a step backwards."
         mc "诶？"
@@ -1197,7 +1197,7 @@ label ch3_n_bad:
             mc "Yeah, you're right."
             mc "It's kind of fun to hang out here, even if I have to put up with you."
             show natsuki 1x
-            mc "{i}Guh--!!{/i}"
+            mc "{i}噶——！！{/i}"
             "Natsuki's elbow connects with my stomach."
             n 2y "Oh?"
             n "Maybe I won't mind scaring you away after all."
@@ -1206,7 +1206,7 @@ label ch3_n_bad:
             n "Don't worry, I was too."
             n "Ahahaha!"
             show natsuki 4j
-            mc "..."
+            mc "......"
             "How the hell do you call that a joke?"
             "That seriously hurt."
             "Well, maybe it was funny to her..."
@@ -1221,7 +1221,7 @@ label ch3_n_med:
     if get_character_poem_appeal("natsuki", 1) < 0 and get_character_poem_appeal("natsuki", 2) < 0:
         jump ch3_n_bad12_shared
     elif get_character_poem_appeal("natsuki", 2) != 0:
-        n "..."
+        n "......"
         n 2k "...This one's alright."
         mc "Alright?"
         n "Well, yeah."
@@ -1230,7 +1230,7 @@ label ch3_n_med:
         n "It's just not really my style. I mean, that's fine."
         jump ch2_n_med_shared
     else:
-        n "..."
+        n "......"
         n 2k "...This one's alright."
         mc "Alright?"
         n "Well, yeah."
@@ -1268,7 +1268,7 @@ label ch3_n_good:
         n "W-What are you talking about?"
         n 1u "My writing is obviously the best..."
         n "...Right?"
-        mc "..."
+        mc "......"
         "It took me a while to figure out, but I think I finally did."
         "Maybe Natsuki acts so arrogant because she's trying to make up for her own insecurities."
         "If she acts like she's the best, then other people might think that way, too."
@@ -1336,7 +1336,7 @@ label ch3_n_good:
     elif get_character_poem_appeal("natsuki", 1) > 0 or get_character_poem_appeal("natsuki", 2) > 0:
         jump ch2_n_good_sharedwithch3
     else:
-        n "..."
+        n "......"
         n 2k "...Finally!"
         mc "诶？"
         n 2l "This one. It's good!"
@@ -1356,7 +1356,7 @@ label ch3_n_good:
         n 2w "Biased?"
         n "Of course not."
         n 4y "My opinion just happens to be the best."
-        mc "..."
+        mc "......"
         "There's one thing I still can't tell."
         "Is Natsuki actually self-aware of her spoiled behavior?"
         "At this rate, I don't know if I'll ever figure it out."
@@ -1369,7 +1369,7 @@ label ch3_n_good:
         return
 
 label ch1_s_bad:
-    s 1b "..."
+    s 1b "......"
     s "...Wow!"
     s "[player]..."
     s 4r "Your poem is really bad!"
@@ -1406,7 +1406,7 @@ label ch1_s_bad:
         return
 
 label ch1_s_med:
-    s "..."
+    s "......"
     s 2x "This is a good poem, [player]!"
     s "Are you sure it's your first time?"
     mc "Of course..."
@@ -1420,7 +1420,7 @@ label ch1_s_med:
     jump ch1_s_shared
 
 label ch1_s_good:
-    s 1n "..."
+    s 1n "......"
     s "...Oh my goodness!"
     s 4b "This is sooooo good, [player]!"
     mc "诶？"
@@ -1457,7 +1457,7 @@ label ch1_s_good:
 
 
 label ch2_s_bad:
-    s "..."
+    s "......"
     s 1q "Ehehe, I love reading your poems~"
     s "It's like I never know what I'm going to get!"
     mc "So basically you're saying it sucks."
@@ -1510,7 +1510,7 @@ label ch2_s_bad:
 
 label ch2_s_med:
     if get_character_poem_appeal("sayori", 1) < 0:
-        s "..."
+        s "......"
         s 4x "Ooh!"
         s "I like this one, [player]!"
         s "It has some nice feelings in it~"
@@ -1528,7 +1528,7 @@ label ch2_s_med:
             mc "Honestly, I don't even know what kind of writing you like in the first place."
             jump ch2_s_shared
     elif get_character_poem_appeal("sayori", 1) == 0:
-        s "..."
+        s "......"
         s 4x "Ooh!"
         s "I like this one, [player]!"
         s "It has some nice feelings in it~"
@@ -1541,7 +1541,7 @@ label ch2_s_med:
         mc "That's not very helpful, you know..."
         jump ch2_s_med_shared
     else:
-        s "..."
+        s "......"
         s 4x "Ooh!"
         s "I like this one, [player]!"
         s "It has some nice feelings in it~"
@@ -1564,7 +1564,7 @@ label ch2_s_med:
 label ch2_s_good:
     # This if statement checks if Sayori was OK or hated your first poem.
     if get_character_poem_appeal("sayori", 1) < 1:
-        s 1n "..."
+        s 1n "......"
         s "...Oh my goodness!"
         s 4r "This is sooooo good, [player]!"
         mc "诶？"
@@ -1600,7 +1600,7 @@ label ch2_s_good:
         s 4l "欸嘿嘿......"
         jump ch2_s_med_shared
     else:
-        s "..."
+        s "......"
         s 1d "[player]..."
         s "I really love your poems."
         s "I can't believe you've been hiding these from me!"
@@ -1692,7 +1692,7 @@ label ch3_s_bad:
     # set the variable to Natsuki instead.
     if get_character_poem_appeal("natsuki", 3) > get_character_poem_appeal("yuri", 3):
         $ currentname = "夏树"
-    s "..."
+    s "......"
     s 1k "...Hm."
     s "It's nice, I guess~"
     mc "Come on, I can already tell you don't like it."
@@ -1742,12 +1742,12 @@ label ch3_s_good:
     # This if statement checks if the first or second poem didn't appeal to Sayori. 
     if poemwinner[0] != "sayori" and poemwinner[1] != "sayori":
         jump ch3_s_bad
-    s 1d "..."
+    s 1d "......"
     s "This is your best one so far."
     s "It's really really nice, [player]~"
     mc "Er-- Thanks."
     s 1q "Mhm~"
-    mc "..."
+    mc "......"
     mc "Sayori, you've been a little quiet today."
     mc "Is everything alright?"
     s 4m "E-Eh??"
@@ -1878,7 +1878,7 @@ label ch1_y_med:
     jump ch1_y_bad
 
 label ch1_y_good:
-    y 1e "..."
+    y 1e "......"
     "As Yuri reads the poem, I notice her eyes lighten."
     y 2f "...Exceptional."
     mc "Eh? What was that?"
@@ -1905,7 +1905,7 @@ label ch1_y_good:
     mc "This is actually my first time, really."
     y 1e "Huh...?"
     "Yuri stares at me blankly, then looks at my poem again."
-    y "..."
+    y "......"
     y 2h "...Well, I know that!"
     y "I just meant...u-um..."
     "Yuri trails off, unable to find an excuse."
@@ -1945,7 +1945,7 @@ label ch2_y_bad:
         y "Besides..."
         y "I have my books with me."
         y 3u "That's...all I need."
-        mc "..."
+        mc "......"
         "Yuri smiles sadly and puts her head down on her desk."
         "I'm frustrated."
         "I don't hate her, but it's as if she's not capable of listening to me over her own thoughts."
@@ -2001,7 +2001,7 @@ label ch2_y_bad:
 label ch2_y_med:
     if get_character_poem_appeal("yuri", 1) <= 0:
         y 1a "Let's see what you've written for today."
-        y "..."
+        y "......"
         y "Mm..."
         y 1c "Well done, [player]."
         y "Your skills are already improving."
@@ -2015,7 +2015,7 @@ label ch2_y_med:
         jump ch2_y_shared
     else:
         y 1a "Let's see what you've written for today."
-        y "..."
+        y "......"
         y "Mm..."
         y "This is pretty good, [player]."
         y "Were you influenced by seeing everyone's writing styles yesterday?"
@@ -2027,7 +2027,7 @@ label ch2_y_med:
 label ch2_y_good:
     if get_character_poem_appeal("yuri", 1) < 1:
         y 1a "Let's see what you've written for today."
-        y "..."
+        y "......"
         y 2e "......"
         "Yuri stares at the poem with a surprised expression on her face."
         mc "Do you...like it?"
@@ -2064,7 +2064,7 @@ label ch2_y_good:
             "Again, Yuri nods."
             mc "Huh..."
             mc "Even your close friends?"
-            y 2v "..."
+            y 2v "......"
             "Yuri doesn't respond to that."
             "I wonder why..."
             mc "Anyway..."
@@ -2075,7 +2075,7 @@ label ch2_y_good:
             return
     else:
         y 1a "Let's see what you've written for today."
-        y "..."
+        y "......"
         y 2e "......"
         "Yuri stares at the poem with a surprised expression on her face."
         mc "Do you...like it?"
@@ -2094,7 +2094,7 @@ label ch3_y_bad:
             $ skip_poem = True
             return
     elif get_character_poem_appeal("yuri", 2) < 0 or get_character_poem_appeal("yuri", 1) < 0:
-        y 1i "..."
+        y 1i "......"
         y "...I see."
         y "I think you're improving at writing in general, [player]."
         y 2i "But I can't help but feel a little bit foolish."
@@ -2113,11 +2113,11 @@ label ch3_y_bad:
         y "It's obvious now why nobody has fun when talking to me..."
         y "And because of that..."
         y 4c "...I'll just keep my mouth shut about your poem!"
-        mc "..."
+        mc "......"
         "Yuri buries her head into her arms on her desk."
         "That's not the first time I've seen her do that."
         mc "I don't think it's ever as bad as you make it sound in your head..."
-        y "..."
+        y "......"
         mc "I think if people really didn't like talking to you..."
         mc "Then it would be a lot more obvious."
         mc "I know that you like to read deeply into things."
@@ -2149,7 +2149,7 @@ label ch3_y_bad:
         $ skip_poem = True
         return
     else:
-        y 1a "..."
+        y 1a "......"
         y "...Ah."
         y "Decided to try something different today?"
         mc "I guess so."
@@ -2165,7 +2165,7 @@ label ch3_y_bad:
             y "Why me...?"
             mc "Well, you're always sophisticated with your writing and have the most advice to share."
             y 4a "Is that so...?"
-            y "..."
+            y "......"
             "Yuri thinks for a good minute."
             y 4c "...That must be terrible."
             mc "诶？"
@@ -2232,7 +2232,7 @@ label ch3_y_good:
     if get_character_poem_appeal("yuri", 1) < 0 and get_character_poem_appeal("yuri", 2) < 0:
         jump ch3_y_bad12_shared
     if get_character_poem_appeal("yuri", 2) == 1:
-        y "..."
+        y "......"
         y 2u "[player]..."
         y "...This is wonderful."
         y "I can feel the emotion that you poured into it."
@@ -2266,7 +2266,7 @@ label ch3_y_good:
         "Again, Yuri nods."
         mc "Huh..."
         mc "Even your close friends?"
-        y 2v "..."
+        y 2v "......"
         "For some reason, Yuri doesn't respond."
         mc "Yuri...?"
         label ch3_y_good_shared:
@@ -2337,7 +2337,7 @@ label ch3_y_good:
             y "Let me get it for you..."
         return
     else:
-        y "..."
+        y "......"
         y "[player]."
         y 2s "Your writing has only improved in these last few days."
         y "Every poem you've shown me has been nothing short of spectacular."
@@ -2418,7 +2418,7 @@ label ch2_m_start:
         $ n_poemearly = False
         m "That was kind of silly with Natsuki earlier, wasn't it?"
         m 1j "I'm glad the two of you have been getting along so well."
-        mc "..."
+        mc "......"
         "That's one way of putting it..."
         m 2a "Anyway, I already read your poem, but you can go ahead and read mine now."
         m 1a "I like the way this one turned out, so I hope you do too~"
@@ -2435,7 +2435,7 @@ label ch2_m_start:
         m "Want to share what you wrote for today?"
         mc "Sure... Here you go."
         "I give my poem to Monika."
-        m "..."
+        m "......"
         m "...Alright!"
         $ nextscene = get_monika_scene(1)
         call expression nextscene
@@ -2464,7 +2464,7 @@ label ch3_m_start:
         m 1a "Anyway, let's take a look at today's poem!"
         mc "Sure..."
         "I let Monika take the poem I'm holding in my hands."
-        m "..."
+        m "......"
         $ nextscene = get_monika_scene(2)
         call expression nextscene
 
@@ -2701,7 +2701,7 @@ label m_sayori_3:
     m "It would be terrible if something bad happened to her, so keep an eye on her."
     m 2d "Sayori's been acting so much happier ever since you joined the club."
     m "What could have happened all of a sudden...?"
-    mc "..."
+    mc "......"
     m 1l "...Well, never mind."
     m "This really isn't the time to be talking about this..."
     return

@@ -67,7 +67,7 @@ label sayori_exclusive_1:
     s 4q "Cupcakes speak to my creative tummy~"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 1l "..."
+    m 1l "......"
     m "Cupcakes it is, then."
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
@@ -220,7 +220,7 @@ label sayori_exclusive_1:
     s 1h "Aw, but I was joking that time!"
     mc "Man, it's impossible to tell with you sometimes."
     show monika 3b behind sayori at l31
-    m "Okay, everyone!"
+    m "好了，各位！"
     mc "诶？"
     "Monika suddenly calls out."
     m "Why don't we share the poems we wrote now?"
@@ -310,7 +310,7 @@ label sayori_exclusive_2:
     s 1j "{i}The once-prosperous field before me...{/i}"
     show sayori at h11
     s 4m "{i}Is but a barren wasteland!{/i}"
-    s "..."
+    s "......"
     s 1r "Like that!!"
     mc "Sayori..."
     "How do I put this..."
@@ -531,9 +531,9 @@ label sayori_exclusive_2:
     show sayori 4r zorder 3 at f21
     s "I was playing with the crayons and smacked my forehead into the shelf!"
     show sayori zorder 2 at t21
-    mc "..."
+    mc "......"
     show monika 3m zorder 3 at f22
-    m "..."
+    m "......"
     m 3l "...Well, anyway!"
     m 1a "Were you able to find everything we needed?"
     show monika zorder 2 at t22
