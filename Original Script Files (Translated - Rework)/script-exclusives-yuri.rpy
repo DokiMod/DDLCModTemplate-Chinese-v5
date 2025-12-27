@@ -8,8 +8,8 @@ label yuri_exclusive_1:
     "More than that, she seems to be on the first few pages."
     play music t6 fadeout 1.0
     show yuri 4a zorder 2 at t11
-    y "Ah..."
-    "Crap--"
+    y "啊......"
+    "糟了——"
     "I think she noticed me looking at her..."
     "She sneaks another glance at me, and our eyes meet for a split second."
     y 4b "..."
@@ -26,7 +26,7 @@ label yuri_exclusive_1:
     y "I wanted to re-read some of it."
     y 2q "Not for any particular reason...!"
     mc "Just curious, how come you have two copies of the same book?"
-    y "Ah..."
+    y "啊......"
     y "Well, when I stopped at the bookstore yesterday--"
     y 3o "Ah, that's not what I meant..."
     y "I mean--"
@@ -85,7 +85,7 @@ label yuri_exclusive_1:
     mc "That just means you're passionate about reading."
     mc "The least I can do is listen."
     mc "It's a literature club, after all..."
-    y 4a "Ah--"
+    y 4a "啊——"
     y "That's..."
     y "Well, that's true..."
     mc "In fact..."
@@ -132,7 +132,7 @@ label yuri_exclusive_1:
     mc "啊哈哈。"
     mc "Here, this should work, right?"
     "I slide my desk until it's up against Yuri's, then hold my book more between the two of them."
-    y 2v "Ah..."
+    y 2v "啊......"
     y "I suppose so..."
     "Yuri timidly closes her own copy."
     "Once we each lean in a little bit, our shoulders are almost touching."
@@ -143,7 +143,7 @@ label yuri_exclusive_1:
     $ renpy.save_persistent()
     scene y_cg1_base with dissolve_cg
     "Yuri takes her left arm and holds the left side of the book between her thumb and forefinger."
-    mc "Ah..."
+    mc "啊......"
     "I do the same with my right arm, on the right side of the book."
     "That way, I turn a page, and Yuri slides it under her thumb after it flips to her side."
     "But in holding it like this..."
@@ -152,13 +152,13 @@ label yuri_exclusive_1:
     "It's as if I can feel the warmth of Yuri's face, and she's in the corner of my vision..."
     show y_cg1_exp1 at cgfade
     y "...Are you ready?"
-    mc "Eh?"
+    mc "诶？"
     y "To turn the page..."
     mc "Ah...sorry!"
     mc "I think I got a bit distracted for a second..."
     "I glance over at Yuri's face again, and our eyes meet."
     "I don't know how I'll be able to keep up with her..."
-    y "Ah..."
+    y "啊......"
     show y_cg1_exp2 at cgfade
     y "That's okay."
     y "You're not as used to reading, right?"
@@ -212,7 +212,7 @@ label yuri_exclusive_1:
     m "We might not have enough time if we wait too long."
     show monika zorder 2 at t31
     show yuri zorder 3 at f11
-    y 3w "Ah..."
+    y 3w "啊......"
     "Yuri exhales, spared from finishing her thought."
     show yuri zorder 2 at t11
     show monika zorder 3 at f31
@@ -251,8 +251,8 @@ label yuri_exclusive_2:
     with wipeleft_scene
     mc "Hey, Yuri."
     show yuri 2f zorder 2 at t11
-    y "Eh?"
-    mc "Ah..."
+    y "诶？"
+    mc "啊......"
     "I suddenly notice that Yuri is reading a different book from the one we've been reading together."
     mc "Sorry! I didn't mean to interrupt..."
     y 2m "Ah, no..."
@@ -293,7 +293,7 @@ label yuri_exclusive_2_ch3:
     show monika 2a at l31
     m "Hm? Where are you two off to?"
     show yuri 2e
-    mc "Eh?"
+    mc "诶？"
     mc "We're just...Yuri was going to make some tea, so..."
     "I suddenly realize how weird it sounds to explain this to Monika."
     mc "We're just filling the water pitcher..."
@@ -320,7 +320,7 @@ label yuri_exclusive_2_ch3:
     y 2l "Hmph..."
     y "Then let's go, [player]."
     show yuri zorder 2 at t11
-    mc "Ah..."
+    mc "啊......"
     "Yuri quickly exits the room, and I follow."
     stop music fadeout 1.0
     scene bg corridor
@@ -348,7 +348,7 @@ label yuri_exclusive_2_ch3:
     mc "We have emotions, and we can't always hide them away."
     mc "But you always amplify things in your head..."
     mc "Your mind turns a light rain shower into a hurricane."
-    y 3q "Ah..."
+    y 3q "啊......"
     y "N-No..."
     y "Wouldn't you hate me for something as terrible as that...?"
     mc "Why would I hate you?"
@@ -402,7 +402,7 @@ label yuri_exclusive_2_ch3:
     y "And I decided that I would try expressing myself a little bit more."
     y "It turns out it's not very hard for me to do..."
     y 1c "When it's you who's around, anyway."
-    mc "Ah..."
+    mc "啊......"
     mc "That's great, Yuri!"
     mc "Just don't push yourself too much."
     y 3u "You're always worrying about me, [player]..."
@@ -422,7 +422,7 @@ label yuri_exclusive_2_ch3:
     mc "Is that so?"
     mc "I wonder why that is..."
     y 1f "It's most likely because my--"
-    y 1n "Ah--"
+    y 1n "啊——"
     y 1o "M-My..."
     mc "Your posture, right?"
     mc "Always hunched over like that while reading..."
@@ -540,7 +540,7 @@ label yuri_exclusive_2_ch3:
     "Yuri doesn't avert her gaze."
     "I notice her chest rising and falling to the rhythm of her breaths."
     "I raise my arm..."
-    y "Ah..."
+    y "啊......"
     "Like before, Yuri parts her lips."
     "But...it's different this time."
     hide y_cg2_nochoc

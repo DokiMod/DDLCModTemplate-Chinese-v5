@@ -124,7 +124,7 @@ label natsuki_exclusive2_1:
     "Natsuki pulls out the first volume of Parfait Girls from the box."
     n "I'm gonna show you exactly why!"
     "She shoves the book right into my hands."
-    mc "Ah..."
+    mc "啊......"
     "I stare at the cover."
     "It features four girls in colorful attire striking animated feminine poses."
     "It's...exceedingly \"moe\"."

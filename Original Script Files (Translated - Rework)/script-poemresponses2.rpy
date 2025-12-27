@@ -387,7 +387,7 @@ label ch23_n_bad:
         n "..."
         n 2r "Oh, man."
         n "This is seriously a step backwards."
-        mc "Eh?"
+        mc "诶？"
         n 2c "I liked your last two way better than this one."
         jump ch23_n_bad_shared
 
@@ -707,7 +707,7 @@ label m2_yuri_1:
     m "Well, we all started sharing our poems with each other."
     show monika zorder 2 at t32
     show yuri zorder 3 at f31
-    y 2t "Eh?"
+    y 2t "诶？"
     y "Already?"
     y 2v "I-I'm sorry for being late..."
     show yuri zorder 2 at t31
