@@ -25,7 +25,7 @@ label ch40_main:
         if not persistent.monika_back:
             try:
                 renpy.file("../characters/monika.chr")
-                renpy.call_screen("dialog", message="请不要再玩弄我的心了。\n我真的不想回来。", ok_action=Return())
+                renpy.call_screen("dialog", message="请不要再玩弄我的心了。\n我不想回来。", ok_action=Return())
                 persistent.monika_back = True
             except:
                 pass

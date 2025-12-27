@@ -1,4 +1,4 @@
-## script-poemresponses.rpy
+## script-poemresponses.rpy - 赏诗反应
 
 # This is where the Doki's respond to how much they like your poem.
 # Act 2 uses script-poemresponses2 which is in 'original_scripts'.
@@ -46,11 +46,11 @@ label poemresponse_start:
         # This if/else statement determines what MC will say in the poem selection
         # menu depending on how many poems you have read.
         if poemsread == 0:
-            $ menutext = "Who should I show my poem to first?"
+            $ menutext = "我应该先跟谁分享我的诗呢？"
         else:
-            $ menutext = "Who should I show my poem to next?"
+            $ menutext = "接下来要跟谁分享我的诗呢？"
 
-        ## Main Menu of the Poem Responses
+        ## 赏诗反应菜单
         menu:
             "[menutext]"
 
@@ -59,38 +59,38 @@ label poemresponse_start:
 
             # This will show Sayori as a menu option IF you haven't shared your
             # poem to her and you are in Act 1.
-            "Sayori" if not s_readpoem and persistent.playthrough == 0:
+            "纱世里" if not s_readpoem and persistent.playthrough == 0:
                 # This variable sets that you have read Sayori's poem.
                 $ set_read_poem_status("sayori")
                 if chapter == 1 and poemsread == 0:
-                    "I'm definitely most comfortable sharing it with Sayori first."
-                    "She's my good friend, after all."
+                    "果然还是先和纱世里分享最轻松了。"
+                    "毕竟她是我的好朋友嘛。"
                 # This call statement calls Sayori's poem response script.
                 call poemresponse_callback("sayori")
 
             # This will show Natsuki as a menu option IF you haven't shared your
             # poem to her.
-            "Natsuki" if not n_readpoem:
+            "夏树" if not n_readpoem:
                 $ set_read_poem_status("natsuki")
                 if chapter == 1 and poemsread == 0:
-                    "I told Natsuki I was interested in her poems yesterday."
-                    "It's probably only fair if I shared mine with her first."
+                    "我昨天跟夏树说我对她的诗感兴趣。"
+                    "可能先和她分享会比较好。"
                 call poemresponse_callback("natsuki")
 
             # This will show Yuri as a menu option IF you haven't shared your
             # poem to her and she didn't run away from you in Act 2.
-            "Yuri" if not y_readpoem and not y_ranaway:
+            "优里" if not y_readpoem and not y_ranaway:
                 $ set_read_poem_status("yuri")
                 if chapter == 1 and poemsread == 0:
-                    "Yuri seems the most experienced, so I should start with her."
-                    "I can trust her opinion to be fair."
+                    "优里似乎最有经验，所以我应该先和她分享。"
+                    "我相信她的意见会很中肯。"
                 call poemresponse_callback("yuri")
 
-            "Monika" if not m_readpoem:
+            "莫妮卡" if not m_readpoem:
                 $ set_read_poem_status("monika")
                 if chapter == 1 and poemsread == 0:
-                    "I should start with Monika."
-                    "Yesterday she seemed eager to read my poem, and I want her to know I'm putting in effort."
+                    "我应该先从莫妮卡开始。"
+                    "她昨天似乎非常想读我的诗，而我也想让她看到我的努力。"
                 call poemresponse_callback("monika")
 
         # This variable increases the poems read by 1.
@@ -143,7 +143,7 @@ label poemresponse_callback(character):
             $ appeal = get_character_poem_appeal("yuri", chapter)
         else:
             python:
-                raise Exception("Invalid character for poemresponse_callback.")
+                raise Exception("poemresponse_callback 参数中的角色无效。")
         
         if appeal < 0:
             $ poemopinion = "bad"
@@ -163,15 +163,15 @@ label poemresponse_callback(character):
 # These labels define the end result of the poem sharing mini-game with the girls.
 label ch1_y_end:
     $ poem_db.show_poem("poem_y1", img="yuri 3t")
-    y 3t "..."
-    y "I...I'm sorry I have such terrible handwriting!"
-    mc "What??"
-    mc "I wasn't thinking that at all..."
-    y 2v "But it took you a long time to read..."
-    mc "Ah--"
-    mc "Well, I just don't read script very often..."
-    mc "I actually think your handwriting is pretty."
-    y 2t "Eh?"
+    y 3t "......"
+    y "抱......抱歉，我的字写得太潦草了！"
+    mc "什么？？"
+    mc "我可完全没这么想啊......"
+    y 2v "但是你花了很久才读完呀......"
+    mc "啊——"
+    mc "嗯，我只是不怎么读手稿......"
+    mc "我其实还觉得你的字写得挺漂亮的呢。"
+    y 2t "诶？"
     y 2u "That's...a relief..."
     mc "Also, I liked the poem."
     mc "Even though it's short, it was really descriptive."
@@ -197,19 +197,19 @@ label ch1_y_end:
     mc "I hadn't even thought of that..."
     mc "That's impressive."
     if poemopinion == "good":
-        y 2f "Eh?"
+        y 2f "诶？"
         y 3v "I-It's nothing, really!"
         y "Yours was impressive too, so..."
         mc "Nah..."
         mc "If anything, I could probably learn a thing or two from you."
         y 4a "...You think so?"
         mc "Yeah, of course."
-        y "Ah..."
+        y "啊......"
         y 2s "You know..."
         y "I was really nervous about doing all this."
         y "But in the end, I enjoyed it."
         y "I'm going to keep doing my best for you, [player]."
-        mc "Ah..."
+        mc "啊......"
         mc "Me too."
     else:
         y 1u "It's nothing, really..."
@@ -222,7 +222,7 @@ label ch1_y_end:
 
 label ch2_y_end:
     $ poem_db.show_poem("poem_y2")
-    y 2m "Um..."
+    y 2m "唔......"
     y "I was a little more daring with this one than yesterday's..."
     mc "I can see that."
     mc "It's a lot more metaphorical..."
@@ -297,7 +297,7 @@ label ch3_y_end:
     if get_appeal("yuri") >= 3:
         jump ch3_y_end_special
     $ poem_db.show_poem("poem_y3", img="yuri 2v")
-    y "Um..."
+    y "唔......"
     y "I'm aware that the beach is kind of an inane thing to write about."
     y "But I did my best to take a metaphorical approach to it."
     # This if/else statement checks if you did not read Natsuki's special poem
@@ -804,25 +804,25 @@ label ch1_n_bad:
         stop sound
         play music "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
     n 2b "[player]，如果你不想认真对待这个社团的话，那请你直接回家。"
-    mc "W-What??"
-    mc "Harsh..."
-    n 42c "What, you expect me to believe that you actually put effort into this?"
-    n "Do you think I'm stupid?"
-    mc "I'm not a writer!"
-    mc "Maybe it's not very good, but yeah, I did put in effort."
-    mc "We all start somewhere, right?"
-    mc "If you're still proud of the first poem {i}you{/i} ever wrote, then I'd like to read it."
-    n 1o "!!"
-    mc "Painful to think about?"
-    n 1r "..."
-    n 5q "Fine."
-    n "Well, sorry."
-    n 5c "You'll get better, anyway."
-    n "I'd tell you what to improve, but you're better off just trying again."
-    mc "Fair enough..."
-    mc "Well, to each their own, I guess."
-    n 5q "Anyway, I guess I gotta share mine now..."
-    n "Knowing you, you'll probably think it's stupid."
+    mc "什、什么？？"
+    mc "你好无情哦......"
+    n 42c "怎么，你还以为我会相信你真的努力过吗？"
+    n "你以为我是傻子吗？"
+    mc "我又不是靠笔杆子吃饭的！"
+    mc "也许写得的确不太好，但是我真的努力过了。"
+    mc "万事开头难嘛，不是吗？"
+    mc "你要是对{i}你自己{/i}人生中所写的第一首诗引以为豪的话，那么我很愿意拜读一下。"
+    n 1o "！！"
+    mc "不堪回首是吧？"
+    n 1r "......"
+    n 5q "好吧。"
+    n "那，对不起。"
+    n 5c "相信你以后会越写越好的。"
+    n "我可以告诉你需要改什么地方，不过你索性还是重新写一遍比较实在。"
+    mc "说得在理......"
+    mc "好吧，只能说萝卜青菜各有所爱吧。"
+    n 5q "总之，我猜现在该换我分享诗了......"
+    n "以我对你的了解，你可能会觉得这首诗很傻。"
     return
 
 label ch1_n_med:
@@ -1687,11 +1687,11 @@ label ch2_s_good:
 
 label ch3_s_bad:
     # This variable sets the character you wrote your poem to as Yuri temporarily.
-    $ currentname = "Yuri"
+    $ currentname = "优里"
     # This if statement checks if Natsuki liked your poem more than Yuri to
     # set the variable to Natsuki instead.
     if get_character_poem_appeal("natsuki", 3) > get_character_poem_appeal("yuri", 3):
-        $ currentname = "Natsuki"
+        $ currentname = "夏树"
     s "..."
     s 1k "...Hm."
     s "It's nice, I guess~"
@@ -1699,7 +1699,7 @@ label ch3_s_bad:
     s 1d "Well..."
     s "You don't need to worry about what I think."
     s 2y "After all, you wrote this for someone else, didn't you?"
-    s "Probably [currentname]..."
+    s "大概是写给[currentname]的吧......"
     mc "Eh??"
     mc "I didn't write this for anyone specifically!"
     s "Maybe..."
@@ -1768,7 +1768,7 @@ label ch3_s_good:
     mc "...Yeah."
     mc "I guess you're the one who likes this one the most."
     stop music fadeout 1.0
-    s 1k "...Why?"
+    s 1k "......为什么啊？"
     s "You don't want to get closer with everyone else?"
     play music t9
     mc "Wait!"
@@ -1781,7 +1781,7 @@ label ch3_s_good:
     mc "And this is how the poem came out."
     mc "Sometimes it feels like you're the only exciting thing in my life."
     mc "So sometimes it's just easier to write when thinking about you."
-    mc "...Sayori?"
+    mc "......纱世里？"
     s 4v "N-No..."
     s "[player]..."
     s "I don't...deserve this..."
@@ -1814,17 +1814,17 @@ label ch3_s_good:
     return
 
 label ch1_y_bad:
-    y 1g "..."
-    y "Mm..."
-    y "..."
-    "Yuri stares at the poem."
-    "A minute passes, more than enough time for her to finish reading."
-    mc "Um..."
-    y "Oh!"
-    y 3n "S-Sorry...!"
-    y "I forgot to start speaking..."
-    y "U-Um!"
-    mc "It's fine, don't force yourself."
+    y 1g "......"
+    y "唔......"
+    y "......"
+    "优里盯着那首诗。"
+    "一分钟过去了，这时间足够她读完这首诗了。"
+    mc "嗯......"
+    y "哦！"
+    y 3n "抱、抱歉......！"
+    y "我忘记开口说话了......"
+    y "唔、唔！"
+    mc "没关系，不用勉强自己。"
     y 2v "I'm not..."
     y "I just need to put my thoughts into words."
     y "Hold on..."
@@ -1871,7 +1871,7 @@ label ch1_y_bad:
         y "I'd love to share my thought process behind it..."
         "Yuri smiles dreamily, as if that's a rare opportunity for her."
         "Which itself is kind of funny..."
-        "...After all, isn't this supposed to be a literature club?"
+        "......毕竟，这里不就是个文学社团吗？"
         return
 
 label ch1_y_med:
@@ -1917,10 +1917,10 @@ label ch1_y_good:
 
 label ch2_y_bad:
     if get_character_poem_appeal("yuri", 1) < 0:
-        y "..."
-        y 2h "Um..."
-        y "...Are you still mad at me?"
-        mc "Eh?!"
+        y "......"
+        y 2h "唔......"
+        y "......你还在生我的气吗？"
+        mc "诶？！"
         y "For disrespecting Natsuki yesterday..."
         y "Because reading this poem..."
         y "Now I know why you got mad at me."
@@ -1955,7 +1955,7 @@ label ch2_y_bad:
         $ skip_poem = True
         return
     else:
-        y 2a "Ah, is it my turn?"
+        y 2a "啊，轮到我了？"
         y "Let's see how it compares to yesterday's..."
         y "Mm..."
         y "I see..."
@@ -2087,10 +2087,10 @@ label ch2_y_good:
 label ch3_y_bad:
     if get_character_poem_appeal("yuri", 1) < 0 and get_character_poem_appeal("yuri", 2) < 0:
         label ch3_y_bad12_shared:
-            y 4b "..."
-            "Yuri doesn't look too enthusiastic about spending time with me..."
-            "I guess if she changes her mind, she'll come to me."
-            "But I should leave her be for now."
+            y 4b "......"
+            "优里似乎并不是特别想跟我待在一起......"
+            "我想她要是改变主意的话，会主动来找我的吧。"
+            "不过现在我应该还是让她静静吧。"
             $ skip_poem = True
             return
     elif get_character_poem_appeal("yuri", 2) < 0 or get_character_poem_appeal("yuri", 1) < 0:
@@ -2194,8 +2194,8 @@ label ch3_y_med:
     if get_character_poem_appeal("yuri", 1) < 0 and get_character_poem_appeal("yuri", 2) < 0:
         jump ch3_y_bad12_shared
     elif get_character_poem_appeal("yuri", 1) < 1 or get_character_poem_appeal("yuri", 2) < 1:
-        y "..."
-        y 1a "Well done, [player]."
+        y "......"
+        y 1a "做的不错，[player]。"
         y "You've definitely improved your writing over the course of these few days."
         y "Has my advice been helpful to you?"
         mc "Yeah... Definitely."
@@ -2218,8 +2218,8 @@ label ch3_y_med:
         y "And even my opinions are just opinions...you know?"
         jump ch3_y_shared
     else:
-        y 1e "..."
-        y "...Ah."
+        y 1e "......"
+        y "......啊。"
         y "Decided to try something different today?"
         mc "I guess so."
         mc "Is that good, or bad?"
@@ -2246,7 +2246,7 @@ label ch3_y_good:
         play music t9 fadeout 1.0
         y "I'm not...used to this..."
         mc "Used to what?"
-        y 3o "I don't know...!"
+        y 3o "我不知道......！"
         mc "It's fine, take your time..."
         "Yuri breathes and collects her thoughts."
         "I know that Yuri likes to think before she speaks, so I offer that patience to her."
@@ -2363,7 +2363,7 @@ label ch3_y_good:
         jump ch3_y_good_shared
 
 label ch1_m_start:
-    m 1b "Hi, [player]!"
+    m 1b "嗨，[player]！"
     m "Having a good time so far?"
     mc "Ah...yeah."
     m 1k "Good! Glad to hear it!"
