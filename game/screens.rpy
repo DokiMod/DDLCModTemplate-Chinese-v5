@@ -481,7 +481,7 @@ screen navigation():
             if main_menu:
 
                 if persistent.playthrough == 1:
-                    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
+                    textbutton _("{font=mod_assets/font/sarasagothic.ttf}ŔŗñĮ¼»ŧþŀÂŻŕěōì«{/font}") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
                 else:
                     textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
 
