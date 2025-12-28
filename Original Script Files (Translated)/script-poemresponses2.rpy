@@ -44,7 +44,7 @@ label ch23_y_end:
     $ renpy.music.play(audio.t5c)
     y "......"
     y 4d "我......"
-    y "我感觉我......有点想吐了。"
+    y "我觉得我......好像要吐了。"
     show yuri at lhide
     hide yuri
     $ pause(1.0)
@@ -72,7 +72,7 @@ label ch22_n_end:
         n 1q "I think people really need to learn to respect others for liking weird things..."
         n 1x "......比如说就在这个社团里的某两个女生，至于是谁我就不指名道姓了。"
         n 1s "讽刺的是，即便是在我的安乐窝，竟然也没有人尊重我......"
-        n 1u "......呃，都怪你，害我说了一大堆抱怨的话！"
+        n 1u "......呃，都怪你，害我说了一大堆怨气话！"
         "{i}（......我到底干啥了？）{/i}"
         mc "不管怎么说，我是尊重你的......"
         n 1h "嗯——"
@@ -107,7 +107,7 @@ label ch22_n_end2:
     n "所以你还是改成陪我玩吧。"
     n "可以吗？"
     n "[player]，你并不讨厌我，对吧？"
-    n "你到底讨厌我吗？"
+    n "你到底是不是讨厌我？"
     show natsuki_ghost_blood zorder 3
     n "难道你就想让我哭着回家吗？"
     n "文学部是唯一一个让我感到安全的地方。"
@@ -170,7 +170,7 @@ label ch23_n_end:
     n "优里那么招人厌都是她自己的错。"
     n "你听得见我说话吗，[player]？"
     n "如果你能多花点时间和莫妮卡共处，那么所有问题都会迎刃而解。"
-    n "对于你这样美好的人来说，我和优里实在太糟糕了。"
+    n "对于你这样美好的人来说，我和优里实在是太糟糕了。"
     n "从现在开始，你只想着莫妮卡就行了。"
     n "只选莫妮卡。"
     hide natsuki
@@ -211,7 +211,7 @@ label ch22_m_end:
     m "我只是在试着......唔......"
     m 1r "算了，当我没说。"
     m "反正解释也没有意义。"
-    m 1i "Anyway..."
+    m 1i "总之......"
     m 3b "以下是莫妮卡的今日写作小窍门！"
     m "Sometimes you'll find yourself facing a difficult decision..."
     m "When that happens, don't forget to save your game!"
@@ -286,7 +286,7 @@ label ch22_n_bad:
 
         n 1k "......唔。"
         n "我更喜欢你前一首诗。"
-        mc "Eh? Really?"
+        mc "诶？真的吗？"
         n 2c "Well yeah. I can tell you were a little more daring with this one."
         n "But you're really not good enough for that yet. It fell flat."
         mc "That may be true, but I just wanted to try something different."
@@ -296,7 +296,7 @@ label ch22_n_bad:
 label ch22_n_med:
 
     if get_character_poem_appeal("natsuki", 1) < 0:
-        n "...Hm."
+        n "......唔。"
         n 2k "Well, I can admit that it's better than the last one."
         n "It's nice to see that you're putting in some effort."
         mc "That's good..."
@@ -314,7 +314,7 @@ label ch22_n_med:
 
 
     elif get_character_poem_appeal("natsuki", 1) == 0:
-        n "...Hm."
+        n "......唔。"
         n 2k "Well, it's not really any worse than your last one."
         n "But I can't really say it's any better, either."
         mc "Phew..."
@@ -331,7 +331,7 @@ label ch22_n_med:
     else:
 
 
-        n "...Hm."
+        n "......唔。"
         n 2c "Well, it's not terrible."
         n "But it's pretty disappointing after your last one."
         n 2s "Then again, if this one was as good as your last one, I would be completely pissed."
@@ -360,7 +360,7 @@ label ch23_n_bad:
         n 5x "I really wish I didn't have to do this..."
         n "But unfortunately I don't have much of a choice."
         n 5h "Just...read it carefully, okay?"
-        n "Then you can go away."
+        n "然后你就可以走开了。"
         return
 
     elif get_character_poem_appeal("natsuki", 1) < 0 or get_character_poem_appeal("natsuki", 2) < 0:
@@ -431,12 +431,12 @@ label ch23_n_ygave:
     n 1s "哼......"
     n "It's not like I wanted to read it anyway."
     n 1r "It's just pissing me off a little bit that you didn't even think to show me at all."
-    n 1x "...Ugh."
+    n 1x "......呃。"
     n 1q "Okay...I guess I'm going to share my poem with you anyway."
     n "I really hate that I have to do this."
     n "But unfortunately I don't have much of a choice."
     n 1h "Just...read it carefully, okay?"
-    n "Then you can go away."
+    n "然后你就可以走开了。"
     return
 
 label ch23_n_good:
