@@ -337,7 +337,7 @@ label ch23_end:
     m 1i "抱歉，但就是这么安排的。"
     show monika zorder 2 at t32
     show natsuki zorder 3 at f31
-    n 1f "这凭什么啊！"
+    n 1f "这又是哪门子安排啊！"
     n "你到底想搞什么？"
     show natsuki zorder 2 at t31
     show yuri zorder 3 at f33
@@ -346,16 +346,16 @@ label ch23_end:
     y 3l "况且我的工作更耗时费力，所以更需要多一个人来帮忙。"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
-    n 4c "我的也是！"
+    n 4c "我的也一样！"
     show natsuki zorder 2 at t31
     show yuri zorder 3 at f33
-    y 1h "什么，做纸杯蛋糕那种也算吗？"
+    y 1h "啥啊？做纸杯蛋糕那种也算吗？"
     y "得了吧。"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
     n 1o "{i}你{/i}他妈懂个毛线哦！！"
     n 1x "你唯一关心的只不过是如何把 [player] 拴在你和你那些白痴才会看的书旁边吧。"
-    n 1f "不仅你是这样，连莫妮卡{i}也是{/i}这样！"
+    n 1f "不仅你是这样，连莫妮卡{i}也是{/i}如此！"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
     m 2g "喂！"
@@ -368,8 +368,8 @@ label ch23_end:
     m 1p "我才没有......滥用权力。"
     show monika zorder 2 at t32
     show yuri zorder 3 at f33
-    y 2h "是的，莫妮卡，你就是在滥用。"
-    y "就让 [player] 自己选，可以吗？"
+    y 2h "莫妮卡，你就是在滥用。"
+    y "就让 [player] 自己做决定，可以吗？"
     show yuri zorder 2 at t33
     show monika zorder 3 at f32
     m 1r "好吧，好吧！"
@@ -377,11 +377,11 @@ label ch23_end:
     show monika 1h zorder 2 at t32
     show natsuki zorder 3 at f31
     n 3w "天哪......"
-    n "[player]，我知道你肯定已经受够她们两个了。"
+    n "[player]，我知道你肯定已经受够那两位了。"
     n 3c "要不咱直接——"
     show natsuki zorder 2 at t31
     show yuri zorder 3 at f33
-    y 2r "夏树，闭上你的臭嘴，让他自己做决定好吗？"
+    y 2r "夏树，闭上你丫的臭嘴，让他自己做决定好吗？"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
     n 1o "该闭嘴的是{i}你{/i}，好吧？！"
@@ -446,7 +446,7 @@ label ch23_end:
     m "我保证会很有意思的。"
     m "周日你方便吗？"
     show natsuki 1e zorder 3 at f31
-    n "你他娘的在开什么玩笑？"
+    n "你他娘的在开玩笑吗？"
     n "这可一点都不公平！"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
@@ -454,7 +454,7 @@ label ch23_end:
     m "这是他自己选的。"
     show monika zorder 2 at t32
     show yuri 3r zorder 3 at f33
-    y "不，这很有问题！"
+    y "不，这一点都不公平！"
     y "把脏活累活全都抛给我们，结果自己把 [player] 带走了。"
     y "简直是厚颜无耻！"
     show yuri zorder 2 at t33
@@ -476,7 +476,7 @@ label ch23_end:
     y "这对你的精神健康可是大有裨益的哦。"
     show yuri zorder 2 at t33
     show natsuki zorder 3 at f31
-    n 5u "优里，你这话说得有点恐怖了......"
+    n 5u "优里，你这话说得有点吓到我了......"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f32
     m 1r "别管她了，夏树。"
@@ -493,7 +493,7 @@ label ch23_end:
     "优里赶着莫妮卡和夏树出了教室门口。"
     show monika 5a zorder 2 at t11
     m "喂，[player]......"
-    m "优里真的有点那个，对吧？"
+    m "优里真的有点那个，是吧？"
     show monika zorder 1 at thide
     hide monika
     "莫妮卡咯咯笑着，被优里推出了门。"
@@ -513,12 +513,12 @@ label ch23_end:
     y 2y1 "终于啊！"
     y 2s "这才是我想要的一切啊。"
     y 1y6 "[player]，没必要去和莫妮卡度过整个周末了。"
-    y "没必要听她说话。"
-    y 1y5 "你直接来我家吧。"
+    y "没必要听她说话了。"
+    y 1y5 "你直接改来我家吧。"
     y 3y5 "想想一整天，就只有我们两个人......"
     y "听起来不是很棒吗？"
     y 3y1 "啊哈哈哈！"
-    y 3y4 "哇哦......我是不是有什么地方不对劲，对吗？"
+    y 3y4 "哇哦......我是不是哪里有什么毛病啊，是吧？"
     y "但我跟你说哦？"
     y 1y3 "我已经一点都不在乎了。"
     y "我这辈子从来没感觉这么好过。"
@@ -526,7 +526,7 @@ label ch23_end:
     y "我已经对你上瘾了。"
     y 3y4 "感觉就像，一旦不能和你呼吸同一片空气，我就马上会死掉似的。"
     y 4a "有这么一个超级在乎你的人，这种感觉不是超棒吗？"
-    y "有这么一个愿意整个人生都把你视为中心的人？"
+    y "有这么一个愿意把整个人生都围着你转的人？"
     y 2y6 "但如果这感觉真是这么好的话......"
     y 2y4 "那为什么我越来越觉得会有恐怖的事情发生呢？"
     y 2y6 "也许这就是为什么我一开始还打算阻止我自己......"
@@ -722,7 +722,7 @@ label yuri_kill_3:
     m "我得赶紧再吃一个，不然以后就没机会再吃了。"
     m 2a "你懂的，赶在这些蛋糕还有其他东西消失之前。"
     m "......不过，我真的不能让你再继续等下去了。"
-    m 2j "稍微忍耐一下，好吗？"
+    m 2j "稍微忍一下，好吗？"
     m 2a "应该只要几秒钟就好。"
 
     show screen tear(8, offtimeMult=1, ontimeMult=10)
