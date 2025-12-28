@@ -307,12 +307,12 @@ label natsuki_exclusive_2_ch3:
     n 2k "Where did this volume leave off again? I forget."
     mc "Ah, the chapter ended when Minori and Alice found--"
     show natsuki 1e at h11
-    n "{i}Monika!!{/i}"
+    n "{i}莫妮卡！！{/i}"
     "Natsuki's voice resonates out from inside the closet."
-    mc "Eh...?"
+    mc "诶......？"
     "I peer inside."
     "All of Natsuki's books are lined up on the top shelf."
-    n "Did you move my manga again?!"
+    n "你是不是又动了我的漫画？！"
     show monika 3l at l31
     m "Ah, sorry, sorry!"
     m "The teacher got mad at me for taking up so much space in her closet..."

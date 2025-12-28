@@ -1003,7 +1003,7 @@ label ch30_6:
     m "你知道这些故事是发生在日本的吗？"
     m "唔......我觉得你应该知道，是吧？"
     m "或者至少感觉大概是在日本？"
-    m "I don't think you're actually told at any point where this takes place..."
+    m "我记得游戏里根本没提到这里究竟是哪......"
     m "这里真的是日本吗？"
     m "I mean, aren't the classrooms and stuff kind of weird for a Japanese school?"
     m "更何况我们现在根本就是在说中文......"
@@ -1011,7 +1011,7 @@ label ch30_6:
     m "It's kind of giving me an identity crisis."
     m "All my memories are really hazy..."
     m "I feel like I'm at home, but have no idea where 'home' is in the first place."
-    m "I don't know how to describe it any better..."
+    m "我不知道该怎么形容......"
     m "Imagine looking out your window, but instead of your usual yard, you're in some completely unknown place."
     m "Would you still feel like you were home?"
     m "Would you want to go outside?"
@@ -1078,7 +1078,7 @@ label ch30_8:
     return
 
 label ch30_9:
-    m "Man, I wish there was a piano in here..."
+    m "啊，要是这里有架钢琴该多好......"
     m "I never got to finish that song I was working on."
     m "And after I worked so hard on it..."
     m "I never even got a chance to play it for you."
@@ -1088,13 +1088,13 @@ label ch30_9:
     return
 
 label ch30_10:
-    m "Did you know I'm on Twitter?"
-    m "My username is lilmonix3."
-    m "I guess someone was kind enough to make an account for me."
-    m "I picked the username, though!"
+    m "你知道我其实有自己的 Twitter 账号吗？"
+    m "我的用户名是 lilmonix3。"
+    m "不知道是哪位好心人帮我开的账号。"
+    m "不过用户名是我自己选的！"
     m "I love sharing my thoughts and chatting with the world..."
     m "The real world."
-    m "So make sure you follow me, okay?"
+    m "所以，记得去关注我，好吗？"
     m "It would really mean a lot to me."
     m "With how much you mean to me and all..."
     m "It would really make me feel loved."
