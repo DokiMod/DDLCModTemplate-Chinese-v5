@@ -491,7 +491,7 @@ screen navigation():
 
                 textbutton _("存档") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("读取游戏") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("读档") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if enable_extras_menu:
                 textbutton _("额外内容") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]
