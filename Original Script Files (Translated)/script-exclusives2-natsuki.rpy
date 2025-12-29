@@ -150,8 +150,8 @@ label natsuki_exclusive2_1:
     "夏树交叉着双臂，挪远了一些。"
     mc "抱歉......"
     show natsuki 5g
-    "I didn't exactly expect to be sitting this close to her, either..."
-    "Not that I can say it's a particularly bad thing."
+    "我也没想到会和她坐得这么近......"
+    "虽然这样也不坏啦。"
     "我打开了漫画。"
     "It's only a few seconds before Natsuki once again inches closer, reclaiming the additional space while she hopes I won't notice."
     "I can feel her peering over my shoulder, much more eager to begin reading than I am."
@@ -239,10 +239,10 @@ label natsuki_exclusive2_1:
     show black with dissolve_cg
     "......"
     "......"
-    "....."
-    "......."
-    "........."
-    "Time passes."
+    "........"
+    ".........."
+    "............"
+    "时间流逝着。"
     hide n_cg1_exp3
     show n_cg1_exp4 behind black at cgfade
     "Natsuki is strangely quiet now."
@@ -256,7 +256,7 @@ label natsuki_exclusive2_1:
     "Suddenly, Natsuki collapses straight into me."
     play sound fall
     $ style.say_dialogue = style.normal
-    mc "H-Hey--"
+    mc "喂、喂——"
     show n_cg1_exp5
     hide n_cg1_exp5
 

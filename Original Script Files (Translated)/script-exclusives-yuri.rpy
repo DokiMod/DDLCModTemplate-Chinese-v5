@@ -151,9 +151,9 @@ label yuri_exclusive_1:
     "It's actually kind of distracting me...!"
     "It's as if I can feel the warmth of Yuri's face, and she's in the corner of my vision..."
     show y_cg1_exp1 at cgfade
-    y "...Are you ready?"
+    y "......你准备好了吗？"
     mc "诶？"
-    y "To turn the page..."
+    y "准备翻页了吗......"
     mc "Ah...sorry!"
     mc "I think I got a bit distracted for a second..."
     "I glance over at Yuri's face again, and our eyes meet."
@@ -175,7 +175,7 @@ label yuri_exclusive_1:
     "We continue the first chapter in silence."
     "Even so, turning each page almost feels like an intimate exchange..."
     "My thumb gently letting go of the page, letting it flutter over to her side as she catches it under her own thumb."
-    mc "Hey, Yuri..."
+    mc "嘿，优里......"
     mc "This might be a silly thought, but..."
     mc "The main character kind of reminds me of you a little bit."
     show y_cg1_exp1 at cgfade
@@ -191,7 +191,7 @@ label yuri_exclusive_1:
     show yuri 2t zorder 2 at i11
     with dissolve_cg
     "Yuri remains silent for a moment."
-    y "But [player]..."
+    y "但是 [player]......"
     y "That's probably..."
     y "...a terrible thing to have in common with her!"
     y 4b "Uuuh, that's so embarrassing that you think that..."
@@ -206,7 +206,7 @@ label yuri_exclusive_1:
     show monika 4 at l31
     m "好了，各位！"
     show yuri 3n at h11
-    y "...!"
+    y "......！"
     show monika zorder 3 at f31
     m "I think it's about time we share today's poems with each other."
     m "We might not have enough time if we wait too long."
@@ -249,7 +249,7 @@ label yuri_exclusive_2:
     play music t6 fadeout 1.0
     scene bg club_day
     with wipeleft_scene
-    mc "Hey, Yuri."
+    mc "嘿，优里。"
     show yuri 2f zorder 2 at t11
     y "诶？"
     mc "啊......"
@@ -339,7 +339,7 @@ label yuri_exclusive_2_ch3:
     mc "I wasn't expecting it, but..."
     mc "It's also not right for Monika to judge people like that."
     play music t9
-    y 4a "[player]..."
+    y 4a "[player]......"
     y "How come even when I do something bad..."
     y "You're being nice to me?"
     mc "Because."
