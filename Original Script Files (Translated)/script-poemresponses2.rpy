@@ -365,7 +365,7 @@ label ch23_n_bad:
 
     elif get_character_poem_appeal("natsuki", 1) < 0 or get_character_poem_appeal("natsuki", 2) < 0:
         n "......"
-        n 2c "...Meh."
+        n 2c "......也就那样。"
         n "I guess you really haven't learned anything after all."
         n "Honestly, I don't know why I got my hopes up in the first place."
         label ch23_n_bad_shared:
@@ -380,7 +380,7 @@ label ch23_n_bad:
             n "I really hate that I have to do this."
             n "But unfortunately I don't have much of a choice."
             n 1h "Just...read it carefully, okay?"
-            n "Then you can go away."
+            n "然后你就可以走开了。"
             return
     else:
 

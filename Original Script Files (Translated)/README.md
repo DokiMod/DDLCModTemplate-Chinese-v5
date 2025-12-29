@@ -13,7 +13,7 @@
 - [x] ch23
 - [ ] ch30
 - [x] ch40
-- [ ] exclusives-natsuki
+- [x] exclusives-natsuki
 - [ ] exclusives-sayori
 - [ ] exclusives-yuri
 - [x] exclusives2-natsuki
