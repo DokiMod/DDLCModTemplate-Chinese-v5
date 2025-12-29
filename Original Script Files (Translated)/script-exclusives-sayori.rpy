@@ -3,7 +3,7 @@ label sayori_exclusive_1:
     with wipeleft_scene
     if not renpy.music.get_playing(channel='music') == audio.t2:
         play music t2 fadeout 1
-    "Man..."
+    "天哪......"
     "It looks like no one wants to be bothered today."
     "I slump down into the nearest desk."
     "How am I supposed to occupy myself with something literature-related by myself like this?"
@@ -14,7 +14,7 @@ label sayori_exclusive_1:
     show sayori 1g zorder 2 at t21
     s "We're probably gonna seem really lame compared to all the other clubs, though..."
     show monika 2r zorder 3 at f22
-    m "Hmm..."
+    m "唔......"
     m 2b "Well, we can't give up."
     m "The festival is our chance to show everyone what literature is all about!"
     m 2d "The problem is that the idea of a literature club sounds too dense and intellectual..."
@@ -23,7 +23,7 @@ label sayori_exclusive_1:
     m "Something that speaks to their creative minds."
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1i "Mmmmmmmmmmm....."
+    s 1i "嗯——........."
     s "That doesn't solve the problem, though!"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
@@ -68,10 +68,10 @@ label sayori_exclusive_1:
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
     m 1l "......"
-    m "Cupcakes it is, then."
+    m "那就纸杯蛋糕吧。"
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1g "I'm hungry..."
+    s 1g "我饿了......"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
     m 1a "Anyway, we still need to work out the details of the event itself..."
@@ -92,7 +92,7 @@ label sayori_exclusive_1:
     "I nearly fall out of my chair."
     show sayori zorder 2 at t11
     s 4q "Ehehe, sorry~"
-    s 4i "Wait!"
+    s 4i "等等！"
     s 1j "Actually, I'm not sorry at all!"
     s "It's your fault for sleeping like that!"
     s "This isn't the napping club!"
@@ -123,7 +123,7 @@ label sayori_exclusive_1:
     s "At least give me the benefit of the doubt..."
     mc "I can't even do that."
     mc "Look, Sayori, it's written all over you."
-    s 1b "Eh...?"
+    s 1b "诶......？"
     "Sayori glances around at herself."
     s "How is it written all over me?"
     mc "You were clearly in a rush this morning..."
@@ -225,7 +225,7 @@ label sayori_exclusive_1:
     "Monika suddenly calls out."
     m "Why don't we share the poems we wrote now?"
     show sayori 4r at h11
-    s "Yay~!"
+    s "好耶~！"
     s 4x "[player], I can't wait to read yours!"
     mc "Yeah, same..."
     "I fail to sound enthusiastic, but Sayori still trots away to retrieve her poem."
@@ -544,7 +544,7 @@ label sayori_exclusive_2:
     show sayori 4m zorder 3 at hf21
     s "I...forgot all of the stuff!!"
     show sayori zorder 2 at t21
-    mc "Calm down, Sayori."
+    mc "纱世里，冷静一下！"
     mc "I have it all right here."
     mc "I found the poster paper, too."
     show sayori 4b
@@ -568,7 +568,7 @@ label sayori_exclusive_2:
     show monika zorder 2 at t11
     show sayori behind monika at thide
     hide sayori
-    m 4b "...Okay, everyone!"
+    m 4b "......好了，各位！"
     m "Are you ready to share your poems?"
     mc "Guess I should grab mine..."
     "After making sure the crayon box is closed tightly, I return to my seat."

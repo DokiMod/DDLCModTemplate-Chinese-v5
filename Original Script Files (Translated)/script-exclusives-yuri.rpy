@@ -499,7 +499,7 @@ label yuri_exclusive_2_ch3:
     hide y_cg2_nochoc
     "I apprehensively place the chocolate in her mouth."
     "Just like that, Yuri closes her lips over it."
-    y "Eh...?"
+    y "诶......？"
     show y_cg2_exp2
     "Yuri's expression suddenly breaks."
     y "Did..."
