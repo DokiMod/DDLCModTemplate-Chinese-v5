@@ -16,7 +16,7 @@
 - [ ] exclusives-natsuki
 - [ ] exclusives-sayori
 - [ ] exclusives-yuri
-- [ ] exclusives2-natsuki
+- [x] exclusives2-natsuki
 - [ ] exclusives2-yuri
 - [ ] poemresponses
 - [ ] poemresponses2
