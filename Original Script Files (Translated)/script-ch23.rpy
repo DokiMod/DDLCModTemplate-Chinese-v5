@@ -572,9 +572,9 @@ label yuri_kill_1:
     scene bg club_day
     show yuri 3d at i11
     y "......啊哈哈哈。"
-    y "啊哈哈哈哈哈哈!"
+    y "啊哈哈哈哈哈哈！"
     $ style.say_dialogue = style.normal
-    y 3y5 "啊哈哈哈哈哈哈哈哈!"
+    y 3y5 "啊哈哈哈哈哈哈哈哈！"
     $ style.say_dialogue = style.edited
     y 3y3 "啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈{nw}"
     window hide(None)

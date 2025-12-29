@@ -177,7 +177,7 @@ label ch23_n_end:
     $ style.say_dialogue = style.edited
     "只选莫妮卡。"
     menu:
-        "只选莫妮卡。."
+        "只选莫妮卡。"
         "只选莫妮卡。":
             pass
     $ style.say_dialogue = style.normal
@@ -460,7 +460,7 @@ label ch22_y_med:
     y 3m "......"
     "Yuri smiles and takes a deep breath."
     y "I like just holding it."
-    mc "...?"
+    mc "......？"
     y 3p "Ah, I mean--"
     y "The poem turned out good!"
     y 3o "It's, ah..."

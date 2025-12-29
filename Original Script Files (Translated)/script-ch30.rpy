@@ -188,7 +188,7 @@ label ch30_main:
     show monika_bg
     show monika_bg_highlight
     play music m1
-    m "耶，找到你了!"
+    m "耶，找到你了！"
     m "[player]，我们又见面了。"
     m "嗯......欢迎来到文学部！"
     m "当然，我们去年是同班同学，所以早就互相认识了，还有......嗯......"

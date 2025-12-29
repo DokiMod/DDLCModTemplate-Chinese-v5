@@ -22,7 +22,7 @@ label ch0_main:
     s 4p "哈啊......哈啊......"
     s "我怎么又睡过头了！"
     s "但是！这次我追上你了哦！"
-    mc "也许如此，但这只是因为我决定停下来等你吧。"
+    mc "也许是吧，但这只是因为我决定停下来等你吧。"
     show sayori at s11
     s 5c "欸——？你这话说得好像是想抛下我然后自己走呢！"
     s "[player]，你好过分哦！"
@@ -407,7 +407,7 @@ label ch0_main:
     n "你从哪里冒出来的这种奇怪想法？"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f33
-    m 3b "上次社团活动结束后，你在教室里掉了一张小纸片。"
+    m 3b "上次社团活动结束后，你在教室里掉了张小纸片。"
     m "你写了一首诗，好像叫作——"
     show monika zorder 2 at t33
     show natsuki 1p zorder 3 at f31

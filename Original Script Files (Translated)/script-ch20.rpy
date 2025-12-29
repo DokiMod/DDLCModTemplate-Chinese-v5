@@ -306,7 +306,7 @@ label ch20_main2:
     n "你从哪里冒出来的这种奇怪想法？"
     show natsuki zorder 2 at t31
     show monika zorder 3 at f33
-    m 3b "上次社团活动结束后，你在教室里掉了一张小纸片。"
+    m 3b "上次社团活动结束后，你在教室里掉了张小纸片。"
     m "你写了一首诗，好像叫作——"
     show monika zorder 2 at t33
     show natsuki 1p zorder 3 at f31

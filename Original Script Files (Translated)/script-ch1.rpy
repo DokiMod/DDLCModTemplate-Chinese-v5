@@ -459,7 +459,7 @@ label ch1_end_natsuki:
     "纱世里正在用力地点头。"
     mc "嗯，所以......"
     mc "你也不用觉得自己被冒犯了之类的。"
-    mc "夏树，你是个很棒的作者。"
+    mc "夏树，你是个很棒的诗人。"
     show natsuki zorder 3 at f22
     n 1h "啊——"
     "夏树的声音变得有些吃惊。"
@@ -580,7 +580,7 @@ label ch1_end_yuri:
     show yuri zorder 3 at f21
     y 2t "诶？"
     show yuri zorder 2 at t21
-    mc "你是个很有才华的作者。"
+    mc "你是个很有才华的诗人。"
     mc "你的诗也确实给我留下了深刻的印象。"
     show yuri zorder 3 at f21
     y 2u "嗯、嗯，那......"

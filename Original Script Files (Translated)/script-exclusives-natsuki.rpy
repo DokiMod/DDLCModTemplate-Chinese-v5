@@ -150,7 +150,7 @@ label natsuki_exclusive_1:
     mc "...I guess it's fun sharing something you like with someone else."
     mc "I always get excited when I convince any of my friends to pick up a series I enjoy."
     mc "You know what I mean?"
-    n "...?"
+    n "......？"
     mc "嗯？"
     mc "You don't?"
     show n_cg1_exp2 at cgfade
