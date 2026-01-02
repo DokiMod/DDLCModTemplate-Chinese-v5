@@ -14,7 +14,7 @@
 - [ ] ch30
 - [x] ch40
 - [x] exclusives-natsuki
-- [ ] exclusives-sayori
+- [x] exclusives-sayori
 - [ ] exclusives-yuri
 - [x] exclusives2-natsuki
 - [ ] exclusives2-yuri
