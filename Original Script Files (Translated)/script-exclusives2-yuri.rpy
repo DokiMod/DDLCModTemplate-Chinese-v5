@@ -615,9 +615,9 @@ label yuri_exclusive2_2_ch23:
     scene bg corridor
     show yuri 2n at i11
     $ quick_menu = True
-    y "Um..."
-    y "Wait..."
-    y 2o "How did I..."
+    y "唔......"
+    y "等等......"
+    y 2o "我刚刚怎么......"
     y 2y6 "...Sorry, I just had a really weird déjà vu..."
     y "This hasn't happened before or anything...right?"
     y 2t "My head has been a little fuzzy lately..."
@@ -654,7 +654,7 @@ label yuri_exclusive2_2_ch23:
     y 2w "So...I started hating those things about myself."
     y "My obsession with certain hobbies."
     y "And the way I can't control myself when I get too excited about something."
-    y "So..."
+    y "所以......"
     y 1v "I eventually stopped trying to talk to people."
     y "If nobody could ever like me for the things that matter most to me..."
     y 1u "...Then it's just easier if I close myself off."
@@ -666,7 +666,7 @@ label yuri_exclusive2_2_ch23:
     y "It's been making me do weird things."
     y 2t "I don't know why it's happening!"
     stop music
-    y 1t "[player]..."
+    y 1t "[player]......"
     y "Is it just me, or has Monika been acting a little off lately?"
     y 1v "She's always been a sweetheart ever since I joined the club..."
     y "But recently, I've been feeling something sharp whenever she's around."
@@ -718,10 +718,10 @@ label yuri_exclusive2_2_ch23:
     y "That was a joke!"
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Just a joke."
+    y "只是开个玩笑而已。"
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1i "I do like knives, though..."
+    y 1i "不过，我确实喜欢刀具......"
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
     y "It sounds strange, but you wouldn't understand if you've never seen how beautiful they can be."
@@ -769,7 +769,7 @@ label yuri_exclusive2_2_ch23:
     y 1y6 "You know what?"
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Let's quit the Literature Club."
+    y "咱们一起退出文学部吧。"
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
     y "There's no need for us to be around Monika's slimy tongue anymore."
@@ -812,7 +812,7 @@ label yuri_exclusive2_2_ch23:
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
     $ gtext = glitchtext(200)
-    y "Will{space=60}[gtext]{nw}"
+    y "你会{space=60}[gtext]{nw}"
     hide monika onlayer front
     window hide(None)
     $ poemsread = 0
