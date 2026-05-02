@@ -569,13 +569,13 @@ label yuri_exclusive_2_ch3:
     show monika zorder 1 at thide
     hide monika
     "The spell is abruptly broken."
-    y 4c "I'll..."
-    y "I'll take care of the cups..."
+    y 4c "我......"
+    y "我来收拾那些杯子吧......"
     mc "好吧......"
     show yuri zorder 1 at thide
     hide yuri
-    "Yuri picks up the teacups from the floor."
-    "I pick up the bag of chocolates."
+    "优里从地板上捡起茶杯。"
+    "我则捡起了那袋巧克力。"
     "In the end, we hastily clean up without so much as a word between us."
     "I get the feeling this is something neither of us will have the courage to bring up..."
     return
