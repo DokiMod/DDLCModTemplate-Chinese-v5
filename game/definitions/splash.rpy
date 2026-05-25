@@ -490,9 +490,9 @@ label after_load:
         $ m_name = "Monika"
         show monika 1 at t11
         if persistent.playername == "":
-            m "真有意思啊。"
+            m "你真好笑啊。"
         else:
-            m "真有意思啊，[persistent.playername]。"
+            m "你真好笑啊，[persistent.playername]。"
         $ renpy.utter_restart()
     else:
         # Show a hint about the skip button if it's the player's first playthrough.

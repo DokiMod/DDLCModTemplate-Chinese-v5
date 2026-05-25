@@ -481,7 +481,7 @@ screen navigation():
             if main_menu:
 
                 if persistent.playthrough == 1:
-                    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
+                    textbutton _("{font=mod_assets/font/sarasagothic.ttf}ŔŗñĮ¼»ŧþŀÂŻŕěōì«{/font}") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
                 else:
                     textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入您的名称", ok_action=Function(FinishEnterName)))
 
@@ -491,7 +491,7 @@ screen navigation():
 
                 textbutton _("存档") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("读取游戏") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("读档") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if enable_extras_menu:
                 textbutton _("额外内容") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]

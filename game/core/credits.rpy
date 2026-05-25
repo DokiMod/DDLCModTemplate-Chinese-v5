@@ -569,7 +569,7 @@ label credits2:
     $ imagenum += 1
     $ pause(16.95 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg1.png\")", __("n_cg1.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/n_cg1.png\")", __("n_cg1.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg2" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -582,7 +582,7 @@ label credits2:
     $ imagenum += 1
     $ pause(26.05 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg2.png\")", __("n_cg2.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/n_cg2.png\")", __("n_cg2.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg3" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -595,7 +595,7 @@ label credits2:
     $ imagenum += 1
     $ pause(35.15 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg1.png\")", __("y_cg1.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/y_cg1.png\")", __("y_cg1.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg4" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -608,7 +608,7 @@ label credits2:
     $ imagenum += 1
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg5" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -621,7 +621,7 @@ label credits2:
     $ imagenum += 1
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/n_cg3.png\")", __("n_cg3.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/n_cg3.png\")", __("n_cg3.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/n_cg3.png\")") / 30.0 + 0.5)
     show expression ("credits_cg6" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -634,7 +634,7 @@ label credits2:
     $ imagenum += 1
     $ pause(62.45 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/y_cg2.png\")", __("y_cg2.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/y_cg2.png\")") / 30.0 + 0.5)
     show expression ("credits_cg7" + lockedtext) as credits_image_1 at credits_scroll_right
@@ -647,7 +647,7 @@ label credits2:
     $ imagenum += 1
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg1.png\")", __("s_cg1.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/s_cg1.png\")", __("s_cg1.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg1.png\")") / 30.0 + 0.5)
     show expression ("credits_cg8" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -664,7 +664,7 @@ label credits2:
     $ if persistent.clearall: lockedtext = "_clearall"
     $ imagenum += 1
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg2.png\")", __("s_cg2.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/s_cg2.png\")", __("s_cg2.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg2.png\")") / 30.0 + 0.5)
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
@@ -677,7 +677,7 @@ label credits2:
     $ if persistent.clearall: lockedtext = "_clearall"
     $ pause(95.00 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/s_cg3.png\")", __("s_cg3.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/s_cg3.png\")", __("s_cg3.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/s_cg3.png\")") / 30.0 + 0.5)
     show expression ("credits_cg10" + lockedtext) as credits_image_2 at credits_scroll_left
@@ -687,14 +687,14 @@ label credits2:
     
     $ pause(104.10 - (datetime.datetime.now() - starttime).total_seconds())
     if not persistent.clearall:
-        $ run_input("os.remove(\"images/cg/m_cg1.png\")", __("m_cg1.png 删除完成。"))
+        $ run_input("os.remove(\"images/cg/m_cg1.png\")", __("m_cg1.png 已成功删除。"))
     else:
         $ pause(len("os.remove(\"images/cg/m_cg1.png\")") / 30.0 + 0.5)
 
-    $ run_input("os.remove(\"game/screens.rpy\")", __("screens.rpy 删除完成。"))
-    $ run_input("os.remove(\"game/gui.rpy\")", __("gui.rpy 删除完成。"))
-    $ run_input("os.remove(\"game/menu.rpy\")", __("menu.rpy 删除完成。"))
-    $ run_input("os.remove(\"game/script.rpy\")", __("script.rpy 删除完成。"))
+    $ run_input("os.remove(\"game/screens.rpy\")", __("screens.rpy 已成功删除。"))
+    $ run_input("os.remove(\"game/gui.rpy\")", __("gui.rpy 已成功删除。"))
+    $ run_input("os.remove(\"game/menu.rpy\")", __("menu.rpy 已成功删除。"))
+    $ run_input("os.remove(\"game/script.rpy\")", __("script.rpy 已成功删除。"))
     $ pause(115.72 - (datetime.datetime.now() - starttime).total_seconds())
     
     hide screen console_screen

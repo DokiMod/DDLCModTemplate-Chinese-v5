@@ -16,3 +16,5 @@ ZIPs
 .venv
 .vscode
 deprecated-*
+
+testrun
